@@ -1,0 +1,1925 @@
+Index,Title,Artist,Top Genre,Year,Beats Per Minute (BPM),Danceability,Valence,Length (Duration),Acousticness,Speechiness,Popularity,Relationship between danceability and popularity
+1,Sunrise,Norah Jones,adult standards,2004,157,53,68,201,94,3,71,0.7464788732394366
+2,Black Night,Deep Purple,album rock,2000,135,50,81,207,17,7,39,1.2820512820512822
+3,Clint Eastwood,Gorillaz,alternative hip hop,2001,168,66,52,341,2,17,69,0.9565217391304348
+4,The Pretender,Foo Fighters,alternative metal,2007,173,43,37,269,0,4,76,0.5657894736842105
+5,Waitin' On A Sunny Day,Bruce Springsteen,classic rock,2002,106,58,87,256,1,3,59,0.9830508474576272
+6,The Road Ahead (Miles Of The Unknown),City To City,alternative pop rock,2004,99,54,14,247,0,2,45,1.2
+7,She Will Be Loved,Maroon 5,pop,2002,102,71,54,257,6,3,74,0.9594594594594594
+8,Knights of Cydonia,Muse,modern rock,2006,137,37,21,366,0,14,69,0.5362318840579711
+9,Mr. Brightside,The Killers,modern rock,2004,148,36,23,223,0,8,77,0.4675324675324675
+10,Without Me,Eminem,detroit hip hop,2002,112,91,66,290,0,7,82,1.1097560975609757
+11,Love Me Tender,Elvis Presley,adult standards,2002,109,44,31,162,88,4,49,0.8979591836734694
+12,Seven Nation Army,The White Stripes,alternative rock,2003,124,74,32,232,1,8,74,1.0
+13,Als Het Golft,De Dijk,dutch indie,2000,102,54,59,214,2,3,34,1.588235294117647
+15,Fluorescent Adolescent,Arctic Monkeys,garage rock,2007,112,65,82,173,0,3,66,0.9848484848484849
+16,Zonder Jou,Paul de Leeuw,dutch cabaret,2006,133,42,25,236,84,4,48,0.875
+17,Speed of Sound,Coldplay,permanent wave,2005,123,52,36,288,0,6,69,0.7536231884057971
+18,Uninvited,Alanis Morissette,alternative rock,2005,127,38,19,276,2,3,57,0.6666666666666666
+19,Music,John Miles,classic uk pop,2004,87,27,12,352,1,3,46,0.5869565217391305
+20,Cry Me a River,Justin Timberlake,dance pop,2002,74,62,56,288,57,18,74,0.8378378378378378
+21,Fix You,Coldplay,permanent wave,2005,138,21,12,296,16,3,81,0.25925925925925924
+22,The Cave,Mumford & Sons,modern folk rock,2009,142,60,35,218,5,4,67,0.8955223880597015
+23,Als De Morgen Is Gekomen,Jan Smit,dutch pop,2006,96,63,81,176,5,3,55,1.1454545454545455
+24,Somebody Told Me,The Killers,modern rock,2004,138,51,65,197,0,9,69,0.7391304347826086
+25,Dichterbij Dan Ooit,BLØF,dutch pop,2002,112,65,52,261,18,3,16,4.0625
+26,Miracle,Ilse DeLange,dutch americana,2008,130,55,18,270,48,3,50,1.1
+27,Smokers Outside the Hospital Doors,Editors,alternative dance,2007,123,53,55,298,0,4,56,0.9464285714285714
+28,Cleanin' Out My Closet,Eminem,detroit hip hop,2002,148,91,87,298,7,17,71,1.2816901408450705
+29,Der Weg,Herbert Grönemeyer,german pop,2008,142,34,19,259,92,4,48,0.7083333333333334
+30,7 Seconds (feat. Neneh Cherry),Youssou N'Dour,afropop,2004,154,68,51,306,8,3,59,1.152542372881356
+31,The Scientist,Coldplay,permanent wave,2002,146,56,21,310,73,2,84,0.6666666666666666
+32,Big Log - 2006 Remaster,Robert Plant,album rock,2007,181,56,68,306,32,3,57,0.9824561403508771
+33,Chasing Pavements,Adele,british soul,2008,80,62,33,211,31,3,63,0.9841269841269841
+34,Don't Know Why,Norah Jones,adult standards,2002,88,73,62,186,88,3,74,0.9864864864864865
+35,Tears Dry On Their Own,Amy Winehouse,british soul,2006,122,64,45,185,49,12,72,0.8888888888888888
+36,The Eyes of Jenny,Sandy Coast,classic uk pop,2009,119,68,68,264,34,4,44,1.5454545454545454
+37,Iris,The Goo Goo Dolls,alternative rock,2007,156,29,51,290,0,4,75,0.38666666666666666
+38,The Saints Are Coming,U2,irish rock,2006,152,32,12,202,8,5,40,0.8
+39,All My Life,Foo Fighters,alternative metal,2002,168,58,65,263,0,5,72,0.8055555555555556
+40,De Weg,Guus Meeuwis,dutch pop,2005,72,46,26,266,91,3,42,1.0952380952380953
+42,Traffic - Radio Edit,Tiësto,big room,2009,138,71,10,177,0,9,53,1.3396226415094339
+43,Take Me Out,Franz Ferdinand,alternative rock,2004,105,28,49,237,0,4,74,0.3783783783783784
+44,American Idiot,Green Day,modern rock,2004,186,38,77,176,0,6,78,0.48717948717948717
+45,Breaking the Habit,Linkin Park,alternative metal,2003,100,58,58,197,11,3,65,0.8923076923076924
+46,Come Undone,Robbie Williams,dance pop,2002,168,38,26,278,4,3,56,0.6785714285714286
+47,Sweet Jane,Lou Reed,art rock,2008,115,83,88,331,48,6,43,1.930232558139535
+48,Run,Snow Patrol,irish rock,2004,75,37,20,355,0,3,65,0.5692307692307692
+49,You're The First The Last My Everything,Barry White,adult standards,2009,131,64,80,213,1,4,67,0.9552238805970149
+50,The Day After Tomorrow,Saybia,danish pop rock,2005,76,46,35,234,1,3,51,0.9019607843137255
+51,Just Breathe,Pearl Jam,alternative rock,2009,108,47,28,216,72,3,69,0.6811594202898551
+52,Dansen Aan Zee,BLØF,dutch pop,2000,194,35,26,275,16,3,52,0.6730769230769231
+53,Goodbye My Lover,James Blunt,neo mellow,2005,90,43,27,259,95,5,69,0.6231884057971014
+54,The Unforgiven III,Metallica,alternative metal,2008,122,30,9,467,0,3,52,0.5769230769230769
+55,Hurt,Christina Aguilera,dance pop,2006,149,33,14,243,78,3,67,0.4925373134328358
+56,Grounds for Divorce,Elbow,britpop,2009,92,52,63,219,42,3,43,1.2093023255813953
+57,Sometimes You Can't Make It On Your Own,U2,irish rock,2004,96,53,35,305,0,2,57,0.9298245614035088
+58,"Listen (From the Motion Picture ""Dreamgirls"")",Beyoncé,dance pop,2006,123,48,20,218,27,5,44,1.0909090909090908
+59,I Want It That Way,Backstreet Boys,boy band,2001,99,69,48,214,22,3,77,0.8961038961038961
+60,Goin To The Run,Golden Earring,album rock,2008,124,47,18,236,42,3,38,1.236842105263158
+61,De Neus Umhoeg,Rowwen Hèze,carnaval limburg,2005,132,62,51,215,7,3,32,1.9375
+62,Solitary Man,Johnny Cash,arkansas country,2000,86,44,70,144,35,3,47,0.9361702127659575
+63,Smoorverliefd,Doe Maar,dutch cabaret,2008,166,70,91,195,13,10,48,1.4583333333333333
+64,Me Gustas Tu,Manu Chao,latin alternative,2001,176,66,91,240,66,8,70,0.9428571428571428
+65,Kryptonite,3 Doors Down,alternative metal,2000,99,55,54,234,1,3,77,0.7142857142857143
+66,Crazy,Seal,british soul,2004,103,63,73,357,21,5,63,1.0
+67,Family Portrait,P!nk,dance pop,2001,92,76,73,297,3,5,56,1.3571428571428572
+68,In The Army Now,Status Quo,album rock,2002,105,68,94,281,11,2,59,1.152542372881356
+69,I Surrender,Saybia,danish pop rock,2004,136,28,7,219,28,3,55,0.509090909090909
+70,Maybe Tomorrow,Stereophonics,britpop,2003,81,50,57,273,22,4,64,0.78125
+71,Make You Feel My Love,Adele,british soul,2008,77,55,9,212,89,3,73,0.7534246575342466
+72,No One Knows,Queens of the Stone Age,alternative metal,2002,171,51,67,279,3,6,65,0.7846153846153846
+73,Where Do You Go To (My Lovely) - Re-Recorded,Peter Sarstedt,british folk,2008,183,56,44,288,29,3,58,0.9655172413793104
+75,Little Lion Man,Mumford & Sons,modern folk rock,2009,139,52,46,247,3,3,67,0.7761194029850746
+76,Dirty Diana,Michael Jackson,pop,2003,131,75,37,281,24,5,55,1.3636363636363635
+77,Ne me quitte pas,Jacques Brel,chanson,2004,101,42,30,229,82,5,58,0.7241379310344828
+78,Sad Man's Tongue,Volbeat,alternative metal,2007,110,43,56,186,0,4,57,0.7543859649122807
+79,Wat Zou Je Doen - Live,Marco Borsato,dutch cabaret,2006,104,66,46,229,38,17,30,2.2
+80,One Day Like This,Elbow,britpop,2009,159,43,38,394,9,3,45,0.9555555555555556
+81,Bagagedrager,Spinvis,dutch indie,2002,160,50,33,375,8,5,45,1.1111111111111112
+82,Wêr Bisto,Twarres,dutch pop,2001,88,52,18,226,33,2,48,1.0833333333333333
+83,Only Time,Enya,celtic,2000,83,42,21,219,84,3,70,0.6
+84,Sorry Seems To Be The Hardest Word,Blue,boy band,2004,79,56,44,210,18,3,58,0.9655172413793104
+85,Self Esteem,The Offspring,alternative metal,2005,105,46,61,258,2,6,72,0.6388888888888888
+86,Aanzoek Zonder Ringen,BLØF,dutch pop,2006,160,55,46,283,2,4,42,1.3095238095238095
+87,Modern World,Anouk,dutch indie,2007,120,70,68,210,12,6,42,1.6666666666666667
+88,Rosie,Claw Boys Claw,dutch indie,2007,100,59,64,264,47,3,43,1.372093023255814
+89,This Is Not America - 2002 Remaster,David Bowie,album rock,2002,115,72,65,231,6,4,43,1.6744186046511629
+90,Times Like These,Foo Fighters,alternative metal,2002,145,38,27,266,0,9,65,0.5846153846153846
+91,De Vondeling Van Ameland,Boudewijn de Groot,dutch indie,2007,110,39,16,306,67,3,19,2.0526315789473686
+92,I'm Gonna Be (500 Miles),The Proclaimers,celtic rock,2003,132,85,81,219,15,4,74,1.1486486486486487
+93,Afscheid Nemen Bestaat Niet,Marco Borsato,dutch cabaret,2006,128,40,22,240,3,3,49,0.8163265306122449
+94,Blauwe Ruis,BLØF,dutch pop,2002,130,52,35,268,4,4,41,1.2682926829268293
+95,Limburg - Live,Rowwen Hèze,carnaval limburg,2008,157,23,28,403,29,17,32,0.71875
+96,21 Guns,Green Day,modern rock,2009,160,27,42,321,5,4,75,0.36
+97,Valerie (feat. Amy Winehouse) - Version Revisited,Mark Ronson,dance pop,2007,106,70,89,219,0,5,62,1.1290322580645162
+98,Blaosmuziek,Gé Reinders,carnaval limburg,2005,61,27,18,232,94,4,38,0.7105263157894737
+99,Binnen,Marco Borsato,dutch cabaret,2002,92,50,67,275,1,6,30,1.6666666666666667
+100,Motorcycle Emptiness,Manic Street Preachers,alternative rock,2002,112,53,21,306,0,3,39,1.358974358974359
+101,In the End,Linkin Park,alternative metal,2000,105,56,40,217,1,6,83,0.6746987951807228
+102,Halt mich,Herbert Grönemeyer,german pop,2008,104,29,16,207,79,3,44,0.6590909090909091
+103,Girl,Anouk,dutch indie,2004,136,67,79,211,1,3,56,1.1964285714285714
+104,Trapped - Live at Meadowlands Arena E. Rutherford NJ - August 1984,Bruce Springsteen,classic rock,2003,162,32,36,308,3,3,40,0.8
+105,Ik Wou Dat Ik Jou Was,Veldhuis & Kemper,dutch cabaret,2003,160,36,49,237,54,4,58,0.6206896551724138
+106,Empire State of Mind (Part II) Broken Down,Alicia Keys,hip pop,2009,93,48,14,216,74,3,75,0.64
+107,Numb / Encore,JAY-Z,east coast hip hop,2004,107,69,75,206,6,17,75,0.92
+108,Ben Ik Te Min,Armand,dutch rock,2009,101,62,56,208,28,3,47,1.3191489361702127
+109,All Summer Long,Kid Rock,alternative metal,2007,103,70,89,298,2,3,72,0.9722222222222222
+110,Forever Autumn,Jeff Wayne,classic uk pop,2007,122,35,21,273,47,3,41,0.8536585365853658
+111,Waiting On the World to Change,John Mayer,neo mellow,2006,177,58,66,201,16,12,74,0.7837837837837838
+112,Everybody's Changing,Keane,modern rock,2004,94,52,46,215,0,3,54,0.9629629629629629
+113,How to Save a Life,The Fray,modern rock,2005,122,64,36,263,27,4,80,0.8
+114,Bloed Zweet En Tranen,Andre Hazes,dutch pop,2002,68,60,37,242,8,3,59,1.0169491525423728
+116,Europa (Earth's Cry Heaven's Smile),Santana,blues rock,2007,75,30,68,306,3,5,59,0.5084745762711864
+117,Feeling Good,Muse,modern rock,2001,109,35,27,199,30,3,51,0.6862745098039216
+118,Harder Better Faster Stronger,Daft Punk,electro,2001,123,82,69,225,4,14,71,1.1549295774647887
+119,Use Somebody,Kings of Leon,modern rock,2008,137,28,17,231,1,4,76,0.3684210526315789
+120,Sweet Disposition,The Temper Trap,alternative dance,2009,129,53,34,231,7,4,64,0.828125
+122,You're the Voice,John Farnham,australian pop,2008,85,37,64,302,22,5,62,0.5967741935483871
+123,Voltooid Verleden Tijd,IOS,dutch pop,2009,138,46,15,294,66,3,39,1.1794871794871795
+124,Eternal Flame,The Bangles,album rock,2004,79,53,40,238,53,2,70,0.7571428571428571
+125,Papa Was A Rolling Stone,The Temptations,adult standards,2001,120,85,87,433,6,4,44,1.9318181818181819
+127,Best of You,Foo Fighters,alternative metal,2005,130,37,37,256,0,7,75,0.49333333333333335
+128,Daughters,John Mayer,neo mellow,2003,125,67,50,238,84,3,68,0.9852941176470589
+129,De wedstrijd,Bram Vermeulen,belgian rock,2006,136,58,58,302,53,5,42,1.380952380952381
+130,Papillon,Editors,alternative dance,2009,126,51,63,324,0,6,56,0.9107142857142857
+131,Sadeness,Enigma,downtempo,2001,96,59,49,256,9,3,58,1.0172413793103448
+132,Red Mij Niet - Single Edit,Maarten Van Roozendaal,dutch indie,2001,119,52,13,270,76,4,36,1.4444444444444444
+133,Love Is A Losing Game,Amy Winehouse,british soul,2006,165,48,54,154,32,3,67,0.7164179104477612
+134,Zij,Marco Borsato,dutch cabaret,2002,58,25,11,245,45,4,52,0.4807692307692308
+135,Tribute,Tenacious D,alternative metal,2001,94,37,42,248,18,7,59,0.6271186440677966
+136,You Know I'm No Good,Amy Winehouse,british soul,2006,103,71,73,257,1,3,74,0.9594594594594594
+137,Talk,Coldplay,permanent wave,2005,120,41,16,311,1,3,63,0.6507936507936508
+138,Love Is A Battlefield,Pat Benatar,album rock,2001,91,67,86,245,1,5,54,1.2407407407407407
+139,Home,Michael Bublé,adult standards,2005,128,61,35,226,84,3,64,0.953125
+140,Sonne,Rammstein,alternative metal,2001,75,51,31,272,1,9,60,0.85
+141,I Gotta Feeling,The Black Eyed Peas,dance pop,2009,128,74,61,289,9,3,69,1.0724637681159421
+142,She Sells Sanctuary,The Cult,album rock,2000,139,55,42,253,0,3,63,0.873015873015873
+143,Alie,Normaal,dutch rock,2008,93,52,93,181,14,6,42,1.2380952380952381
+144,Red Red Wine,UB40,reggae fusion,2000,89,86,84,184,0,5,74,1.162162162162162
+145,A Little Less Conversation - JXL Radio Edit Remix,Elvis Presley,adult standards,2002,115,60,72,212,0,5,64,0.9375
+146,Love You More,Racoon,dutch indie,2005,171,34,30,197,76,3,43,0.7906976744186046
+147,Old Man,Neil Young,album rock,2004,141,71,48,203,44,3,44,1.6136363636363635
+148,Zij Maakt Het Verschil,De Poema's,dutch pop,2003,173,34,36,280,33,4,54,0.6296296296296297
+149,I Want To Hold Your Hand - Remastered 2015,The Beatles,british invasion,2000,131,49,87,146,39,5,75,0.6533333333333333
+150,Black Magic Woman,Santana,blues rock,2007,124,50,63,196,68,3,62,0.8064516129032258
+151,Set The Fire To The Third Bar,Snow Patrol,irish rock,2006,96,54,39,204,52,3,49,1.1020408163265305
+153,Going To A Town,Rufus Wainwright,canadian pop,2007,124,56,19,245,72,3,38,1.4736842105263157
+154,Is Dit Alles,Doe Maar,dutch cabaret,2008,121,83,88,324,46,13,44,1.8863636363636365
+155,A Gentleman's Excuse Me,Fish,album rock,2008,126,33,19,259,86,4,44,0.75
+156,God Put a Smile upon Your Face,Coldplay,permanent wave,2002,127,61,24,297,18,3,64,0.953125
+157,Heartbreak Warfare,John Mayer,neo mellow,2009,97,62,31,270,19,2,66,0.9393939393939394
+158,Sailing to Philadelphia,Mark Knopfler,classic rock,2005,99,59,15,353,64,2,39,1.5128205128205128
+159,Accidentally In Love,Counting Crows,alternative rock,2004,138,55,81,189,4,4,59,0.9322033898305084
+160,It's Raining Men,The Weather Girls,disco,2008,136,66,46,212,46,16,58,1.1379310344827587
+161,One Word,Anouk,dutch indie,2004,92,62,34,243,10,3,52,1.1923076923076923
+162,Goodnight Saigon,Billy Joel,album rock,2001,129,59,15,423,13,6,46,1.2826086956521738
+163,Moonlight Shadow,Mike Oldfield,album rock,2009,129,61,80,218,29,3,64,0.953125
+164,Zing - Vecht - Huil - Bid - Lach - Werk En Bewonder,Ramses Shaffy,dutch cabaret,2006,130,53,46,281,53,8,41,1.2926829268292683
+165,Uprising,Muse,modern rock,2009,128,60,41,305,0,8,76,0.7894736842105263
+166,My Immortal,Evanescence,alternative metal,2003,79,19,10,263,86,4,74,0.25675675675675674
+167,Feel Like Flying,Racoon,dutch indie,2005,98,67,83,213,6,3,41,1.6341463414634145
+168,Everything,Michael Bublé,adult standards,2007,123,69,49,212,39,3,73,0.9452054794520548
+169,Hey There Delilah,Plain White T's,neo mellow,2005,104,66,30,233,87,3,80,0.825
+170,Speeltuin,Marco Borsato,dutch cabaret,2002,112,53,31,135,92,5,50,1.06
+171,Comptine d'un autre été l'après-midi,Yann Tiersen,bow pop,2001,100,48,6,141,99,5,56,0.8571428571428571
+172,Sweet Goodbyes,Krezip,dutch indie,2009,110,63,47,193,74,3,56,1.125
+173,The Man Who Can't Be Moved,The Script,celtic rock,2008,100,61,33,241,43,3,64,0.953125
+174,Free Fallin' - Live at the Nokia Theatre Los Angeles CA - December 2007,John Mayer,neo mellow,2008,173,32,44,264,77,3,75,0.4266666666666667
+175,Halo,Beyoncé,dance pop,2008,80,51,47,262,27,6,78,0.6538461538461539
+177,Hier,BLØF,dutch pop,2000,164,50,58,248,0,3,40,1.25
+178,Ice Queen,Within Temptation,dutch metal,2003,92,26,15,319,4,3,47,0.5531914893617021
+179,Another 45 Miles,Golden Earring,album rock,2008,91,56,48,284,28,3,50,1.12
+180,Like a Hurricane - 2003 Remaster,Neil Young,album rock,2004,114,42,61,501,1,4,49,0.8571428571428571
+181,Father & Friend,Alain Clark,dutch pop,2007,98,66,66,256,51,3,35,1.8857142857142857
+182,"(I've Had) The Time of My Life - From ""Dirty Dancing"" Soundtrack",Bill Medley,soft rock,2004,109,70,39,289,9,5,70,1.0
+183,The Blower's Daughter,Damien Rice,acoustic pop,2003,133,34,7,287,13,3,56,0.6071428571428571
+184,Magnificent,U2,irish rock,2009,115,53,59,324,0,3,44,1.2045454545454546
+185,Virtual Insanity - Remastered,Jamiroquai,acid jazz,2006,92,66,52,229,13,11,69,0.9565217391304348
+186,Belle Hélène,Doe Maar,dutch cabaret,2008,138,74,98,170,11,4,49,1.510204081632653
+187,Go With The Flow,Queens of the Stone Age,alternative metal,2002,159,24,37,187,1,10,58,0.41379310344827586
+188,Sound Of The Screameng Day,Golden Earrings,dutch prog,2008,138,59,50,171,0,3,26,2.269230769230769
+189,Plug in Baby,Muse,modern rock,2001,136,41,35,218,0,5,53,0.7735849056603774
+190,Heavy Cross,Gossip,alternative dance,2009,120,79,22,243,8,3,59,1.3389830508474576
+192,Heart Of Glass,Blondie,candy pop,2006,115,73,41,252,0,3,52,1.4038461538461537
+193,The Real Slim Shady,Eminem,detroit hip hop,2000,105,95,76,284,3,6,80,1.1875
+194,Stuck In A Moment You Can't Get Out Of,U2,irish rock,2000,159,52,32,272,39,2,52,1.0
+195,Tumble and Fall,JOHAN,dutch indie,2001,170,45,48,209,2,3,36,1.25
+196,Les lacs du Connemara,Michel Sardou,chanson,2004,112,30,40,364,57,5,59,0.5084745762711864
+197,Hier Kom Ik Weg,Daniël Lohues,dutch indie,2008,92,57,53,208,85,3,39,1.4615384615384615
+198,Starlight,Muse,modern rock,2006,122,55,32,240,0,3,73,0.7534246575342466
+199,Dakota,Stereophonics,britpop,2005,147,51,31,297,13,7,68,0.75
+200,Time To Say Goodbye (Con Te Partirò),Sarah Brightman,operatic pop,2006,105,29,45,246,91,3,59,0.4915254237288136
+201,Green Eyes,Coldplay,permanent wave,2002,130,61,23,223,54,3,63,0.9682539682539683
+202,Silence (feat. Sarah McLachlan) - DJ Tiësto's In Search of Sunrise Edit,Delerium,trance,2004,138,60,9,235,1,6,58,1.0344827586206897
+203,De Kapitein Deel II,Acda en de Munnik,dutch cabaret,2000,115,67,67,181,41,3,51,1.3137254901960784
+204,Supermassive Black Hole,Muse,modern rock,2006,120,67,78,212,5,4,73,0.9178082191780822
+205,Pak Maar M'n Hand,Nick & Simon,dutch pop,2007,166,32,38,212,38,3,59,0.5423728813559322
+206,De Bom,Doe Maar,dutch cabaret,2008,133,86,85,161,31,4,49,1.7551020408163265
+207,Bombay,Golden Earring,album rock,2008,125,52,73,234,2,5,34,1.5294117647058822
+208,Mary Jane's Last Dance,Tom Petty and the Heartbreakers,album rock,2008,170,46,53,274,3,6,72,0.6388888888888888
+209,Oerend Hard,Normaal,dutch rock,2008,127,66,84,225,12,10,52,1.2692307692307692
+210,Society,Eddie Vedder,permanent wave,2007,162,56,30,236,90,3,67,0.835820895522388
+211,White Flag,Dido,dance pop,2003,170,51,28,241,31,4,54,0.9444444444444444
+212,Heaven Must Be Missing An Angel - Pt. 1,Tavares,adult standards,2004,117,61,97,394,1,3,49,1.2448979591836735
+213,Wake Me up When September Ends,Green Day,modern rock,2004,105,55,15,286,2,3,77,0.7142857142857143
+214,Can't Stop,Red Hot Chili Peppers,alternative rock,2002,91,62,88,269,2,5,80,0.775
+215,Driving Home for Christmas,Chris Rea,art rock,2007,180,50,89,240,33,4,80,0.625
+216,Mutter,Rammstein,alternative metal,2001,116,49,8,269,2,3,51,0.9607843137254902
+217,Pa,Doe Maar,dutch cabaret,2008,129,93,96,219,43,5,41,2.268292682926829
+218,Blauw,The Scene,belgian rock,2007,135,51,28,236,0,3,47,1.0851063829787233
+219,Spicks And Specks,Bee Gees,adult standards,2001,123,65,71,172,78,3,47,1.3829787234042554
+221,Beautiful,Christina Aguilera,dance pop,2002,76,46,10,239,58,3,71,0.647887323943662
+222,Gravity,John Mayer,neo mellow,2006,124,76,24,246,73,3,75,1.0133333333333334
+223,Leave the Light On,Beth Hart,blues rock,2009,142,57,16,244,26,3,32,1.78125
+224,Ruthless Queen,Kayak,dutch prog,2009,124,53,22,291,8,3,32,1.65625
+225,Everlong - Acoustic Version,Foo Fighters,alternative metal,2009,144,64,55,251,91,3,69,0.927536231884058
+226,Here Without You,3 Doors Down,alternative metal,2002,144,54,23,239,5,2,75,0.72
+227,One,Mary J. Blige,dance pop,2005,186,34,27,260,8,8,61,0.5573770491803278
+228,Mijn Houten Hart,De Poema's,dutch pop,2003,70,43,25,259,46,3,45,0.9555555555555556
+229,Mad World (Feat. Michael Andrews),Gary Jules,neo mellow,2002,174,35,30,190,98,4,70,0.5
+230,Sinds 1 Dag Of 2 (32 Jaar),Doe Maar,dutch cabaret,2008,114,88,96,201,28,4,53,1.6603773584905661
+231,Feeling Good,Michael Bublé,adult standards,2005,115,54,48,237,53,4,64,0.84375
+232,The Wall Street Shuffle,10cc,album rock,2004,98,52,66,242,16,3,46,1.1304347826086956
+233,Song 2,Blur,alternative rock,2000,130,66,86,122,0,9,64,1.03125
+234,I Would Stay,Krezip,dutch indie,2000,95,47,27,232,82,4,55,0.8545454545454545
+235,Piano Man,Billy Joel,album rock,2001,179,33,43,336,60,3,70,0.4714285714285714
+236,Fireflies,Owl City,pop,2009,180,51,46,228,3,4,79,0.6455696202531646
+237,Lost,Anouk,dutch indie,2004,90,52,14,222,22,3,51,1.0196078431372548
+238,Woman,Wolfmother,alternative rock,2006,113,22,17,176,0,18,62,0.3548387096774194
+240,Yellow,Coldplay,permanent wave,2000,173,43,28,267,0,3,82,0.524390243902439
+241,This Is The Life,Amy Macdonald,scottish singer-songwriter,2007,95,62,86,184,27,3,41,1.5121951219512195
+242,Wicked Game,Chris Isaak,mellow gold,2006,113,67,29,287,74,3,70,0.9571428571428572
+243,Breakeven,The Script,celtic rock,2008,94,63,53,261,17,2,74,0.8513513513513513
+244,Not An Addict,K's Choice,alternative pop,2009,169,26,34,288,0,4,43,0.6046511627906976
+245,So Incredible,Ilse DeLange,dutch americana,2008,104,54,75,177,11,3,54,1.0
+246,Mr Rock & Roll,Amy Macdonald,scottish singer-songwriter,2007,111,60,44,215,3,3,30,2.0
+247,Will You Be There - Single Version,Michael Jackson,pop,2005,83,41,44,220,51,7,53,0.7735849056603774
+248,Vlinder,Rowwen Hèze,carnaval limburg,2003,175,35,80,231,16,4,33,1.0606060606060606
+249,Cambodia,Kim Wilde,dance pop,2006,111,70,71,236,1,3,51,1.3725490196078431
+250,Back To Black,Amy Winehouse,british soul,2006,123,49,34,240,12,4,77,0.6363636363636364
+251,Dochters,Marco Borsato,dutch cabaret,2008,128,64,36,270,57,3,57,1.1228070175438596
+252,Hocus Pocus,Focus,album rock,2001,184,26,40,403,2,15,53,0.49056603773584906
+253,Mensch,Herbert Grönemeyer,german pop,2008,174,68,87,270,3,8,47,1.446808510638298
+254,Amsterdam,Coldplay,permanent wave,2002,73,26,11,319,84,3,57,0.45614035087719296
+255,Time Is Running Out,Muse,modern rock,2004,118,59,43,237,0,6,69,0.855072463768116
+256,Rain Down on Me,Kane,dutch pop,2003,133,46,33,247,0,6,47,0.9787234042553191
+257,Denis,Blondie,candy pop,2006,139,53,86,139,0,5,42,1.2619047619047619
+258,Hometown Glory,Adele,british soul,2008,123,45,21,269,96,4,59,0.7627118644067796
+259,Live And Let Die - Live,Paul McCartney,album rock,2003,150,24,23,185,36,8,60,0.4
+260,I Still Cry,Ilse DeLange,dutch americana,2000,98,54,16,274,32,3,30,1.8
+261,Ren Lenny Ren,Acda en de Munnik,dutch cabaret,2002,110,51,43,233,1,5,43,1.186046511627907
+262,In My Place,Coldplay,permanent wave,2002,145,43,19,227,6,3,70,0.6142857142857143
+263,Numb,Linkin Park,alternative metal,2003,110,50,24,186,0,4,81,0.6172839506172839
+264,Slow Dancing in a Burning Room,John Mayer,neo mellow,2006,134,67,29,242,57,3,76,0.881578947368421
+266,Drops of Jupiter,Train,dance pop,2001,79,47,50,260,15,3,77,0.6103896103896104
+267,Omarm,BLØF,dutch pop,2003,184,27,8,252,41,3,46,0.5869565217391305
+268,(What A) Wonderful World,Sam Cooke,adult standards,2000,129,69,89,125,63,3,71,0.971830985915493
+269,Teardrops,Womack & Womack,disco,2001,133,87,97,229,9,5,61,1.4262295081967213
+270,The Rising,Bruce Springsteen,classic rock,2002,110,50,33,287,7,3,53,0.9433962264150944
+271,Snow (Hey Oh),Red Hot Chili Peppers,alternative rock,2006,105,43,60,335,12,5,80,0.5375
+272,I Don't Wanna Hurt,Anouk,dutch indie,2007,79,48,22,213,60,3,46,1.0434782608695652
+273,Ordinary People,John Legend,neo mellow,2005,67,47,36,281,93,8,69,0.6811594202898551
+274,Iedereen Is Van De Wereld,The Scene,belgian rock,2007,118,45,38,228,0,4,50,0.9
+275,Gold,Spandau Ballet,dance rock,2000,143,71,64,231,26,4,66,1.0757575757575757
+276,All Night Long (All Night) - Single Version,Lionel Richie,adult standards,2003,109,74,78,260,12,5,64,1.15625
+277,Can't Stop Loving You - 2016 Remaster,Phil Collins,mellow gold,2002,100,60,42,256,1,3,62,0.967741935483871
+278,City Of Blinding Lights,U2,irish rock,2004,139,44,20,346,0,3,60,0.7333333333333333
+279,Munich,Editors,alternative dance,2005,149,18,39,226,0,5,61,0.29508196721311475
+280,Hey Ya!,OutKast,atl hip hop,2003,80,73,97,235,10,7,79,0.9240506329113924
+281,There Must Be an Angel (Playing with My Heart),Eurythmics,dance pop,2005,112,58,60,281,28,4,40,1.45
+282,Laat Me / Vivre - Lange Versie,Alderliefste met Ramses Shaffy en Liesbeth List,dutch pop,2005,81,66,37,386,60,3,43,1.5348837209302326
+284,Feel,Robbie Williams,dance pop,2002,98,60,29,264,1,3,72,0.8333333333333334
+286,La Isla Bonita,Madonna,dance pop,2009,100,71,97,243,39,4,66,1.0757575757575757
+287,Go Like Elijah,Chi Coltrane,alternative pop rock,2009,134,63,49,242,4,4,40,1.575
+288,Chop Suey!,System Of A Down,alternative metal,2001,127,42,29,210,0,12,80,0.525
+289,Sorry - (Live in Tivoli),Kyteman,dutch indie,2009,68,35,20,150,94,4,47,0.7446808510638298
+290,Black or White - Single Version,Michael Jackson,pop,2005,115,74,96,203,8,5,64,1.15625
+291,Shut Your Eyes,Snow Patrol,irish rock,2006,125,69,84,197,15,3,42,1.6428571428571428
+292,Ironic,Alanis Morissette,alternative rock,2005,171,46,29,229,25,6,62,0.7419354838709677
+293,I Bet You Look Good On The Dancefloor,Arctic Monkeys,garage rock,2006,103,54,78,174,0,4,58,0.9310344827586207
+294,Hurt,Johnny Cash,arkansas country,2002,90,53,16,217,65,3,75,0.7066666666666667
+295,Vogue,Madonna,dance pop,2009,116,74,33,317,0,4,66,1.121212121212121
+296,If I Were a Boy,Beyoncé,dance pop,2008,90,63,43,249,11,3,68,0.9264705882352942
+297,Dyna-Mite,Mud,classic uk pop,2005,141,58,77,177,0,6,40,1.45
+298,Une Belle Histoire (Een Mooi Verhaal),Alderliefste,dutch pop,2008,87,57,67,268,36,3,38,1.5
+299,Sandstorm - Radio Edit,Darude,eurodance,2007,136,54,52,225,17,5,61,0.8852459016393442
+300,Right Next Door (Because Of Me),Robert Cray,blues,2002,87,61,79,259,23,5,52,1.1730769230769231
+301,Hald Mich 'S Vas,Neet Oét Lottum,carnaval limburg,2004,179,29,16,251,29,4,39,0.7435897435897436
+302,Like a Prayer,Madonna,dance pop,2009,111,62,26,343,26,4,71,0.8732394366197183
+303,Rockin' All Over The World,Status Quo,album rock,2005,131,62,97,217,13,4,47,1.3191489361702127
+304,Blue Hotel,Chris Isaak,mellow gold,2006,149,52,53,192,0,3,42,1.2380952380952381
+305,Dear Mr. President,P!nk,dance pop,2009,128,48,30,281,85,4,43,1.1162790697674418
+306,Stiekem Gedanst,Toontje Lager,dutch rock,2008,96,66,84,215,21,6,53,1.2452830188679245
+307,Human,The Killers,modern rock,2008,135,56,58,245,0,6,73,0.7671232876712328
+308,Lady Madonna - Remastered 2015,The Beatles,british invasion,2000,110,65,57,137,14,3,63,1.0317460317460319
+309,Both Sides Now,Joni Mitchell,canadian folk,2000,78,26,14,345,87,3,65,0.4
+310,God Is a DJ,Faithless,big beat,2005,131,61,39,209,18,4,57,1.0701754385964912
+311,Viva La Vida,Coldplay,permanent wave,2008,138,49,42,242,9,3,78,0.6282051282051282
+312,Kids,MGMT,alternative dance,2007,123,45,17,303,0,7,76,0.5921052631578947
+313,Bend & Break,Keane,modern rock,2004,138,47,48,220,0,3,43,1.0930232558139534
+314,We Can Work It Out - Remastered 2015,The Beatles,british invasion,2000,106,38,65,136,6,3,63,0.6031746031746031
+315,Sing for Absolution,Muse,modern rock,2004,170,44,19,295,46,3,57,0.7719298245614035
+316,Superstition - Single Version,Stevie Wonder,adult standards,2002,100,63,87,245,4,7,77,0.8181818181818182
+317,Vertigo,U2,irish rock,2004,140,42,63,194,0,6,65,0.6461538461538462
+318,By the Way,Red Hot Chili Peppers,alternative rock,2002,122,45,20,217,3,11,74,0.6081081081081081
+319,Hey Jude,The Beatles,british invasion,2006,74,46,59,239,9,2,63,0.7301587301587301
+320,November,Rowwen Hèze,carnaval limburg,2005,186,32,23,296,63,4,35,0.9142857142857143
+321,Geef Mij Je Angst,Guus Meeuwis,dutch pop,2006,81,37,42,224,75,5,54,0.6851851851851852
+322,Stuck In The Middle With You,Stealers Wheel,classic rock,2009,124,80,96,204,9,4,72,1.1111111111111112
+323,Het Regent Zonnestralen,Acda en de Munnik,dutch cabaret,2005,108,62,83,226,41,3,57,1.087719298245614
+324,Violet Hill,Coldplay,permanent wave,2008,76,35,11,223,6,4,61,0.5737704918032787
+325,Dog Days Are Over,Florence + The Machine,art pop,2009,150,49,25,252,4,8,69,0.7101449275362319
+326,Beautiful Day,U2,irish rock,2000,136,54,45,246,1,5,63,0.8571428571428571
+327,Major Tom,Peter Schilling,german pop,2005,164,78,68,274,3,6,48,1.625
+328,An End Has a Start,Editors,alternative dance,2007,150,35,54,226,0,5,53,0.660377358490566
+329,Lost!,Coldplay,permanent wave,2008,87,36,58,236,1,4,53,0.6792452830188679
+330,What It Is,Mark Knopfler,classic rock,2000,122,63,48,298,64,3,43,1.4651162790697674
+331,Blue Monday - 2016 Remaster,New Order,alternative rock,2005,130,79,86,451,0,6,73,1.082191780821918
+332,Behind Blue Eyes,Limp Bizkit,alternative metal,2003,120,60,9,270,50,3,72,0.8333333333333334
+333,Rehab,Amy Winehouse,british soul,2006,72,43,73,214,5,7,74,0.581081081081081
+334,Bird of Paradise,Snowy White,blues rock,2003,144,47,31,281,60,4,52,0.9038461538461539
+335,I'm Yours,Jason Mraz,acoustic pop,2008,151,69,72,242,60,5,82,0.8414634146341463
+336,Onderweg,Abel,dutch rock,2000,98,62,41,190,35,2,59,1.0508474576271187
+337,Mr. Bojangles - Single Version,Sammy Davis Jr.,adult standards,2002,117,54,13,343,75,5,56,0.9642857142857143
+338,Unwritten,Natasha Bedingfield,dance pop,2004,100,71,63,259,1,4,76,0.9342105263157895
+339,Resistance,Muse,modern rock,2009,135,47,9,347,6,5,63,0.746031746031746
+340,Bedshaped,Keane,modern rock,2004,75,33,7,276,61,3,41,0.8048780487804879
+341,Mia,Gorki,belgian rock,2002,114,70,23,332,4,3,52,1.3461538461538463
+342,You Oughta Know,Alanis Morissette,alternative rock,2005,105,64,47,250,23,7,52,1.2307692307692308
+343,Overcome,Live,alternative metal,2001,146,38,19,256,78,3,49,0.7755102040816326
+344,Stand My Ground,Within Temptation,dutch metal,2004,88,25,13,268,5,5,56,0.44642857142857145
+345,Chasing Cars,Snow Patrol,irish rock,2006,104,56,14,268,21,3,78,0.717948717948718
+346,Dani California,Red Hot Chili Peppers,alternative rock,2006,96,56,73,282,2,4,76,0.7368421052631579
+347,Unfinished Sympathy,Massive Attack,big beat,2006,114,59,70,312,1,3,53,1.1132075471698113
+348,Nine Million Bicycles,Katie Melua,uk pop,2005,82,53,34,197,52,3,61,0.8688524590163934
+349,You're Beautiful,James Blunt,neo mellow,2005,82,68,45,209,63,3,76,0.8947368421052632
+350,It's My Life,Bon Jovi,glam metal,2000,120,55,54,224,3,5,77,0.7142857142857143
+351,Politik,Coldplay,permanent wave,2002,171,26,7,319,4,3,62,0.41935483870967744
+352,Mooie Dag,BLØF,dutch pop,2002,85,50,30,279,11,3,40,1.25
+353,In Nije Dei,De Kast,dutch pop,2004,130,41,15,296,51,3,38,1.0789473684210527
+354,Sex on Fire,Kings of Leon,modern rock,2008,153,54,37,203,0,5,79,0.6835443037974683
+355,Hallelujah,Lisa Lois,dutch pop,2009,182,19,11,226,24,3,49,0.3877551020408163
+356,Somewhere Only We Know,Keane,modern rock,2004,172,45,37,236,8,3,67,0.6716417910447762
+357,Sunrise,Simply Red,british soul,2004,106,79,94,200,0,3,55,1.4363636363636363
+358,How You Remind Me,Nickelback,alternative metal,2001,172,45,54,224,0,3,78,0.5769230769230769
+359,When You Say Nothing At All,Ronan Keating,dance pop,2000,174,46,42,257,16,3,74,0.6216216216216216
+360,Hard Sun,Eddie Vedder,permanent wave,2007,143,44,65,322,5,3,66,0.6666666666666666
+361,Belfast Child,Simple Minds,art rock,2008,81,14,30,404,30,5,43,0.32558139534883723
+362,Feel Good Inc.,Gorillaz,alternative hip hop,2005,139,82,77,223,1,18,80,1.025
+363,Alles Is Liefde,BLØF,dutch pop,2007,144,51,57,210,0,4,36,1.4166666666666667
+364,Jerusalem,Anouk,dutch indie,2004,132,61,54,236,0,4,40,1.525
+365,Mr Bojangles,Robbie Williams,dance pop,2001,137,51,27,198,72,11,58,0.8793103448275862
+366,Tranen Gelachen,Guus Meeuwis,dutch pop,2007,186,30,54,203,16,4,50,0.6
+368,Frozen,Madonna,dance pop,2009,108,59,29,379,51,3,55,1.0727272727272728
+369,The Racing Rats,Editors,alternative dance,2007,153,32,22,258,0,5,43,0.7441860465116279
+370,Poker Face,Lady Gaga,dance pop,2008,119,85,78,237,12,8,69,1.2318840579710144
+371,Life in Technicolor ii,Coldplay,permanent wave,2008,131,47,29,245,0,4,47,1.0
+372,One,Johnny Cash,arkansas country,2000,94,51,42,232,61,3,47,1.0851063829787233
+373,Ruby,Kaiser Chiefs,alternative rock,2007,93,44,40,203,1,5,62,0.7096774193548387
+374,Het Land Van,Lange Frans,dutch hip hop,2005,83,66,61,230,89,17,49,1.346938775510204
+375,Bad Romance,Lady Gaga,dance pop,2009,119,70,71,295,0,4,79,0.8860759493670886
+376,Elevation,U2,irish rock,2000,110,58,42,226,0,4,49,1.183673469387755
+377,Trouble,Coldplay,permanent wave,2000,140,56,19,273,19,3,71,0.7887323943661971
+378,De Peel In Brand,Rowwen Hèze,carnaval limburg,2005,199,28,33,205,61,4,33,0.8484848484848485
+379,Black Betty,Ram Jam,album rock,2005,117,49,83,236,0,9,61,0.8032786885245902
+380,Wrong,Novastar,belgian rock,2000,90,54,49,214,14,4,48,1.125
+381,Never Be Clever,Herman Brood & His Wild Romance,dutch indie,2001,138,56,96,183,54,4,41,1.3658536585365855
+382,Undisclosed Desires,Muse,modern rock,2009,116,68,64,235,1,3,65,1.0461538461538462
+383,Auto Vliegtuug,Rowwen Hèze,carnaval limburg,2005,96,32,25,238,48,2,34,0.9411764705882353
+384,Meer Dan Een Ander,Van Dik Hout,dutch cabaret,2009,94,56,25,223,81,3,34,1.6470588235294117
+385,Brabant,Guus Meeuwis,dutch pop,2002,82,41,39,210,56,3,61,0.6721311475409836
+386,Mother Earth,Within Temptation,dutch metal,2003,105,43,15,330,2,3,45,0.9555555555555556
+387,One More Time,Daft Punk,electro,2001,123,61,48,320,2,13,75,0.8133333333333334
+388,(You're The) Devil in Disguise,Elvis Presley,adult standards,2002,123,48,87,140,57,17,65,0.7384615384615385
+389,TRUE - Single Edit,Spandau Ballet,dance rock,2008,97,74,35,328,51,3,72,1.0277777777777777
+390,Make It Wit Chu,Queens of the Stone Age,alternative metal,2007,92,70,58,290,36,3,59,1.1864406779661016
+391,Bring Me To Life,Evanescence,alternative metal,2003,95,33,30,236,1,7,78,0.4230769230769231
+392,Clocks,Coldplay,permanent wave,2002,131,58,26,308,60,3,76,0.7631578947368421
+393,Farewell To The Fairground,White Lies,alternative dance,2009,118,53,30,257,0,4,54,0.9814814814814815
+394,Bliss,Muse,modern rock,2001,128,45,25,251,0,5,46,0.9782608695652174
+395,Kijk Omhoog,Nick & Simon,dutch pop,2007,166,41,47,176,5,3,48,0.8541666666666666
+396,9 Crimes,Damien Rice,acoustic pop,2006,74,33,10,219,91,3,57,0.5789473684210527
+397,Working On a Dream,Bruce Springsteen,classic rock,2009,110,56,71,209,0,3,48,1.1666666666666667
+398,Nutbush City Limits,Ike & Tina Turner,brill building pop,2008,77,69,91,182,9,3,56,1.2321428571428572
+399,Do They Know It's Christmas? - 1984 Version,Band Aid,electro,2004,115,60,35,223,16,4,84,0.7142857142857143
+400,Changes,2Pac,g funk,2007,111,87,32,269,4,8,72,1.2083333333333333
+401,Mag Ik Dan Bij Jou,Claudia De Breij,dutch cabaret,2010,132,54,19,206,97,3,53,1.0188679245283019
+402,Sterrenstof,De Jeugd Van Tegenwoordig,dutch hip hop,2010,97,71,90,221,32,11,48,1.4791666666666667
+403,Love Will Tear Us Apart - 2010 Remaster,Joy Division,alternative rock,2010,147,53,91,205,0,4,64,0.828125
+404,Mag Het Licht Uit,De Dijk,dutch indie,2010,113,74,58,259,36,3,43,1.7209302325581395
+405,Why Tell Me Why,Anita Meyer,dutch pop,2010,112,65,38,214,23,6,54,1.2037037037037037
+406,Wonderful Days,Charly Lownoise,happy hardcore,2010,174,55,11,332,1,7,37,1.4864864864864864
+407,Dat Komt Door Jou,Guus Meeuwis,dutch pop,2010,134,59,31,287,38,4,57,1.0350877192982457
+408,Don't Give up the Fight,Racoon,dutch indie,2010,91,28,26,210,88,3,27,1.037037037037037
+409,I Follow Rivers - Live @ Giel!,Triggerfinger,belgian rock,2010,110,67,71,214,15,6,42,1.5952380952380953
+410,Liverpool Rain,Racoon,dutch indie,2010,183,45,21,266,25,3,26,1.7307692307692308
+411,No Mercy,Racoon,dutch indie,2010,104,77,61,165,9,3,36,2.138888888888889
+412,Peter Gunn Theme,Emerson Lake & Palmer,album rock,2010,131,43,71,217,1,3,14,3.0714285714285716
+413,Alors on danse,Stromae,belgian pop,2010,120,79,73,206,9,8,61,1.2950819672131149
+414,The Eve of the War,Jeff Wayne,classic uk pop,2010,127,40,37,263,8,4,28,1.4285714285714286
+415,A Night Like This,Caro Emerald,dutch pop,2010,123,87,96,226,57,4,40,2.175
+416,Raise Your Glass,P!nk,dance pop,2010,122,70,63,203,0,8,76,0.9210526315789473
+417,Verdammt ich lieb dich - Remastered,Matthias Reim,classic schlager,2010,100,59,32,220,50,7,38,1.5526315789473684
+418,Christmas Lights,Coldplay,permanent wave,2010,131,31,24,242,13,3,84,0.36904761904761907
+419,The Promise You Made,Cock Robin,dance rock,2010,117,71,65,227,38,4,48,1.4791666666666667
+420,Back Home,Golden Earring,album rock,2010,123,47,74,232,6,5,37,1.2702702702702702
+421,Times Are Changing,DI-RECT,dutch indie,2010,123,50,28,206,4,4,47,1.0638297872340425
+422,Proosten,Guus Meeuwis,dutch pop,2010,136,64,76,232,43,3,49,1.3061224489795917
+423,Just the Way You Are,Bruno Mars,dance pop,2010,109,64,43,221,2,4,80,0.8
+424,Need You Now,Lady Antebellum,contemporary country,2010,108,58,32,236,3,3,53,1.0943396226415094
+426,Pyro,Kings of Leon,modern rock,2010,115,37,19,251,1,4,66,0.5606060606060606
+427,You Got It,Roy Orbison,adult standards,2010,115,66,67,204,60,3,44,1.5
+428,Atmosphere - 2010 Remaster,Joy Division,alternative rock,2010,120,62,44,249,23,3,51,1.2156862745098038
+429,Grenade,Bruno Mars,dance pop,2010,110,71,23,223,15,6,75,0.9466666666666667
+430,Have You Ever Been Mellow,Party Animals,gabba,2010,172,60,57,188,20,5,47,1.2765957446808511
+431,Back Down South,Kings of Leon,modern rock,2010,117,48,15,241,6,4,58,0.8275862068965517
+432,Riverside,Agnes Obel,chamber pop,2010,99,65,23,231,98,3,48,1.3541666666666667
+433,Hold On Tight,Solomon Burke,brill building pop,2010,89,63,50,324,9,3,38,1.6578947368421053
+434,Someone Like You,Adele,british soul,2011,135,56,28,285,89,3,79,0.7088607594936709
+435,Set Fire to the Rain,Adele,british soul,2011,108,61,47,242,0,3,75,0.8133333333333334
+436,Rainbow In The Sky - K & A's Radio Blast,DJ Paul Elstak,gabba,2011,168,48,26,213,0,3,60,0.8
+437,Levels,Avicii,big room,2011,126,60,35,339,3,4,58,1.0344827586206897
+438,Somebody That I Used To Know,Gotye,australian pop,2011,129,86,72,245,59,4,76,1.131578947368421
+439,Paradise,Coldplay,permanent wave,2011,140,45,20,279,5,3,78,0.5769230769230769
+440,Rood,Marco Borsato,dutch cabaret,2011,138,48,18,319,1,5,53,0.9056603773584906
+441,A Boy Named Sue (Live),Johnny Cash,arkansas country,2011,105,52,89,218,93,5,18,2.888888888888889
+442,Still Loving You,Scorpions,album rock,2011,104,28,8,403,0,3,72,0.3888888888888889
+443,Little Black Submarines,The Black Keys,alternative rock,2011,95,37,49,251,16,4,65,0.5692307692307692
+444,Walk,Foo Fighters,alternative metal,2011,138,23,19,256,0,5,69,0.3333333333333333
+445,The A Team,Ed Sheeran,pop,2011,85,64,41,258,67,4,76,0.8421052631578947
+446,kom terug,Spinvis,dutch indie,2011,97,50,24,231,2,3,47,1.0638297872340425
+447,Prachtig mooie dag,Daniël Lohues,dutch indie,2011,103,55,56,161,10,3,42,1.3095238095238095
+448,lippy kids,Elbow,britpop,2011,155,42,10,366,96,3,29,1.4482758620689655
+449,Titanium (feat. Sia),David Guetta,dance pop,2011,126,60,30,245,7,10,67,0.8955223880597015
+450,Faster,Within Temptation,dutch metal,2011,120,51,48,264,0,4,53,0.9622641509433962
+451,Lonely Boy,The Black Keys,alternative rock,2011,166,36,61,194,0,7,73,0.4931506849315068
+452,Turning Tables,Adele,british soul,2011,80,31,21,250,95,3,66,0.4696969696969697
+453,Luv U More - K&A's Radio blast,DJ Paul,electro,2011,168,51,7,232,0,3,51,1.0
+454,Kan Ik Iets Voor Je Doen,De Dijk,dutch indie,2011,79,50,45,200,14,3,30,1.6666666666666667
+455,Driver's Seat,Sniff 'n' The Tears,classic uk pop,2011,133,74,98,239,0,4,54,1.3703703703703705
+456,Zing Voor Me,Lange Frans,dutch hip hop,2011,82,43,56,216,80,7,52,0.8269230769230769
+457,Every Teardrop Is a Waterfall,Coldplay,permanent wave,2011,118,43,31,241,0,4,68,0.6323529411764706
+458,Waarom Nou Jij,Marco Borsato,dutch cabaret,2011,140,44,25,245,12,3,40,1.1
+459,Mijn Vlakke Land,Jacques Brel,chanson,2011,79,40,46,173,26,5,33,1.2121212121212122
+460,Rumour Has It,Adele,british soul,2011,120,62,56,221,64,5,65,0.9538461538461539
+461,Keep Your Head Up,Ben Howard,british singer-songwriter,2011,79,51,40,265,44,3,66,0.7727272727272727
+462,Pumped Up Kicks,Foster The People,indie pop,2011,128,73,97,240,14,3,84,0.8690476190476191
+463,Happiness,Jonathan Jeremiah,dutch indie,2011,89,53,49,182,72,6,49,1.0816326530612246
+464,Give Me Love,Ed Sheeran,pop,2011,116,53,11,526,69,5,73,0.726027397260274
+465,Gold on the Ceiling,The Black Keys,alternative rock,2011,130,51,56,224,1,5,69,0.7391304347826086
+467,Run the World (Girls),Beyoncé,dance pop,2011,127,73,76,236,0,14,75,0.9733333333333334
+468,I Won' T Let You Down,Road Band,pop,2011,106,64,59,233,54,3,33,1.9393939393939394
+469,Love On Top,Beyoncé,dance pop,2011,94,65,65,267,8,9,76,0.8552631578947368
+470,Lego House,Ed Sheeran,pop,2011,160,59,56,185,56,10,71,0.8309859154929577
+471,Skinny Love,Birdy,neo mellow,2011,166,38,17,201,95,5,75,0.5066666666666667
+472,Dust Bowl,Joe Bonamassa,blues rock,2011,86,52,70,273,36,5,44,1.1818181818181819
+473,Damn Those Eyes,Kane,dutch pop,2011,172,34,33,251,0,4,39,0.8717948717948718
+474,These Days,Foo Fighters,alternative metal,2011,135,53,22,298,0,3,64,0.828125
+475,Original Sin,INXS,australian rock,2011,132,69,74,319,1,4,42,1.6428571428571428
+476,Terug Naar De Kust,Maggie MacNeal,nederpop,2011,117,49,40,266,82,3,39,1.2564102564102564
+477,Georgia on My Mind,Ray Charles,adult standards,2011,131,29,20,215,86,3,49,0.5918367346938775
+478,Charlie Brown,Coldplay,permanent wave,2011,138,43,9,285,2,4,67,0.6417910447761194
+479,I've Just Lost Somebody,Golden Earring,album rock,2011,88,37,27,189,4,3,27,1.3703703703703705
+480,Skyfall - Full Length,Adele,british soul,2012,76,35,8,286,42,3,74,0.47297297297297297
+481,Zo Stil,BLØF,dutch pop,2012,170,57,78,237,4,3,54,1.0555555555555556
+482,Holiday In Spain,Counting Crows,alternative rock,2012,126,65,28,233,66,3,56,1.1607142857142858
+483,Radioactive,Imagine Dragons,modern rock,2012,136,45,24,187,11,6,73,0.6164383561643836
+484,Video Games - Remastered,Lana Del Rey,art pop,2012,122,39,18,282,81,3,55,0.7090909090909091
+485,Demons,Imagine Dragons,modern rock,2012,90,51,43,175,19,3,73,0.6986301369863014
+486,She,Elvis Costello,art rock,2012,131,33,28,188,43,3,64,0.515625
+487,Just Give Me a Reason (feat. Nate Ruess),P!nk,dance pop,2012,95,78,44,243,35,5,81,0.9629629629629629
+488,Try,P!nk,dance pop,2012,104,67,55,248,0,3,73,0.9178082191780822
+489,I Will Wait,Mumford & Sons,modern folk rock,2012,131,48,45,277,1,3,69,0.6956521739130435
+490,Home Again,Kensington,dutch pop,2012,142,50,30,197,1,4,44,1.1363636363636365
+492,Winter,Tori Amos,art pop,2012,78,24,27,345,98,3,19,1.263157894736842
+493,Droomland,Andre Hazes,dutch pop,2012,100,32,25,208,26,3,42,0.7619047619047619
+494,Wat Zou Je Doen?,BLØF,dutch pop,2012,184,35,22,291,40,3,51,0.6862745098039216
+495,Madness,Muse,modern rock,2012,180,50,22,281,13,7,70,0.7142857142857143
+496,Sovereign Light Café,Keane,modern rock,2012,123,54,51,219,1,3,51,1.0588235294117647
+497,Can't Hold Us - feat. Ray Dalton,Macklemore & Ryan Lewis,dance pop,2012,146,64,85,258,3,8,83,0.7710843373493976
+498,Lover of the Light,Mumford & Sons,modern folk rock,2012,107,30,37,315,1,5,57,0.5263157894736842
+499,San Quentin,Johnny Cash,arkansas country,2012,84,70,82,158,56,6,27,2.5925925925925926
+500,On Top Of The World,Imagine Dragons,modern rock,2012,100,64,76,190,9,15,66,0.9696969696969697
+501,Flappie,Youp van 't Hek,dutch cabaret,2012,131,75,67,206,79,8,52,1.4423076923076923
+502,Home Again,Michael Kiwanuka,british soul,2012,85,52,27,212,70,3,51,1.0196078431372548
+503,If You Could See Me Now,The Script,celtic rock,2012,100,51,35,220,1,7,51,1.0
+504,Hall of Fame,The Script,celtic rock,2012,85,42,63,203,7,6,70,0.6
+505,Dodenrit,Drs. P,dutch rock,2012,148,51,96,312,67,10,34,1.5
+506,When I Was Your Man,Bruno Mars,dance pop,2012,73,61,39,214,93,4,82,0.7439024390243902
+507,I Won't Give Up,Jason Mraz,acoustic pop,2012,137,59,14,240,69,4,72,0.8194444444444444
+508,Slapeloze Nachten,The Opposites,dutch hip hop,2012,112,81,81,229,35,6,57,1.4210526315789473
+509,One Moment in Time,Whitney Houston,dance pop,2012,155,27,33,285,49,3,54,0.5
+510,Zaterdag,BLØF,dutch pop,2012,141,75,90,283,9,3,41,1.829268292682927
+511,Babel,Mumford & Sons,modern folk rock,2012,80,37,65,209,3,5,57,0.6491228070175439
+512,Hopeless Wanderer,Mumford & Sons,modern folk rock,2012,154,27,20,308,1,4,58,0.46551724137931033
+513,Follow the Sun,Xavier Rudd,australian indie folk,2012,124,61,22,255,53,4,67,0.9104477611940298
+514,Later Als Ik Groter Ben,BLØF,dutch pop,2012,130,53,57,205,0,3,48,1.1041666666666667
+515,Clown,Emeli Sandé,dance pop,2012,119,46,23,221,92,4,46,1.0
+516,Stay - Album Version (Edited),Rihanna,barbadian pop,2012,112,62,13,241,95,3,66,0.9393939393939394
+517,Diamonds,Rihanna,barbadian pop,2012,92,56,39,225,0,5,67,0.835820895522388
+518,It's Time,Imagine Dragons,modern rock,2012,105,66,86,238,2,4,66,1.0
+519,Little Talks,Of Monsters and Men,folk-pop,2012,103,45,42,267,2,3,75,0.6
+520,Euphoria,Loreen,electropop,2012,132,52,11,214,8,4,56,0.9285714285714286
+521,Oceaan,Racoon,dutch indie,2013,126,47,24,165,86,4,63,0.746031746031746
+522,Lola Montez,Volbeat,alternative metal,2013,152,51,68,268,0,3,57,0.8947368421052632
+523,Wake Me Up,Avicii,big room,2013,124,53,64,247,0,5,85,0.6235294117647059
+525,Do I Wanna Know?,Arctic Monkeys,garage rock,2013,85,55,41,272,19,3,82,0.6707317073170732
+526,Another Love,Tom Odell,modern rock,2013,123,45,13,244,70,4,58,0.7758620689655172
+527,Hey Brother,Avicii,big room,2013,125,55,46,255,3,4,78,0.7051282051282052
+528,I See Fire,Ed Sheeran,pop,2013,76,63,20,301,56,4,64,0.984375
+529,This Is What It Feels Like,Armin van Buuren,edm,2013,130,55,14,204,4,3,65,0.8461538461538461
+530,All of Me,John Legend,neo mellow,2013,120,42,33,270,92,3,86,0.4883720930232558
+531,Dansen Op De Vulkaan,De Dijk,dutch indie,2013,151,58,78,269,2,6,40,1.45
+532,Witch Doctor,De Staat,dutch indie,2013,145,60,33,207,0,6,47,1.2765957446808511
+533,Diamonds,The Boxer Rebellion,chamber pop,2013,170,45,42,243,17,6,35,1.2857142857142858
+534,Let Her Go,Passenger,folk-pop,2013,75,48,24,253,37,7,76,0.631578947368421
+535,Papaoutai,Stromae,belgian pop,2013,116,73,25,232,3,8,55,1.3272727272727274
+536,Strong,London Grammar,metropopolis,2013,78,57,30,266,74,3,49,1.163265306122449
+537,Layla,Derek & The Dominos,album rock,2013,114,41,39,163,34,10,32,1.28125
+538,Pompeii,Bastille,metropopolis,2013,127,68,57,214,8,4,70,0.9714285714285714
+539,Waves,Mr. Probz,dutch hip hop,2013,174,36,20,174,54,4,59,0.6101694915254238
+540,Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit,Daft Punk,electro,2013,116,79,86,248,4,4,77,1.025974025974026
+541,All I Want,Kodaline,irish pop,2013,86,21,16,306,17,4,72,0.2916666666666667
+542,Addicted To You,Avicii,big room,2013,128,57,30,148,5,5,69,0.8260869565217391
+543,Animals,Martin Garrix,big room,2013,128,68,4,304,0,4,65,1.0461538461538462
+544,Just Say Yes,Snow Patrol,irish rock,2013,108,54,25,282,2,3,48,1.125
+545,Watermensen,3JS,dutch pop,2013,144,56,46,209,66,3,36,1.5555555555555556
+546,Sky and Sand,Paul Kalkbrenner,electronica,2013,127,79,53,231,60,6,67,1.1791044776119404
+547,The Monster,Eminem,detroit hip hop,2013,110,78,62,250,5,7,75,1.04
+548,Mirrors,Justin Timberlake,dance pop,2013,77,57,51,484,23,5,77,0.7402597402597403
+549,Story of My Life,One Direction,boy band,2013,121,60,29,245,23,5,80,0.75
+550,Royals,Lorde,art pop,2013,85,67,34,190,12,12,79,0.8481012658227848
+551,tous les mêmes,Stromae,belgian pop,2013,110,70,65,211,22,17,53,1.320754716981132
+552,Mijn Van Straat Geredde Roos,De Dijk,dutch indie,2013,81,50,61,208,9,3,33,1.5151515151515151
+553,Love You Like I Love Myself,Herman Brood & His Wild Romance,dutch indie,2013,148,52,86,213,1,6,28,1.8571428571428572
+554,I Sat By The Ocean,Queens of the Stone Age,alternative metal,2013,117,52,90,236,0,4,66,0.7878787878787878
+555,Everybody (Backstreet's Back) - Radio Edit,Backstreet Boys,boy band,2013,108,74,59,225,3,4,62,1.1935483870967742
+556,A Ton of Love,Editors,alternative dance,2013,142,46,40,238,7,6,26,1.7692307692307692
+557,Foolish Games,Jewel,alaska indie,2013,131,46,15,243,90,3,41,1.1219512195121952
+558,Grow Old with Me,Tom Odell,modern rock,2013,146,47,37,183,51,3,49,0.9591836734693877
+559,Things We Lost In The Fire,Bastille,metropopolis,2013,134,59,63,241,6,6,48,1.2291666666666667
+560,Blurred Lines,Robin Thicke,dance pop,2013,120,85,84,264,0,4,76,1.118421052631579
+561,The Road To Mandalay,Robbie Williams,dance pop,2013,99,62,53,240,11,3,30,2.066666666666667
+562,Iron Sky,Paolo Nutini,british soul,2014,140,39,32,373,24,3,49,0.7959183673469388
+563,A Sky Full of Stars,Coldplay,permanent wave,2014,125,55,15,268,1,3,78,0.7051282051282052
+564,Rolling In The Deep,Adele,british soul,2014,105,73,54,228,13,3,61,1.1967213114754098
+565,Streets,Kensington,dutch pop,2014,168,38,42,185,0,4,57,0.6666666666666666
+566,Thinking out Loud,Ed Sheeran,pop,2014,79,78,59,282,47,3,84,0.9285714285714286
+567,Take Me to Church,Hozier,irish singer-songwriter,2014,129,57,44,242,63,5,77,0.7402597402597403
+568,Une belle histoire,Michel Fugain,chanson,2014,83,27,65,198,50,4,40,0.675
+569,In Your Arms,Chef'Special,dutch indie,2014,93,67,36,215,65,5,60,1.1166666666666667
+570,Born Slippy (Nuxx),Underworld,alternative dance,2014,140,58,30,456,0,4,65,0.8923076923076924
+571,War,Kensington,dutch pop,2014,126,64,72,177,8,3,59,1.0847457627118644
+572,Op 't platteland,Daniël Lohues,dutch indie,2014,80,56,28,182,93,4,27,2.074074074074074
+573,"Happy - From ""Despicable Me 2""",Pharrell Williams,dance pop,2014,160,65,96,233,22,18,80,0.8125
+574,Calm After The Storm,The Common Linnets,dutch americana,2014,116,69,38,213,49,3,52,1.3269230769230769
+575,Riddles,Kensington,dutch pop,2014,148,49,62,209,4,4,52,0.9423076923076923
+576,Under The Pressure,The War On Drugs,chamber pop,2014,134,33,19,532,31,3,60,0.55
+577,Magic,Coldplay,permanent wave,2014,93,74,36,285,3,4,73,1.0136986301369864
+578,Photograph,Ed Sheeran,pop,2014,108,61,20,259,61,5,84,0.7261904761904762
+579,All For Nothing,Kensington,dutch pop,2014,152,46,37,289,0,7,47,0.9787234042553191
+580,My Silver Lining,First Aid Kit,stomp and holler,2014,102,48,43,215,3,3,64,0.75
+582,Home,Dotan,dutch pop,2014,130,76,30,268,7,4,42,1.8095238095238095
+583,Red Eyes,The War On Drugs,chamber pop,2014,162,46,47,299,1,4,65,0.7076923076923077
+584,L'amour Toujours (Small Mix),Gigi D'Agostino,eurodance,2014,139,64,74,242,8,3,70,0.9142857142857143
+585,See Me Feel Me - Single Version,The Who,album rock,2014,94,38,8,217,9,3,39,0.9743589743589743
+586,Hemel Valt,Typhoon,dutch hip hop,2014,97,66,74,161,24,14,43,1.5348837209302326
+587,Glycerine,Bush,alternative metal,2014,114,44,8,266,4,3,65,0.676923076923077
+588,Wit Licht,Jeroen van Koningsbrugge,pop,2014,146,59,19,212,72,8,43,1.372093023255814
+589,Yellow Submarine,The Beatles,british invasion,2014,111,62,65,159,21,3,58,1.0689655172413792
+590,California Love,2Pac,g funk,2014,92,66,77,348,3,9,41,1.6097560975609757
+591,Superheroes,The Script,celtic rock,2014,167,49,64,245,0,4,75,0.6533333333333333
+592,Stay With Me,Sam Smith,pop,2014,84,42,18,173,59,4,84,0.5
+593,Shake It Off,Taylor Swift,dance pop,2014,160,65,94,219,6,17,66,0.9848484848484849
+594,Looking Too Closely,Fink,chamber pop,2014,175,48,10,311,33,4,63,0.7619047619047619
+595,No Good in Goodbye,The Script,celtic rock,2014,156,37,22,308,1,4,59,0.6271186440677966
+596,Counting Stars,OneRepublic,dance pop,2014,122,66,48,258,7,4,74,0.8918918918918919
+597,Time After Time,Cyndi Lauper,dance pop,2014,130,72,32,243,58,3,72,1.0
+598,Sexy Als Ik Dans,Nielson,dutch pop,2014,94,79,89,215,9,5,49,1.6122448979591837
+599,Done With It,Kensington,dutch pop,2014,116,65,63,203,13,4,49,1.3265306122448979
+600,Love Never Felt So Good,Michael Jackson,pop,2014,118,78,71,246,13,4,70,1.1142857142857143
+601,Shut Up and Dance,WALK THE MOON,indie pop,2014,128,58,62,199,1,6,82,0.7073170731707317
+602,Nothing Really Matters,Mr. Probz,dutch hip hop,2014,135,40,28,222,89,4,61,0.6557377049180327
+603,Promises of No Man's Land,Blaudzun,dutch indie,2014,124,62,64,215,12,3,43,1.441860465116279
+604,Let It Go,James Bay,neo mellow,2014,147,55,25,261,82,3,74,0.7432432432432432
+605,The Sound of Silence,Disturbed,alternative metal,2015,86,32,18,248,47,3,75,0.4266666666666667
+606,Het Dorp - Live,Wim Sonneveld,dutch cabaret,2015,114,37,45,198,82,8,15,2.466666666666667
+607,Psycho,Muse,modern rock,2015,125,56,51,317,0,3,69,0.8115942028985508
+608,Élan,Nightwish,finnish metal,2015,128,57,30,287,1,3,58,0.9827586206896551
+609,Dat Ik Je Mis,Maaike Ouboter,dutch pop,2015,174,50,28,256,88,6,29,1.7241379310344827
+610,Heading Up High,Armin van Buuren,edm,2015,128,52,20,233,0,9,53,0.9811320754716981
+611,Zeg Maar Niets Meer - Remastered,Andre Hazes,dutch pop,2015,95,36,30,167,16,4,26,1.3846153846153846
+612,Chandelier,Sia,australian dance,2015,117,40,57,216,2,5,71,0.5633802816901409
+613,Uptown Funk,Mark Ronson,dance pop,2015,115,86,93,270,1,8,82,1.048780487804878
+614,Birds,Anouk,dutch indie,2015,85,17,9,203,61,3,33,0.5151515151515151
+615,Michel,Anouk,dutch indie,2015,122,58,16,249,76,3,20,2.9
+616,Let It Happen,Tame Impala,australian psych,2015,125,60,58,468,0,4,76,0.7894736842105263
+617,Everglow,Coldplay,permanent wave,2015,146,54,14,283,46,3,69,0.782608695652174
+618,The Less I Know The Better,Tame Impala,australian psych,2015,117,64,79,216,1,3,85,0.7529411764705882
+619,Ordinary Love,U2,irish rock,2015,121,66,35,219,4,3,45,1.4666666666666666
+620,Stressed Out,Twenty One Pilots,modern rock,2015,170,73,65,202,5,14,83,0.8795180722891566
+621,For Bitter Or Worse,Anouk,dutch indie,2015,83,27,32,255,29,3,21,1.2857142857142858
+622,All I Need - Edit,Air,downtempo,2015,95,50,22,242,88,3,41,1.2195121951219512
+623,Hymn for the Weekend,Coldplay,permanent wave,2015,90,49,36,259,26,4,78,0.6282051282051282
+624,Adventure of a Lifetime,Coldplay,permanent wave,2015,112,64,53,264,0,4,74,0.8648648648648649
+625,Three Days In A Row,Anouk,dutch indie,2015,171,36,39,254,0,3,13,2.769230769230769
+626,Moondance,Van Morrison,classic rock,2015,135,65,52,272,43,3,42,1.5476190476190477
+627,R U Kiddin' Me,Anouk,dutch indie,2015,89,53,69,200,1,4,16,3.3125
+628,Theme From New York New York,Frank Sinatra,adult standards,2015,109,41,56,204,55,3,68,0.6029411764705882
+629,Hold Me,Douwe Bob,dutch americana,2015,161,35,36,230,61,3,26,1.3461538461538463
+630,Budapest,George Ezra,folk-pop,2015,128,72,39,201,8,3,68,1.0588235294117647
+631,Shoes of Lightning,Racoon,dutch indie,2015,78,54,17,220,66,4,32,1.6875
+632,Mercy,Muse,modern rock,2015,130,48,37,232,1,5,60,0.8
+633,Tennessee Whiskey,Chris Stapleton,contemporary country,2015,49,39,51,293,21,3,78,0.5
+634,Oxygene Pt. 4,Jean-Michel Jarre,laboratorio,2015,189,43,66,247,2,4,57,0.7543859649122807
+635,A Head Full of Dreams,Coldplay,permanent wave,2015,123,45,8,224,0,7,68,0.6617647058823529
+636,We Come 1 - Radio Edit,Faithless,big beat,2015,136,65,61,222,0,4,54,1.2037037037037037
+637,Forever Man - 2015 Remaster,Eric Clapton,album rock,2015,111,64,78,192,20,4,46,1.391304347826087
+638,Down Man,Brainbox,dutch prog,2015,168,43,51,155,0,6,35,1.2285714285714286
+639,Liquid Spirit - Claptone Remix,Gregory Porter,contemporary vocal jazz,2015,121,88,30,384,0,5,63,1.3968253968253967
+640,Living Doll - 2003 Remaster,Cliff Richard & The Drifters,rock-and-roll,2015,127,76,77,157,54,4,33,2.303030303030303
+641,Ocean of Night,Editors,alternative dance,2015,106,57,25,305,2,3,58,0.9827586206896551
+642,Be the One,Dua Lipa,dance pop,2015,87,66,37,203,12,5,73,0.9041095890410958
+643,Up&Up,Coldplay,permanent wave,2015,164,48,25,405,5,6,70,0.6857142857142857
+644,Ship To Wreck,Florence + The Machine,art pop,2015,142,56,59,235,0,3,54,1.037037037037037
+646,Happy Xmas (War Is Over),John Lennon,album rock,2015,147,40,60,212,18,3,47,0.851063829787234
+647,Sorry,Kensington,dutch pop,2016,134,46,9,227,50,3,63,0.7301587301587301
+649,Barcelona,Freddie Mercury,glam rock,2016,170,18,13,267,74,4,40,0.45
+650,Leef,André Hazes Jr.,dutch pop,2016,121,67,78,218,28,4,62,1.0806451612903225
+651,Hello,Adele,british soul,2016,158,48,29,295,34,3,73,0.6575342465753424
+652,Against All Odds (Take a Look at Me Now) - 2016 Remaster,Phil Collins,mellow gold,2016,116,58,11,206,20,3,74,0.7837837837837838
+653,Treur Niet (Ode Aan Het Leven),Diggy Dex,dutch hip hop,2016,98,68,57,225,20,6,60,1.1333333333333333
+654,When We Were Young,Adele,british soul,2016,144,38,27,291,35,5,73,0.5205479452054794
+655,Do I Ever,Kensington,dutch pop,2016,163,39,34,204,0,5,53,0.7358490566037735
+656,"CAN'T STOP THE FEELING! (Original Song from DreamWorks Animation's ""TROLLS"")",Justin Timberlake,dance pop,2016,113,67,70,238,1,7,75,0.8933333333333333
+657,Whatever You Want,Status Quo,album rock,2016,123,55,42,242,85,4,36,1.5277777777777777
+658,Lazarus,David Bowie,album rock,2016,130,66,51,382,5,3,61,1.0819672131147542
+659,Million Years Ago,Adele,british soul,2016,106,72,18,227,73,3,62,1.1612903225806452
+660,Dark Necessities,Red Hot Chili Peppers,alternative rock,2016,92,70,20,302,7,7,74,0.9459459459459459
+661,You Want It Darker,Leonard Cohen,canadian folk,2016,109,67,49,284,61,6,63,1.0634920634920635
+662,Bridges,Kensington,dutch pop,2016,150,38,45,220,0,6,49,0.7755102040816326
+663,Once Upon a Time in the West - Main Theme,Ennio Morricone,classic soundtrack,2016,90,12,5,223,84,4,54,0.2222222222222222
+664,Mooi,Marco Borsato,dutch cabaret,2016,150,49,31,315,10,3,59,0.8305084745762712
+665,I Just Can't Help Believin',Elvis Presley,adult standards,2016,142,46,34,274,28,5,44,1.0454545454545454
+666,Love & Hate,Michael Kiwanuka,british soul,2016,170,28,53,427,16,3,66,0.42424242424242425
+667,New Gold Dream (81/82/83/84),Simple Minds,art rock,2016,123,59,66,339,0,3,44,1.3409090909090908
+668,Disco Inferno,The Trammps,disco,2016,130,68,81,214,0,3,54,1.2592592592592593
+669,Someone Somewhere (In Summertime),Simple Minds,art rock,2016,100,56,67,278,2,3,41,1.3658536585365855
+670,24K Magic,Bruno Mars,dance pop,2016,107,82,63,226,3,8,78,1.0512820512820513
+672,Water Under the Bridge,Adele,british soul,2016,95,60,47,240,2,7,67,0.8955223880597015
+673,All I Ask,Adele,british soul,2016,142,59,34,272,88,3,70,0.8428571428571429
+674,The Life I Live,Q'65,dutch prog,2016,131,60,80,204,10,4,27,2.2222222222222223
+675,We All Stand Together - Remastered 2016,Paul McCartney,album rock,2016,72,35,48,265,61,3,24,1.4583333333333333
+676,Heathens,Twenty One Pilots,modern rock,2016,90,73,55,196,8,3,81,0.9012345679012346
+677,Jacob’s Song,Douwe Bob,dutch americana,2016,74,36,15,318,4,3,40,0.9
+678,Way Down We Go,KALEO,icelandic indie,2016,163,49,34,214,58,12,76,0.6447368421052632
+679,7 Years,Lukas Graham,danish pop,2016,120,77,34,237,29,5,80,0.9625
+680,Forbidden Colours,Ryuichi Sakamoto,compositional ambient,2016,105,61,37,290,76,3,28,2.1785714285714284
+681,The Book Of Love,Gavin James,neo mellow,2016,108,52,27,177,70,4,34,1.5294117647058822
+682,Zoutelande - feat. Geike,BLØF,dutch pop,2017,129,67,89,223,22,3,41,1.6341463414634145
+683,Pokémon Theme-New Studio Recording,Jason Paige,pop,2017,145,57,40,197,3,5,41,1.3902439024390243
+684,Perfect,Ed Sheeran,pop,2017,95,60,17,263,16,2,87,0.6896551724137931
+685,Thriller,Michael Jackson,pop,2017,118,76,72,358,8,7,69,1.1014492753623188
+686,Boulevard of Broken Dreams,Green Day,modern rock,2017,167,50,47,262,1,3,74,0.6756756756756757
+687,What About Us,P!nk,dance pop,2017,114,49,19,270,3,5,76,0.6447368421052632
+688,Shape of You,Ed Sheeran,pop,2017,96,83,93,234,58,8,87,0.9540229885057471
+689,Believer,Imagine Dragons,modern rock,2017,125,78,67,204,6,13,88,0.8863636363636364
+691,Het het nog nooit zo donker west,Ede Staal,streektaal,2017,98,61,42,274,60,3,28,2.1785714285714284
+692,Castle on the Hill,Ed Sheeran,pop,2017,135,46,47,261,2,10,79,0.5822784810126582
+693,Sign of the Times,Harry Styles,dance pop,2017,120,52,22,341,3,3,80,0.65
+694,In the Blood,John Mayer,neo mellow,2017,80,55,52,244,39,3,66,0.8333333333333334
+695,Nao ’t Zuuje,Lex Uiting,carnaval limburg,2017,190,26,45,213,39,4,41,0.6341463414634146
+696,Roll Over Lay Down - Live At The Kursaal Southend / 1975,Status Quo,album rock,2017,132,34,21,341,0,4,32,1.0625
+697,Whatever It Takes,Imagine Dragons,modern rock,2017,135,67,56,201,4,3,82,0.8170731707317073
+698,Amigo,Chef'Special,dutch indie,2017,145,55,64,180,1,7,33,1.6666666666666667
+699,Iederene Hef Een Reden,Bökkers,dutch rock,2017,108,57,69,185,56,4,41,1.3902439024390243
+700,Everything Now,Arcade Fire,alternative dance,2017,116,55,61,303,0,3,66,0.8333333333333334
+701,Sorry,Nothing But Thieves,alternative pop rock,2017,128,67,52,215,0,3,62,1.0806451612903225
+702,One More Light,Linkin Park,alternative metal,2017,84,59,17,255,90,3,75,0.7866666666666666
+703,Through the Barricades - Remastered,Spandau Ballet,dance rock,2017,146,49,17,360,30,3,60,0.8166666666666667
+704,Freedom! '90 - Remastered,George Michael,dance rock,2017,92,68,93,391,23,5,69,0.9855072463768116
+706,Something Just Like This,The Chainsmokers,electropop,2017,103,62,45,247,5,3,84,0.7380952380952381
+707,Thunder,Imagine Dragons,modern rock,2017,168,61,29,187,1,4,86,0.7093023255813954
+709,Happier,Ed Sheeran,pop,2017,90,52,24,208,54,3,83,0.6265060240963856
+710,Galway Girl,Ed Sheeran,pop,2017,100,62,78,171,7,10,80,0.775
+711,Sunny Days,Armin van Buuren,edm,2017,115,63,24,210,1,3,54,1.1666666666666667
+712,Supermarket Flowers,Ed Sheeran,pop,2017,90,59,26,221,91,4,78,0.7564102564102564
+713,Holiday,Green Day,modern rock,2017,147,55,72,233,0,3,67,0.8208955223880597
+714,Max,Paolo Conte,italian pop,2017,125,50,15,225,34,3,25,2.0
+716,Pain,The War On Drugs,chamber pop,2017,116,52,48,331,0,4,62,0.8387096774193549
+717,Love On The Rocks,Neil Diamond,adult standards,2017,103,40,31,262,92,3,40,1.0
+718,Tuesday Afternoon (Forever Afternoon),The Moody Blues,album rock,2017,114,50,30,249,10,3,50,1.0
+719,Magnificent (She Says),Elbow,britpop,2017,92,51,39,266,19,5,31,1.6451612903225807
+720,Nicotine,Chef'Special,dutch indie,2017,90,64,44,238,62,3,36,1.7777777777777777
+721,Homesick,Dua Lipa,dance pop,2017,86,43,40,230,95,4,71,0.6056338028169014
+722,Beautiful Trauma,P!nk,dance pop,2017,96,41,23,250,9,7,68,0.6029411764705882
+723,World Gone Mad,Bastille,metropopolis,2017,140,51,36,196,28,3,64,0.796875
+724,Leave a Light On,Tom Walker,indie anthem-folk,2017,69,59,27,186,2,11,75,0.7866666666666666
+726,Lost on You,LP,la pop,2017,174,43,69,268,10,4,78,0.5512820512820513
+727,Shallow,Lady Gaga,dance pop,2018,96,57,32,216,37,3,88,0.6477272727272727
+728,Kleine Jongen,Andre Hazes,dutch pop,2018,91,54,56,221,5,3,30,1.8
+730,I Want To Break Free,Queen,glam rock,2018,109,81,50,223,11,4,59,1.3728813559322033
+731,September,Earth Wind & Fire,disco,2018,126,69,98,215,17,3,82,0.8414634146341463
+732,Voor Haar,Frans Halsema,dutch rock,2018,82,28,36,172,65,3,30,0.9333333333333333
+733,Testament,Boudewijn de Groot,dutch indie,2018,122,43,63,195,48,5,28,1.5357142857142858
+734,Atemlos durch die Nacht,Helene Fischer,german pop,2018,128,81,82,220,6,5,38,2.1315789473684212
+735,Zij Gelooft In Mij,Andre Hazes,dutch pop,2018,152,32,18,240,11,3,30,1.0666666666666667
+736,Verdronken Vlinder,Boudewijn de Groot,dutch indie,2018,128,33,82,146,57,4,29,1.1379310344827587
+737,Als Het Avond Is,Suzan & Freek,dutch pop,2018,105,72,45,206,53,3,65,1.1076923076923078
+738,De Vlieger,Andre Hazes,dutch pop,2018,105,40,39,217,3,3,27,1.4814814814814814
+739,Geef Mij Je Angst,Andre Hazes,dutch pop,2018,140,34,37,257,6,3,30,1.1333333333333333
+740,Natural,Imagine Dragons,modern rock,2018,100,70,22,189,22,4,84,0.8333333333333334
+741,IJskoud,Nielson,dutch pop,2018,98,67,15,210,4,5,65,1.0307692307692307
+742,Welterusten Mijnheer De President,Boudewijn de Groot,dutch indie,2018,131,55,86,152,46,5,23,2.391304347826087
+743,Jimmy,Boudewijn de Groot,dutch indie,2018,111,66,89,236,23,3,32,2.0625
+744,Bad Liar,Imagine Dragons,modern rock,2018,178,38,8,261,7,7,83,0.4578313253012048
+745,Sammy,Ramses Shaffy,dutch cabaret,2018,81,50,76,135,76,5,23,2.1739130434782608
+746,High Hopes,Panic! At The Disco,baroque pop,2018,82,58,68,191,19,6,87,0.6666666666666666
+747,Het Land Van Maas En Waal,Boudewijn de Groot,dutch indie,2018,126,73,96,179,40,5,23,3.1739130434782608
+748,Shotgun,George Ezra,folk-pop,2018,116,67,75,201,29,5,82,0.8170731707317073
+749,New Light,John Mayer,neo mellow,2018,124,83,85,216,33,3,81,1.0246913580246915
+750,You Say,Lauren Daigle,ccm,2018,148,49,8,275,68,3,80,0.6125
+751,Een Beetje Verliefd,Andre Hazes,dutch pop,2018,198,30,33,251,6,3,32,0.9375
+752,Someone You Loved,Lewis Capaldi,pop,2018,110,50,45,182,75,3,85,0.5882352941176471
+753,Banger Hart - Radio Mix,Rob De Nijs,dutch pop,2018,124,77,97,261,7,4,16,4.8125
+754,Malle Babbe,Rob De Nijs,dutch pop,2018,87,35,53,253,73,4,15,2.3333333333333335
+755,Vluchten Kan Niet Meer,Frans Halsema,dutch rock,2018,87,41,32,221,74,3,17,2.411764705882353
+756,Faded,Alan Walker,electro house,2018,180,47,16,212,3,5,80,0.5875
+757,High On Life (feat. Bonn),Martin Garrix,big room,2018,128,41,37,231,1,3,78,0.5256410256410257
+758,Het Is Koud Zonder Jou,Andre Hazes,dutch pop,2018,197,18,52,241,11,4,30,0.6
+759,N Vriend,Andre Hazes,dutch pop,2018,68,23,49,292,8,3,31,0.7419354838709677
+760,Always Remember Us This Way,Lady Gaga,dance pop,2018,130,55,30,210,30,4,81,0.6790123456790124
+761,Een Meisje Van Zestien,Boudewijn de Groot,dutch indie,2018,140,57,73,179,2,5,20,2.85
+762,Why Don't You Do Right,Beth Hart,blues rock,2018,106,63,67,276,47,4,44,1.4318181818181819
+763,De Zon Op,Diggy Dex,dutch hip hop,2018,100,74,57,209,51,4,52,1.4230769230769231
+765,Prikkebeen,Boudewijn de Groot,dutch indie,2018,109,57,33,252,5,3,17,3.3529411764705883
+766,Outlaw In 'Em,Waylon,dutch americana,2018,87,50,68,217,3,8,39,1.2820512820512822
+767,Als De Rook Om Je Hoofd Is Verdwenen,Boudewijn de Groot,dutch indie,2018,132,42,64,205,14,3,19,2.210526315789474
+768,Skandal im Sperrbezirk,Spider Murphy Gang,austropop,2018,93,64,89,216,42,4,26,2.4615384615384617
+769,Pain and Misery,The Teskey Brothers,australian americana,2018,89,71,49,241,79,3,50,1.42
+770,I Do,Douwe Bob,dutch americana,2018,73,49,27,202,88,3,52,0.9423076923076923
+771,Het Laatste Rondje - Remastered,Andre Hazes,dutch pop,2018,103,53,84,258,6,4,33,1.606060606060606
+772,Guiding Light,Mumford & Sons,modern folk rock,2018,100,55,30,218,6,5,60,0.9166666666666666
+773,Havana (feat. Young Thug),Camila Cabello,dance pop,2018,105,77,39,217,18,3,85,0.9058823529411765
+774,Hou Vol Hou Vast,BLØF,dutch pop,2018,86,51,23,295,0,2,12,4.25
+775,One Kiss (with Dua Lipa),Calvin Harris,dance pop,2018,124,79,59,215,4,11,86,0.9186046511627907
+776,Nothing Breaks Like a Heart (feat. Miley Cyrus),Mark Ronson,dance pop,2018,114,60,24,217,1,7,79,0.759493670886076
+777,Lay Your Weapons Down,Ilse DeLange,dutch americana,2018,94,54,47,219,1,6,21,2.5714285714285716
+778,In My Blood,Shawn Mendes,canadian pop,2018,140,62,49,211,6,7,82,0.7560975609756098
+779,Roller Coaster,Danny Vera,dutch americana,2019,97,40,28,270,51,3,70,0.5714285714285714
+780,Arcade,Duncan Laurence,dutch pop,2019,72,45,27,184,82,4,73,0.6164383561643836
+781,A Whiter Shade of Pale - Original Single Version,Procol Harum,album rock,2019,150,25,44,249,50,3,67,0.373134328358209
+782,Don't You (Forget About Me),Simple Minds,art rock,2019,111,67,69,261,8,3,73,0.9178082191780822
+783,The Load-Out - Remastered,Jackson Browne,album rock,2019,106,52,31,335,74,3,37,1.4054054054054055
+784,Stay - Remastered,Jackson Browne,album rock,2019,107,60,72,204,10,3,36,1.6666666666666667
+785,Last Christmas,Wham!,dance rock,2019,108,74,94,265,19,3,85,0.8705882352941177
+786,Time To Give,White Lies,alternative dance,2019,120,43,35,455,2,5,50,0.86
+788,Memories,Maroon 5,pop,2019,91,76,57,189,84,5,98,0.7755102040816326
+789,Love Like Blood,Killing Joke,alternative metal,2019,124,40,49,261,10,5,37,1.0810810810810811
+790,Reünie,Snelle,dutch hip hop,2019,96,51,51,172,67,15,71,0.7183098591549296
+791,About A Girl - Live Version,Nirvana,alternative rock,2019,121,61,63,218,14,7,50,1.22
+792,DEUTSCHLAND,Rammstein,alternative metal,2019,120,52,24,322,0,4,72,0.7222222222222222
+793,Phantom Of The Opera,Floor Jansen,dutch pop,2019,132,47,27,244,0,5,56,0.8392857142857143
+794,Dance Monkey,Tones and I,australian pop,2019,98,82,51,209,69,9,100,0.82
+795,Blauwe Dag,Suzan & Freek,dutch pop,2019,98,70,51,183,25,5,68,1.0294117647058822
+796,Homburg - Single Version - 2009 Remaster - Mono,Procol Harum,album rock,2019,142,36,38,237,10,3,32,1.125
+797,Uncharted,Kensington,dutch pop,2019,139,59,23,241,14,3,65,0.9076923076923077
+798,Despacito,Luis Fonsi,latin,2019,178,66,84,229,20,15,80,0.825
+799,Dancing On My Own,Calum Scott,australian pop,2019,113,68,24,260,84,3,28,2.4285714285714284
+801,Let It Be - Remastered 2009,The Beatles,british invasion,1970,143,44,41,243,63,3,79,0.5569620253164557
+802,Bridge Over Troubled Water,Simon & Garfunkel,classic rock,1970,80,15,26,293,82,3,71,0.2112676056338028
+803,Paranoid - 2016 Remaster,Black Sabbath,album rock,1970,163,42,45,168,0,7,68,0.6176470588235294
+804,Have You Ever Seen The Rain,Creedence Clearwater Revival,album rock,1970,116,74,89,160,9,3,71,1.0422535211267605
+805,Your Song,Elton John,glam rock,1970,128,55,33,242,83,3,77,0.7142857142857143
+806,The Boxer,Simon & Garfunkel,classic rock,1970,93,44,63,309,70,6,72,0.6111111111111112
+807,Du,Peter Maffay,classic schlager,1970,94,49,46,298,15,3,53,0.9245283018867925
+808,I Walk the Line,Johnny Cash,arkansas country,1970,99,71,56,177,88,4,71,1.0
+809,Samba Pa Ti,Santana,blues rock,1970,92,41,27,285,83,3,63,0.6507936507936508
+810,Immigrant Song - Remaster,Led Zeppelin,album rock,1970,113,56,62,146,1,6,77,0.7272727272727273
+811,Who'll Stop The Rain,Creedence Clearwater Revival,album rock,1970,124,60,62,147,4,3,66,0.9090909090909091
+812,Our House,Crosby Stills Nash & Young,album rock,1970,140,59,38,180,90,5,68,0.8676470588235294
+813,Teach Your Children,Crosby Stills Nash & Young,album rock,1970,155,50,67,173,64,3,63,0.7936507936507936
+814,The Long And Winding Road - Remastered 2009,The Beatles,british invasion,1970,132,30,39,218,76,3,64,0.46875
+815,Father And Son,Yusuf / Cat Stevens,british folk,1970,136,50,40,221,59,3,74,0.6756756756756757
+816,Almost Cut My Hair,Crosby Stills Nash & Young,album rock,1970,137,47,57,269,18,4,62,0.7580645161290323
+817,El Condor Pasa (If I Could),Simon & Garfunkel,classic rock,1970,148,33,28,187,84,3,62,0.532258064516129
+818,Question,The Moody Blues,album rock,1970,76,22,32,344,2,5,50,0.44
+820,Since I've Been Loving You - 1990 Remaster,Led Zeppelin,album rock,1970,119,39,31,444,0,3,63,0.6190476190476191
+821,Get Back - Remastered 2009,The Beatles,british invasion,1970,123,76,33,189,49,6,65,1.1692307692307693
+822,The Man Who Sold the World - 2015 Remaster,David Bowie,album rock,1970,118,47,55,241,64,3,63,0.746031746031746
+823,Long As I Can See The Light,Creedence Clearwater Revival,album rock,1970,127,71,53,211,35,4,60,1.1833333333333333
+824,Roadhouse Blues,The Doors,album rock,1970,121,61,90,244,34,3,73,0.8356164383561644
+825,My Sweet Lord,George Harrison,album rock,1970,121,54,58,281,10,3,76,0.7105263157894737
+826,Memories,Earth & Fire,classic uk pop,1970,131,31,26,201,35,5,29,1.0689655172413792
+827,Cecilia,Simon & Garfunkel,classic rock,1970,103,76,95,175,36,4,73,1.0410958904109588
+828,Fire and Rain,James Taylor,adult standards,1970,76,61,36,201,50,4,73,0.8356164383561644
+829,Lookin' Out My Back Door,Creedence Clearwater Revival,album rock,1970,105,75,86,152,19,4,67,1.1194029850746268
+830,25 or 6 to 4 - 2002 Remaster,Chicago,adult standards,1970,147,60,72,290,31,6,64,0.9375
+831,Working Class Hero - Remastered 2010 / Lennon Legend Version,John Lennon,album rock,1970,159,48,19,228,73,5,57,0.8421052631578947
+832,Lucky Man - 2012 Remastered Version,Emerson Lake & Palmer,album rock,1970,154,35,48,276,9,3,60,0.5833333333333334
+833,Into the Mystic - 2013 Remaster,Van Morrison,classic rock,1970,86,61,80,206,37,3,72,0.8472222222222222
+834,Carry On,Crosby Stills Nash & Young,album rock,1970,119,46,53,266,6,4,58,0.7931034482758621
+835,(They Long To Be) Close To You,Carpenters,adult standards,1970,89,53,24,276,71,3,60,0.8833333333333333
+836,Move On Up,Curtis Mayfield,chicago soul,1970,139,54,93,166,42,9,67,0.8059701492537313
+837,Tears In The Morning - Remastered 2009,The Beach Boys,baroque pop,1970,128,38,24,251,71,4,38,1.0
+838,Up Around The Bend,Creedence Clearwater Revival,album rock,1970,130,59,81,161,6,3,69,0.855072463768116
+839,Southern Man - 2009 Remaster,Neil Young,album rock,1970,162,37,66,331,39,3,53,0.6981132075471698
+840,Stairway to Heaven - Remaster,Led Zeppelin,album rock,1971,82,34,20,483,58,3,79,0.43037974683544306
+841,Imagine - Remastered,John Lennon,album rock,1971,76,55,17,188,91,3,78,0.7051282051282052
+842,Riders on the Storm,The Doors,album rock,1971,104,55,72,435,25,3,74,0.7432432432432432
+844,Vincent,Don McLean,adult standards,1971,92,42,46,243,91,4,69,0.6086956521739131
+845,Me and Bobby McGee,Janis Joplin,blues rock,1971,93,45,66,271,30,4,71,0.6338028169014085
+846,Baba O'Riley,The Who,album rock,1971,117,49,15,300,31,4,77,0.6363636363636364
+847,Life on Mars? - 2015 Remaster,David Bowie,album rock,1971,123,44,22,236,64,4,71,0.6197183098591549
+848,I Am...I Said - Single Version,Neil Diamond,adult standards,1971,91,25,51,213,14,3,60,0.4166666666666667
+849,Ain't No Sunshine,Bill Withers,classic soul,1971,80,48,51,125,46,12,76,0.631578947368421
+850,Wild Horses,The Rolling Stones,album rock,1971,140,43,16,342,69,3,72,0.5972222222222222
+851,L.A. Woman,The Doors,album rock,1971,171,35,70,471,8,4,67,0.5223880597014925
+852,What's Going On,Marvin Gaye,classic soul,1971,203,27,81,233,10,10,69,0.391304347826087
+853,Halo of Flies,Alice Cooper,album rock,1971,122,39,40,502,39,5,44,0.8863636363636364
+854,American Pie,Don McLean,adult standards,1971,138,53,49,517,70,6,74,0.7162162162162162
+855,Tiny Dancer,Elton John,glam rock,1971,145,41,28,377,38,3,79,0.5189873417721519
+856,Morning Has Broken,Yusuf / Cat Stevens,british folk,1971,133,42,41,200,62,3,68,0.6176470588235294
+857,One Way Wind,The Cats,classic uk pop,1971,109,65,72,221,4,2,54,1.2037037037037037
+858,One of These Days,Pink Floyd,album rock,1971,104,38,40,355,1,5,55,0.6909090909090909
+859,Nothing Rhymed,Gilbert O'Sullivan,adult standards,1971,175,23,55,204,31,4,35,0.6571428571428571
+860,Brown Sugar - Remastered,The Rolling Stones,album rock,1971,129,63,96,229,22,3,71,0.8873239436619719
+861,You've Got a Friend,Carole King,adult standards,1971,169,47,46,309,88,3,68,0.6911764705882353
+862,Locomotive Breath,Jethro Tull,album rock,1971,125,68,35,266,42,9,60,1.1333333333333333
+863,She Flies On Strange Wings,Golden Earring,album rock,1971,131,32,25,443,2,4,37,0.8648648648648649
+864,Changes - 2015 Remaster,David Bowie,album rock,1971,115,55,41,218,51,4,66,0.8333333333333334
+866,Honky Tonk Women - Mono Version,The Rolling Stones,album rock,1971,120,56,97,179,36,6,67,0.835820895522388
+867,You've Got a Friend,James Taylor,adult standards,1971,92,70,45,269,68,3,68,1.0294117647058822
+868,Cry Baby,Janis Joplin,blues rock,1971,83,47,50,239,52,3,66,0.7121212121212122
+869,Storm And Thunder,Earth & Fire,classic uk pop,1971,133,27,6,388,5,4,24,1.125
+870,Roundabout - 2003 Remaster,Yes,album rock,1971,133,41,39,511,7,7,66,0.6212121212121212
+871,Maggie May,Rod Stewart,adult standards,1971,129,61,54,350,56,4,72,0.8472222222222222
+872,Won't Get Fooled Again - Original Album Version,The Who,album rock,1971,135,69,23,511,30,6,65,1.0615384615384615
+873,After Midnight,J.J. Cale,blues,1971,96,69,52,144,17,4,62,1.1129032258064515
+874,Give Up Your Guns,The Buoys,alternative pop rock,1971,131,42,66,254,48,3,39,1.0769230769230769
+875,Love Her Madly,The Doors,album rock,1971,147,56,97,198,6,3,67,0.835820895522388
+876,Rock and Roll - Remaster,Led Zeppelin,album rock,1971,170,32,87,221,0,4,67,0.47761194029850745
+877,Black Dog - Remaster,Led Zeppelin,album rock,1971,81,44,75,295,40,9,73,0.6027397260273972
+878,Call Me The Breeze,J.J. Cale,blues,1971,92,81,84,157,75,4,58,1.396551724137931
+879,Famous Blue Raincoat,Leonard Cohen,canadian folk,1971,119,47,18,311,95,4,63,0.746031746031746
+880,Behind Blue Eyes,The Who,album rock,1971,127,39,34,221,21,3,71,0.5492957746478874
+882,See Emily Play,Pink Floyd,album rock,1971,124,46,41,174,21,4,50,0.92
+883,Smoke on the Water,Deep Purple,album rock,1972,114,63,89,342,10,3,64,0.984375
+884,Perfect Day,Lou Reed,art rock,1972,145,40,9,225,74,3,69,0.5797101449275363
+885,Rocket Man (I Think It's Going To Be A Long Long Time),Elton John,glam rock,1972,137,60,34,282,43,3,82,0.7317073170731707
+886,Heart of Gold - 2009 Remaster,Neil Young,album rock,1972,171,54,80,187,19,3,71,0.7605633802816901
+887,Starman - 2012 Remaster,David Bowie,album rock,1972,100,49,55,254,17,3,74,0.6621621621621622
+888,Take It Easy - 2013 Remaster,Eagles,album rock,1972,139,57,74,212,34,3,75,0.76
+889,A Horse with No Name,America,album rock,1972,123,65,83,252,69,5,77,0.8441558441558441
+890,Time In A Bottle,Jim Croce,adult standards,1972,134,54,64,148,85,3,58,0.9310344827586207
+891,Lola - Live,The Kinks,album rock,1972,134,45,56,102,13,6,29,1.5517241379310345
+892,Easy Livin',Uriah Heep,album rock,1972,161,26,46,157,0,10,56,0.4642857142857143
+893,Ben - Single Version,Michael Jackson,pop,1972,136,44,29,167,91,3,53,0.8301886792452831
+894,Walk On the Wild Side,Lou Reed,art rock,1972,105,57,39,254,68,11,75,0.76
+895,She's A Rainbow - Full Version / With Intro,The Rolling Stones,album rock,1972,109,45,51,252,44,4,55,0.8181818181818182
+896,You're so Vain,Carly Simon,adult standards,1972,106,66,65,258,16,3,75,0.88
+897,Ziggy Stardust - 2012 Remaster,David Bowie,album rock,1972,161,44,50,194,5,12,64,0.6875
+898,Whiskey In The Jar,Thin Lizzy,album rock,1972,128,56,75,345,53,4,63,0.8888888888888888
+899,Listen to the Music,The Doobie Brothers,album rock,1972,106,65,91,227,22,3,75,0.8666666666666667
+900,Top Of The World,Carpenters,adult standards,1972,184,38,69,179,81,4,65,0.5846153846153846
+901,School's Out,Alice Cooper,album rock,1972,134,29,35,210,5,5,66,0.4393939393939394
+902,A Thing Called Love,Johnny Cash,arkansas country,1972,156,53,79,153,48,3,54,0.9814814814814815
+903,Harvest - 2009 Remaster,Neil Young,album rock,1972,86,54,31,189,74,4,51,1.0588235294117647
+904,Sylvia's Mother,Dr. Hook,bubblegum pop,1972,167,30,58,228,69,5,58,0.5172413793103449
+906,Ventura Highway,America,album rock,1972,131,67,82,211,22,3,69,0.9710144927536232
+907,Witchy Woman - Eagles 2013 Remaster,Eagles,album rock,1972,99,56,58,251,36,3,56,1.0
+908,Song Sung Blue - Single Version,Neil Diamond,adult standards,1972,109,56,33,195,47,3,54,1.037037037037037
+909,Sylvia,Focus,album rock,1972,109,44,61,212,14,3,47,0.9361702127659575
+910,Peaceful Easy Feeling - Eagles 2013 Remaster,Eagles,album rock,1972,143,57,87,258,49,3,65,0.8769230769230769
+911,Do It Again,Steely Dan,album rock,1972,125,68,96,357,22,3,69,0.9855072463768116
+912,Radar Love,Golden Earring,album rock,1973,102,50,18,387,1,4,57,0.8771929824561403
+913,Angie,The Rolling Stones,album rock,1973,136,43,41,272,67,3,72,0.5972222222222222
+914,Desperado - 2013 Remaster,Eagles,album rock,1973,60,23,18,214,95,3,66,0.3484848484848485
+915,Dream On,Aerosmith,album rock,1973,161,31,22,267,39,3,78,0.3974358974358974
+916,Time,Pink Floyd,album rock,1973,120,36,36,414,52,8,70,0.5142857142857142
+918,Money,Pink Floyd,album rock,1973,124,47,78,383,2,15,73,0.6438356164383562
+919,Always On My Mind,Elvis Presley,adult standards,1973,181,36,50,218,75,3,61,0.5901639344262295
+920,The Great Gig in the Sky,Pink Floyd,album rock,1973,116,28,18,284,77,3,66,0.42424242424242425
+922,"Leaving On a Jet Plane - ""Greatest Hits"" Version",John Denver,adult standards,1973,121,41,63,246,85,3,64,0.640625
+923,Us and Them,Pink Floyd,album rock,1973,73,36,13,469,86,3,65,0.5538461538461539
+925,Band On The Run - Remastered 2010,Paul McCartney,album rock,1973,125,48,67,313,8,3,71,0.676056338028169
+926,Sebastian - 2012 Remaster,Steve Harley & Cockney Rebel,classic uk pop,1973,140,25,21,421,68,3,46,0.5434782608695652
+927,Tequila Sunrise - 2013 Remaster,Eagles,album rock,1973,111,63,73,173,54,3,62,1.0161290322580645
+928,Knockin' On Heaven's Door - Remastered,Bob Dylan,album rock,1973,140,51,23,150,25,3,74,0.6891891891891891
+929,Burning Love,Elvis Presley,adult standards,1973,144,66,97,170,10,3,68,0.9705882352941176
+930,Goodbye Yellow Brick Road - Remastered 2014,Elton John,glam rock,1973,121,56,40,193,45,3,68,0.8235294117647058
+931,Midnight Train to Georgia,Gladys Knight & The Pips,brill building pop,1973,92,59,45,279,27,5,67,0.8805970149253731
+932,Daniel,Elton John,glam rock,1973,132,69,90,235,38,3,65,1.0615384615384615
+933,The Joker,Steve Miller Band,album rock,1973,83,60,80,265,37,4,75,0.8
+934,Long Train Runnin',The Doobie Brothers,album rock,1973,117,57,84,207,9,4,71,0.8028169014084507
+935,I'll Have To Say I Love You In A Song,Jim Croce,adult standards,1973,134,51,70,152,78,3,53,0.9622641509433962
+936,The Jean Genie - 2013 Remaster,David Bowie,album rock,1973,128,58,82,248,38,3,64,0.90625
+937,Merry Xmas Everybody,Slade,album rock,1973,130,41,47,223,22,4,76,0.5394736842105263
+938,Woman from Tokyo,Deep Purple,album rock,1973,127,58,42,349,14,4,37,1.5675675675675675
+939,Don't Let Me Down - Remastered 2009,The Beatles,british invasion,1973,77,59,73,216,57,3,68,0.8676470588235294
+940,Let's Get It On,Marvin Gaye,classic soul,1973,168,54,64,291,4,5,69,0.782608695652174
+941,School,Supertramp,album rock,1974,90,37,5,335,54,8,63,0.5873015873015873
+942,Jolene,Dolly Parton,classic country pop,1974,111,67,81,162,57,4,74,0.9054054054054054
+943,Killer Queen - 2011 Mix,Queen,glam rock,1974,117,54,61,180,38,6,67,0.8059701492537313
+944,Sweet Home Alabama,Lynyrd Skynyrd,album rock,1974,98,60,89,284,18,3,82,0.7317073170731707
+945,Waterloo,ABBA,europop,1974,148,44,78,169,42,5,58,0.7586206896551724
+946,Annie's Song,John Denver,adult standards,1974,146,30,46,181,87,3,69,0.43478260869565216
+947,Dreamer,Supertramp,album rock,1974,148,66,83,213,86,7,59,1.11864406779661
+948,You Are So Beautiful,Joe Cocker,album rock,1974,83,30,9,160,85,3,57,0.5263157894736842
+949,My Boy,Elvis Presley,adult standards,1974,92,39,37,199,59,3,42,0.9285714285714286
+950,Rebel Rebel - 2016 Remaster,David Bowie,album rock,1974,126,64,46,275,21,5,74,0.8648648648648649
+951,Crime Of The Century,Supertramp,album rock,1974,123,40,23,333,10,5,43,0.9302325581395349
+953,I Will Always Love You,Dolly Parton,classic country pop,1974,136,45,16,176,96,3,61,0.7377049180327869
+954,Thank God I'm a Country Boy,John Denver,adult standards,1974,106,76,96,193,79,5,64,1.1875
+955,The Air That I Breathe - 2008 Remaster,The Hollies,adult standards,1974,168,28,25,257,24,3,66,0.42424242424242425
+956,Love Is All,Roger Glover,hard rock,1974,112,60,77,197,63,5,48,1.25
+957,Hide In Your Shell,Supertramp,album rock,1974,112,48,32,410,47,4,43,1.1162790697674418
+958,Gute Nacht Freunde,Reinhard Mey,german pop,1974,100,55,29,149,94,6,46,1.1956521739130435
+959,Fox On The Run,Sweet,album rock,1974,128,51,83,208,17,4,55,0.9272727272727272
+960,You Ain't Seen Nothing Yet,Bachman-Turner Overdrive,album rock,1974,118,48,76,235,0,4,69,0.6956521739130435
+961,Mandy,Barry Manilow,adult standards,1974,104,31,32,213,42,3,69,0.4492753623188406
+962,Can't Get It out of My Head,Electric Light Orchestra,album rock,1974,169,23,33,261,75,3,51,0.45098039215686275
+963,The Way We Were,Barbra Streisand,adult standards,1974,138,26,17,211,89,3,59,0.4406779661016949
+964,Bohemian Rhapsody - 2011 Mix,Queen,glam rock,1975,144,39,23,354,29,5,77,0.5064935064935064
+965,Love Of My Life - Remastered 2011,Queen,glam rock,1975,79,33,26,217,94,3,62,0.532258064516129
+967,Born to Run,Bruce Springsteen,classic rock,1975,146,27,61,270,1,10,73,0.3698630136986301
+968,Kashmir - 1990 Remaster,Led Zeppelin,album rock,1975,81,48,58,508,49,4,69,0.6956521739130435
+969,No Woman No Cry - Live At The Lyceum London/1975,Bob Marley & The Wailers,reggae,1975,78,66,59,428,27,6,70,0.9428571428571428
+970,One of These Nights - 2013 Remaster,Eagles,album rock,1975,110,66,77,292,6,3,69,0.9565217391304348
+971,Mamma Mia,ABBA,europop,1975,138,75,83,215,29,3,63,1.1904761904761905
+972,Landslide,Fleetwood Mac,album rock,1975,159,41,42,199,88,3,77,0.5324675324675324
+973,Thunder Road,Bruce Springsteen,classic rock,1975,141,37,66,289,62,4,66,0.5606060606060606
+974,I'm Not In Love,10cc,album rock,1975,134,40,16,367,69,6,70,0.5714285714285714
+975,Rhiannon,Fleetwood Mac,album rock,1975,129,72,80,253,11,3,68,1.0588235294117647
+976,Lyin' Eyes - 2013 Remaster,Eagles,album rock,1975,133,67,87,382,20,2,65,1.0307692307692307
+977,You're My Best Friend - Remastered 2011,Queen,glam rock,1975,119,52,58,171,16,5,61,0.8524590163934426
+979,Love Hurts,Nazareth,album rock,1975,80,49,14,233,1,3,58,0.8448275862068966
+980,Down Down,Status Quo,album rock,1975,90,47,21,325,11,3,53,0.8867924528301887
+981,Sailing,Rod Stewart,adult standards,1975,129,43,19,278,37,3,68,0.6323529411764706
+982,39 - 2011 Mix,Queen,glam rock,1975,102,52,34,211,3,3,52,1.0
+983,Calypso,John Denver,adult standards,1975,180,22,50,216,82,3,54,0.4074074074074074
+984,50 Ways to Leave Your Lover,Paul Simon,classic rock,1975,102,82,29,217,17,8,69,1.1884057971014492
+985,It's A Long Way There - 2010 Digital Remaster,Little River Band,album rock,1975,89,39,30,525,19,4,49,0.7959183673469388
+986,Crazy On You,Heart,album rock,1975,130,43,38,293,12,3,65,0.6615384615384615
+987,Wij Zullen Doorgaan - 1975 Single Version,Ramses Shaffy,dutch cabaret,1975,81,25,32,264,91,3,37,0.6756756756756757
+988,Make Me Smile (Come up and See Me) - 2014 Remaster,Steve Harley,classic uk pop,1975,141,57,77,239,1,3,63,0.9047619047619048
+989,House For Sale,Lucifer,j-core,1975,128,38,20,281,22,3,37,1.027027027027027
+990,S.O.S.,ABBA,europop,1975,125,42,56,204,26,3,49,0.8571428571428571
+991,Nights On Broadway,Bee Gees,adult standards,1975,89,57,61,271,24,4,53,1.0754716981132075
+992,At Seventeen - Remastered,Janis Ian,classic uk pop,1975,125,62,34,284,88,5,48,1.2916666666666667
+993,Take It to the Limit - 2013 Remaster,Eagles,album rock,1975,91,44,45,287,9,2,63,0.6984126984126984
+994,Fame - 2016 Remaster,David Bowie,album rock,1975,95,79,67,261,45,5,60,1.3166666666666667
+996,Show Me The Way,Peter Frampton,album rock,1975,130,70,64,243,43,3,66,1.0606060606060606
+997,Meeting Across the River,Bruce Springsteen,classic rock,1975,105,46,26,197,82,3,43,1.069767441860465
+998,Love Is The Drug,Roxy Music,album rock,1975,125,84,60,251,6,9,60,1.4
+999,Still Crazy After All These Years,Paul Simon,classic rock,1975,37,27,13,207,80,4,61,0.4426229508196721
+1000,Hotel California - 2013 Remaster,Eagles,album rock,1976,147,58,61,391,1,3,82,0.7073170731707317
+1001,Somebody To Love - 2011 Mix,Queen,glam rock,1976,112,50,36,296,19,6,70,0.7142857142857143
+1002,Dancing Queen,ABBA,europop,1976,101,54,75,231,38,4,72,0.75
+1003,The Last Resort - 2013 Remaster,Eagles,album rock,1976,126,55,30,445,47,3,52,1.0576923076923077
+1004,Hurricane,Bob Dylan,album rock,1976,136,51,74,513,4,8,69,0.7391304347826086
+1005,More Than a Feeling,Boston,album rock,1976,109,38,29,285,0,3,78,0.48717948717948717
+1006,(Don't Fear) The Reaper,Blue Öyster Cult,album rock,1976,141,33,38,308,0,7,75,0.44
+1007,New Kid in Town - 2013 Remaster,Eagles,album rock,1976,107,65,65,305,38,3,64,1.015625
+1008,If You Leave Me Now,Chicago,adult standards,1976,104,43,28,235,2,3,74,0.581081081081081
+1009,Wild Is the Wind - 2016 Remaster,David Bowie,album rock,1976,98,52,49,366,2,3,53,0.9811320754716981
+1010,Tie Your Mother Down - Remastered 2011,Queen,glam rock,1976,135,33,16,287,9,7,50,0.66
+1011,Fernando,ABBA,europop,1976,111,35,47,256,58,3,56,0.625
+1012,Knowing Me Knowing You,ABBA,europop,1976,107,55,90,244,4,3,52,1.0576923076923077
+1013,Fool To Cry - Remastered 2009,The Rolling Stones,album rock,1976,68,44,24,305,89,4,55,0.8
+1014,Carry on Wayward Son,Kansas,album rock,1976,127,48,79,323,0,3,75,0.64
+1015,New York State of Mind,Billy Joel,album rock,1976,121,51,20,362,50,3,61,0.8360655737704918
+1016,Golden Years - 2016 Remaster,David Bowie,album rock,1976,108,68,93,243,32,4,60,1.1333333333333333
+1017,Isn't She Lovely,Stevie Wonder,adult standards,1976,119,48,82,394,18,9,67,0.7164179104477612
+1018,I Wish,Stevie Wonder,adult standards,1976,106,82,89,252,8,5,64,1.28125
+1019,Tom Traubert's Blues (Four Sheets To The Wind In Copenhagen),Tom Waits,folk,1976,135,30,33,399,80,3,52,0.5769230769230769
+1020,The Boys Are Back In Town,Thin Lizzy,album rock,1976,81,45,77,267,23,5,74,0.6081081081081081
+1021,Livin' Thing,Electric Light Orchestra,album rock,1976,123,55,37,212,58,3,70,0.7857142857142857
+1022,Sir Duke,Stevie Wonder,adult standards,1976,107,59,95,233,16,7,72,0.8194444444444444
+1024,Fly Like An Eagle,Steve Miller Band,album rock,1976,100,56,64,283,61,11,68,0.8235294117647058
+1025,Blinded By The Light,Manfred Mann's Earth Band,album rock,1976,142,46,51,428,29,7,61,0.7540983606557377
+1026,Cocaine,J.J. Cale,blues,1976,104,79,39,169,41,5,59,1.3389830508474576
+1027,The Ballroom Blitz,Sweet,album rock,1976,109,62,83,242,0,8,54,1.1481481481481481
+1028,Money Money Money,ABBA,europop,1976,121,78,70,187,52,4,44,1.7727272727272727
+1029,Wasted Time - 2013 Remaster,Eagles,album rock,1976,118,43,14,296,42,4,54,0.7962962962962963
+1030,Theme From Mahogany (Do You Know Where You're Going To) - Single Version,Diana Ross,adult standards,1976,140,32,29,204,55,3,49,0.6530612244897959
+1031,Heroes - 2017 Remaster,David Bowie,album rock,1977,112,49,44,371,0,3,75,0.6533333333333333
+1032,Paradise By the Dashboard Light,Meat Loaf,album rock,1977,173,33,49,508,21,12,67,0.4925373134328358
+1033,Go Your Own Way - 2004 Remaster,Fleetwood Mac,album rock,1977,135,59,83,224,2,4,73,0.8082191780821918
+1034,Mr. Blue Sky,Electric Light Orchestra,album rock,1977,178,39,48,303,65,3,80,0.4875
+1036,Whole Lotta Rosie,AC/DC,album rock,1977,159,29,42,334,0,8,65,0.4461538461538462
+1037,We Will Rock You - Remastered,Queen,glam rock,1977,81,69,47,122,68,12,70,0.9857142857142858
+1038,The Chain - 2004 Remaster,Fleetwood Mac,album rock,1977,152,55,48,270,1,5,78,0.7051282051282052
+1039,Three Little Birds,Bob Marley & The Wailers,reggae,1977,148,81,62,180,1,6,78,1.0384615384615385
+1040,We Are The Champions - Remastered 2011,Queen,glam rock,1977,64,27,17,179,38,3,66,0.4090909090909091
+1041,She's Always a Woman,Billy Joel,album rock,1977,177,29,38,201,80,3,72,0.4027777777777778
+1042,Worn Down Piano,The Mark & Clark Band,classic rock,1977,112,37,32,488,10,6,32,1.15625
+1043,Dust in the Wind,Kansas,album rock,1977,94,48,39,206,37,3,77,0.6233766233766234
+1045,Solsbury Hill,Peter Gabriel,album rock,1977,102,68,48,261,36,3,60,1.1333333333333333
+1046,Thank You For The Music,ABBA,europop,1977,200,29,35,232,84,4,48,0.6041666666666666
+1047,Wonderful Tonight,Eric Clapton,album rock,1977,96,57,49,225,65,3,73,0.7808219178082192
+1048,Lust For Life,Iggy Pop,alternative rock,1977,104,39,69,314,3,4,68,0.5735294117647058
+1049,She's Not There,Santana,blues rock,1977,130,48,83,249,40,4,52,0.9230769230769231
+1050,Stayin' Alive,Bee Gees,adult standards,1977,104,71,64,93,11,4,60,1.1833333333333333
+1051,Psycho Killer - 2005 Remaster,Talking Heads,alternative rock,1977,123,72,94,261,7,6,73,0.9863013698630136
+1052,Fantasy,Earth Wind & Fire,disco,1977,89,61,61,277,32,9,48,1.2708333333333333
+1053,Songbird - 2004 Remaster,Fleetwood Mac,album rock,1977,184,39,36,201,98,3,56,0.6964285714285714
+1054,Let There Be Rock,AC/DC,album rock,1977,91,49,43,366,0,9,62,0.7903225806451613
+1055,Don't Stop - 2004 Remaster,Fleetwood Mac,album rock,1977,119,67,83,193,4,4,67,1.0
+1056,I Feel Love,Donna Summer,dance pop,1977,127,67,96,355,3,4,46,1.4565217391304348
+1057,The Passenger,Iggy Pop,alternative rock,1977,135,50,70,283,9,5,72,0.6944444444444444
+1058,Het Werd Zomer,Rob De Nijs,dutch pop,1977,133,39,40,251,43,3,49,0.7959183673469388
+1059,Take A Chance On Me,ABBA,europop,1977,107,69,93,244,17,3,63,1.0952380952380953
+1060,Give A Little Bit,Supertramp,album rock,1977,91,53,47,248,7,5,74,0.7162162162162162
+1061,Sound and Vision - 2017 Remaster,David Bowie,album rock,1977,106,67,76,184,3,4,62,1.0806451612903225
+1062,Spread Your Wings - 2011 Mix,Queen,glam rock,1977,175,39,46,274,28,3,50,0.78
+1063,You Took The Words Right Out of My Mouth (Hot Summer Night),Meat Loaf,album rock,1977,125,46,68,304,25,8,57,0.8070175438596491
+1064,Two Out of Three Ain't Bad,Meat Loaf,album rock,1977,80,59,49,324,39,2,60,0.9833333333333333
+1065,Cocaine,Eric Clapton,album rock,1977,105,70,68,222,6,3,68,1.0294117647058822
+1066,Barracuda,Heart,album rock,1977,137,55,67,262,2,4,74,0.7432432432432432
+1068,Cold as Ice,Foreigner,album rock,1977,133,52,47,201,10,3,68,0.7647058823529411
+1069,The Name Of The Game,ABBA,europop,1977,77,66,62,294,40,3,46,1.434782608695652
+1070,Mannish Boy,Muddy Waters,blues,1977,111,60,62,321,44,10,63,0.9523809523809523
+1071,I Want You to Want Me,Cheap Trick,album rock,1977,93,81,74,191,78,3,70,1.1571428571428573
+1072,Scenes from an Italian Restaurant,Billy Joel,album rock,1977,98,42,34,457,41,13,60,0.7
+1073,God Save the Queen,Sex Pistols,punk,1977,148,27,48,200,0,7,51,0.5294117647058824
+1074,La vie en rose,Grace Jones,art rock,1977,177,65,80,448,23,6,58,1.1206896551724137
+1075,Spanish Stroll,Mink DeVille,dutch rock,1977,129,75,95,220,42,6,47,1.5957446808510638
+1076,Le Freak - 2018 Remaster,CHIC,disco,1977,119,91,90,331,3,6,69,1.318840579710145
+1077,Lovely Day,Bill Withers,classic soul,1977,98,69,71,255,29,3,72,0.9583333333333334
+1078,Isn't It Time,The Babys,album rock,1977,117,52,31,244,39,10,49,1.0612244897959184
+1079,Just the Way You Are,Billy Joel,album rock,1977,139,59,51,291,70,4,68,0.8676470588235294
+1080,Anarchy in the U.K.,Sex Pistols,punk,1977,134,32,17,212,4,12,54,0.5925925925925926
+1081,You Make Loving Fun - 2004 Remaster,Fleetwood Mac,album rock,1977,127,62,86,217,1,3,58,1.0689655172413792
+1082,Sultans of Swing,Dire Straits,album rock,1978,148,73,92,350,6,3,66,1.106060606060606
+1083,Don't Stop Me Now - 2011 Mix,Queen,glam rock,1978,156,56,60,209,5,16,76,0.7368421052631579
+1084,Laat Me,Ramses Shaffy,dutch cabaret,1978,102,34,35,305,65,3,50,0.68
+1085,Wuthering Heights,Kate Bush,art pop,1978,125,48,52,269,37,3,68,0.7058823529411765
+1086,Saturday Night,Herman Brood & His Wild Romance,dutch indie,1978,92,63,55,223,60,3,48,1.3125
+1088,Hold the Line,TOTO,album rock,1978,96,49,78,236,4,6,75,0.6533333333333333
+1089,The Man with the Child in His Eyes,Kate Bush,art pop,1978,90,25,20,159,96,3,53,0.4716981132075472
+1090,Badlands,Bruce Springsteen,classic rock,1978,123,61,85,242,9,5,58,1.0517241379310345
+1091,Baker Street,Gerry Rafferty,album rock,1978,114,50,42,366,9,3,69,0.7246376811594203
+1092,Dreadlock Holiday,10cc,album rock,1978,105,84,89,268,54,6,67,1.2537313432835822
+1093,Fat Bottomed Girls - Single Version,Queen,glam rock,1978,88,43,52,203,6,6,51,0.8431372549019608
+1094,Runnin' with the Devil - 2015 Remaster,Van Halen,album rock,1978,96,47,42,215,15,6,70,0.6714285714285714
+1095,Bicycle Race - Remastered 2011,Queen,glam rock,1978,83,43,61,181,6,8,55,0.7818181818181819
+1096,Follow You Follow Me - 2007 Remaster,Genesis,album rock,1978,93,53,76,241,13,3,51,1.0392156862745099
+1097,So Lonely,The Police,album rock,1978,77,54,73,290,1,16,66,0.8181818181818182
+1098,How You Gonna See Me Now,Alice Cooper,album rock,1978,137,54,30,236,46,4,49,1.1020408163265305
+1099,Miss You - Remastered,The Rolling Stones,album rock,1978,110,80,85,289,44,4,67,1.1940298507462686
+1100,Stir It Up - Live At The Pavillon De Paris 1977,Bob Marley & The Wailers,reggae,1978,91,67,80,317,10,5,40,1.675
+1101,Is This Love,Bob Marley & The Wailers,reggae,1978,122,78,76,232,11,10,76,1.0263157894736843
+1102,Because the Night,Patti Smith,art pop,1978,123,44,52,205,5,4,66,0.6666666666666666
+1103,What a Fool Believes,The Doobie Brothers,album rock,1978,121,76,99,224,28,4,69,1.1014492753623188
+1104,Still Believe,Herman Brood & His Wild Romance,dutch indie,1978,95,60,64,191,1,3,38,1.5789473684210527
+1105,Rivers of Babylon,Boney M.,disco,1978,115,73,74,261,13,4,65,1.123076923076923
+1106,Don't Look Back,Boston,album rock,1978,122,36,47,360,2,4,55,0.6545454545454545
+1107,Beast Of Burden - Remastered,The Rolling Stones,album rock,1978,101,78,89,265,39,3,74,1.054054054054054
+1108,Honesty,Billy Joel,album rock,1978,135,55,21,234,42,3,59,0.9322033898305084
+1109,Born to Be Alive - Original Mix 79,Patrick Hernandez,disco,1978,131,70,81,188,8,3,66,1.0606060606060606
+1110,Fire,The Pointer Sisters,dance pop,1978,118,65,64,211,20,3,56,1.1607142857142858
+1111,You Don't Bring Me Flowers,Neil Diamond,adult standards,1978,67,16,24,195,88,4,56,0.2857142857142857
+1112,Water of Love,Dire Straits,album rock,1978,121,80,96,327,45,3,41,1.951219512195122
+1113,Comfortably Numb,Pink Floyd,album rock,1979,127,47,17,382,15,3,75,0.6266666666666667
+1114,Highway to Hell,AC/DC,album rock,1979,116,57,42,208,6,13,83,0.6867469879518072
+1115,Another Brick in the Wall Pt. 2,Pink Floyd,album rock,1979,104,69,72,239,8,4,77,0.8961038961038961
+1116,The Rose,Bette Midler,adult standards,1979,134,35,18,221,90,3,67,0.5223880597014925
+1117,The Logical Song - Remastered 2010,Supertramp,album rock,1979,120,63,70,251,51,5,72,0.875
+1118,I Was Made For Lovin' You,KISS,album rock,1979,128,77,87,271,21,4,78,0.9871794871794872
+1119,Gimme! Gimme! Gimme! (A Man After Midnight),ABBA,europop,1979,120,75,53,293,2,4,64,1.171875
+1120,Message In A Bottle,The Police,album rock,1979,151,58,87,290,3,4,74,0.7837837837837838
+1121,Hey You,Pink Floyd,album rock,1979,112,59,19,278,22,3,68,0.8676470588235294
+1122,One Step Beyond,Madness,dance rock,1979,155,48,94,138,1,4,42,1.1428571428571428
+1123,Chiquitita,ABBA,europop,1979,84,53,38,327,70,3,56,0.9464285714285714
+1124,Does Your Mother Know,ABBA,europop,1979,136,72,97,196,15,4,45,1.6
+1125,How Deep Is Your Love,Bee Gees,adult standards,1979,105,63,67,245,11,3,77,0.8181818181818182
+1126,Bright Eyes,Art Garfunkel,adult standards,1979,113,38,21,239,75,3,57,0.6666666666666666
+1127,Take The Long Way Home - 2010 Remastered,Supertramp,album rock,1979,77,41,37,309,22,3,64,0.640625
+1128,Breakfast In America - Remastered,Supertramp,album rock,1979,75,53,76,159,43,3,70,0.7571428571428571
+1129,I Have A Dream,ABBA,europop,1979,104,55,46,286,57,2,49,1.1224489795918366
+1130,Boogie Wonderland,Earth Wind & Fire,disco,1979,132,80,96,288,8,3,73,1.095890410958904
+1131,Boys Don't Cry - Single Version,The Cure,dance rock,1979,169,47,69,158,0,6,63,0.746031746031746
+1132,Voulez-Vous,ABBA,europop,1979,127,71,91,309,12,4,53,1.3396226415094339
+1133,September Morn,Neil Diamond,adult standards,1979,129,42,20,232,63,4,59,0.711864406779661
+1134,MacArthur Park - Single Version,Donna Summer,dance pop,1979,131,58,45,235,8,4,52,1.1153846153846154
+1135,Don't Stop 'Til You Get Enough - Single Version,Michael Jackson,pop,1979,119,88,95,365,13,9,74,1.1891891891891893
+1136,London Calling - Remastered,The Clash,classic rock,1979,134,65,78,200,12,5,73,0.8904109589041096
+1137,Night Boat to Cairo,Madness,dance rock,1979,156,31,60,211,12,4,34,0.9117647058823529
+1138,Goodbye Stranger - 2010 Remastered,Supertramp,album rock,1979,125,42,34,351,61,5,66,0.6363636363636364
+1139,Walking On The Moon,The Police,album rock,1979,146,51,27,301,0,5,64,0.796875
+1140,Don't Bring Me Down,Electric Light Orchestra,album rock,1979,116,64,81,243,14,3,70,0.9142857142857143
+1141,Tragedy,Bee Gees,adult standards,1979,118,67,81,303,9,3,64,1.046875
+1142,Off the Wall,Michael Jackson,pop,1979,119,83,92,246,18,6,62,1.3387096774193548
+1143,The Worker,Fischer-Z,dutch rock,1979,82,48,90,215,2,3,44,1.0909090909090908
+1144,Sure Know Something,KISS,album rock,1979,115,71,93,242,28,3,52,1.3653846153846154
+1145,Relight My Fire - Single Version,Dan Hartman,disco,1979,120,79,87,226,1,4,52,1.5192307692307692
+1146,Weekend Love,Golden Earring,album rock,1979,167,49,46,255,28,4,44,1.1136363636363635
+1147,"More Than A Woman - From ""Saturday Night Fever"" Soundtrack",Bee Gees,adult standards,1979,106,63,70,197,16,4,70,0.9
+1148,Rock with You - Single Version,Michael Jackson,pop,1979,114,81,85,221,18,4,73,1.1095890410958904
+1149,Weekend,Earth & Fire,classic uk pop,1979,122,87,56,215,37,4,49,1.7755102040816326
+1150,Dancin' Fool,Frank Zappa,album rock,1979,133,55,55,223,41,15,40,1.375
+1151,We Belong to the Night,Ellen Foley,pop,1979,101,36,42,321,0,4,40,0.9
+1152,Sausolito Summernight - Digitally Remastered 2017,Diesel,basshall,1979,125,62,55,306,6,11,39,1.5897435897435896
+1153,The River,Bruce Springsteen,classic rock,1980,117,59,59,302,18,3,66,0.8939393939393939
+1154,A Forest - Remastered Version,The Cure,dance rock,1980,81,63,42,355,34,6,53,1.1886792452830188
+1155,The Winner Takes It All,ABBA,europop,1980,127,46,52,295,55,4,59,0.7796610169491526
+1156,Ace of Spades,Motörhead,album rock,1980,140,32,23,166,0,17,74,0.43243243243243246
+1157,Another One Bites The Dust - Remastered 2011,Queen,glam rock,1980,110,93,76,215,11,16,74,1.2567567567567568
+1158,Back In Black,AC/DC,album rock,1980,188,31,76,255,1,5,83,0.37349397590361444
+1159,Romeo and Juliet,Dire Straits,album rock,1980,87,60,49,361,44,3,54,1.1111111111111112
+1160,Redemption Song,Bob Marley & The Wailers,reggae,1980,116,67,69,234,61,4,71,0.9436619718309859
+1161,You Shook Me All Night Long,AC/DC,album rock,1980,127,53,76,210,0,6,78,0.6794871794871795
+1162,Crazy Little Thing Called Love - Remastered 2011,Queen,glam rock,1980,77,60,72,163,71,4,66,0.9090909090909091
+1163,Lay All Your Love On Me,ABBA,europop,1980,133,68,77,274,11,3,48,1.4166666666666667
+1164,Long Blond Animal,Golden Earring,album rock,1980,169,44,78,217,1,4,39,1.1282051282051282
+1166,Once in a Lifetime - 2005 Remaster,Talking Heads,alternative rock,1980,117,64,87,260,18,6,69,0.927536231884058
+1168,So Long,Fischer-Z,dutch rock,1980,127,56,89,303,1,4,49,1.1428571428571428
+1169,Tunnel of Love (Intro: The Carousel Waltz),Dire Straits,album rock,1980,137,49,56,489,25,4,43,1.1395348837209303
+1170,Happy New Year,ABBA,europop,1980,133,51,26,264,82,3,50,1.02
+1171,Ashes to Ashes - 2017 Remaster,David Bowie,album rock,1980,120,71,87,266,27,5,62,1.1451612903225807
+1172,Foto Van Vroeger,Rob De Nijs,dutch pop,1980,178,30,14,280,67,5,31,0.967741935483871
+1173,Could You Be Loved,Bob Marley & The Wailers,reggae,1980,103,92,76,237,36,10,77,1.1948051948051948
+1174,9 to 5,Dolly Parton,classic country pop,1980,105,55,81,162,42,5,76,0.7236842105263158
+1175,Everybody Needs Somebody to Love,The Blues Brothers,blues,1980,194,49,92,203,61,7,63,0.7777777777777778
+1176,Super Trouper,ABBA,europop,1980,118,76,96,255,46,3,60,1.2666666666666666
+1177,Save Me - Remastered 2011,Queen,glam rock,1980,82,51,33,230,36,3,51,1.0
+1178,Keep on Loving You,REO Speedwagon,album rock,1980,175,31,41,200,5,3,71,0.43661971830985913
+1179,Woman in Love,Barbra Streisand,adult standards,1980,170,47,33,232,25,3,68,0.6911764705882353
+1180,The Spirit Of Radio,Rush,album rock,1980,136,37,63,296,1,5,63,0.5873015873015873
+1181,Baggy Trousers,Madness,dance rock,1980,145,64,94,167,14,4,33,1.9393939393939394
+1182,Hungry Heart,Bruce Springsteen,classic rock,1980,110,64,97,199,9,3,69,0.927536231884058
+1183,Guilty (feat. Barry Gibb),Barbra Streisand,adult standards,1980,151,63,95,264,23,4,67,0.9402985074626866
+1184,Biko,Peter Gabriel,album rock,1980,179,53,17,452,28,4,36,1.4722222222222223
+1185,Food For Thought,UB40,reggae fusion,1980,131,87,96,250,1,8,50,1.74
+1186,Late in the Evening,Paul Simon,classic rock,1980,119,72,96,243,20,4,58,1.2413793103448276
+1187,Enola Gay - Remastered,Orchestral Manoeuvres In The Dark,art rock,1980,143,56,93,214,0,3,65,0.8615384615384616
+1188,Master Blaster (Jammin'),Stevie Wonder,adult standards,1980,131,88,97,308,4,5,61,1.4426229508196722
+1189,Don't Stand So Close To Me,The Police,album rock,1980,140,80,52,243,5,6,67,1.1940298507462686
+1190,Wish You Were Here,Pink Floyd,album rock,1981,121,50,28,321,72,5,47,1.0638297872340425
+1191,In The Air Tonight - 2015 Remastered,Phil Collins,mellow gold,1981,190,45,30,336,55,3,77,0.5844155844155844
+1192,Don't Stop Believin',Journey,album rock,1981,119,50,51,251,13,4,80,0.625
+1193,The Day Before You Came,ABBA,europop,1981,108,80,74,349,5,4,51,1.5686274509803921
+1194,Golden Brown,The Stranglers,art rock,1981,94,56,60,207,14,3,67,0.835820895522388
+1195,Every Little Thing She Does Is Magic,The Police,album rock,1981,82,56,43,261,12,3,73,0.7671232876712328
+1196,Start Me Up - Remastered,The Rolling Stones,album rock,1981,122,63,97,213,4,4,76,0.8289473684210527
+1197,One Of Us,ABBA,europop,1981,82,65,86,237,48,4,59,1.1016949152542372
+1198,Waiting On A Friend - Remastered 2009,The Rolling Stones,album rock,1981,117,61,91,274,16,3,58,1.0517241379310345
+1199,Tainted Love,Soft Cell,dance rock,1981,145,52,65,154,48,4,53,0.9811320754716981
+1200,Memory,Barbra Streisand,adult standards,1981,76,18,12,235,42,4,56,0.32142857142857145
+1201,Everytime I Think of You - 2000 Remaster,The Babys,album rock,1981,121,40,49,243,32,4,35,1.1428571428571428
+1202,Don't You Want Me,The Human League,art rock,1981,118,73,96,237,18,4,74,0.9864864864864865
+1203,I'll Find My Way Home - Remastered,Jon & Vangelis,album rock,1981,172,53,71,271,31,3,43,1.2325581395348837
+1204,Je Loog Tegen Mij,Drukwerk,dutch rock,1981,79,62,66,206,46,3,46,1.3478260869565217
+1205,Africa,TOTO,album rock,1982,93,67,73,296,26,3,84,0.7976190476190477
+1207,Under Pressure - Remastered,Queen,glam rock,1982,114,67,47,248,42,5,72,0.9305555555555556
+1208,Old and Wise,The Alan Parsons Project,album rock,1982,112,38,12,295,73,3,58,0.6551724137931034
+1209,Private Investigations,Dire Straits,album rock,1982,84,55,7,407,70,3,38,1.4473684210526316
+1210,Billie Jean,Michael Jackson,pop,1982,117,92,85,294,2,4,81,1.1358024691358024
+1211,Run to the Hills - 2015 Remaster,Iron Maiden,album rock,1982,174,25,46,234,3,7,60,0.4166666666666667
+1212,Twilight Zone,Golden Earring,album rock,1982,119,66,54,478,1,4,47,1.4042553191489362
+1213,Eye In The Sky,The Alan Parsons Project,album rock,1982,112,82,52,276,56,3,67,1.2238805970149254
+1214,Rosanna,TOTO,album rock,1982,78,38,74,331,2,4,70,0.5428571428571428
+1215,Is She Really Going Out With Him? - Live,Joe Jackson,album rock,1982,111,56,45,269,91,7,35,1.6
+1216,Bloedend Hart,De Dijk,dutch indie,1982,115,62,58,228,14,4,24,2.5833333333333335
+1217,Belgie ... (Is Er Leven Op Pluto ...),Het Goede Doel,dutch pop,1982,141,58,66,361,1,4,52,1.1153846153846154
+1218,1999,Prince,funk,1982,119,87,63,379,14,8,68,1.2794117647058822
+1219,Islands In the Stream,Dolly Parton,classic country pop,1982,204,62,74,252,68,4,65,0.9538461538461539
+1220,Real Men,Joe Jackson,album rock,1982,114,69,32,245,67,3,31,2.225806451612903
+1221,Come On Eileen,Dexys Midnight Runners,bow pop,1982,107,45,78,287,66,5,68,0.6617647058823529
+1222,Kristallnaach,BAP,german pop,1982,159,35,44,299,49,12,47,0.7446808510638298
+1223,State of Independence,Donna Summer,dance pop,1982,170,75,87,351,18,14,42,1.7857142857142858
+1224,You Can't Hurry Love - 2016 Remaster,Phil Collins,mellow gold,1982,98,62,76,176,3,3,76,0.8157894736842105
+1225,Burning Heart,Vandenberg,dutch rock,1982,125,44,49,251,13,4,43,1.0232558139534884
+1226,Always On My Mind,Willie Nelson,classic country pop,1982,73,52,20,213,76,3,63,0.8253968253968254
+1227,Sexual Healing,Marvin Gaye,classic soul,1982,94,81,75,239,12,6,71,1.1408450704225352
+1228,Vriendschap,Het Goede Doel,dutch pop,1982,170,56,72,247,43,3,46,1.2173913043478262
+1229,Human Nature,Michael Jackson,pop,1982,93,62,69,246,54,3,65,0.9538461538461539
+1230,Save a Prayer - 2009 Remaster,Duran Duran,dance rock,1982,114,57,67,333,35,3,62,0.9193548387096774
+1231,Should I Stay or Should I Go - Remastered,The Clash,classic rock,1982,113,74,82,189,8,12,79,0.9367088607594937
+1232,P.Y.T. (Pretty Young Thing),Michael Jackson,pop,1982,127,89,96,239,23,4,71,1.2535211267605635
+1233,Wanna Be Startin' Somethin',Michael Jackson,pop,1982,122,85,90,362,2,4,64,1.328125
+1234,It's Raining Again,Supertramp,album rock,1982,121,60,56,264,62,3,60,1.0
+1235,Steppin' Out,Joe Jackson,album rock,1982,159,58,55,259,5,3,48,1.2083333333333333
+1236,A Slow Song,Joe Jackson,album rock,1982,176,31,19,423,15,3,22,1.4090909090909092
+1237,Sunday Bloody Sunday - Remastered 2008,U2,irish rock,1983,101,54,74,279,40,5,72,0.75
+1238,Every Breath You Take,The Police,album rock,1983,117,82,74,254,54,3,84,0.9761904761904762
+1239,Mama - 2007 Remaster,Genesis,album rock,1983,83,56,67,408,38,6,45,1.2444444444444445
+1240,99 Luftballons,Nena,german pop,1983,95,57,50,232,10,5,73,0.7808219178082192
+1241,Sweet Dreams (Are Made of This) - Remastered,Eurythmics,dance pop,1983,125,69,88,217,23,3,81,0.8518518518518519
+1242,I'm Still Standing,Elton John,glam rock,1983,177,50,77,183,36,18,79,0.6329113924050633
+1243,Let's Dance - 2018 Remaster,David Bowie,album rock,1983,115,65,63,458,1,6,71,0.9154929577464789
+1244,China Girl - 2002 Remaster,David Bowie,album rock,1983,134,65,87,257,2,3,57,1.1403508771929824
+1245,Owner of a Lonely Heart,Yes,album rock,1983,125,74,89,269,18,4,70,1.0571428571428572
+1246,Waterfront - 2002 Remaster,Simple Minds,art rock,1983,120,54,48,290,0,3,54,1.0
+1247,Our House,Madness,dance rock,1983,122,60,71,201,3,6,58,1.0344827586206897
+1248,Just Can't Get Enough (Live in Hammersmith) - 2018 Remaster,Depeche Mode,dance rock,1983,127,65,94,335,4,5,45,1.4444444444444444
+1249,Message To My Girl,Split Enz,australian alternative rock,1983,105,61,71,244,10,3,33,1.8484848484848484
+1250,Hello,Lionel Richie,adult standards,1983,61,49,6,251,41,4,59,0.8305084745762712
+1251,Pride and Joy,Stevie Ray Vaughan,album rock,1983,127,43,74,220,3,4,65,0.6615384615384615
+1252,Uptown Girl,Billy Joel,album rock,1983,129,70,79,198,7,5,77,0.9090909090909091
+1253,I Heard It Through The Grapevine,Marvin Gaye,classic soul,1983,117,72,64,197,20,4,71,1.0140845070422535
+1254,Nescio,Nits,dutch indie,1983,127,55,60,287,34,3,40,1.375
+1255,Uncertain Smile,The The,art rock,1983,143,60,84,409,6,5,48,1.25
+1256,Home by the Sea - 2007 Remaster,Genesis,album rock,1983,129,60,56,308,50,4,43,1.3953488372093024
+1257,Theme from Harry's Game,Clannad,celtic,1983,132,19,4,148,95,4,38,0.5
+1258,Nur geträumt,Nena,german pop,1983,177,54,89,220,7,3,56,0.9642857142857143
+1259,Gloria - Live,U2,irish rock,1983,147,26,61,287,0,10,39,0.6666666666666666
+1260,Here Comes the Rain Again - Remastered Version,Eurythmics,dance pop,1983,126,65,61,295,1,3,62,1.0483870967741935
+1261,Girls Just Want to Have Fun,Cyndi Lauper,dance pop,1983,120,71,73,238,22,3,76,0.9342105263157895
+1262,Club Tropicana,Wham!,dance rock,1983,117,66,81,266,3,5,66,1.0
+1263,Papa Can You Hear Me?,Barbra Streisand,adult standards,1983,90,27,13,211,93,4,46,0.5869565217391305
+1264,Karma Chameleon - Remastered,Culture Club,dance pop,1983,92,67,89,253,23,4,72,0.9305555555555556
+1266,Beast of Burden,Bette Midler,adult standards,1983,105,58,91,226,1,3,53,1.0943396226415094
+1267,Purple Rain,Prince,funk,1984,113,37,19,521,4,3,75,0.49333333333333335
+1268,When The Lady Smiles,Golden Earring,album rock,1984,132,70,83,340,44,3,53,1.320754716981132
+1269,Hallelujah,Leonard Cohen,canadian folk,1984,171,28,23,277,72,3,67,0.417910447761194
+1270,Summer Of '69,Bryan Adams,album rock,1984,139,51,77,216,2,4,81,0.6296296296296297
+1271,Radio Ga Ga - 2011 Mix,Queen,glam rock,1984,112,74,66,348,18,4,66,1.121212121212121
+1272,The Unforgettable Fire - Remastered 2009,U2,irish rock,1984,137,43,23,294,0,3,46,0.9347826086956522
+1273,Bad - Remastered 2009,U2,irish rock,1984,99,37,34,368,1,3,41,0.9024390243902439
+1274,I'm On Fire,Bruce Springsteen,classic rock,1984,89,62,87,156,59,3,74,0.8378378378378378
+1275,Pride (In The Name Of Love) - Remastered 2009,U2,irish rock,1984,106,46,71,228,0,3,59,0.7796610169491526
+1276,Fade To Black (Remastered),Metallica,alternative metal,1984,113,26,28,417,0,11,62,0.41935483870967744
+1277,Dancing In the Dark,Bruce Springsteen,classic rock,1984,149,53,50,241,1,4,77,0.6883116883116883
+1278,Forever Young,Alphaville,dance rock,1984,137,49,33,227,42,3,74,0.6621621621621622
+1279,When Doves Cry,Prince,funk,1984,126,73,84,353,1,5,70,1.042857142857143
+1280,I Want to Know What Love Is - 1999 Remaster,Foreigner,album rock,1984,81,48,42,305,19,3,77,0.6233766233766234
+1281,Born in the U.S.A.,Bruce Springsteen,classic rock,1984,122,40,58,279,0,6,75,0.5333333333333333
+1282,Vienna,Ultravox,art rock,1984,81,58,46,278,16,6,53,1.0943396226415094
+1283,My Hometown,Bruce Springsteen,classic rock,1984,117,65,39,280,49,4,58,1.1206896551724137
+1284,Slippery People - Live,Talking Heads,alternative rock,1984,111,64,84,241,22,4,54,1.1851851851851851
+1285,The Power Of Love,Frankie Goes To Hollywood,art rock,1984,123,46,10,333,38,3,72,0.6388888888888888
+1286,The Boys Of Summer,Don Henley,album rock,1984,177,52,91,289,50,4,76,0.6842105263157895
+1287,Private Dancer - 2015 Remaster,Tina Turner,disco,1984,115,59,47,434,36,4,59,1.0
+1288,Easy Lover,Philip Bailey,yacht rock,1984,129,74,93,306,11,4,64,1.15625
+1289,Be My Number Two,Joe Jackson,album rock,1984,110,40,28,260,34,3,52,0.7692307692307693
+1290,Tinseltown in the Rain,The Blue Nile,art rock,1984,118,78,91,358,6,3,55,1.4181818181818182
+1291,Glory Days,Bruce Springsteen,classic rock,1984,117,57,98,255,5,3,67,0.8507462686567164
+1292,It's My Life - 1997 Remaster,Talk Talk,art rock,1984,126,63,87,232,20,3,69,0.9130434782608695
+1293,Heaven,Bryan Adams,album rock,1984,140,38,34,243,5,3,76,0.5
+1294,Smalltown Boy,Bronski Beat,dance rock,1984,135,69,94,302,29,3,71,0.971830985915493
+1295,I Would Die 4 U,Prince,funk,1984,135,73,64,179,9,3,60,1.2166666666666666
+1296,Thank God It's Christmas - 2011 Remaster,Queen,glam rock,1984,86,30,33,262,22,3,72,0.4166666666666667
+1297,Let's Go Crazy,Prince,funk,1984,196,31,38,280,2,13,62,0.5
+1298,Wake Me up Before You Go-Go,Wham!,dance rock,1984,82,62,90,231,27,4,79,0.7848101265822784
+1299,You'll Never Walk Alone,Lee Towers,dutch pop,1984,79,34,14,210,61,3,44,0.7727272727272727
+1300,Run To You,Bryan Adams,album rock,1984,127,56,64,233,1,3,65,0.8615384615384616
+1301,Perhaps Love,John Denver,adult standards,1984,81,39,20,177,79,4,59,0.6610169491525424
+1302,Don't Answer Me,The Alan Parsons Project,album rock,1984,115,62,63,252,7,3,57,1.087719298245614
+1303,Nightporter,Japan,art pop,1984,110,52,10,408,75,3,41,1.2682926829268293
+1304,Big in Japan,Alphaville,dance rock,1984,98,75,24,286,7,4,66,1.1363636363636365
+1305,Relax,Frankie Goes To Hollywood,art rock,1984,115,68,69,237,33,4,61,1.1147540983606556
+1306,Two Tribes,Frankie Goes To Hollywood,art rock,1984,130,54,20,208,0,4,54,1.0
+1307,Dancing with Tears in My Eyes,Ultravox,art rock,1984,144,59,93,244,15,4,59,1.0
+1308,That Was Yesterday,Foreigner,album rock,1984,115,43,51,229,5,3,54,0.7962962962962963
+1309,How Soon Is Now? - 2011 Remaster,The Smiths,dance rock,1984,191,40,73,408,0,6,70,0.5714285714285714
+1310,No Surrender,Bruce Springsteen,classic rock,1984,154,35,86,240,0,5,52,0.6730769230769231
+1311,Brothers in Arms,Dire Straits,album rock,1985,79,22,13,419,50,4,52,0.4230769230769231
+1312,Jeanny,Falco,austropop,1985,106,65,45,356,45,5,58,1.1206896551724137
+1313,Money for Nothing,Dire Straits,album rock,1985,134,67,66,506,5,4,62,1.0806451612903225
+1314,Kronenburg Park,Frank Boeijen Groep,dutch cabaret,1985,90,50,45,244,45,3,53,0.9433962264150944
+1315,Walk of Life,Dire Straits,album rock,1985,172,46,80,252,44,11,61,0.7540983606557377
+1316,Take on Me,a-ha,dance rock,1985,84,57,88,225,2,5,83,0.6867469879518072
+1317,Groot Hart,De Dijk,dutch indie,1985,129,78,66,195,46,4,26,3.0
+1318,Alive And Kicking,Simple Minds,art rock,1985,103,57,56,289,8,4,64,0.890625
+1319,Holding Back the Years - 2008 Remaster,Simply Red,british soul,1985,86,71,52,270,58,3,68,1.0441176470588236
+1320,Running Up That Hill (A Deal With God),Kate Bush,art pop,1985,108,63,20,299,72,6,67,0.9402985074626866
+1321,Cloudbusting,Kate Bush,art pop,1985,113,68,81,310,70,3,60,1.1333333333333333
+1322,Binnen Zonder Kloppen,De Dijk,dutch indie,1985,117,73,58,284,17,4,26,2.8076923076923075
+1323,Nikita,Elton John,glam rock,1985,87,63,75,343,12,3,68,0.9264705882352942
+1324,Everybody Wants To Rule The World,Tears For Fears,art rock,1985,112,65,54,251,35,5,80,0.8125
+1325,Eye of the Tiger,Survivor,album rock,1985,109,82,55,246,13,3,76,1.0789473684210527
+1326,Russians,Sting,permanent wave,1985,116,44,20,238,46,4,50,0.88
+1327,Dancing in the Street - 2002 Remaster,David Bowie,album rock,1985,131,60,74,205,12,4,57,1.0526315789473684
+1328,Raspberry Beret,Prince,funk,1985,121,76,91,215,21,4,69,1.1014492753623188
+1329,Your Latest Trick,Dire Straits,album rock,1985,123,70,26,394,72,3,46,1.5217391304347827
+1330,Road to Nowhere,Talking Heads,alternative rock,1985,110,66,63,259,4,3,55,1.2
+1331,Why Worry,Dire Straits,album rock,1985,94,60,11,511,93,3,44,1.3636363636363635
+1332,Close to Me - Remastered,The Cure,dance rock,1985,185,73,96,203,7,12,60,1.2166666666666666
+1333,So Far Away,Dire Straits,album rock,1985,114,69,70,312,25,3,50,1.38
+1334,Broken Wings,Mr. Mister,album rock,1985,99,29,44,344,13,4,60,0.48333333333333334
+1335,Shout,Tears For Fears,art rock,1985,98,51,50,394,17,4,71,0.7183098591549296
+1336,Josephine,Chris Rea,art rock,1985,110,66,66,238,2,3,57,1.1578947368421053
+1337,Greatest Love of All,Whitney Houston,dance pop,1985,131,50,25,291,48,3,66,0.7575757575757576
+1338,In Between Days - 2006 Remaster,The Cure,dance rock,1985,143,54,71,178,11,3,54,1.0
+1339,I Got You Babe,UB40,reggae fusion,1985,174,76,86,189,8,7,65,1.1692307692307693
+1340,Moon Over Bourbon Street,Sting,permanent wave,1985,125,41,18,240,67,4,51,0.803921568627451
+1341,We Are The World,U.S.A. For Africa,electro,1985,73,53,29,427,19,4,70,0.7571428571428571
+1342,Out In The Fields,Gary Moore,album rock,1985,180,44,36,258,3,6,52,0.8461538461538461
+1343,Hunting High and Low,a-ha,dance rock,1985,117,60,30,224,4,3,37,1.6216216216216217
+1344,Take Me Home - 2016 Remaster,Phil Collins,mellow gold,1985,119,62,58,354,47,5,56,1.1071428571428572
+1345,Master of Puppets (Remastered),Metallica,alternative metal,1986,105,54,56,515,0,4,67,0.8059701492537313
+1346,Angel Of Death,Slayer,alternative metal,1986,90,28,10,291,0,16,57,0.49122807017543857
+1347,Livin' On A Prayer,Bon Jovi,glam metal,1986,123,53,80,249,8,3,83,0.6385542168674698
+1348,Graceland,Paul Simon,classic rock,1986,118,73,85,291,63,3,65,1.123076923076923
+1349,Don't Give Up - 2012 Remaster,Peter Gabriel,album rock,1986,161,54,36,394,83,5,45,1.2
+1350,Sometimes It Snows in April,Prince,funk,1986,104,49,6,409,83,4,53,0.9245283018867925
+1351,A Kind Of Magic - Remastered 2011,Queen,glam rock,1986,130,67,70,264,2,4,54,1.2407407407407407
+1352,The Final Countdown,Europe,album rock,1986,118,54,19,310,6,6,75,0.72
+1353,De Verzoening,Frank Boeijen Groep,dutch cabaret,1986,101,61,28,302,70,3,47,1.297872340425532
+1354,I Want You,Elvis Costello & The Attractions,art rock,1986,123,50,21,401,35,8,51,0.9803921568627451
+1355,You Can Call Me Al,Paul Simon,classic rock,1986,128,78,82,280,18,5,75,1.04
+1356,Don't Dream It's Over,Crowded House,australian pop,1986,82,44,55,237,1,4,72,0.6111111111111112
+1357,Land of Confusion - 2007 Remaster,Genesis,album rock,1986,115,63,81,287,4,4,56,1.125
+1358,Life's What You Make It - 1997 Remaster,Talk Talk,art rock,1986,92,53,94,269,0,3,59,0.8983050847457628
+1359,There Is a Light That Never Goes Out - 2011 Remaster,The Smiths,dance rock,1986,136,52,88,245,4,3,73,0.7123287671232876
+1360,You Give Love A Bad Name,Bon Jovi,glam metal,1986,123,54,81,223,7,5,80,0.675
+1361,The Lady In Red,Chris de Burgh,classic uk pop,1986,77,55,49,256,33,3,74,0.7432432432432432
+1363,Diamonds on the Soles of Her Shoes,Paul Simon,classic rock,1986,111,79,88,349,78,4,63,1.253968253968254
+1364,Absolute Beginners - 2002 Remaster,David Bowie,album rock,1986,114,56,43,338,7,4,46,1.2173913043478262
+1365,Friends Will Be Friends - Remastered 2011,Queen,glam rock,1986,75,44,35,247,4,3,50,0.88
+1366,Kiss,Prince,funk,1986,111,90,74,226,1,9,74,1.2162162162162162
+1367,In A Lifetime,Clannad,celtic,1986,134,44,30,192,66,3,32,1.375
+1368,Wanted Dead Or Alive,Bon Jovi,glam metal,1986,150,25,25,309,13,4,73,0.3424657534246575
+1369,True Colors,Cyndi Lauper,dance pop,1986,172,39,26,226,79,4,69,0.5652173913043478
+1370,Bigmouth Strikes Again - 2011 Remaster,The Smiths,dance rock,1986,135,40,84,193,7,4,67,0.5970149253731343
+1371,Anne,Herman van Veen,dutch pop,1986,115,67,28,228,67,4,42,1.5952380952380953
+1372,You Can Leave Your Hat On,Joe Cocker,album rock,1986,174,65,90,255,12,3,58,1.1206896551724137
+1373,Living in Another World - 1997 Remaster,Talk Talk,art rock,1986,111,56,94,418,0,3,53,1.0566037735849056
+1374,Fire - Live at the Winterland San Francisco CA - December 1978,Bruce Springsteen,classic rock,1986,120,43,52,193,20,17,41,1.048780487804878
+1375,Sledgehammer - 2012 Remaster,Peter Gabriel,album rock,1986,96,64,47,312,4,4,57,1.1228070175438596
+1376,Don't Leave Me This Way (with Sarah Jane Morris),The Communards,dance rock,1986,132,64,90,271,14,3,64,1.0
+1377,The Way It Is,Bruce Hornsby,album rock,1986,111,58,53,298,61,3,66,0.8787878787878788
+1378,Walk This Way (feat. Aerosmith),Run–D.M.C.,east coast hip hop,1986,106,76,94,310,1,5,68,1.1176470588235294
+1379,I'll Be Over You,TOTO,album rock,1986,82,52,41,230,6,3,68,0.7647058823529411
+1380,Why Can't This Be Love,Van Halen,album rock,1986,88,53,75,228,6,5,65,0.8153846153846154
+1381,In Your Eyes - 2012 Remaster,Peter Gabriel,album rock,1986,89,62,63,330,6,4,54,1.1481481481481481
+1382,Fight For Your Right,Beastie Boys,alternative rock,1986,134,50,42,209,1,7,68,0.7352941176470589
+1383,Homeless (with Ladysmith Black Mambazo),Paul Simon,classic rock,1986,91,40,29,228,88,7,49,0.8163265306122449
+1384,Live to Tell,Madonna,dance pop,1986,110,67,27,353,41,3,56,1.1964285714285714
+1385,West End Girls - 2001 Remaster,Pet Shop Boys,art pop,1986,113,65,61,286,1,4,68,0.9558823529411765
+1386,Invisible Touch - 2007 Remaster,Genesis,album rock,1986,131,66,84,210,34,3,60,1.1
+1387,Over De Muur,Klein Orkest,dutch indie,1987,96,61,29,209,63,5,55,1.1090909090909091
+1388,Sweet Child O' Mine,Guns N' Roses,glam metal,1987,125,45,62,356,9,5,73,0.6164383561643836
+1389,With Or Without You - Remastered,U2,irish rock,1987,110,54,11,296,0,3,80,0.675
+1390,Where The Streets Have No Name - Remastered,U2,irish rock,1987,126,49,29,338,1,4,66,0.7424242424242424
+1391,I Still Haven't Found What I'm Looking For,U2,irish rock,1987,101,56,66,277,1,4,76,0.7368421052631579
+1392,Paradise City,Guns N' Roses,glam metal,1987,100,27,40,406,2,10,71,0.38028169014084506
+1393,Fragile,Sting,permanent wave,1987,82,32,29,236,91,4,62,0.5161290322580645
+1394,Englishman In New York,Sting,permanent wave,1987,102,67,65,267,40,4,71,0.9436619718309859
+1395,Troy,Sinéad O'Connor,folk,1987,116,32,18,391,48,3,51,0.6274509803921569
+1396,Welcome To The Jungle,Guns N' Roses,glam metal,1987,124,45,32,273,2,9,72,0.625
+1397,Tougher Than the Rest,Bruce Springsteen,classic rock,1987,99,60,60,274,20,2,62,0.967741935483871
+1398,Smooth Criminal - 2012 Remaster,Michael Jackson,pop,1987,118,85,60,258,25,8,76,1.118421052631579
+1399,Patience,Guns N' Roses,glam metal,1987,120,46,33,355,69,3,66,0.696969696969697
+1400,Everywhere - 2017 Remaster,Fleetwood Mac,album rock,1987,115,73,73,227,26,3,78,0.9358974358974359
+1401,I Will Follow - Live,U2,irish rock,1987,140,23,49,239,0,6,42,0.5476190476190477
+1402,Alone,Heart,album rock,1987,175,42,17,219,64,4,73,0.5753424657534246
+1403,Sign 'O' the Times,Prince,funk,1987,198,70,55,303,1,10,54,1.2962962962962963
+1404,In the Dutch Mountains,Nits,dutch indie,1987,85,42,27,206,55,3,44,0.9545454545454546
+1405,Never Tear Us Apart,INXS,australian rock,1987,97,67,28,186,5,3,60,1.1166666666666667
+1406,Here I Go Again - 2018 Remaster,Whitesnake,album rock,1987,90,29,24,275,1,4,65,0.4461538461538462
+1407,Liefde Van Later,Herman van Veen,dutch pop,1987,121,50,13,252,97,5,41,1.2195121951219512
+1408,Unchain My Heart,Joe Cocker,album rock,1987,118,75,70,304,2,4,62,1.2096774193548387
+1409,Non je ne regrette rien,Édith Piaf,chanson,1987,87,39,44,142,86,3,64,0.609375
+1410,Never Gonna Give You Up,Rick Astley,dance pop,1987,113,73,92,213,14,4,66,1.106060606060606
+1411,Running To Stand Still,U2,irish rock,1987,95,54,23,257,86,3,55,0.9818181818181818
+1412,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,dance pop,1987,119,71,87,291,21,5,81,0.8765432098765432
+1413,Have A Little Faith In Me,John Hiatt,alternative country,1987,156,45,32,245,74,3,51,0.8823529411764706
+1414,Suzanne,Herman van Veen,dutch pop,1987,129,63,18,239,93,3,43,1.4651162790697674
+1415,The Way You Make Me Feel - 2012 Remaster,Michael Jackson,pop,1987,114,88,54,298,5,15,72,1.2222222222222223
+1416,The One I Love - Remastered,R.E.M.,alternative rock,1987,128,49,56,198,0,4,63,0.7777777777777778
+1417,Bad - 2012 Remaster,Michael Jackson,pop,1987,114,79,39,247,0,4,68,1.161764705882353
+1418,Apache,The Shadows,adult standards,1987,134,60,78,174,1,3,53,1.1320754716981132
+1419,The Cross,Prince,funk,1987,99,44,25,286,53,6,42,1.0476190476190477
+1420,Luka,Suzanne Vega,folk,1987,125,63,80,232,19,3,45,1.4
+1421,Seven Wonders - 2017 Remaster,Fleetwood Mac,album rock,1987,119,71,63,222,3,3,63,1.126984126984127
+1422,Lessons In Love,Level 42,art rock,1987,113,71,86,246,16,4,62,1.1451612903225807
+1423,Brilliant Disguise,Bruce Springsteen,classic rock,1987,126,70,95,255,15,3,57,1.2280701754385965
+1424,It's a Sin - 2001 Remaster,Pet Shop Boys,art pop,1987,127,54,29,299,25,4,66,0.8181818181818182
+1425,Bullet The Blue Sky,U2,irish rock,1987,153,36,45,272,1,4,55,0.6545454545454545
+1426,Wonderful Life,Black,dance rock,1987,106,72,82,288,71,3,64,1.125
+1428,Is This Love - 2018 Remaster,Whitesnake,album rock,1987,180,26,43,284,6,4,58,0.4482758620689655
+1429,Laat Mij Maar Alleen,Klein Orkest,dutch indie,1987,153,45,94,201,2,6,40,1.125
+1430,You Win Again,Bee Gees,adult standards,1987,169,55,91,241,9,3,63,0.873015873015873
+1431,Liberian Girl - 2012 Remastered Version,Michael Jackson,pop,1987,105,75,45,233,46,10,59,1.271186440677966
+1432,Winter in Hamburg,Frank Boeijen Groep,dutch cabaret,1987,125,60,53,318,70,3,37,1.6216216216216217
+1433,One (Remastered),Metallica,alternative metal,1988,103,44,43,446,0,6,67,0.6567164179104478
+1434,Fast Car,Tracy Chapman,folk,1988,104,71,19,297,31,4,77,0.922077922077922
+1435,Dreams,Fleetwood Mac,album rock,1988,120,82,79,254,14,4,59,1.3898305084745763
+1436,Sara,Fleetwood Mac,album rock,1988,127,74,59,382,38,3,56,1.3214285714285714
+1437,Stop Loving You,TOTO,album rock,1988,102,56,60,269,23,3,63,0.8888888888888888
+1438,Can I Play with Madness - 2015 Remaster,Iron Maiden,album rock,1988,141,31,63,211,9,10,42,0.7380952380952381
+1439,Tonight (With David Bowie) - Live,Tina Turner,disco,1988,102,59,72,255,20,5,44,1.3409090909090908
+1440,Tusk,Fleetwood Mac,album rock,1988,181,61,96,210,24,8,54,1.1296296296296295
+1441,Maid Of Orleans,Orchestral Manoeuvres In The Dark,art rock,1988,110,52,35,252,7,3,34,1.5294117647058822
+1442,Like The Way I Do,Melissa Etheridge,folk,1988,101,60,64,324,4,4,57,1.0526315789473684
+1443,Little Lies,Fleetwood Mac,album rock,1988,125,63,89,218,12,3,59,1.0677966101694916
+1444,Zwart Wit,Frank Boeijen Groep,dutch cabaret,1988,132,55,79,186,3,3,46,1.1956521739130435
+1445,All I Want Is You,U2,irish rock,1988,186,24,40,390,11,3,63,0.38095238095238093
+1446,Take This Waltz,Leonard Cohen,canadian folk,1988,142,44,35,358,84,3,40,1.1
+1448,When Love Comes To Town,U2,irish rock,1988,116,65,59,254,5,4,50,1.3
+1449,Ich bin wie du,Marianne Rosenberg,classic schlager,1988,129,48,60,218,1,8,45,1.0666666666666667
+1450,Pamela,TOTO,album rock,1988,98,58,53,310,13,3,53,1.0943396226415094
+1451,Orinoco Flow,Enya,celtic,1988,115,69,56,266,80,3,57,1.2105263157894737
+1452,Listen to Your Heart,Roxette,europop,1988,86,54,34,328,11,3,76,0.7105263157894737
+1453,Fairytale of New York (feat. Kirsty MacColl),The Pogues,celtic punk,1988,119,32,47,272,50,3,83,0.3855421686746988
+1454,Living Years,Mike & The Mechanics,album rock,1988,98,52,31,330,58,3,55,0.9454545454545454
+1455,Mushanga,TOTO,album rock,1988,122,72,51,335,9,4,45,1.6
+1456,Baby Can I Hold You,Tracy Chapman,folk,1988,74,69,47,193,8,3,72,0.9583333333333334
+1457,Big Love,Fleetwood Mac,album rock,1988,125,64,64,219,1,5,49,1.3061224489795917
+1458,Angel Of Harlem,U2,irish rock,1988,103,52,93,229,10,3,59,0.8813559322033898
+1459,Handle With Care,Traveling Wilburys,album rock,1988,115,68,71,200,11,3,63,1.0793650793650793
+1460,(Something Inside) So Strong,Labi Siffre,classic uk pop,1988,82,68,23,337,42,3,50,1.36
+1461,Into Temptation,Crowded House,australian pop,1988,84,45,26,274,48,3,49,0.9183673469387755
+1462,Twist in My Sobriety,Tanita Tikaram,new wave pop,1988,115,78,94,292,7,3,46,1.6956521739130435
+1464,Another Day in Paradise - 2016 Remaster,Phil Collins,mellow gold,1989,102,78,37,322,74,3,74,1.054054054054054
+1465,Niemand In De Stad,De Dijk,dutch indie,1989,90,63,70,291,6,3,41,1.5365853658536586
+1466,Rockin' in the Free World,Neil Young,album rock,1989,132,49,52,282,0,3,65,0.7538461538461538
+1467,Poison,Alice Cooper,album rock,1989,119,28,26,270,3,11,70,0.4
+1468,I Want It All - Remastered 2011,Queen,glam rock,1989,92,41,39,242,3,5,55,0.7454545454545455
+1469,Ik Kan Het Niet Alleen,De Dijk,dutch indie,1989,142,53,91,239,31,4,52,1.0192307692307692
+1470,Leningrad,Billy Joel,album rock,1989,139,51,23,243,38,3,49,1.0408163265306123
+1471,Have I Told You Lately,Van Morrison,classic rock,1989,144,34,18,260,28,3,68,0.5
+1472,Lullaby,The Cure,dance rock,1989,94,72,59,250,19,3,53,1.3584905660377358
+1473,The Best,Tina Turner,disco,1989,104,66,75,330,11,3,64,1.03125
+1474,Breakthru - Remastered 2011,Queen,glam rock,1989,90,57,31,248,6,9,48,1.1875
+1475,Need Your Love So Bad,Fleetwood Mac,album rock,1989,147,36,25,233,13,3,49,0.7346938775510204
+1476,Daar Gaat Ze,Clouseau,belgian rock,1989,87,63,64,229,83,3,39,1.6153846153846154
+1477,Personal Jesus - Original Seven Inch Version,Depeche Mode,dance rock,1989,130,64,71,225,1,4,61,1.0491803278688525
+1478,Kingston Town,UB40,reggae fusion,1989,102,96,80,228,16,6,49,1.9591836734693877
+1479,Woman In Chains,Tears For Fears,art rock,1989,160,43,37,391,2,3,66,0.6515151515151515
+1480,Nergens Goed Voor,De Dijk,dutch indie,1989,102,77,72,262,12,3,47,1.6382978723404256
+1481,I Wish It Would Rain Down - 2016 Remaster,Phil Collins,mellow gold,1989,126,51,36,328,29,3,61,0.8360655737704918
+1482,If You Don't Know Me by Now - 2008 Remaster,Simply Red,british soul,1989,94,64,20,204,49,3,72,0.8888888888888888
+1483,Free Fallin',Tom Petty,album rock,1989,84,62,57,256,21,3,76,0.8157894736842105
+1484,Let Love Rule,Lenny Kravitz,permanent wave,1989,153,69,70,342,3,4,51,1.3529411764705883
+1485,Epic,Faith No More,alternative metal,1989,174,36,26,294,2,12,68,0.5294117647058824
+1486,Black Velvet,Alannah Myles,classic canadian rock,1989,91,75,47,287,27,3,71,1.056338028169014
+1487,We Didn't Start the Fire,Billy Joel,album rock,1989,145,71,90,288,8,5,73,0.9726027397260274
+1488,Sowing The Seeds Of Love,Tears For Fears,art rock,1989,172,21,68,377,1,4,62,0.3387096774193548
+1489,New York Minute,Don Henley,album rock,1989,132,55,12,395,33,3,55,1.0
+1490,Something Happened on the Way to Heaven - 2016 Remaster,Phil Collins,mellow gold,1989,115,66,88,292,18,3,57,1.1578947368421053
+1491,Lovesong,The Cure,dance rock,1989,140,61,82,210,34,3,60,1.0166666666666666
+1492,Monkey Gone to Heaven,Pixies,alternative rock,1989,116,65,60,177,2,3,61,1.0655737704918034
+1493,The Miracle - Remastered 2011,Queen,glam rock,1989,92,48,54,301,16,3,33,1.4545454545454546
+1494,The Invisible Man - Remastered 2011,Queen,glam rock,1989,120,70,56,238,19,4,47,1.4893617021276595
+1495,If I Could Turn Back Time,Cher,dance pop,1989,108,66,50,240,24,3,72,0.9166666666666666
+1496,Love Shack,The B-52's,art rock,1989,134,72,87,322,3,5,69,1.0434782608695652
+1497,Thunderstruck,AC/DC,album rock,1990,134,50,26,293,0,4,81,0.6172839506172839
+1498,Papa,Stef Bos,christelijk,1990,120,74,29,193,72,3,57,1.2982456140350878
+1499,Enjoy the Silence - Single Mix,Depeche Mode,dance rock,1990,113,64,82,257,16,3,65,0.9846153846153847
+1500,Still Got The Blues,Gary Moore,album rock,1990,170,19,32,371,26,4,65,0.2923076923076923
+1501,Wind Of Change,Scorpions,album rock,1990,152,45,25,312,32,4,77,0.5844155844155844
+1502,Nothing Compares 2 U,Sinéad O'Connor,folk,1990,120,51,16,280,4,3,71,0.7183098591549296
+1503,Silent Lucidity - Remastered/2003,Queensrÿche,album rock,1990,140,46,10,348,5,3,61,0.7540983606557377
+1504,Such a Shame,Talk Talk,art rock,1990,112,60,71,258,21,3,57,1.0526315789473684
+1505,Hunger Strike,Temple Of The Dog,alternative metal,1990,138,37,30,246,2,3,59,0.6271186440677966
+1506,Candy,Iggy Pop,alternative rock,1990,144,62,65,253,4,3,60,1.0333333333333334
+1507,Send Me An Angel,Scorpions,album rock,1990,81,15,17,273,43,3,69,0.21739130434782608
+1508,Don't Go Breaking My Heart,Elton John,glam rock,1990,131,74,78,271,18,4,69,1.0724637681159421
+1509,"Night Fever - From ""Saturday Night Fever"" Soundtrack",Bee Gees,adult standards,1990,109,74,90,210,2,3,54,1.3703703703703705
+1510,More Than Words,Extreme,album rock,1990,92,63,24,334,47,3,67,0.9402985074626866
+1511,"It Must Have Been Love - From the Film ""Pretty Woman""",Roxette,europop,1990,81,52,72,259,34,3,73,0.7123287671232876
+1512,Domino,Clouseau,belgian rock,1990,75,49,21,248,72,4,31,1.5806451612903225
+1513,Met Hart En Ziel,Tröckener Kecks,dutch indie,1990,167,38,70,226,11,3,38,1.0
+1514,Love Rears Its Ugly Head,Living Colour,alternative metal,1990,156,62,73,259,6,9,50,1.24
+1515,Hard To Handle,The Black Crowes,album rock,1990,104,59,96,188,0,4,68,0.8676470588235294
+1516,Black,Pearl Jam,alternative rock,1991,77,36,20,343,32,3,75,0.48
+1517,De Boer Is De Keerl,Normaal,dutch rock,1991,85,52,63,221,21,3,51,1.0196078431372548
+1518,November Rain,Guns N' Roses,glam metal,1991,80,29,23,536,2,3,80,0.3625
+1519,Nothing Else Matters,Metallica,alternative metal,1991,142,56,17,389,5,3,69,0.8115942028985508
+1520,Smells Like Teen Spirit,Nirvana,alternative rock,1991,117,50,72,302,0,6,74,0.6756756756756757
+1521,Innuendo - Remastered 2011,Queen,glam rock,1991,73,21,17,393,18,6,49,0.42857142857142855
+1522,Alive,Pearl Jam,alternative rock,1991,75,28,60,341,1,4,75,0.37333333333333335
+1523,Enter Sandman,Metallica,alternative metal,1991,123,58,64,332,0,3,74,0.7837837837837838
+1524,Who Wants To Live Forever - Remastered 2011,Queen,glam rock,1991,87,14,4,295,58,4,51,0.27450980392156865
+1525,Under the Bridge,Red Hot Chili Peppers,alternative rock,1991,85,56,46,264,6,5,81,0.691358024691358
+1526,Deurdonderen,Normaal,dutch rock,1991,175,46,86,234,1,8,49,0.9387755102040817
+1527,The Show Must Go On - 2011 Mix,Queen,glam rock,1991,83,31,18,278,41,3,58,0.5344827586206896
+1528,Losing My Religion,R.E.M.,alternative rock,1991,126,67,80,268,18,3,81,0.8271604938271605
+1529,Come As You Are,Nirvana,alternative rock,1991,120,50,54,219,0,4,72,0.6944444444444444
+1530,Jeremy,Pearl Jam,alternative rock,1991,109,28,29,318,4,4,73,0.3835616438356164
+1531,One,U2,irish rock,1991,181,39,33,276,25,4,77,0.5064935064935064
+1532,Knockin' On Heaven's Door,Guns N' Roses,glam metal,1991,132,50,38,336,2,4,77,0.6493506493506493
+1533,The Unforgiven,Metallica,alternative metal,1991,139,54,25,387,1,3,65,0.8307692307692308
+1534,These Are The Days Of Our Lives - 2011 Remaster,Queen,glam rock,1991,113,69,55,255,37,3,49,1.4081632653061225
+1535,Lithium,Nirvana,alternative rock,1991,123,68,49,257,0,4,68,1.0
+1536,Lekker Op De Trekker ('n Boerinnen-Wervingslied),Mannenkoor Karrespoor,levenslied,1991,132,72,97,216,73,4,39,1.8461538461538463
+1538,Even Flow,Pearl Jam,alternative rock,1991,105,39,27,293,0,8,75,0.52
+1539,Hammer To Fall - Remastered 2011,Queen,glam rock,1991,127,43,51,218,32,9,55,0.7818181818181819
+1540,Sad But True,Metallica,alternative metal,1991,89,63,43,325,0,3,63,1.0
+1541,Year of the Cat - 2001 Remaster,Al Stewart,album rock,1991,117,53,53,401,1,3,61,0.8688524590163934
+1542,Don't Cry (Original),Guns N' Roses,glam metal,1991,125,46,24,284,0,3,74,0.6216216216216216
+1543,(Everything I Do) I Do It For You,Bryan Adams,album rock,1991,131,53,25,394,8,3,64,0.828125
+1544,No More Tears,Ozzy Osbourne,album rock,1991,103,35,32,443,0,4,66,0.5303030303030303
+1545,You,Ten Sharp,pop,1991,174,41,67,273,43,3,61,0.6721311475409836
+1546,Heal the World,Michael Jackson,pop,1991,81,53,10,384,54,5,68,0.7794117647058824
+1547,Bestel Mar (edit),Rowwen Hèze,carnaval limburg,1991,160,58,91,187,7,10,48,1.2083333333333333
+1548,On Every Street,Dire Straits,album rock,1991,132,32,15,302,58,4,56,0.5714285714285714
+1549,Give It Away,Red Hot Chili Peppers,alternative rock,1991,92,67,78,283,0,5,73,0.9178082191780822
+1550,Four Seasons In One Day,Crowded House,australian pop,1991,89,52,49,170,82,3,51,1.0196078431372548
+1551,Walking in Memphis,Marc Cohn,folk,1991,130,57,33,253,55,4,69,0.8260869565217391
+1552,Learning To Fly,Tom Petty and the Heartbreakers,album rock,1991,117,65,95,242,21,3,71,0.9154929577464789
+1553,Live And Let Die,Guns N' Roses,glam metal,1991,153,26,26,183,1,6,68,0.38235294117647056
+1554,In Bloom - Nevermind Version,Nirvana,alternative rock,1991,157,44,51,255,0,6,64,0.6875
+1555,Weather With You,Crowded House,australian pop,1991,94,64,89,224,25,3,69,0.927536231884058
+1556,Shiny Happy People,R.E.M.,alternative rock,1991,125,45,81,226,3,4,70,0.6428571428571429
+1557,Stars,Simply Red,british soul,1991,104,72,82,249,15,3,49,1.469387755102041
+1558,I'm Going Slightly Mad - Remastered 2011,Queen,glam rock,1991,116,64,31,263,57,5,48,1.3333333333333333
+1559,On the Border - 2001 Remaster,Al Stewart,album rock,1991,98,48,73,202,6,3,49,0.9795918367346939
+1560,Diamonds and Pearls,Prince,funk,1991,81,55,29,285,5,3,47,1.1702127659574468
+1561,I Can't Dance - 2007 Remaster,Genesis,album rock,1991,108,91,90,241,50,5,54,1.6851851851851851
+1562,No Son of Mine - 2007 Remaster,Genesis,album rock,1991,104,66,26,399,13,3,39,1.6923076923076923
+1563,I Can't Make You Love Me,Bonnie Raitt,classic rock,1991,125,59,11,333,85,3,66,0.8939393939393939
+1564,Love of the Common People,Paul Young,album rock,1991,91,74,89,221,9,8,55,1.3454545454545455
+1565,Mysterious Ways,U2,irish rock,1991,100,67,70,244,0,3,63,1.0634920634920635
+1566,We Don't Need Another Hero (Thunderdome),Tina Turner,disco,1991,99,69,71,255,20,5,61,1.1311475409836065
+1567,Calling Elvis,Dire Straits,album rock,1991,120,61,39,385,9,3,54,1.1296296296296295
+1569,Fear of the Dark - 2015 Remaster,Iron Maiden,album rock,1992,110,31,23,438,0,6,55,0.5636363636363636
+1570,Bed Of Roses,Bon Jovi,glam metal,1992,165,31,16,394,10,3,73,0.4246575342465753
+1571,Everybody Hurts,R.E.M.,alternative rock,1992,94,47,17,320,62,3,74,0.6351351351351351
+1572,Kayleigh,Marillion,album rock,1992,106,56,60,243,2,3,58,0.9655172413793104
+1573,Layla - Acoustic; Live at MTV Unplugged Bray Film Studios Windsor England UK 1/16/1992; 2013 Remaster,Eric Clapton,album rock,1992,94,56,64,289,32,5,70,0.8
+1574,I Will Always Love You,Whitney Houston,dance pop,1992,67,31,11,271,84,4,77,0.4025974025974026
+1575,Nightswimming,R.E.M.,alternative rock,1992,114,57,57,258,80,3,62,0.9193548387096774
+1576,Conquest of Paradise,Vangelis,cyberpunk,1992,74,43,16,278,70,3,61,0.7049180327868853
+1577,Would?,Alice In Chains,alternative metal,1992,101,31,59,207,0,4,71,0.43661971830985913
+1578,Friday I'm in Love,The Cure,dance rock,1992,136,53,51,214,0,3,67,0.7910447761194029
+1579,Sharp Dressed Man,ZZ Top,album rock,1992,125,65,40,252,0,3,53,1.2264150943396226
+1580,Man On The Moon,R.E.M.,alternative rock,1992,119,67,66,314,42,3,67,1.0
+1581,Gimme All Your Lovin',ZZ Top,album rock,1992,120,66,71,240,5,3,44,1.5
+1582,What's Up?,4 Non Blondes,new wave pop,1992,134,56,45,296,16,3,78,0.717948717948718
+1583,Lavender,Marillion,album rock,1992,138,33,23,224,31,3,51,0.6470588235294118
+1584,Plush - 2017 Remaster,Stone Temple Pilots,alternative metal,1992,144,43,47,314,1,4,61,0.7049180327868853
+1585,Eloise,Barry Ryan,bubblegum pop,1992,131,43,46,345,22,3,45,0.9555555555555556
+1586,Harvest Moon,Neil Young,album rock,1992,113,65,41,303,53,3,71,0.9154929577464789
+1587,Drive,R.E.M.,alternative rock,1992,143,47,24,271,18,3,62,0.7580645161290323
+1588,Remedy,The Black Crowes,album rock,1992,160,41,35,323,0,5,56,0.7321428571428571
+1589,I've Got Dreams to Remember,Otis Redding,classic soul,1992,142,39,40,196,50,3,49,0.7959183673469388
+1590,Jump Around,House Of Pain,gangster rap,1992,107,85,82,215,1,8,74,1.1486486486486487
+1591,Human Touch,Bruce Springsteen,classic rock,1992,115,65,45,389,0,3,58,1.1206896551724137
+1593,In These Arms,Bon Jovi,glam metal,1992,123,51,46,319,1,6,59,0.864406779661017
+1594,Out Of Space,The Prodigy,big beat,1992,147,64,61,298,0,6,48,1.3333333333333333
+1595,Find The River,R.E.M.,alternative rock,1992,145,42,30,230,22,3,58,0.7241379310344828
+1596,I Have Nothing,Whitney Houston,dance pop,1992,153,54,24,289,58,4,73,0.7397260273972602
+1597,Rosalyn,Vitesse,nederpop,1992,102,49,67,208,1,6,39,1.2564102564102564
+1598,Rooster,Alice In Chains,alternative metal,1992,144,27,20,374,3,3,68,0.39705882352941174
+1599,Why,Annie Lennox,europop,1992,91,53,12,294,28,2,64,0.828125
+1600,Rhythm Is A Dancer,SNAP!,diva house,1992,124,76,86,332,21,3,57,1.3333333333333333
+1601,Keep The Faith,Bon Jovi,glam metal,1992,118,57,57,347,0,5,58,0.9827586206896551
+1602,No Rain,Blind Melon,alternative metal,1992,148,39,57,217,62,3,73,0.5342465753424658
+1603,Creep,Radiohead,alternative rock,1993,92,52,10,239,1,4,82,0.6341463414634146
+1604,Proud Mary,Tina Turner,disco,1993,171,40,37,327,8,7,66,0.6060606060606061
+1605,Fields Of Gold,Sting,permanent wave,1993,104,65,32,222,37,2,69,0.9420289855072463
+1606,Eagle - Short Version,ABBA,europop,1993,86,41,65,263,0,3,41,1.0
+1607,Linger,The Cranberries,irish rock,1993,95,44,20,275,8,3,75,0.5866666666666667
+1608,Alles Geprobeerd,Het Goede Doel,dutch pop,1993,76,59,84,388,11,4,38,1.5526315789473684
+1609,I'd Do Anything For Love (But I Won't Do That) - Single Edit,Meat Loaf,album rock,1993,105,42,30,316,62,9,59,0.711864406779661
+1610,Shape Of My Heart,Sting,permanent wave,1993,84,54,24,279,69,3,72,0.75
+1611,I Will Survive - Single Version,Gloria Gaynor,disco,1993,116,80,64,199,2,5,60,1.3333333333333333
+1612,Ordinary World,Duran Duran,dance rock,1993,140,47,40,340,1,3,72,0.6527777777777778
+1613,Disarm - Remastered,The Smashing Pumpkins,alternative metal,1993,130,53,22,197,14,3,62,0.8548387096774194
+1614,Mr. Jones,Counting Crows,alternative rock,1993,142,58,73,272,18,4,76,0.7631578947368421
+1615,Heart-Shaped Box,Nirvana,alternative rock,1993,203,26,38,281,20,6,74,0.35135135135135137
+1616,Daughter (Remastered),Pearl Jam,alternative rock,1993,97,62,73,234,1,3,68,0.9117647058823529
+1617,In-A-Gadda-Da-Vida - Single Version,Iron Butterfly,art rock,1993,119,47,77,174,0,3,57,0.8245614035087719
+1618,Gaia,Valensia,classical rock,1993,174,38,20,331,74,3,39,0.9743589743589743
+1619,Mull Of Kintyre - 1993 Digital Remaster,Wings,album rock,1993,93,33,42,283,0,3,56,0.5892857142857143
+1620,Cose della vita,Eros Ramazzotti,italian pop,1993,176,50,47,289,6,3,48,1.0416666666666667
+1621,Are You Gonna Go My Way,Lenny Kravitz,permanent wave,1993,129,62,78,212,0,4,72,0.8611111111111112
+1622,What's Love Got to Do with It,Tina Turner,disco,1993,98,85,79,227,22,7,69,1.2318840579710144
+1623,Rearviewmirror (Remastered),Pearl Jam,alternative rock,1993,159,37,44,283,0,7,58,0.6379310344827587
+1624,La solitudine,Laura Pausini,europop,1993,132,57,26,241,74,4,57,1.0
+1625,Up Where We Belong,Joe Cocker,album rock,1993,139,57,36,233,60,3,54,1.0555555555555556
+1626,Rape Me,Nirvana,alternative rock,1993,112,42,23,170,1,5,64,0.65625
+1627,Round Here,Counting Crows,alternative rock,1993,94,31,19,331,14,3,61,0.5081967213114754
+1628,I Want You Back,The Jackson 5,adult standards,1993,98,64,94,181,49,3,65,0.9846153846153847
+1629,Younger Days,The Fatal Flowers,dutch indie,1993,116,54,31,188,2,4,42,1.2857142857142858
+1630,All Apologies,Nirvana,alternative rock,1993,113,45,36,233,8,3,67,0.6716417910447762
+1631,Zombie,The Cranberries,irish rock,1994,167,31,31,306,2,3,80,0.3875
+1632,Hallelujah,Jeff Buckley,alternative rock,1994,97,32,8,414,93,3,73,0.4383561643835616
+1633,Oude Maasweg,The Amazing Stroopwafels,dutch rock,1994,90,75,13,206,70,4,45,1.6666666666666667
+1634,Lightning Crashes,Live,alternative metal,1994,90,39,43,326,24,4,64,0.609375
+1635,Black Hole Sun,Soundgarden,alternative metal,1994,105,35,15,319,0,4,76,0.4605263157894737
+1636,The Man Who Sold The World,Nirvana,alternative rock,1994,115,48,42,261,43,8,73,0.6575342465753424
+1637,Basket Case,Green Day,modern rock,1994,85,44,78,182,0,6,79,0.5569620253164557
+1638,Where Did You Sleep Last Night,Nirvana,alternative rock,1994,109,57,36,306,67,6,68,0.8382352941176471
+1639,High Hopes,Pink Floyd,album rock,1994,75,52,28,511,20,3,59,0.8813559322033898
+1640,Kiss from a Rose,Seal,british soul,1994,132,58,22,288,68,3,72,0.8055555555555556
+1641,Always,Bon Jovi,glam metal,1994,141,38,33,353,12,3,76,0.5
+1642,All I Want for Christmas Is You,Mariah Carey,dance pop,1994,150,34,35,241,16,4,95,0.35789473684210527
+1643,I Alone,Live,alternative metal,1994,90,40,10,231,0,5,62,0.6451612903225806
+1644,Sabotage,Beastie Boys,alternative rock,1994,168,32,54,178,3,10,71,0.4507042253521127
+1645,Smooth Operator - Single Version,Sade,british soul,1994,119,73,96,259,24,3,66,1.106060606060606
+1646,Glory Box,Portishead,art pop,1994,120,51,21,309,18,4,67,0.7611940298507462
+1647,Dromen Zijn Bedrog,Marco Borsato,dutch cabaret,1994,132,61,64,243,3,4,56,1.0892857142857142
+1648,Ode To My Family,The Cranberries,irish rock,1994,94,36,14,271,6,2,69,0.5217391304347826
+1649,No Good (Start the Dance) [Remastered],The Prodigy,big beat,1994,145,64,17,378,1,5,56,1.1428571428571428
+1650,When I Come Around,Green Day,modern rock,1994,98,53,81,178,2,3,75,0.7066666666666667
+1651,Live Forever - Remastered,Oasis,britpop,1994,84,10,18,277,0,4,55,0.18181818181818182
+1652,Mmm Mmm Mmm Mmm,Crash Test Dummies,canadian rock,1994,93,58,37,235,25,2,57,1.0175438596491229
+1654,Polly,Nirvana,alternative rock,1994,115,62,44,196,68,4,57,1.087719298245614
+1655,Grace,Jeff Buckley,alternative rock,1994,128,55,19,322,3,4,59,0.9322033898305084
+1656,Stil In Mij,Van Dik Hout,dutch cabaret,1995,99,59,39,245,22,3,58,1.0172413793103448
+1657,Wonderwall - Remastered,Oasis,britpop,1995,175,37,48,259,0,4,71,0.5211267605633803
+1658,Don't Look Back In Anger - Remastered,Oasis,britpop,1995,163,33,34,290,6,6,63,0.5238095238095238
+1659,Streets of Philadelphia - Single Edit,Bruce Springsteen,classic rock,1995,94,74,44,195,29,3,70,1.0571428571428572
+1660,Earth Song,Michael Jackson,pop,1995,138,50,14,406,48,3,63,0.7936507936507936
+1661,Street Spirit (Fade Out),Radiohead,alternative rock,1995,138,49,13,254,31,3,62,0.7903225806451613
+1662,Man in the Mirror,Michael Jackson,pop,1995,100,79,27,319,43,4,64,1.234375
+1663,Aan De Kust,BLØF,dutch pop,1995,78,51,22,223,93,5,47,1.0851063829787233
+1664,Beat It,Michael Jackson,pop,1995,139,76,91,258,3,4,60,1.2666666666666666
+1665,Margherita,Marco Borsato,dutch cabaret,1995,119,54,14,250,52,4,52,1.0384615384615385
+1666,Vivo per lei,Andrea Bocelli,adult standards,1995,136,53,29,266,70,3,64,0.828125
+1667,Circle Of Life,Elton John,glam rock,1995,160,28,16,290,28,4,54,0.5185185185185185
+1668,They Don't Care About Us,Michael Jackson,pop,1995,90,86,73,284,21,13,69,1.2463768115942029
+1669,Champagne Supernova - Remastered,Oasis,britpop,1995,150,29,12,448,47,4,63,0.4603174603174603
+1670,You Do Something To Me,Paul Weller,britpop,1995,73,44,30,219,48,3,58,0.7586206896551724
+1671,Lemon Tree,Fools Garden,german pop rock,1995,143,66,64,191,64,4,73,0.9041095890410958
+1672,Weak,Skunk Anansie,british alternative rock,1995,94,53,45,212,1,3,24,2.2083333333333335
+1673,Ik Leef Niet Meer Voor Jou,Marco Borsato,dutch cabaret,1995,150,55,57,217,2,5,60,0.9166666666666666
+1674,Gangsta's Paradise,Coolio,g funk,1995,80,65,39,241,7,6,80,0.8125
+1675,Con Te Partirò,Andrea Bocelli,adult standards,1995,135,24,30,251,84,3,66,0.36363636363636365
+1676,Don't Speak,No Doubt,alternative rock,1995,76,52,54,264,25,4,67,0.7761194029850746
+1677,Heaven For Everyone - Remastered 2011,Queen,glam rock,1995,110,60,27,336,29,3,49,1.2244897959183674
+1678,Fake Plastic Trees,Radiohead,alternative rock,1995,74,45,13,291,17,3,70,0.6428571428571429
+1679,Too Much Love Will Kill You - 2011 Remaster,Queen,glam rock,1995,73,41,21,259,58,3,49,0.8367346938775511
+1680,1979 - Remastered 2012,The Smashing Pumpkins,alternative metal,1995,127,77,96,266,2,3,74,1.0405405405405406
+1681,Avalon,Roxy Music,album rock,1995,137,76,88,257,67,3,46,1.6521739130434783
+1682,You Don't Fool Me - Remastered 2011,Queen,glam rock,1995,122,59,58,325,10,4,45,1.3111111111111111
+1683,Can You Feel The Love Tonight,Elton John,glam rock,1995,123,30,15,240,81,3,58,0.5172413793103449
+1684,Dear Mama,2Pac,g funk,1995,84,77,32,280,37,10,72,1.0694444444444444
+1685,Diane,Therapy?,alternative metal,1995,124,42,4,300,68,4,44,0.9545454545454546
+1686,Stranger in Moscow,Michael Jackson,pop,1995,130,80,59,344,25,4,58,1.3793103448275863
+1687,An American Trilogy,Elvis Presley,adult standards,1995,84,21,17,272,73,3,31,0.6774193548387096
+1688,Secret Garden,Bruce Springsteen,classic rock,1995,87,52,12,267,58,3,61,0.8524590163934426
+1689,Tonight Tonight - Remastered 2012,The Smashing Pumpkins,alternative metal,1995,149,29,22,255,0,4,68,0.4264705882352941
+1690,Bullet With Butterfly Wings - Remastered 2012,The Smashing Pumpkins,alternative metal,1995,122,40,48,258,0,6,71,0.5633802816901409
+1691,A Winter's Tale - 2011 Remaster,Queen,glam rock,1995,54,36,14,230,18,3,29,1.2413793103448276
+1692,Gold,Prince,funk,1995,90,53,44,443,0,3,46,1.1521739130434783
+1693,High And Dry,Radiohead,alternative rock,1995,88,42,35,257,7,3,72,0.5833333333333334
+1694,Fairground,Simply Red,british soul,1995,123,72,62,333,21,4,56,1.2857142857142858
+1695,Avond,Boudewijn de Groot,dutch indie,1996,98,48,17,277,66,4,40,1.2
+1696,She - Tous les visages de l’amour,Charles Aznavour,chanson,1996,132,35,36,153,22,3,60,0.5833333333333334
+1697,Insomnia,Faithless,big beat,1996,127,79,26,527,18,4,55,1.4363636363636363
+1698,Jesus to a Child,George Michael,dance rock,1996,174,53,19,411,31,3,62,0.8548387096774194
+1699,Down Under,Men At Work,album rock,1996,107,75,89,221,5,3,74,1.0135135135135136
+1700,Jump,Van Halen,album rock,1996,130,55,77,240,7,3,57,0.9649122807017544
+1701,Het Is Een Nacht... (Levensecht),Guus Meeuwis,dutch pop,1996,138,63,50,225,54,3,58,1.0862068965517242
+1702,Where the Wild Roses Grow - 2011 - Remaster,Nick Cave & The Bad Seeds,art rock,1996,155,34,16,237,38,3,59,0.576271186440678
+1703,Beautiful Noise,Neil Diamond,adult standards,1996,127,53,73,193,12,3,57,0.9298245614035088
+1704,Yesterday When I Was Young,Charles Aznavour,chanson,1996,68,33,29,215,40,6,53,0.6226415094339622
+1705,De Waarheid,Marco Borsato,dutch cabaret,1996,61,34,9,312,11,3,50,0.68
+1706,Wereld Zonder Jou,Marco Borsato,dutch cabaret,1996,121,57,9,236,51,3,55,1.0363636363636364
+1707,Wannabe,Spice Girls,dance pop,1996,110,77,89,173,10,3,80,0.9625
+1708,Hedonism (Just Because You Feel Good),Skunk Anansie,british alternative rock,1996,81,56,31,207,9,3,32,1.75
+1709,Killing Me Softly With His Song,Fugees,east coast hip hop,1996,92,77,51,299,3,14,74,1.0405405405405406
+1710,You Have Been Loved,George Michael,dance rock,1996,137,61,16,331,24,3,53,1.150943396226415
+1711,Children,Robert Miles,eurodance,1996,137,60,39,243,0,3,67,0.8955223880597015
+1713,"Casser la voix - Live ""Si Ce Soir""",Patrick Bruel,chanson,1996,135,27,34,455,2,6,35,0.7714285714285715
+1714,Beautiful Goodbye,Amanda Marshall,canadian pop,1996,99,49,4,317,65,3,37,1.3243243243243243
+1715,Ain't Nobody,Chaka Khan,dance pop,1996,104,80,82,281,19,4,70,1.1428571428571428
+1716,A Long December,Counting Crows,alternative rock,1996,71,39,38,295,47,3,63,0.6190476190476191
+1717,Novocaine For The Soul,Eels,alternative rock,1996,169,41,31,189,0,4,54,0.7592592592592593
+1718,Per Spoor (Kedeng Kedeng),Guus Meeuwis,dutch pop,1996,126,58,79,253,20,5,49,1.183673469387755
+1719,Bitter Sweet Symphony,The Verve,alternative rock,1997,171,36,52,357,3,5,78,0.46153846153846156
+1720,Zeg Me Dat Het Niet Zo Is,Frank Boeijen,dutch cabaret,1997,70,35,29,161,85,4,48,0.7291666666666666
+1721,Du hast,Rammstein,alternative metal,1997,125,64,72,234,0,4,67,0.9552238805970149
+1722,Take Me Home Country Roads,John Denver,adult standards,1997,164,26,55,198,55,3,77,0.33766233766233766
+1723,Karma Police,Radiohead,alternative rock,1997,75,36,32,264,6,3,74,0.4864864864864865
+1724,Everlong,Foo Fighters,alternative metal,1997,158,41,36,251,0,4,77,0.5324675324675324
+1725,Op Fietse,Skik,dutch indie,1997,104,53,86,291,19,3,46,1.1521739130434783
+1726,Paranoid Android,Radiohead,alternative rock,1997,164,25,19,387,4,6,67,0.373134328358209
+1727,Lopen Tot De Zon Komt,Acda en de Munnik,dutch cabaret,1997,100,43,36,206,89,3,49,0.8775510204081632
+1728,Into My Arms - 2011 Remastered Version,Nick Cave & The Bad Seeds,art rock,1997,94,48,22,256,89,4,65,0.7384615384615385
+1729,Engel,Rammstein,alternative metal,1997,96,64,33,264,1,3,60,1.0666666666666667
+1730,k Heb Je Lief,Paul de Leeuw,dutch cabaret,1997,136,53,22,284,73,4,54,0.9814814814814815
+1731,Chan Chan,Buena Vista Social Club,latin jazz,1997,166,40,68,257,83,4,68,0.5882352941176471
+1732,Firestarter,The Prodigy,big beat,1997,142,53,38,280,0,8,64,0.828125
+1733,The Unforgiven II,Metallica,alternative metal,1997,133,49,25,396,0,4,55,0.8909090909090909
+1734,Smack My Bitch Up,The Prodigy,big beat,1997,136,61,23,343,0,15,65,0.9384615384615385
+1735,You'll Never Walk Alone,Gerry & The Pacemakers,adult standards,1997,113,47,22,160,25,3,55,0.8545454545454545
+1736,Good Riddance (Time of Your Life),Green Day,modern rock,1997,95,48,65,153,18,3,75,0.64
+1737,Candle In The Wind 1997,Elton John,glam rock,1997,126,45,37,250,98,3,53,0.8490566037735849
+1738,No Surprises,Radiohead,alternative rock,1997,76,26,12,229,6,3,71,0.36619718309859156
+1739,Als Het Vuur Gedoofd Is,Acda en de Munnik,dutch cabaret,1997,92,56,61,234,49,3,42,1.3333333333333333
+1740,Little Green Bag,George Baker Selection,classic uk pop,1997,103,71,88,195,4,3,44,1.6136363636363635
+1741,Beds Are Burning - Remastered,Midnight Oil,australian rock,1997,119,75,34,258,1,4,63,1.1904761904761905
+1742,"My Heart Will Go On - Love Theme from ""Titanic""",Céline Dion,canadian pop,1997,99,43,4,280,73,3,75,0.5733333333333334
+1743,t Dondert En 't Bliksemt,Guus Meeuwis,dutch pop,1997,121,70,89,192,64,7,50,1.4
+1744,Breathe,The Prodigy,big beat,1997,130,68,32,335,1,5,66,1.0303030303030303
+1745,The Memory Remains,Metallica,alternative metal,1997,144,43,60,279,0,4,51,0.8431372549019608
+1746,N'oubliez Jamais,Joe Cocker,album rock,1997,87,59,35,283,14,2,35,1.6857142857142857
+1747,Tell Him,Barbra Streisand,adult standards,1997,76,34,7,291,76,4,47,0.723404255319149
+1748,Mooi Liedje,Acda en de Munnik,dutch cabaret,1997,177,49,22,179,96,4,42,1.1666666666666667
+1750,Songbird,Eva Cassidy,adult standards,1997,153,38,15,225,85,3,61,0.6229508196721312
+1751,Hier Komt De Storm,Frank Boeijen Groep,dutch cabaret,1997,89,41,43,388,51,4,31,1.3225806451612903
+1752,The Drugs Don't Work,The Verve,alternative rock,1997,77,44,18,305,18,3,64,0.6875
+1753,Around the World,Daft Punk,electro,1997,121,96,84,430,0,15,70,1.3714285714285714
+1754,Somebody to Love,George Michael,dance rock,1998,110,33,38,319,5,5,57,0.5789473684210527
+1755,Nobody's Wife,Anouk,dutch indie,1998,98,51,46,206,1,4,33,1.5454545454545454
+1756,Als Ze Er Niet Is,De Dijk,dutch indie,1998,166,38,21,211,24,6,50,0.76
+1757,Careless Whisper,George Michael,dance rock,1998,153,57,79,300,13,4,76,0.75
+1758,Whiskey In The Jar,Metallica,alternative metal,1998,133,51,53,305,0,4,61,0.8360655737704918
+1759,Don't Let the Sun Go Down on Me,George Michael,dance rock,1998,135,44,26,347,49,3,66,0.6666666666666666
+1760,The Whole of the Moon,The Waterboys,art rock,1998,106,54,60,299,7,3,59,0.9152542372881356
+1761,Liefs Uit Londen,BLØF,dutch pop,1998,77,44,13,239,81,4,51,0.8627450980392157
+1762,Narcotic - Long Version,Liquido,german alternative rock,1998,102,59,36,278,0,3,42,1.4047619047619047
+1763,New Year's Day,U2,irish rock,1998,133,52,63,257,0,3,58,0.896551724137931
+1764,Cowboys and Angels,George Michael,dance rock,1998,128,57,28,435,4,3,43,1.3255813953488371
+1765,Zelfs Je Naam Is Mooi,Henk Westbroek,alternative pop rock,1998,94,56,45,270,38,2,49,1.1428571428571428
+1766,Toen Ik Je Zag - Single Version,Hero,pop,1998,81,37,14,205,71,4,47,0.7872340425531915
+1767,"I Don't Want to Miss a Thing - From ""Armageddon"" Soundtrack",Aerosmith,album rock,1998,121,38,14,299,17,3,76,0.5
+1768,Fields Of Gold,Eva Cassidy,adult standards,1998,80,46,31,282,97,3,62,0.7419354838709677
+1769,A Different Corner,George Michael,dance rock,1998,99,27,15,244,86,3,58,0.46551724137931033
+1770,Teardrop,Massive Attack,big beat,1998,77,62,22,331,2,4,69,0.8985507246376812
+1771,Faith,George Michael,dance rock,1998,96,92,56,194,1,10,46,2.0
+1772,Father Figure,George Michael,dance rock,1998,102,48,25,340,23,3,51,0.9411764705882353
+1773,Niet Of Nooit Geweest,Acda en de Munnik,dutch cabaret,1998,122,48,51,242,38,4,54,0.8888888888888888
+1774,Is Dit Nu Later,Stef Bos,christelijk,1998,134,41,38,257,52,4,39,1.0512820512820513
+1775,De Bestemming,Marco Borsato,dutch cabaret,1998,109,27,13,266,28,3,50,0.54
+1776,Freak On a Leash,Korn,alternative metal,1998,103,35,53,256,0,5,73,0.4794520547945205
+1777,Onderuit,De Dijk,dutch indie,1998,118,68,65,313,10,3,35,1.9428571428571428
+1778,Non non rien n'a changé,Les Poppys,alternative pop rock,1998,84,50,47,190,48,9,50,1.0
+1779,I'm Not so Tough,Ilse DeLange,dutch americana,1998,117,73,55,268,2,3,40,1.825
+1780,Killer / Papa Was a Rollin' Stone,George Michael,dance rock,1998,122,71,58,255,3,5,51,1.392156862745098
+1781,I Knew You Were Waiting (For Me),George Michael,dance rock,1998,108,72,68,238,26,5,63,1.1428571428571428
+1782,If You Tolerate This Your Children Will Be Next,Manic Street Preachers,alternative rock,1998,96,22,26,291,0,4,37,0.5945945945945946
+1783,Praying for Time,George Michael,dance rock,1998,128,57,21,281,2,3,45,1.2666666666666666
+1784,Hilversum 3,Herman van Veen,dutch pop,1998,91,69,47,233,92,6,39,1.7692307692307692
+1785,The Reflex,Duran Duran,dance rock,1998,127,56,80,267,12,10,50,1.12
+1786,World of Hurt,Ilse DeLange,dutch americana,1998,99,87,64,234,62,4,40,2.175
+1788,Pure Morning,Placebo,alternative rock,1998,81,39,20,255,4,7,60,0.65
+1789,She's The One,Robbie Williams,dance pop,1998,167,24,33,258,66,3,68,0.35294117647058826
+1790,Ik Heb Je Lief,Stef Bos,christelijk,1998,131,30,24,231,77,6,44,0.6818181818181818
+1791,Pretty Fly (For A White Guy),The Offspring,alternative metal,1998,143,72,96,189,9,10,72,1.0
+1792,I Can't Make You Love Me,George Michael,dance rock,1998,116,56,12,321,73,3,53,1.0566037735849056
+1793,Praise You,Fatboy Slim,big beat,1998,110,60,53,323,10,5,44,1.3636363636363635
+1794,Sacrifice,Anouk,dutch indie,1998,136,54,24,238,74,5,11,4.909090909090909
+1795,Toveren,Herman van Veen,dutch pop,1998,145,81,81,206,58,3,44,1.8409090909090908
+1796,Kissing a Fool,George Michael,dance rock,1998,117,39,17,275,17,3,56,0.6964285714285714
+1797,Hijo de la Luna,Mecano,latin,1998,179,45,61,266,68,3,62,0.7258064516129032
+1798,Slaap Zacht  Elisabeth,Acda en de Munnik,dutch cabaret,1998,174,44,19,263,36,3,37,1.1891891891891893
+1799,Angels,Robbie Williams,dance pop,1999,150,44,25,266,15,3,50,0.88
+1800,Tears in Heaven,Eric Clapton,album rock,1999,154,50,31,272,84,3,61,0.819672131147541
+1801,Californication,Red Hot Chili Peppers,alternative rock,1999,96,59,33,330,0,3,81,0.7283950617283951
+1802,Harder Dan Ik Hebben Kan,BLØF,dutch pop,1999,90,62,35,254,9,2,57,1.087719298245614
+1803,Learn to Fly,Foo Fighters,alternative metal,1999,136,47,54,235,0,4,74,0.6351351351351351
+1804,Total Eclipse of the Heart,Bonnie Tyler,europop,1999,130,44,18,270,20,7,75,0.5866666666666667
+1805,Scar Tissue,Red Hot Chili Peppers,alternative rock,1999,89,60,55,216,8,3,77,0.7792207792207793
+1806,Otherside,Red Hot Chili Peppers,alternative rock,1999,123,46,51,255,0,6,78,0.5897435897435898
+1807,"You'll Be In My Heart - From ""Tarzan""/Soundtrack Version",Phil Collins,mellow gold,1999,97,57,66,258,6,3,62,0.9193548387096774
+1808,Let Me Entertain You,Robbie Williams,dance pop,1999,125,46,37,261,0,7,44,1.0454545454545454
+1809,Road Trippin',Red Hot Chili Peppers,alternative rock,1999,204,24,39,205,31,4,62,0.3870967741935484
+1810,Jesus He Knows Me,Genesis,album rock,1999,95,60,65,256,57,4,18,3.3333333333333335
+1811,The Family Tree,Venice,alternative rock,1999,127,34,26,205,81,3,41,0.8292682926829268
+1812,Porcelain,Moby,downtempo,1999,95,30,33,241,0,3,54,0.5555555555555556
+1813,Unintended,Muse,modern rock,1999,139,49,16,237,65,3,61,0.8032786885245902
+1814,LA Song,Beth Hart,blues rock,1999,130,77,51,217,10,4,41,1.8780487804878048
+1815,The Dolphin's Cry,Live,alternative metal,1999,150,34,43,264,0,4,56,0.6071428571428571
+1816,All Star,Smash Mouth,alternative rock,1999,104,73,78,200,4,3,80,0.9125
+1817,Why Does My Heart Feel So Bad?,Moby,downtempo,1999,98,60,5,265,0,3,45,1.3333333333333333
+1818,Il Volo,Zucchero,classic italian pop,1999,150,45,17,332,3,3,24,1.875
+1820,Geen Kind Meer,Karin Bloemen,dutch cabaret,1999,77,50,25,263,95,3,38,1.3157894736842106
+1821,All The Small Things,blink-182,pop punk,1999,149,43,68,167,1,5,79,0.5443037974683544
+1822,Run To The Water,Live,alternative metal,1999,181,15,29,268,0,5,48,0.3125
+1823,Hart Van Mijn Gevoel,De Kast,dutch pop,1999,140,44,26,269,54,3,44,1.0
+1824,Smooth (feat. Rob Thomas),Santana,blues rock,1999,116,61,96,295,16,3,70,0.8714285714285714
+1826,Desert Rose,Sting,permanent wave,1999,112,58,13,286,1,3,52,1.1153846153846154
+1827,Hey Boy Hey Girl,The Chemical Brothers,alternative dance,1999,127,63,36,290,12,5,65,0.9692307692307692
+1828,At Last,Etta James,adult standards,1960,87,27,33,180,55,3,74,0.36486486486486486
+1829,Can't Help Falling in Love,Elvis Presley,adult standards,1961,100,40,34,182,94,3,78,0.5128205128205128
+1830,Fly Me To The Moon (In Other Words),Frank Sinatra,adult standards,1962,119,67,37,147,45,5,77,0.8701298701298701
+1831,Stand by Me,Ben E. King,adult standards,1962,118,65,61,180,57,4,77,0.8441558441558441
+1832,Oh Pretty Woman,Roy Orbison,adult standards,1962,127,62,96,179,72,3,73,0.8493150684931506
+1833,Ring of Fire,Johnny Cash,arkansas country,1963,104,66,78,158,62,3,71,0.9295774647887324
+1834,Blowin' in the Wind,Bob Dylan,album rock,1963,175,38,44,165,91,5,69,0.5507246376811594
+1835,In Dreams,Roy Orbison,adult standards,1963,108,50,71,169,67,3,57,0.8771929824561403
+1836,Twist And Shout - Remastered 2009,The Beatles,british invasion,1963,125,48,94,155,64,5,74,0.6486486486486487
+1837,Are You Lonesome Tonight,Elvis Presley,adult standards,1963,66,36,19,187,92,5,59,0.6101694915254238
+1838,I Saw Her Standing There - Remastered 2009,The Beatles,british invasion,1963,160,49,97,174,27,4,71,0.6901408450704225
+1839,Don't Think Twice It's All Right,Bob Dylan,album rock,1963,111,60,47,217,89,4,65,0.9230769230769231
+1840,The Sound of Silence - Acoustic Version,Simon & Garfunkel,classic rock,1964,107,53,33,185,84,3,75,0.7066666666666667
+1841,House Of The Rising Sun,The Animals,album rock,1964,117,30,23,271,0,3,69,0.43478260869565216
+1842,Folsom Prison Blues,Johnny Cash,arkansas country,1964,111,69,78,156,19,3,58,1.1896551724137931
+1843,The Times They Are A-Changin',Bob Dylan,album rock,1964,172,39,59,192,89,3,69,0.5652173913043478
+1844,A Change Is Gonna Come,Sam Cooke,adult standards,1964,174,21,45,191,72,3,66,0.3181818181818182
+1845,A Hard Day's Night - Remastered 2009,The Beatles,british invasion,1964,139,59,80,154,14,4,69,0.855072463768116
+1846,Nathalie,Gilbert Bécaud,chanson,1964,135,42,81,245,75,8,53,0.7924528301886793
+1847,Eight Days A Week - Remastered 2009,The Beatles,british invasion,1964,138,65,74,164,41,4,66,0.9848484848484849
+1848,It's All Over Now - Mono Version,The Rolling Stones,album rock,1964,99,60,76,206,2,3,46,1.3043478260869565
+1849,Yesterday - Remastered 2009,The Beatles,british invasion,1965,97,33,32,126,88,3,78,0.4230769230769231
+1850,(I Can't Get No) Satisfaction - Mono Version,The Rolling Stones,album rock,1965,136,72,93,223,4,3,77,0.935064935064935
+1851,Like a Rolling Stone,Bob Dylan,album rock,1965,95,48,56,370,73,3,71,0.676056338028169
+1852,Norwegian Wood (This Bird Has Flown) - Remastered 2009,The Beatles,british invasion,1965,177,43,65,125,18,4,69,0.6231884057971014
+1853,Help! - Remastered 2009,The Beatles,british invasion,1965,95,53,76,140,19,3,73,0.726027397260274
+1854,Unchained Melody,The Righteous Brothers,adult standards,1965,99,34,29,218,40,3,70,0.4857142857142857
+1855,Michelle - Remastered 2009,The Beatles,british invasion,1965,117,58,67,162,65,3,67,0.8656716417910447
+1856,Feeling Good,Nina Simone,adult standards,1965,79,40,55,174,86,4,74,0.5405405405405406
+1857,My Generation - Stereo Version,The Who,album rock,1965,97,41,71,199,31,6,71,0.5774647887323944
+1858,In My Life - Remastered 2009,The Beatles,british invasion,1965,103,69,44,146,45,3,74,0.9324324324324325
+1859,As Tears Go By - Mono Version,The Rolling Stones,album rock,1965,113,33,37,165,72,3,53,0.6226415094339622
+1860,It Was A Very Good Year,Frank Sinatra,adult standards,1965,80,22,13,267,86,3,62,0.3548387096774194
+1861,Time Is On My Side - Mono Version,The Rolling Stones,album rock,1965,100,53,42,179,29,4,53,1.0
+1862,Little Red Rooster - Mono Version,The Rolling Stones,album rock,1965,109,72,67,186,7,4,47,1.5319148936170213
+1863,Mr. Tambourine Man,The Byrds,art rock,1965,120,46,64,149,51,3,62,0.7419354838709677
+1864,Paint It Black,The Rolling Stones,album rock,1966,159,46,61,202,5,9,78,0.5897435897435898
+1865,God Only Knows - Remastered,The Beach Boys,baroque pop,1966,117,52,48,173,25,3,72,0.7222222222222222
+1866,California Dreamin' - Single Version,The Mamas & The Papas,adult standards,1966,112,55,64,162,35,3,76,0.7236842105263158
+1867,Eleanor Rigby - Remastered 2009,The Beatles,british invasion,1966,138,58,81,127,94,4,71,0.8169014084507042
+1868,River Deep - Mountain High,Ike & Tina Turner,brill building pop,1966,83,39,27,215,78,4,57,0.6842105263157895
+1869,That's Life,Frank Sinatra,adult standards,1966,112,55,63,187,53,7,75,0.7333333333333333
+1870,Jumpin' Jack Flash - Mono,The Rolling Stones,album rock,1966,137,60,62,219,4,5,65,0.9230769230769231
+1871,Scarborough Fair / Canticle,Simon & Garfunkel,classic rock,1966,129,34,30,190,65,3,63,0.5396825396825397
+1872,Sloop John B - Remastered,The Beach Boys,baroque pop,1966,126,57,90,180,40,3,61,0.9344262295081968
+1873,Homeward Bound,Simon & Garfunkel,classic rock,1966,93,49,53,150,83,3,65,0.7538461538461538
+1874,Under My Thumb,The Rolling Stones,album rock,1966,127,73,80,222,30,4,64,1.140625
+1875,I Want You,Bob Dylan,album rock,1966,100,51,79,185,36,4,58,0.8793103448275862
+1876,When a Man Loves a Woman,Percy Sledge,classic soul,1966,97,52,21,174,13,3,66,0.7878787878787878
+1877,Sunny Afternoon - Mono Mix,The Kinks,album rock,1966,125,60,49,211,10,3,67,0.8955223880597015
+1878,How Can We Hang On To A Dream,Tim Hardin,classic uk pop,1966,127,56,37,123,83,4,48,1.1666666666666667
+1879,Monday Monday - Single Version,The Mamas & The Papas,adult standards,1966,110,49,71,208,74,3,62,0.7903225806451613
+1880,For No One - Remastered 2009,The Beatles,british invasion,1966,81,48,71,120,78,3,63,0.7619047619047619
+1881,It's A Man's Man's Man's World,James Brown & The Famous Flames,motown,1966,81,54,57,167,69,4,63,0.8571428571428571
+1882,Try a Little Tenderness,Otis Redding,classic soul,1966,103,59,7,202,19,6,64,0.921875
+1883,Wouldn't It Be Nice - Stereo Mix,The Beach Boys,baroque pop,1966,125,39,72,153,72,3,72,0.5416666666666666
+1884,Nights In White Satin - Single Version / Mono Mix,The Moody Blues,album rock,1967,85,20,17,269,47,3,68,0.29411764705882354
+1886,A Day In The Life - Remastered 2009,The Beatles,british invasion,1967,163,36,18,337,29,7,67,0.5373134328358209
+1887,Brown Eyed Girl,Van Morrison,classic rock,1967,151,49,91,183,18,4,79,0.620253164556962
+1888,Respect,Aretha Franklin,adult standards,1967,115,81,97,148,16,4,73,1.1095890410958904
+1889,White Rabbit,Jefferson Airplane,album rock,1967,107,55,32,151,49,3,69,0.7971014492753623
+1890,Penny Lane,The Beatles,british invasion,1967,114,63,65,182,41,4,45,1.4
+1891,Suzanne,Leonard Cohen,canadian folk,1967,132,41,35,229,92,4,66,0.6212121212121212
+1892,Hey Joe,Jimi Hendrix,album rock,1967,169,35,53,210,1,4,71,0.49295774647887325
+1893,Good Vibrations - Remastered,The Beach Boys,baroque pop,1967,133,40,39,219,33,3,71,0.5633802816901409
+1894,Light My Fire,The Doors,album rock,1967,125,41,44,430,37,3,72,0.5694444444444444
+1895,Strawberry Fields Forever - Remastered 2009,The Beatles,british invasion,1967,98,39,29,247,34,18,70,0.5571428571428572
+1896,So Long Marianne,Leonard Cohen,canadian folk,1967,95,54,23,341,70,3,62,0.8709677419354839
+1897,Little Wing,Jimi Hendrix,album rock,1967,71,52,43,146,18,8,69,0.7536231884057971
+1898,The Fool On The Hill - Remastered 2009,The Beatles,british invasion,1967,144,36,49,179,91,3,58,0.6206896551724138
+1899,People Are Strange,The Doors,album rock,1967,119,70,76,130,69,4,70,1.0
+1900,The Wind Cries Mary,Jimi Hendrix,album rock,1967,80,50,34,201,35,5,63,0.7936507936507936
+1901,Sgt. Pepper's Lonely Hearts Club Band - Remastered 2009,The Beatles,british invasion,1967,96,45,58,123,9,7,65,0.6923076923076923
+1902,Lucy In The Sky With Diamonds - Remastered 2009,The Beatles,british invasion,1967,65,31,67,208,5,3,69,0.4492753623188406
+1903,Purple Haze,Jimi Hendrix,album rock,1967,109,53,49,171,1,8,72,0.7361111111111112
+1904,Ruby Tuesday,The Rolling Stones,album rock,1967,105,52,52,196,83,3,63,0.8253968253968254
+1905,All You Need Is Love - Remastered 2009,The Beatles,british invasion,1967,103,40,65,230,35,3,68,0.5882352941176471
+1906,He Ain't Heavy He's My Brother,The Hollies,adult standards,1967,76,31,22,258,41,3,50,0.62
+1907,When I'm Sixty Four - Remastered 2009,The Beatles,british invasion,1967,140,70,66,158,63,5,65,1.0769230769230769
+1908,Somebody Will Know Someday,Cuby & The Blizzards,dutch indie,1967,82,55,33,413,18,4,37,1.4864864864864864
+1909,I Am The Walrus - Remastered 2009,The Beatles,british invasion,1967,85,40,65,276,8,5,65,0.6153846153846154
+1910,Guitar Man,Elvis Presley,adult standards,1967,114,60,91,139,54,6,41,1.4634146341463414
+1911,Ain't No Mountain High Enough,Marvin Gaye,classic soul,1967,130,66,80,152,43,3,80,0.825
+1912,San Francisco (Be Sure to Wear Some Flowers In Your Hair),Scott McKenzie,bubblegum pop,1967,112,50,48,179,5,3,53,0.9433962264150944
+1913,She's Leaving Home - Remastered 2009,The Beatles,british invasion,1967,128,38,39,215,94,3,63,0.6031746031746031
+1914,I'm a Believer - 2006 Remaster,The Monkees,brill building pop,1967,80,53,96,167,71,4,73,0.726027397260274
+1915,Waterloo Sunset - Mono Mix,The Kinks,album rock,1967,108,51,42,194,16,2,66,0.7727272727272727
+1916,Sunshine Of Your Love,Cream,album rock,1967,115,68,78,250,48,4,74,0.918918918918919
+1917,Break on Through (To the Other Side),The Doors,album rock,1967,90,42,79,146,20,5,72,0.5833333333333334
+1918,Somebody to Love,Jefferson Airplane,album rock,1967,132,50,65,175,41,3,69,0.7246376811594203
+1919,Green Green Grass Of Home,Tom Jones,adult standards,1967,95,54,82,185,16,3,62,0.8709677419354839
+1920,To Love Somebody,Bee Gees,adult standards,1967,90,42,52,182,73,3,66,0.6363636363636364
+1921,Pastorale - Remastered,Liesbeth List,dutch rock,1968,112,46,35,256,65,3,45,1.0222222222222221
+1922,(Sittin' On) the Dock of the Bay,Otis Redding,classic soul,1968,104,77,54,164,68,3,73,1.0547945205479452
+1923,Blackbird - Remastered 2009,The Beatles,british invasion,1968,94,69,37,138,75,3,74,0.9324324324324325
+1924,I Put A Spell On You,Creedence Clearwater Revival,album rock,1968,100,39,62,272,0,3,60,0.65
+1925,While My Guitar Gently Weeps - Remastered 2009,The Beatles,british invasion,1968,115,45,70,285,2,3,70,0.6428571428571429
+1926,All Along the Watchtower,Jimi Hendrix,album rock,1968,113,44,56,241,0,6,77,0.5714285714285714
+1927,"Window Of My Eyes - From ""The American"" Soundtrack",Cuby & The Blizzards,dutch indie,1968,184,41,41,206,19,3,43,0.9534883720930233
+1928,I Say a Little Prayer,Aretha Franklin,adult standards,1968,133,59,50,217,48,4,75,0.7866666666666666
+1929,(You Make Me Feel Like) A Natural Woman,Aretha Franklin,adult standards,1968,111,65,28,167,21,3,69,0.9420289855072463
+1930,White Room,Cream,album rock,1968,110,55,46,298,19,3,74,0.7432432432432432
+1931,"Mrs. Robinson - From ""The Graduate"" Soundtrack",Simon & Garfunkel,classic rock,1968,92,61,81,244,71,5,76,0.8026315789473685
+1932,What A Wonderful World - Single Version,Louis Armstrong,adult standards,1968,77,27,20,139,73,4,68,0.39705882352941174
+1933,Lea,The Cats,classic uk pop,1968,167,18,42,222,39,3,48,0.375
+1934,The Weight - Remastered,The Band,album rock,1968,144,63,52,274,37,5,72,0.875
+1935,Ain't Got No - I Got Life - Remastered,Nina Simone,adult standards,1968,122,62,89,176,20,4,48,1.2916666666666667
+1937,Suzie Q,Creedence Clearwater Revival,album rock,1968,130,44,70,517,6,3,56,0.7857142857142857
+1938,Born To Be Wild - Single Version,Steppenwolf,album rock,1968,146,44,54,213,26,10,67,0.6567164179104478
+1939,Words,Bee Gees,adult standards,1968,80,26,25,198,14,3,59,0.4406779661016949
+1940,Massachussetts,Bee Gees,adult standards,1968,102,48,42,148,1,3,57,0.8421052631578947
+1941,Times Were When,The Cats,classic uk pop,1968,99,45,61,191,24,3,43,1.0465116279069768
+1942,I Started A Joke,Bee Gees,adult standards,1968,145,31,43,188,16,3,66,0.4696969696969697
+1943,MacArthur Park,Richard Harris,pop,1968,170,25,37,450,80,3,36,0.6944444444444444
+1944,I'd Rather Go Blind,Etta James,adult standards,1968,83,48,61,157,69,2,67,0.7164179104477612
+1945,Daydream Believer,The Monkees,brill building pop,1968,126,51,65,180,26,3,69,0.7391304347826086
+1946,Back In The U.S.S.R. - Remastered 2009,The Beatles,british invasion,1968,142,48,49,163,7,9,66,0.7272727272727273
+1947,Girl You'll Be A Woman Soon,Neil Diamond,adult standards,1968,110,52,66,180,57,3,59,0.8813559322033898
+1948,Here Comes The Sun - Remastered 2009,The Beatles,british invasion,1969,129,56,39,186,3,3,82,0.6829268292682927
+1949,Space Oddity - 2015 Remaster,David Bowie,album rock,1969,140,30,43,319,7,3,73,0.410958904109589
+1950,Gimme Shelter,The Rolling Stones,album rock,1969,119,63,49,271,45,3,76,0.8289473684210527
+1951,Suspicious Minds,Elvis Presley,adult standards,1969,117,49,71,261,4,3,72,0.6805555555555556
+1953,Sweet Caroline,Neil Diamond,adult standards,1969,63,53,58,204,61,3,78,0.6794871794871795
+1954,Fortunate Son,Creedence Clearwater Revival,album rock,1969,133,64,66,141,20,4,80,0.8
+1955,In the Ghetto,Elvis Presley,adult standards,1969,89,40,49,167,72,3,63,0.6349206349206349
+1956,Bad Moon Rising,Creedence Clearwater Revival,album rock,1969,179,51,94,142,6,3,77,0.6623376623376623
+1957,You Can't Always Get What You Want,The Rolling Stones,album rock,1969,86,32,47,449,64,6,67,0.47761194029850745
+1958,With A Little Help From My Friends,Joe Cocker,album rock,1969,145,31,31,312,29,6,69,0.4492753623188406
+1959,My Way,Frank Sinatra,adult standards,1969,75,40,23,277,70,3,73,0.547945205479452
+1960,Come Together - Remastered 2009,The Beatles,british invasion,1969,165,53,19,260,3,4,79,0.6708860759493671
+1961,Something - Remastered 2009,The Beatles,british invasion,1969,134,40,38,182,20,3,72,0.5555555555555556
+1962,Albatross - 2018 Remaster,Fleetwood Mac,album rock,1969,136,32,26,191,83,4,50,0.64
+1963,Just A Little Bit Of Peace In My Heart,Golden Earring,album rock,1969,95,27,26,320,1,3,42,0.6428571428571429
+1964,Venus,Shocking Blue,classic rock,1969,128,69,96,188,46,4,59,1.1694915254237288
+1965,Son of a Preacher Man,Dusty Springfield,adult standards,1969,182,40,82,149,39,8,61,0.6557377049180327
+1966,Pinball Wizard,The Who,album rock,1969,124,54,47,181,2,4,69,0.782608695652174
+1967,Marian,The Cats,classic uk pop,1969,80,39,39,240,0,3,46,0.8478260869565217
+1968,Proud Mary,Creedence Clearwater Revival,album rock,1969,121,72,79,187,16,3,60,1.2
+1969,Beautiful People,Melanie,classic uk pop,1969,129,54,37,215,61,5,44,1.2272727272727273
+1970,Oh Well (Pt. 1) - 2013 Remaster,Fleetwood Mac,album rock,1969,103,47,22,202,20,14,41,1.146341463414634
+1971,Born On The Bayou,Creedence Clearwater Revival,album rock,1969,117,68,55,315,7,5,59,1.152542372881356
+1972,Scarlet Ribbons,The Cats,classic uk pop,1969,101,48,47,197,9,3,44,1.0909090909090908
+1973,The Thrill Is Gone,B.B. King,blues,1969,91,55,54,325,34,3,60,0.9166666666666666
+1974,Dazed and Confused,Led Zeppelin,album rock,1969,87,27,43,386,4,5,63,0.42857142857142855
+1975,Overture,The Who,album rock,1969,118,48,19,320,6,3,43,1.1162790697674418
+1976,Streets of London,Ralph McTell,british folk,1969,156,40,19,249,63,3,57,0.7017543859649122
+1977,Down On The Corner,Creedence Clearwater Revival,album rock,1969,108,86,87,166,58,8,73,1.178082191780822
+1978,Appleknockers Flophouse,Cuby & The Blizzards,dutch indie,1969,197,31,67,151,0,10,34,0.9117647058823529
+1979,The First Time Ever I Saw Your Face,Roberta Flack,adult standards,1969,121,31,14,261,73,4,64,0.484375
+1980,Touch Me,The Doors,album rock,1969,109,43,77,190,41,7,68,0.6323529411764706
+1981,Summertime,Brainbox,dutch prog,1969,89,38,25,263,4,3,36,1.0555555555555556
+1982,Midnight Rambler,The Rolling Stones,album rock,1969,75,40,51,413,77,12,50,0.8
+1984,Black Magic Woman - 2018 Remaster,Fleetwood Mac,album rock,1969,129,46,44,173,5,4,48,0.9583333333333334
+1985,Suite: Judy Blue Eyes - Remastered,Crosby Stills & Nash,album rock,1969,154,45,30,444,47,4,67,0.6716417910447762
+1986,Blue Suede Shoes,Elvis Presley,adult standards,1956,95,56,96,119,65,6,62,0.9032258064516129
+1987,Jailhouse Rock,Elvis Presley,adult standards,1958,167,65,92,146,41,8,73,0.8904109589041096
+1988,My Baby Just Cares for Me - 2013 Remastered Version,Nina Simone,adult standards,1958,119,75,43,216,83,12,68,1.1029411764705883
+1989,Summertime,Louis Armstrong,adult standards,1958,168,17,10,298,92,3,66,0.25757575757575757
+1990,Heartbreak Hotel,Elvis Presley,adult standards,1958,94,70,72,128,84,7,63,1.1111111111111112
+1991,Hound Dog,Elvis Presley,adult standards,1958,175,36,95,136,73,6,69,0.5217391304347826
+1992,Johnny B. Goode,Chuck Berry,blues rock,1959,168,53,97,162,74,7,74,0.7162162162162162
+1993,Take Five,The Dave Brubeck Quartet,bebop,1959,174,45,60,324,54,4,65,0.6923076923076923
+1994,Blueberry Hill,Fats Domino,adult standards,1959,133,49,83,148,74,3,56,0.875
