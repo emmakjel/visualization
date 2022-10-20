@@ -1,4 +1,27 @@
-html, body {
+html {
     margin: 0;
     height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font: 10px sans-serif; 
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: brown;
+    stroke-width: 3;
 }
