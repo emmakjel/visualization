@@ -20,10 +20,8 @@ body {
     display: none;
 }
 
-/*
 .line {
     fill: none;
-    stroke: brown;
-    stroke-width: 3;
-}
-*/
+    stroke: steelblue;
+    stroke-width: 2px;
+  }

@@ -1,61 +1,58 @@
-function init() {
-  createLineChart("#vi1");
-}
+// set the dimensions and margins of the graph
+var margin = {top: 20, right: 20, bottom: 30, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
-function createLineChart(id) {
-  var margin = { top: 10, right: 30, bottom: 70, left: 40 },
-    width = 400 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+// parse the date / time
 
-  var svg = d3
-    .select(id)
+
+// set the ranges
+var x = d3.scaleTime().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+
+// define the line
+var valueline = d3.line()
+    .x(function(d) { return x(d.Year); })
+    .y(function(d) { return y(d.Popularity);
+     }); 
+
+// append the svg obgect to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
 
-  d3.csv("processed-Spotify-2000.csv").then(function (data) {
-    var sumstat = d3.map(data, (d) => parseFloat(d.popularity));
-    // Add X axis --> it is a date format
-  var x = d3.scaleLinear()
-  .domain(d3.extent(data, function(d) { return d.year; }))
-  .range([ 0, width ]);
-svg.append("g")
-  .attr("transform", "translate(0," + height + ")")
-  .call(d3.axisBottom(x).ticks(5));
+// Get the data
+d3.csv("processed-Spotify-2000.csv").then(function(data) {
 
-// Add Y axis
-var y = d3.scaleLinear()
-  .domain([0, 150])
-  .range([ height, 0 ]);
-svg.append("g")
-  .call(d3.axisLeft(y));
+  // format the data
+  data.forEach(function(d) {
+      d.Year = parseFloat(d.Year);
+      d.Popularity = +d.Popularity;
+  });
 
-var res = sumstat.map(function(d){ return d.key }) // list of group names
-var color = d3.scaleOrdinal()
-  .domain(res)
-  .range(['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628','#f781bf','#999999'])
+  // Scale the range of the data
+  x.domain(d3.extent(data, function(d) { return d.Year; }));
+  y.domain([0, d3.max(data, function(d) { return d.Popularity; })]);
 
-  svg.selectAll(".line")
-  .data(sumstat)
-  .enter()
-  .append("path")
-    .attr("fill", "none")
-    .attr("stroke", function(d){ return color(d.key) })
-    .attr("stroke-width", 1.5)
-      // FEILMELDING linje 47
-    .attr("d", function(d){
-      return d3.line()
-        .x(function(d) { return x(d.year); })
-        .y(function(d) { return y(d.popularity); })
-        (d.values)
-    })
-})
-   
-}
+  // Add the valueline path.
+  svg.append("path")
+      .data([data])
+      .attr("class", "line")
+      .attr("d", valueline);
 
 
+  // Add the x Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
 
+  // Add the y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
 
-
-  
+});
