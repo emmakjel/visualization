@@ -5,16 +5,14 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
 
 // parse the date / time
 
-
 // set the ranges
-var x = d3.scaleTime().range([0, width]);
+var x = d3.scaleLinear().range([0, width]);  
 var y = d3.scaleLinear().range([height, 0]);
 
 // define the line
 var valueline = d3.line()
     .x(function(d) { return x(d.Year); })
-    .y(function(d) { return y(d.Popularity);
-     }); 
+    .y(function(d) { return y(d.Popularity); });
 
 // append the svg obgect to the body of the page
 // appends a 'group' element to 'svg'
@@ -29,27 +27,49 @@ var svg = d3.select("body").append("svg")
 // Get the data
 d3.csv("processed-Spotify-2000.csv").then(function(data) {
 
-  // format the data
-  data.forEach(function(d) {
-      d.Year = parseFloat(d.Year);
-      d.Popularity = +d.Popularity;
-  });
+  var dataMap = new Map();
+  data.forEach((d) => {
+    if (!dataMap.has(parseInt(d.Year))) {
+      var attrList = [];
+      attrList.push(parseInt(d.Popularity));
+      dataMap.set(parseInt(d.Year), attrList);
+    } else {
+      dataMap.get(parseInt(d.Year)).push(parseInt(d.Popularity));
+    }
+  })
 
+  var newMap = new Map();
+  for (let y of dataMap.keys()) {
+    let sum = 0;
+    let elements = 0;
+    dataMap.get(y).forEach((val) => {
+      sum+=val;
+      elements ++;
+    })
+    newMap.set(y, sum/elements)
+  }
+
+  const dataList = [];
+  for (let y of dataMap.keys()) {
+    dataList.push({"Year": y, "Popularity": newMap.get(y)});
+  }
+
+  console.log(dataList);
   // Scale the range of the data
   x.domain(d3.extent(data, function(d) { return d.Year; }));
   y.domain([0, d3.max(data, function(d) { return d.Popularity; })]);
 
   // Add the valueline path.
   svg.append("path")
-      .data([data])
+      .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .attr("class", "line")
       .attr("d", valueline);
-
 
   // Add the x Axis
   svg.append("g")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
+      
 
   // Add the y Axis
   svg.append("g")
