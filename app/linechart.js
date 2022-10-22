@@ -8,38 +8,30 @@ function init() {
 
 function createLineChart(id) {
   const svg = d3
-  .select(id)
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-  .attr("id", "gLineChart")
-  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .select(id)
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("id", "gLineChart")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+  
+  const x = d3.scaleLinear().range([0, width]);  
+  const y = d3.scaleLinear().range([height, 0]);
 
-
-var x = d3.scaleLinear().range([0, width]);  
-var y = d3.scaleLinear().range([height, 0]);
-
-// define the lines
-var popularityLine = d3.line()
+  var popularityLine = d3.line()
     .x(function(d) { return x(d.Year); })
     .y(function(d) { return y(d.Popularity); });
 
-var acousticnessLine = d3.line()
+  var acousticnessLine = d3.line()
     .x(function(d) { return x(d.Year); })
     .y(function(d) { return y(d.Acousticness); });
 
-var valanceLine = d3.line()
+  var valanceLine = d3.line()
     .x(function(d) { return x(d.Year); })
     .y(function(d) { return y(d.Valence); });
-
-// append the svg object to the body of the page
-// appends a 'group' element to 'svg'
-// moves the 'group' element to the top left margin
-
-
-// Get the data
-d3.csv("processed-Spotify-2000.csv").then(function(data) {
-
+    
+  
+  d3.csv("processed-Spotify-2000.csv").then(function(data) {
   var dataMap = new Map();
   data.forEach((d) => {
     if (!dataMap.has(parseInt(d.Year))) {
@@ -84,25 +76,26 @@ d3.csv("processed-Spotify-2000.csv").then(function(data) {
     });
   }
 
-  console.log(dataList);
   // Scale the range of the data
   x.domain(d3.extent(data, function(d) { return d.Year; }));
   y.domain([0, d3.max(data, function(d) { return d.Popularity; })]);
 
   // Add the valueline path.
-  svg.append("path")
-      .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
-      .attr("class", "line")
-      .attr("d", popularityLine)
-      .attr("stroke", "lightblue")
-      .attr("id", 'popularity'); // assign an ID
+  svg
+    .append("path")
+    .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
+    .attr("class", "line")
+    .attr("d", popularityLine)
+    .attr("stroke", "lightblue")
+    .attr("id", 'popularity'); // assign an ID
 
-  svg.append("path")
-      .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
-      .attr("class", "line")
-      .attr("d", acousticnessLine)
-      .attr("stroke", "pink")
-      .attr("id", 'acousticness'); // assign an ID
+  svg
+    .append("path")
+    .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
+    .attr("class", "line")
+    .attr("d", acousticnessLine)
+    .attr("stroke", "pink")
+    .attr("id", 'acousticness'); // assign an ID
 
   svg.append("path")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
@@ -112,14 +105,17 @@ d3.csv("processed-Spotify-2000.csv").then(function(data) {
       .attr("id", 'valance'); // assign an ID
 
   // Add the x Axis
-  svg.append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+  svg
+    .append("g")
+    .attr("id", "gXAxis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x));
       
 
   // Add the y Axis
-  svg.append("g")
-      .call(d3.axisLeft(y));
+  svg
+    .append("g")
+    .attr("id", "gYAxis")
+    .call(d3.axisLeft(y));
 });
-
 }
