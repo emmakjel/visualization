@@ -25,6 +25,15 @@ function init() {
   d3.select("#ten").on("click", () => {
     updateLineChart(2010, 2020);
   });
+  d3.select("#reset").on("click", () => {
+    updateLineChart(1950, 2020);
+  });
+}
+
+function selectLine() {
+  d3.selectAll('.line').classed('selected', false);
+  d3.select(this)
+    .classed('selected', true);
 }
 
 function createLineChart(id, color1, color2) {
@@ -144,10 +153,7 @@ function createLineChart(id, color1, color2) {
         .attr("d", popularityLine)
         .attr("stroke", color1)
         .attr("id", 'popularity')
-        .on('click', function(d, i) {
-          d3.select(this)
-            .style('stroke', 'black');
-        });
+        .on('click', selectLine);
     
       svg
         .append("path")
@@ -156,10 +162,7 @@ function createLineChart(id, color1, color2) {
         .attr("d", acousticnessLine)
         .attr("stroke", color2)
         .attr("id", 'acousticness')
-        .on('click', function(d, i) {
-          d3.select(this)
-            .style('stroke', 'black');
-        });
+        .on('click', selectLine);
     
       svg.append("path")
           .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
@@ -167,10 +170,7 @@ function createLineChart(id, color1, color2) {
           .attr("d", valanceLine)
           .attr("stroke", "orange")
           .attr("id", 'valance')
-          .on('click', function(d, i) {
-            d3.select(this)
-              .style('stroke', 'black');
-          });
+          .on('click', selectLine);
 
       svg.append("path")
           .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
@@ -178,10 +178,7 @@ function createLineChart(id, color1, color2) {
           .attr("d", danceabilityLine)
           .attr("stroke", "lightgreen")
           .attr("id", 'danceability')
-          .on('click', function(d, i) {
-            d3.select(this)
-              .style('stroke', 'black');
-          });
+          .on('click', selectLine);
 
       svg.append("path")
           .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
@@ -189,10 +186,7 @@ function createLineChart(id, color1, color2) {
           .attr("d", speechinessLine)
           .attr("stroke", "purple")
           .attr("id", 'speechiness')
-          .on('click', function(d, i) {
-          d3.select(this)
-            .style('stroke', 'black');
-        });
+          .on('click', selectLine);
   });
 }
 
@@ -204,29 +198,6 @@ function updateLineChart(start, finish) {
     });
 
     const svg = d3.select("#gLineChart");
-
-    var popularityLine = d3.line()
-      .x(function(d) { return x(d.Year); })
-      .y(function(d) { return y(d.Popularity); });
-
-      console.log(popularityLine)
-    
-    var acousticnessLine = d3.line()
-      .x(function(d) { return x(d.Year); })
-      .y(function(d) { return y(d.Acousticness); });
-
-    var valanceLine = d3.line()
-      .x(function(d) { return x(d.Year); })
-      .y(function(d) { return y(d.Valence); });
-      
-    var danceabilityLine = d3.line()
-      .x(function(d) { return x(d.Year); })
-      .y(function(d) { return y(d.Danceability); });
-
-    var speechinessLine = d3.line()
-      .x(function(d) { return x(d.Year); })
-      .y(function(d) { return y(d.Speechiness); });
-
 
     const x = d3
     .scaleLinear()
@@ -301,42 +272,51 @@ function updateLineChart(start, finish) {
         "Speechiness": newMap.get(y).Speechiness
       });
     }
-    console.log(dataList);
   
     // Update the valueline path.
     svg
-      .select("path.line")
+      .select("#popularity")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
       .duration(1000)
-      .attr("d", popularityLine)
+      .attr("d", d3.line()
+      .x(function(d) { return x(d.Year); })
+      .y(function(d) { return y(d.Popularity); }));
 
     svg
-      .select("path.line")
+      .select("#acousticness")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
       .duration(1000)
-      .attr("d", acousticnessLine)
+      .attr("d", d3.line()
+      .x(function(d) { return x(d.Year); })
+      .y(function(d) { return y(d.Acousticness); }));
 
     svg
-      .select("path.line")
+      .select("#valance")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
       .duration(1000)
-      .attr("d", valanceLine)
+      .attr("d", d3.line()
+      .x(function(d) { return x(d.Year); })
+      .y(function(d) { return y(d.Valence); }));
 
     svg
-      .select("path.line")
+      .select("#danceability")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
       .duration(1000)
-      .attr("d", danceabilityLine)
+      .attr("d", d3.line()
+      .x(function(d) { return x(d.Year); })
+      .y(function(d) { return y(d.Danceability); }));
 
     svg
-      .select("path.line")
+      .select("speechiness")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
       .duration(1000)
-      .attr("d", speechinessLine)
+      .attr("d", d3.line()
+      .x(function(d) { return x(d.Year); })
+      .y(function(d) { return y(d.Speechiness); }));
 });
 }
