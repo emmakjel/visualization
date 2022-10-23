@@ -24,3 +24,8 @@ body {
     fill: none;
     stroke-width: 2px;
   }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
