@@ -82,7 +82,7 @@ function createLineChart(id, color1, color2) {
 
       const y = d3
       .scaleLinear()
-      .domain([0, d3.max(data, function(d) { return d.Popularity; })])
+      .domain([0, 100])
       .range([height, 0]);
       svg
       .append("g")
@@ -210,10 +210,10 @@ function updateLineChart(start, finish) {
 
     const y = d3
     .scaleLinear()
-    .domain([0, d3.max(data, function(d) { return d.Popularity; })])
+    .domain([0, 100])
     .range([height, 0]);
     svg
-    .select("gYAxis")
+    .select("#gYAxis")
     .call(d3.axisLeft(y));
   
     var dataMap = new Map();
