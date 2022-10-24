@@ -33,6 +33,15 @@ body {
     stroke-opacity: 1;
 }
 
+.rect {
+    fill: transparent;
+}
+
+.rect.selected {
+    fill: rgb(232, 232, 172);
+    fill-opacity: 0.2;
+}
+
 .container {
     display: flex;
     flex-direction: column;

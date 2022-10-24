@@ -1,32 +1,93 @@
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 600 - margin.left - margin.right;
 const height = 400 - margin.top - margin.bottom;
+var zoomed = false;
 
 function init() {
   createLineChart("#vi1", "lightblue", "pink");
-  d3.select("#fifty").on("click", () => {
-    updateLineChart(1950, 1960);
+  d3.select("#fiftys")
+  .on("mouseover", selectRect)
+  .on("mouseleave", selectRect)
+  .on("click", () => {
+    if (zoomed) {
+      updateLineChart(1950, 2020);
+      zoomed = false;
+    } else {
+      updateLineChart(1950, 1960);
+      zoomed = true;
+    }
   });
-  d3.select("#sixty").on("click", () => {
-    updateLineChart(1960, 1970);
+  d3.select("#sixtys")
+  .on("mouseover", selectRect)
+  .on("mouseleave", selectRect)
+  .on("click", () => {
+    if (zoomed) {
+      updateLineChart(1950, 2020);
+      zoomed = false;
+    } else {
+      updateLineChart(1960, 1970);
+      zoomed = true;
+    }
   });
-  d3.select("#seventy").on("click", () => {
-    updateLineChart(1970, 1980);
+  d3.select("#seventys")
+  .on("mouseover", selectRect)
+  .on("mouseleave", selectRect)
+  .on("click", () => {
+    if (zoomed) {
+      updateLineChart(1950, 2020);
+      zoomed = false;
+    } else {
+      updateLineChart(1970, 1980);
+      zoomed = true;
+    }
   });
-  d3.select("#eighty").on("click", () => {
-    updateLineChart(1980, 1990);
+  d3.select("#eightys")
+  .on("mouseover", selectRect)
+  .on("mouseleave", selectRect)
+  .on("click", () => {
+    if (zoomed) {
+      updateLineChart(1950, 2020);
+      zoomed = false;
+    } else {
+      updateLineChart(1980, 1990);
+      zoomed = true;
+    }
   });
-  d3.select("#ninety").on("click", () => {
-    updateLineChart(1990, 2000);
+  d3.select("#ninetys")
+  .on("mouseover", selectRect)
+  .on("mouseleave", selectRect)
+  .on("click", () => {
+    if (zoomed) {
+      updateLineChart(1950, 2020);
+      zoomed = false;
+    } else {
+      updateLineChart(1990, 2000);
+      zoomed = true;
+    }
   });
-  d3.select("#nullnull").on("click", () => {
-    updateLineChart(2000, 2010);
+  d3.select("#twothousands")
+  .on("mouseover", selectRect)
+  .on("mouseleave", selectRect)
+  .on("click", () => {
+    if (zoomed) {
+      updateLineChart(1950, 2020);
+      zoomed = false;
+    } else {
+      updateLineChart(2000, 2010);
+      zoomed = true;
+    }
   });
-  d3.select("#ten").on("click", () => {
-    updateLineChart(2010, 2020);
-  });
-  d3.select("#reset").on("click", () => {
-    updateLineChart(1950, 2020);
+  d3.select("#tens")
+  .on("mouseover", selectRect)
+  .on("mouseleave", selectRect)
+  .on("click", () => {
+    if (zoomed) {
+      updateLineChart(1950, 2020);
+      zoomed = false;
+    } else {
+      updateLineChart(2010, 2020);
+      zoomed = true;
+    }
   });
 }
 
@@ -40,14 +101,83 @@ function selectLine() {
   }
 }
 
+function selectRect() {
+    if(d3.select(this).classed('selected')) {
+      d3.select(this).classed('selected', false);
+    } else {
+      d3.select(this)
+        .classed('selected', true);
+    }
+}
+
 function createLineChart(id, color1, color2) {
+  const lineChartWidth = width + margin.left + margin.right;
+  const lineChartHeight = height + margin.top + margin.bottom;
   const svg = d3
     .select(id)
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("width", lineChartWidth)
+    .attr("height", lineChartHeight)
     .append("g")
     .attr("id", "gLineChart")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    const rectX = lineChartWidth/20;
+    svg
+    .append("rect")
+    .attr("class", "rect")
+    .attr("id", "fiftys")
+    .attr("x", 0)
+    .attr("y", 0)
+    .attr("width", lineChartWidth/20)
+    .attr("height", lineChartHeight);
+    svg
+    .append("rect")
+    .attr("class", "rect")
+    .attr("id", "sixtys")
+    .attr("x", rectX)
+    .attr("y", 0)
+    .attr("width", lineChartWidth/8)
+    .attr("height", lineChartHeight);
+    svg
+    .append("rect")
+    .attr("class", "rect")
+    .attr("id", "seventys")
+    .attr("x", rectX+lineChartWidth/8)
+    .attr("y", 0)
+    .attr("width", lineChartWidth/8)
+    .attr("height", lineChartHeight);
+    svg
+    .append("rect")
+    .attr("class", "rect")
+    .attr("id", "eightys")
+    .attr("x", rectX+lineChartWidth/4)
+    .attr("y", 0)
+    .attr("width", lineChartWidth/8)
+    .attr("height", lineChartHeight);
+    svg
+    .append("rect")
+    .attr("class", "rect")
+    .attr("id", "ninetys")
+    .attr("x", rectX+3*lineChartWidth/8)
+    .attr("y", 0)
+    .attr("width", lineChartWidth/8)
+    .attr("height", lineChartHeight);
+    svg
+    .append("rect")
+    .attr("class", "rect")
+    .attr("id", "twothousands")
+    .attr("x", rectX+lineChartWidth/2)
+    .attr("y", 0)
+    .attr("width", lineChartWidth/8)
+    .attr("height", lineChartHeight);
+    svg
+    .append("rect")
+    .attr("class", "rect")
+    .attr("id", "tens")
+    .attr("x", rectX+5*lineChartWidth/8)
+    .attr("y", 0)
+    .attr("width", lineChartWidth/8)
+    .attr("height", lineChartHeight);
 
     d3.csv("processed-Spotify-2000.csv").then(function(data) {
       var popularityLine = d3.line()
@@ -203,18 +333,24 @@ function updateLineChart(start, finish) {
     const svg = d3.select("#gLineChart");
 
     const x = d3
-    .scaleLinear()
-    .domain(d3.extent(data, function(d) { return d.Year; }))
-    .range([0, width]);  
-    svg.select("#gXAxis").call(d3.axisBottom(x).ticks(5).tickFormat((x) => x * 1));
+      .scaleLinear()
+      .domain(d3.extent(data, function(d) { return d.Year; }))
+      .range([0, width]);  
+    svg
+      .select("#gXAxis")
+      .transition()
+      .duration(1500)
+      .call(d3.axisBottom(x)
+      .ticks(5)
+      .tickFormat((x) => x * 1));
 
     const y = d3
-    .scaleLinear()
-    .domain([0, 100])
-    .range([height, 0]);
+      .scaleLinear()
+      .domain([0, 100])
+      .range([height, 0]);
     svg
-    .select("#gYAxis")
-    .call(d3.axisLeft(y));
+      .select("#gYAxis")
+      .call(d3.axisLeft(y));
   
     var dataMap = new Map();
     data.forEach((d) => {
@@ -281,7 +417,7 @@ function updateLineChart(start, finish) {
       .select("#popularity")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
-      .duration(1000)
+      .duration(1500)
       .attr("d", d3.line()
       .x(function(d) { return x(d.Year); })
       .y(function(d) { return y(d.Popularity); }));
@@ -290,7 +426,7 @@ function updateLineChart(start, finish) {
       .select("#acousticness")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
-      .duration(1000)
+      .duration(1500)
       .attr("d", d3.line()
       .x(function(d) { return x(d.Year); })
       .y(function(d) { return y(d.Acousticness); }));
@@ -299,7 +435,7 @@ function updateLineChart(start, finish) {
       .select("#valance")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
-      .duration(1000)
+      .duration(1500)
       .attr("d", d3.line()
       .x(function(d) { return x(d.Year); })
       .y(function(d) { return y(d.Valence); }));
@@ -308,7 +444,7 @@ function updateLineChart(start, finish) {
       .select("#danceability")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
-      .duration(1000)
+      .duration(1500)
       .attr("d", d3.line()
       .x(function(d) { return x(d.Year); })
       .y(function(d) { return y(d.Danceability); }));
@@ -317,7 +453,7 @@ function updateLineChart(start, finish) {
       .select("speechiness")
       .data([dataList.sort((a, b) => d3.ascending(a.Year, b.Year))])
       .transition()
-      .duration(1000)
+      .duration(1500)
       .attr("d", d3.line()
       .x(function(d) { return x(d.Year); })
       .y(function(d) { return y(d.Speechiness); }));
