@@ -31,9 +31,13 @@ function init() {
 }
 
 function selectLine() {
-  d3.selectAll('.line').classed('selected', false);
-  d3.select(this)
-    .classed('selected', true);
+  if(d3.select(this).classed('selected')) {
+    d3.selectAll('.line').classed('selected', false);
+  } else {
+    d3.selectAll('.line').classed('selected', false);
+    d3.select(this)
+      .classed('selected', true);
+  }
 }
 
 function createLineChart(id, color1, color2) {
@@ -191,7 +195,6 @@ function createLineChart(id, color1, color2) {
 }
 
 function updateLineChart(start, finish) {
-
   d3.csv("processed-Spotify-2000.csv").then(function(data) {
     data = data.filter(function (elem) {
       return start <= parseInt(elem.Year) && parseInt(elem.Year) <= finish;
