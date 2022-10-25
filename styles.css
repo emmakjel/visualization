@@ -12,7 +12,7 @@ body {
 .axis path,
 .axis line {
     fill: none;
-    stroke: #000;
+    /* stroke: #000; */
     shape-rendering: crispEdges;
 }
 
@@ -33,11 +33,11 @@ body {
     stroke-opacity: 1;
 }
 
-.rect {
+.rectLine {
     fill: transparent;
 }
 
-.rect.selected {
+.rectLine.selected {
     fill: rgb(232, 232, 172);
     fill-opacity: 0.2;
 }

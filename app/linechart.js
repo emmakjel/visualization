@@ -35,7 +35,7 @@ export function createLineChart(id) {
     const rectX = lineChartWidth/20;
     svg
     .append("rect")
-    .attr("class", "rect")
+    .attr("class", "rectLine")
     .attr("id", "fiftys")
     .attr("x", 0)
     .attr("y", 0)
@@ -43,7 +43,7 @@ export function createLineChart(id) {
     .attr("height", lineChartHeight);
     svg
     .append("rect")
-    .attr("class", "rect")
+    .attr("class", "rectLine")
     .attr("id", "sixtys")
     .attr("x", rectX)
     .attr("y", 0)
@@ -51,7 +51,7 @@ export function createLineChart(id) {
     .attr("height", lineChartHeight);
     svg
     .append("rect")
-    .attr("class", "rect")
+    .attr("class", "rectLine")
     .attr("id", "seventys")
     .attr("x", rectX+lineChartWidth/8)
     .attr("y", 0)
@@ -59,7 +59,7 @@ export function createLineChart(id) {
     .attr("height", lineChartHeight);
     svg
     .append("rect")
-    .attr("class", "rect")
+    .attr("class", "rectLine")
     .attr("id", "eightys")
     .attr("x", rectX+lineChartWidth/4)
     .attr("y", 0)
@@ -67,7 +67,7 @@ export function createLineChart(id) {
     .attr("height", lineChartHeight);
     svg
     .append("rect")
-    .attr("class", "rect")
+    .attr("class", "rectLine")
     .attr("id", "ninetys")
     .attr("x", rectX+3*lineChartWidth/8)
     .attr("y", 0)
@@ -75,7 +75,7 @@ export function createLineChart(id) {
     .attr("height", lineChartHeight);
     svg
     .append("rect")
-    .attr("class", "rect")
+    .attr("class", "rectLine")
     .attr("id", "twothousands")
     .attr("x", rectX+lineChartWidth/2)
     .attr("y", 0)
@@ -83,7 +83,7 @@ export function createLineChart(id) {
     .attr("height", lineChartHeight);
     svg
     .append("rect")
-    .attr("class", "rect")
+    .attr("class", "rectLine")
     .attr("id", "tens")
     .attr("x", rectX+5*lineChartWidth/8)
     .attr("y", 0)
@@ -240,6 +240,8 @@ export function updateLineChart(start, finish) {
     data = data.filter(function (elem) {
       return start <= parseInt(elem.Year) && parseInt(elem.Year) <= finish;
     });
+
+   
 
     const svg = d3.select("#gLineChart");
 
