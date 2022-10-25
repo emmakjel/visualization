@@ -1,4 +1,4 @@
-import { createLineChart, selectRect, updateLineChart } from './linechart.js';
+import { createLineChart, selectRect, updateLineChart} from './linechart.js';
 import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart1.js';
 
 var zoomed = false;
@@ -6,8 +6,6 @@ var zoomed = false;
 function init() {
   createLineChart("#vi1");
   createBarChart("#vi2");
-
-
 
   d3.select("#fiftys")
     .on("mouseover", selectRect)

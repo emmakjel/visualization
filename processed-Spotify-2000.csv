@@ -1,4 +1,4 @@
-Index,Title,Artist,Top Genre,Year,Beats Per Minute (BPM),Danceability,Valence,Length (Duration),Acousticness,Speechiness,Popularity,Relationship between danceability and popularity
+Index,Title,Artist,Top Genre,Year,BPM,Danceability,Valence,Length,Acousticness,Speechiness,Popularity,Relationship between danceability and popularity
 1,Sunrise,Norah Jones,adult standards,2004,157,53,68,201,94,3,71,0.7464788732394366
 2,Black Night,Deep Purple,album rock,2000,135,50,81,207,17,7,39,1.2820512820512822
 3,Clint Eastwood,Gorillaz,alternative hip hop,2001,168,66,52,341,2,17,69,0.9565217391304348

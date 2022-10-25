@@ -1,3 +1,5 @@
+import {barLineHover, stopBarLineHover, selectBarLine} from './linechart.js'
+
 var twoIsSelected = false;
 var alreadySelectedMusicAttribute;
 var dataWithSelectedAttribute;
@@ -17,6 +19,40 @@ var selected_decade = DECADES_DICT["all"];
 const width = 700;
 const height = 400;
 const margin = { top: 50, bottom: 50, left: 50, right: 50 };
+
+function hoverBar() {
+    barLineHover(d3.select(this).attr("id"));
+    d3
+        .select(this)
+        .attr('opacity', 0.7)
+        .style("cursor", "pointer");
+}
+
+function stopHoverBar() {
+    stopBarLineHover(d3.select(this).attr("id"))
+    d3
+        .select(this)
+        .attr('opacity', 1)
+        .style("cursor", "pointer")
+}
+
+export function lineBarHover(id) {
+    d3.select("#"+id).attr('opacity', 0.7)
+}
+
+export function stopLineBarHover(id) {
+    d3.select("#"+id).attr('opacity', 1);
+}
+
+export function selectLineBar(id) {
+    var d = d3.select("#" + id.toUpperCase());
+    if (alreadySelectedMusicAttribute != d) { updateBarChartOrder(d) };
+}
+
+
+function selectBar(d) {
+    if (alreadySelectedMusicAttribute != d) { selectBarLine(d.name.toLowerCase()); updateBarChartOrder(d) };
+}
 
 
 function createBarChart(id) {
@@ -63,30 +99,13 @@ function createBarChart(id) {
             .attr("x", (data, index) => xScale(index))
             .attr("y", data => yScale(data.score))
             .attr('title', (data) => data.score)
+            .attr("id", data => data.name.toUpperCase())
             .attr("height", d => yScale(0) - yScale(d.score))
             .attr("width", xScale.bandwidth())
             .attr("class", "rectValue itemValue")
-            .on("mouseover", function (d, i) {
-                d3.select(this)
-                    .attr('opacity', 0.7)
-                    .style("cursor", "pointer")
-            })
-            .on("mouseout", function () {
-                d3
-                    .select(this)
-                    .attr('opacity', 1)
-                    .style("cursor", "pointer")
-            })
-            .on("click", (event, d) => {
-
-                if (alreadySelectedMusicAttribute != d) { updateBarChartOrder(d) };
-
-
-
-            });
-
-
-
+            .on("mouseover", hoverBar)
+            .on("mouseout", stopHoverBar)
+            .on("click", (event, d) => {selectBar(d)});
 
 
 
@@ -227,14 +246,11 @@ function updateBarChartOrder(musicAttribute) {
                         .append("rect")
                         .attr("x", (data, index) => xScale(index))
                         .attr("y", data => yScale(data.score))
-                        .attr('title', (data) => data.score)
+                        .attr('title', (data) => {data.score})
                         .attr("height", d => yScale(0) - yScale(d.score))
                         .attr("width", xScale.bandwidth())
                         .attr("class", "rectValue itemValue")
-
-
-
-
+                        .attr("id", d => d.name.toUpperCase());
                 },
                 (update) => {
                     update
