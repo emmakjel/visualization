@@ -62,14 +62,14 @@ export function createLineChart(id) {
     .attr("id", "gLineChart")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    const rectX = lineChartWidth/20;
+    const rectX = lineChartWidth/17;
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "fiftys")
     .attr("x", 0)
     .attr("y", 0)
-    .attr("width", lineChartWidth/20)
+    .attr("width", lineChartWidth/17)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
@@ -77,47 +77,47 @@ export function createLineChart(id) {
     .attr("id", "sixtys")
     .attr("x", rectX)
     .attr("y", 0)
-    .attr("width", lineChartWidth/8)
+    .attr("width", lineChartWidth/7)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "seventys")
-    .attr("x", rectX+lineChartWidth/8)
+    .attr("x", rectX+lineChartWidth/7)
     .attr("y", 0)
-    .attr("width", lineChartWidth/8)
+    .attr("width", lineChartWidth/7)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "eightys")
-    .attr("x", rectX+lineChartWidth/4)
+    .attr("x", rectX+(lineChartWidth/7)*2)
     .attr("y", 0)
-    .attr("width", lineChartWidth/8)
+    .attr("width", lineChartWidth/7)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "ninetys")
-    .attr("x", rectX+3*lineChartWidth/8)
+    .attr("x", rectX+3*lineChartWidth/7)
     .attr("y", 0)
-    .attr("width", lineChartWidth/8)
+    .attr("width", lineChartWidth/7)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "twothousands")
-    .attr("x", rectX+lineChartWidth/2)
+    .attr("x", rectX+4*(lineChartWidth/7))
     .attr("y", 0)
-    .attr("width", lineChartWidth/8)
+    .attr("width", lineChartWidth/7)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "tens")
-    .attr("x", rectX+5*lineChartWidth/8)
+    .attr("x", rectX+5*lineChartWidth/7)
     .attr("y", 0)
-    .attr("width", lineChartWidth/8)
+    .attr("width", lineChartWidth/7)
     .attr("height", lineChartHeight);
 
     d3.csv("processed-Spotify-2000.csv").then(function(data) {
