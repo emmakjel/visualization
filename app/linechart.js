@@ -1,6 +1,6 @@
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
-const width = 600 - margin.left - margin.right;
-const height = 400 - margin.top - margin.bottom;
+const width = 1300 - margin.left - margin.right;
+const height = 300 - margin.top - margin.bottom;
 
 export function selectLine() {
   if(d3.select(this).classed('selected')) {

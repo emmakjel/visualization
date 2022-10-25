@@ -38,7 +38,7 @@ body {
 }
 
 .rectLine.selected {
-    fill: rgb(232, 232, 172);
+    fill: rgb(221, 221, 64);
     fill-opacity: 0.2;
 }
 
