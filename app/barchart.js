@@ -30,11 +30,35 @@ function hoverBar() {
 }
 
 function stopHoverBar() {
-    stopBarLineHover(d3.select(this).attr("id"))
-    d3
+    var id = d3.select(this).attr("id");
+    if (selectedAttribute1 != null && selectedAttribute2 == null) {
+        if (selectedAttribute1.name.toUpperCase() != id) {
+            d3
+            .select(this)
+            .attr('opacity', 0.7)
+            .style("cursor", "pointer")
+        }
+    } else if ( selectedAttribute2 != null && selectedAttribute1 == null) {
+        if (selectedAttribute2.name.toUpperCase() != id) {
+            d3
+            .select(this)
+            .attr('opacity', 0.7)
+            .style("cursor", "pointer")
+        }
+    } else if (selectedAttribute1 != null && selectedAttribute2 != null) {
+        if (selectedAttribute1.name.toUpperCase() != id && selectedAttribute2.name.toUpperCase() != id) {
+            d3
+            .select(this)
+            .attr('opacity', 0.7)
+            .style("cursor", "pointer")
+        }
+    } else {
+        d3
         .select(this)
         .attr('opacity', 0.7)
         .style("cursor", "pointer")
+    }
+    stopBarLineHover(id)
 }
 
 export function lineBarHover(id) {
@@ -47,12 +71,19 @@ export function stopLineBarHover(id) {
 
 export function selectLineBar(id) {
     var d = d3.select("#" + id.toUpperCase());
-    if (alreadySelectedMusicAttribute != d) { updateBarChartOrder(d) };
+    if (alreadySelectedMusicAttribute != d) { updateBarChartComparison(d) };
 }
 
 
 function selectBar(d) {
-    if (alreadySelectedMusicAttribute != d) { selectBarLine(d.name.toLowerCase()); updateBarChartOrder(d) };
+    if (alreadySelectedMusicAttribute != d) { 
+        selectBarLine(d.name.toLowerCase()); 
+        updateBarChartComparison(d) 
+    }
+}
+
+function clickableClick() {
+    updateBarChartComparison(null);
 }
 
 
@@ -80,7 +111,17 @@ function createBarChart(id) {
             .attr("id", "gBarChart")
             .attr('width', width - margin.left - margin.right)
             .attr('height', height - margin.top - margin.bottom)
-            .attr("viewBox", [0, 0, width, height]);
+            .attr("viewBox", [0, 0, width, height])
+            
+            svg
+            .append("rect")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr('width', "100%")
+            .attr('height', "100%")
+            .attr("id", "clickable")
+            .attr("fill", "transparent")
+            .on("click", clickableClick);
 
 
         //color
@@ -111,8 +152,6 @@ function createBarChart(id) {
             .on("click", (event, d) => {selectBar(d)});
 
 
-
-
         //svg.selectAll('.limit').remove()
 
         //x- axis name
@@ -124,8 +163,6 @@ function createBarChart(id) {
                 .tickFormat(index => all_years_list[index].name)
                 .tickSizeOuter(0))
             .attr('font-size', '15px'); //the music attributes 
-
-
 
 
         //names and grids 
@@ -154,167 +191,71 @@ function createBarChart(id) {
             .attr('fill', 'black')
             .text('Average values of music features')
     })
-
-
-
-
-
-
 }
 
 
-function updateBarChartOrder(musicAttribute) {
+function updateBarChartComparison(musicAttribute) {
+    const svg = d3.select("#gBarChart");
+    if (musicAttribute == null) {
+        svg.selectAll('.limit').remove();
+        svg.selectAll('rect').attr("opacity", 0.7);
+        selectedAttribute1 = null;
+        selectedAttribute2 = null;
+    } else {
+    const svg = d3.select("#gBarChart");
 
-    //start by importing the original dataset
-    d3.csv("processed-average-per-decade.csv").then(function (data) {
-        var all_years_list = [];
-        data.forEach(element => {
-            let item = { "name": element.musicFeature, "score": parseInt(element[Object.keys(element)[selected_decade]]) }
-            all_years_list.push(item);
-        });
+   
+    const yScale = d3.scaleLinear()
+    .domain([0, 100])
+    .range([height - margin.bottom, margin.top])
 
 
-        const yScale = d3.scaleLinear()
-            .domain([0, 100])
-            .range([height - margin.bottom, margin.top])
-
-        var newData;
-
-        //order the data how I wanted it to be
-        if (!alreadySelectedMusicAttribute) {
+     if (!alreadySelectedMusicAttribute) {
             //do the old thing
-
-
-            newData = all_years_list.filter((val) => val.name != musicAttribute.name);
-            newData = newData.sort((a, b) => d3.descending(a.score, b.score));
-            newData.unshift(musicAttribute)
-
             alreadySelectedMusicAttribute = musicAttribute;
-            dataWithSelectedAttribute = newData;
             twoIsSelected = false;
             selectedAttribute2 = null;
             selectedAttribute1 = musicAttribute;
 
         } else {
             //just put the selected attribute in 2nd place
-            newData = dataWithSelectedAttribute;
-            newData = newData.filter((val) => val != (musicAttribute))
-            newData = newData.filter((val) => val != (alreadySelectedMusicAttribute));
-            newData.unshift(alreadySelectedMusicAttribute, musicAttribute);
-
-
-
             alreadySelectedMusicAttribute = null;
-            dataWithSelectedAttribute = null;
             twoIsSelected = true;
             selectedAttribute2 = musicAttribute;
         }
 
 
+    if (alreadySelectedMusicAttribute) { svg.selectAll('.limit').remove() }
 
-
-
-
-        //enter, write code as the element where created the first time
-        //update, the data that already exists
-
-
-        const svg = d3.select("#gBarChart");
-
-        const xScale = d3.scaleBand()
-            .domain(d3.range(newData.length))
-            .range([margin.left, width - margin.right])
-            .padding(0.1)
-
-
-        svg.selectAll(".names").remove();
-
-        svg
-            .select("#gXAxis")
-            .attr('transform', `translate(0, ${height - margin.bottom})`)
-            .call(d3.axisBottom(xScale)
-                .tickFormat(index => newData[index].name)
-                .tickSizeOuter(0))
-            .attr('font-size', '15px');
-
-
-
-
-        svg
-            .selectAll("rect.rectValue")
-            .data(newData, d => d.name) //dummy data, the second par is the one to be bound to the element
-            .join(
-                (enter) => {
-                    enter
-                        .append("rect")
-                        .attr("x", (data, index) => xScale(index))
-                        .attr("y", data => yScale(data.score))
-                        .attr('title', (data) => {data.score})
-                        .attr("height", d => yScale(0) - yScale(d.score))
-                        .attr("width", xScale.bandwidth())
-                        .attr("class", "rectValue itemValue")
-                        .attr("id", d => d.name.toUpperCase());
-                },
-                (update) => {
-                    update
-                        .transition()
-                        .duration(500)
-                        .attr("x", (data, index) => xScale(index))
-                        .attr("y", data => yScale(data.score))
-                        .attr("height", d => yScale(0) - yScale(d.score))
-                        .attr("width", xScale.bandwidth())
-                        .attr("style", "outline: none")
-                        .filter((d, i) => twoIsSelected ? (i == 0 || i == 1) : i == 0)
-                        .attr("style", "outline: solid grey; opacity: 1;")
-
-                },
-                (exit) => {
-                    exit.remove();
-                }
-            )
-
-
-        if (alreadySelectedMusicAttribute) { svg.selectAll('.limit').remove() }
-
-        function getColor(attribute) {
-            if (attribute == "acousticness") {
-                return COLORS_DICT.acousticness
-            } else if (attribute == "popularity") {
-                return COLORS_DICT.popularity
-            } else if (attribute == "speechiness") {
-                return COLORS_DICT.speechiness
-            } else if (attribute == "bpm") {
-                return COLORS_DICT.bpm
-            } else if (attribute == "valence") {
-                return COLORS_DICT.valence
-            } else if (attribute == "danceability") {
-                return COLORS_DICT.danceability
-            } else {
-                return "#000"
-            }
+    function getColor(attribute) {
+        if (attribute == "acousticness") {
+            return COLORS_DICT.acousticness
+        } else if (attribute == "popularity") {
+            return COLORS_DICT.popularity
+        } else if (attribute == "speechiness") {
+            return COLORS_DICT.speechiness
+        } else if (attribute == "bpm") {
+            return COLORS_DICT.bpm
+        } else if (attribute == "valence") {
+            return COLORS_DICT.valence
+        } else if (attribute == "danceability") {
+            return COLORS_DICT.danceability
+        } else {
+            return "#000"
         }
-        //the line
-        const line = svg.append('line')
-            .attr('class', 'limit')
-            .attr('x1', 50)
-            .attr('y1', yScale(musicAttribute.score))
-            .attr('x2', width)
-            .attr('y2', yScale(musicAttribute.score))
-            .attr('stroke', getColor(musicAttribute.name.toLowerCase()))
-            .style("stroke-width", 4)
-            .style("stroke-dasharray", ("10, 10"));
-
-
-
-
-
-    })
-
-
-
-
-
-
+    }
+    
+    //the line
+    const line = svg.append('line')
+        .attr('class', 'limit')
+        .attr('x1', 50)
+        .attr('y1', yScale(musicAttribute.score))
+        .attr('x2', width)
+        .attr('y2', yScale(musicAttribute.score))
+        .attr('stroke', getColor(musicAttribute.name.toLowerCase()))
+        .style("stroke-width", 4)
+        .style("stroke-dasharray", ("10, 10"));
+    }
 }
 
 function changeDecadeBarChart(decade) {
