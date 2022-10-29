@@ -1,11 +1,9 @@
 import {lineBarHover, stopLineBarHover, selectLineBar} from "./barchart.js"
+import {zoomed} from "./script.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 1200 - margin.left - margin.right;
 const height = 300 - margin.top - margin.bottom;
-const tooltip = { width: 100, height: 100, x: 10, y: -30 };
-
-const bisectYear = () => d3.bisector(function(d) { return d.Year });
 
 
 export function hoverLine() {
@@ -46,12 +44,16 @@ export function selectLine() {
 }
 
 export function selectRect() {
+  d3.selectAll("rect").classed("selected", false);
+  if (!zoomed) { 
     if(d3.select(this).classed('selected')) {
-      d3.select(this).classed('selected', false);
-    } else {
-      d3.select(this)
-        .classed('selected', true);
-    }
+    d3.select(this).classed('selected', false);
+  } else {
+    d3.select(this)
+      .classed('selected', true);
+  }} else {
+    d3.selectAll("rect").classed("selected", false);
+  }
 }
 
 export function createLineChart(id) {
@@ -232,50 +234,6 @@ export function createLineChart(id) {
           "Speechiness": newMap.get(y).Speechiness,
           "BPM": newMap.get(y).BPM
         });
-      }
-
-      var focus = svg.append("g")
-      .attr("class", "focus")
-      .style("display", "none");
-
-      focus.append("circle")
-      .attr("r", 5);
-      
-      focus.append("rect")
-      .attr("class", "tooltip")
-      .attr("width", 100)
-      .attr("height", 50)
-      .attr("x", 10)
-      .attr("y", -22)
-      .attr("rx", 4)
-      .attr("ry", 4);
-
-      focus.append("text")
-      .attr("class", "tooltip-attribute")
-      .attr("x", 18)
-      .attr("y", -2);
-
-      focus.append("text")
-      .attr("x", 18)
-      .attr("y", 18)
-      .text("Likes:");
-
-      focus.append("text")
-      .attr("class", "tooltip-values")
-      .attr("x", 60)
-      .attr("y", 18);
-
-      
-      svg.append("rect")
-      .attr("class", "overlay")
-      .attr("width", width)
-      .attr("height", height)
-      .on("mouseout", function() { focus.style("display", null); })
-      .on("mouseover", function() { focus.style("display", "none"); })
-      .on("mousemove", mousemove);
-
-      function mousemove() {
-        console.log("MOVE");
       }
     
       // Add the valueline path.

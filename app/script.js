@@ -1,7 +1,7 @@
 import { createLineChart, selectRect, updateLineChart} from './linechart.js';
 import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart.js';
 
-var zoomed = false;
+export var zoomed = false;
 
 function init() {
   createLineChart("#vi1");

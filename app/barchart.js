@@ -37,11 +37,11 @@ function stopHoverBar() {
 }
 
 export function lineBarHover(id) {
-    d3.select("#"+id).attr('opacity', 0.7)
+    d3.select("#"+id).attr('opacity', 1)
 }
 
 export function stopLineBarHover(id) {
-    d3.select("#"+id).attr('opacity', 1);
+    d3.select("#"+id).attr('opacity', 0.7);
 }
 
 export function selectLineBar(id) {
