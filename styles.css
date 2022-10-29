@@ -65,3 +65,21 @@ body {
     background-color:#EEEDE7; 
     border-radius: 15px;
 }
+
+.focus text {
+    font-size: 14px;
+}
+
+.tooltip {
+    fill: white;
+    stroke: #000;
+}
+
+.tooltip-attribute, .tooltip-values {
+    font-weight: bold;
+}
+
+.overlay {
+    fill: transparent;
+    pointer-events: all;
+}

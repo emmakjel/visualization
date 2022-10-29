@@ -1,9 +1,12 @@
-import {lineBarHover, stopLineBarHover, selectLineBar} from "./barchart1.js"
+import {lineBarHover, stopLineBarHover, selectLineBar} from "./barchart.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 1200 - margin.left - margin.right;
 const height = 300 - margin.top - margin.bottom;
-var hover = false;
+const tooltip = { width: 100, height: 100, x: 10, y: -30 };
+
+const bisectYear = () => d3.bisector(function(d) { return d.Year });
+
 
 export function hoverLine() {
   lineBarHover((d3.select(this).attr("id").toUpperCase()));
@@ -144,7 +147,6 @@ export function createLineChart(id) {
       var BPMLine = d3.line()
       .x(function(d) { return x(d.Year); })
       .y(function(d) { return y((d.BPM*100)/206); });
-      
 
       const x = d3
       .scaleLinear()
@@ -230,6 +232,50 @@ export function createLineChart(id) {
           "Speechiness": newMap.get(y).Speechiness,
           "BPM": newMap.get(y).BPM
         });
+      }
+
+      var focus = svg.append("g")
+      .attr("class", "focus")
+      .style("display", "none");
+
+      focus.append("circle")
+      .attr("r", 5);
+      
+      focus.append("rect")
+      .attr("class", "tooltip")
+      .attr("width", 100)
+      .attr("height", 50)
+      .attr("x", 10)
+      .attr("y", -22)
+      .attr("rx", 4)
+      .attr("ry", 4);
+
+      focus.append("text")
+      .attr("class", "tooltip-attribute")
+      .attr("x", 18)
+      .attr("y", -2);
+
+      focus.append("text")
+      .attr("x", 18)
+      .attr("y", 18)
+      .text("Likes:");
+
+      focus.append("text")
+      .attr("class", "tooltip-values")
+      .attr("x", 60)
+      .attr("y", 18);
+
+      
+      svg.append("rect")
+      .attr("class", "overlay")
+      .attr("width", width)
+      .attr("height", height)
+      .on("mouseout", function() { focus.style("display", null); })
+      .on("mouseover", function() { focus.style("display", "none"); })
+      .on("mousemove", mousemove);
+
+      function mousemove() {
+        console.log("MOVE");
       }
     
       // Add the valueline path.

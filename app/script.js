@@ -1,5 +1,5 @@
 import { createLineChart, selectRect, updateLineChart} from './linechart.js';
-import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart1.js';
+import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart.js';
 
 var zoomed = false;
 
