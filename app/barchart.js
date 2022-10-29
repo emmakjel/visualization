@@ -10,6 +10,7 @@ var selectedAttribute2;
 
 
 const COLORS = [ "lightblue", "#F07470", "lightgreen", "orange", "pink", "#CF9FFF"]
+const COLORS_DICT = {"popularity": "lightblue", "bpm": "#F07470", "danceability": "lightgreen", "valence": "orange", "acousticness": "pink", "speechiness": "#CF9FFF"}
 export const DECADES_DICT = { "all": 1, "fifties": 2, "sixties": 3, "seventies": 4, "eighties": 5, "nineties": 6, "twoThousands": 7, "twentyTens": 8 }
 var selected_decade = DECADES_DICT["all"];
 
@@ -262,11 +263,9 @@ function updateBarChartOrder(musicAttribute) {
                         .attr("y", data => yScale(data.score))
                         .attr("height", d => yScale(0) - yScale(d.score))
                         .attr("width", xScale.bandwidth())
-                        .attr("fill", "#808080")
                         .attr("style", "outline: none")
                         .filter((d, i) => twoIsSelected ? (i == 0 || i == 1) : i == 0)
-                        .attr("fill", "#89CFF0")
-                        .attr("style", "outline: solid #0096FF;")
+                        .attr("style", "outline: solid grey; opacity: 1;")
 
                 },
                 (exit) => {
@@ -277,15 +276,32 @@ function updateBarChartOrder(musicAttribute) {
 
         if (alreadySelectedMusicAttribute) { svg.selectAll('.limit').remove() }
 
+        function getColor(attribute) {
+            if (attribute == "acousticness") {
+                return COLORS_DICT.acousticness
+            } else if (attribute == "popularity") {
+                return COLORS_DICT.popularity
+            } else if (attribute == "speechiness") {
+                return COLORS_DICT.speechiness
+            } else if (attribute == "bpm") {
+                return COLORS_DICT.bpm
+            } else if (attribute == "valence") {
+                return COLORS_DICT.valence
+            } else if (attribute == "danceability") {
+                return COLORS_DICT.danceability
+            } else {
+                return "#000"
+            }
+        }
         //the line
         const line = svg.append('line')
             .attr('class', 'limit')
-            .attr('x1', 0)
+            .attr('x1', 50)
             .attr('y1', yScale(musicAttribute.score))
             .attr('x2', width)
             .attr('y2', yScale(musicAttribute.score))
-            .attr('stroke', 'black')
-            .style("stroke-width", 3)
+            .attr('stroke', getColor(musicAttribute.name.toLowerCase()))
+            .style("stroke-width", 4)
             .style("stroke-dasharray", ("10, 10"));
 
 
