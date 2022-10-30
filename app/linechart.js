@@ -1,9 +1,10 @@
-import {lineBarHover, stopLineBarHover, selectLineBar} from "./barchart1.js"
+import {lineBarHover, stopLineBarHover, selectLineBar} from "./barchart.js"
+import {zoomed} from "./script.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 1200 - margin.left - margin.right;
 const height = 300 - margin.top - margin.bottom;
-var hover = false;
+
 
 export function hoverLine() {
   lineBarHover((d3.select(this).attr("id").toUpperCase()));
@@ -43,12 +44,16 @@ export function selectLine() {
 }
 
 export function selectRect() {
+  d3.selectAll("rect").classed("selected", false);
+  if (!zoomed) { 
     if(d3.select(this).classed('selected')) {
-      d3.select(this).classed('selected', false);
-    } else {
-      d3.select(this)
-        .classed('selected', true);
-    }
+    d3.select(this).classed('selected', false);
+  } else {
+    d3.select(this)
+      .classed('selected', true);
+  }} else {
+    d3.selectAll("rect").classed("selected", false);
+  }
 }
 
 export function createLineChart(id) {
@@ -144,7 +149,6 @@ export function createLineChart(id) {
       var BPMLine = d3.line()
       .x(function(d) { return x(d.Year); })
       .y(function(d) { return y((d.BPM*100)/206); });
-      
 
       const x = d3
       .scaleLinear()

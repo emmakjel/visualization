@@ -1,8 +1,8 @@
 import { createLineChart, selectRect, updateLineChart} from './linechart.js';
-import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart1.js';
 import { createWordCloud, updateWordCloud } from './wordcloud.js';
+import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart.js';
 
-var zoomed = false;
+export var zoomed = false;
 
 function init() {
   //word cloud with words
