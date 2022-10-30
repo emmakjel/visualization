@@ -1,4 +1,4 @@
-import {lineBarHover, stopLineBarHover, selectLineBar} from "./barchart.js"
+import {lineBarHover, stopLineBarHover, selectLineBar, twoIsSelected, updateBarChartComparison} from "./barchart.js"
 import {zoomed} from "./script.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
@@ -29,13 +29,21 @@ export function stopBarLineHover(id) {
 }
 
 export function selectBarLine(id) {
-  d3.select("#"+id).classed('selected', true);
+  if (id == null) {
+    d3.selectAll(".line").classed("selected", false);
+  } else {
+    if (twoIsSelected) {
+      d3.selectAll(".line").classed("selected", false);
+    }
+    d3.select("#"+id).classed('selected', true);
+  }
 }
 
 export function selectLine() {
   selectLineBar(d3.select(this).attr("id"));
   if(d3.select(this).classed('selected')) {
     d3.selectAll('.line').classed('selected', false);
+    updateBarChartComparison(null)
   } else {
     d3.selectAll('.line').classed('selected', false);
     d3.select(this)
@@ -56,6 +64,10 @@ export function selectRect() {
   }
 }
 
+function unSelectRect() {
+  d3.selectAll("rect").classed("selected", false);
+}
+
 export function createLineChart(id) {
   const lineChartWidth = width + margin.left + margin.right;
   const lineChartHeight = height + margin.top + margin.bottom;
@@ -63,6 +75,7 @@ export function createLineChart(id) {
     .select(id)
     .attr("width", lineChartWidth)
     .attr("height", lineChartHeight)
+    .on("mouseleave", unSelectRect)
     .append("g")
     .attr("id", "gLineChart")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");

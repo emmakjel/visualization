@@ -1,6 +1,6 @@
 import {barLineHover, stopBarLineHover, selectBarLine} from './linechart.js'
 
-var twoIsSelected = false;
+export var twoIsSelected = false;
 var alreadySelectedMusicAttribute;
 var dataWithSelectedAttribute;
 
@@ -16,10 +16,10 @@ var selected_decade = DECADES_DICT["all"];
 
 
 
-
 const width = 700;
 const height = 400;
 const margin = { top: 50, bottom: 50, left: 50, right: 50 };
+var value;
 
 function hoverBar() {
     barLineHover(d3.select(this).attr("id"));
@@ -66,12 +66,16 @@ export function lineBarHover(id) {
 }
 
 export function stopLineBarHover(id) {
-    d3.select("#"+id).attr('opacity', 0.7);
+    var bar =  d3.select("#"+id);
+    if (!d3.select("#"+id.toLowerCase()).classed("selected")) {
+        bar.attr('opacity', 0.7);
+    }
 }
 
 export function selectLineBar(id) {
     var d = d3.select("#" + id.toUpperCase());
-    if (alreadySelectedMusicAttribute != d) { updateBarChartComparison(d) };
+    var attribute = {name: id, score: d.attr("title")}
+    if (alreadySelectedMusicAttribute != attribute) { updateBarChartComparison(attribute) };
 }
 
 
@@ -84,6 +88,24 @@ function selectBar(d) {
 
 function clickableClick() {
     updateBarChartComparison(null);
+}
+
+function getColor(attribute) {
+    if (attribute == "acousticness") {
+        return COLORS_DICT.acousticness
+    } else if (attribute == "popularity") {
+        return COLORS_DICT.popularity
+    } else if (attribute == "speechiness") {
+        return COLORS_DICT.speechiness
+    } else if (attribute == "bpm") {
+        return COLORS_DICT.bpm
+    } else if (attribute == "valence") {
+        return COLORS_DICT.valence
+    } else if (attribute == "danceability") {
+        return COLORS_DICT.danceability
+    } else {
+        return "#000"
+    }
 }
 
 
@@ -194,9 +216,10 @@ function createBarChart(id) {
 }
 
 
-function updateBarChartComparison(musicAttribute) {
+export function updateBarChartComparison(musicAttribute) {
     const svg = d3.select("#gBarChart");
     if (musicAttribute == null) {
+        selectBarLine(null);
         svg.selectAll('.limit').remove();
         svg.selectAll('rect').attr("opacity", 0.7);
         selectedAttribute1 = null;
@@ -226,24 +249,6 @@ function updateBarChartComparison(musicAttribute) {
 
 
     if (alreadySelectedMusicAttribute) { svg.selectAll('.limit').remove() }
-
-    function getColor(attribute) {
-        if (attribute == "acousticness") {
-            return COLORS_DICT.acousticness
-        } else if (attribute == "popularity") {
-            return COLORS_DICT.popularity
-        } else if (attribute == "speechiness") {
-            return COLORS_DICT.speechiness
-        } else if (attribute == "bpm") {
-            return COLORS_DICT.bpm
-        } else if (attribute == "valence") {
-            return COLORS_DICT.valence
-        } else if (attribute == "danceability") {
-            return COLORS_DICT.danceability
-        } else {
-            return "#000"
-        }
-    }
     
     //the line
     const line = svg.append('line')
@@ -273,13 +278,13 @@ function changeDecadeBarChart(decade) {
 
         var newData = all_years_list.sort((a, b) => d3.descending(a.score, b.score));
 
+        /*
         //if two music features are selected
         if (selectedAttribute2) {
             var temp = all_years_list.filter((val) => val.name != (selectedAttribute1.name));
             temp = temp.filter((val) => val.name != (selectedAttribute2.name));
             temp.unshift(selectedAttribute1, selectedAttribute2);
             newData = temp;
-
 
         }
         //if one music feature is selected
@@ -288,9 +293,7 @@ function changeDecadeBarChart(decade) {
             temp.unshift(selectedAttribute1);
             newData = temp;
         }
-
-
-
+        */
 
         //enter, write code as the element where created the first time
         //update, the data that already exists
@@ -329,10 +332,7 @@ function changeDecadeBarChart(decade) {
                         .attr("height", d => yScale(0) - yScale(d.score))
                         .attr("width", xScale.bandwidth())
                         .attr("class", "rectValue itemValue")
-
-
-
-
+                        
                 },
                 (update) => {
                     update
@@ -342,12 +342,12 @@ function changeDecadeBarChart(decade) {
                         .attr("y", data => yScale(data.score))
                         .attr("height", d => yScale(0) - yScale(d.score))
                         .attr("width", xScale.bandwidth())
-                        .attr("fill", "#808080")
-                        .attr("style", "outline: none")
-                        .filter((d, i) => selectedAttribute2 ? (i == 0 || i == 1) : selectedAttribute1 ? (i == 0) : i == null)
-                        .attr("fill", "#89CFF0")
-                        .attr("style", "outline: solid #0096FF;")
-
+                        .attr("fill", d => getColor((d.name).toLowerCase()))
+                        // Trenger vi linjene under?
+                        //.attr("style", "outline: none")
+                        //.filter((d, i) => selectedAttribute2 ? (i == 0 || i == 1) : selectedAttribute1 ? (i == 0) : i == null)
+                        //.attr("fill", d => getColor((d.name).toLowerCase()))
+                        //.attr("style", "outline: solid #black;")
                 },
                 (exit) => {
                     exit.remove();
@@ -364,8 +364,8 @@ function changeDecadeBarChart(decade) {
                 .attr('y1', yScale(selectedAttribute1.score))
                 .attr('x2', width)
                 .attr('y2', yScale(selectedAttribute1.score))
-                .attr('stroke', 'black')
-                .style("stroke-width", 3)
+                .attr('stroke', getColor(selectedAttribute1.name.toLowerCase()))
+                .style("stroke-width", 4)
                 .style("stroke-dasharray", ("10, 10"));
 
         }
@@ -378,21 +378,10 @@ function changeDecadeBarChart(decade) {
                 .attr('y1', yScale(selectedAttribute2.score))
                 .attr('x2', width)
                 .attr('y2', yScale(selectedAttribute2.score))
-                .attr('stroke', 'black')
-                .style("stroke-width", 3)
+                .attr('stroke', getColor(selectedAttribute2.name.toLowerCase()))
+                .style("stroke-width", 4)
                 .style("stroke-dasharray", ("10, 10"));
-
         }
-
-
-
-
-
-
-
-
-
-
     })
 
 
