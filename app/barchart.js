@@ -346,6 +346,7 @@ function changeDecadeBarChart(decade) {
                         .attr("height", d => yScale(0) - yScale(d.score))
                         .attr("width", xScale.bandwidth())
                         .attr("fill", d => getColor((d.name).toLowerCase()))
+                        .attr("stroke", "none")
                         .attr("id", d => d.name.toUpperCase());
                         // Trenger vi linjene under?
                         //.attr("style", "outline: none")

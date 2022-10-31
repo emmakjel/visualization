@@ -5,12 +5,9 @@ const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 1200 - margin.left - margin.right;
 const height = 300 - margin.top - margin.bottom;
 
-var selectedLine1;
-var selectedLine2;
-var twoLinesSelected = false;
-
 
 export function hoverLine() {
+  showToolTip(d3.select(this))
   lineBarHover((d3.select(this).attr("id").toUpperCase()));
   if (!d3.select(this).classed('hover') && !d3.select(this).classed('selected')) {
     d3.select(this).classed('hover', true);
@@ -18,6 +15,7 @@ export function hoverLine() {
 }
 
 function stopHoverLine() {
+  hideToolTip(d3.select(this));
   stopLineBarHover((d3.select(this).attr("id").toUpperCase()));
   if (d3.select(this).classed('hover')) {
     d3.select(this).classed('hover', false);
@@ -75,6 +73,27 @@ function unSelectRect() {
   d3.selectAll("rect").classed("selected", false);
 }
 
+function showToolTip(line) {
+  var x0 = d3.pointer(event, this)[0];
+  var y0 = d3.pointer(event, this)[1];
+  d3.select("#featuretext").text(line.attr("id"));
+  d3.select("#valuetext").text(height-y0);
+  d3.select("#yeartext").text(x0);
+}
+
+function updateToolTip() {
+  var x0 = d3.pointer(event, this)[0];
+  var y0 = d3.pointer(event, this)[1];
+  d3.select("#valuetext").text(height-y0);
+  d3.select("#yeartext").text(x0);
+}
+
+function hideToolTip() {
+  d3.select("#featuretext").text("");
+  d3.select("#valuetext").text("");
+  d3.select("#yeartext").text("");
+}
+
 export function createLineChart(id) {
   const lineChartWidth = width + margin.left + margin.right;
   const lineChartHeight = height + margin.top + margin.bottom;
@@ -86,6 +105,42 @@ export function createLineChart(id) {
     .append("g")
     .attr("id", "gLineChart")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    svg
+      .append("text")
+      .attr("x", 900)
+      .attr("y", 20)
+      .text("Music feature: ")
+    svg
+      .append("text")
+      .attr("x", 970)
+      .attr("y", 20)
+      .attr("id", "featuretext");
+
+    svg
+      .append("text")
+      .attr("x", 940)
+      .attr("y", 40)
+      .text("Year: ")
+
+    svg
+      .append("text")
+      .attr("x", 970)
+      .attr("y", 40)
+      .attr("id", "yeartext");
+
+    svg
+      .append("text")
+      .attr("x", 935)
+      .attr("y", 60)
+      .text("Value: ")
+
+    svg
+      .append("text")
+      .attr("x", 970)
+      .attr("y", 60)
+      .attr("id", "valuetext");
+
 
     const rectX = lineChartWidth/17;
     svg
@@ -266,6 +321,7 @@ export function createLineChart(id) {
         .attr("id", 'popularity')
         .on('click', selectLine)
         .on('mouseover', hoverLine)
+        .on('mousemove', updateToolTip)
         .on('mouseout', stopHoverLine);
     
       svg
@@ -277,6 +333,7 @@ export function createLineChart(id) {
         .attr("id", 'acousticness')
         .on('click', selectLine)
         .on('mouseover', hoverLine)
+        .on('mousemove', updateToolTip)
         .on('mouseout', stopHoverLine);
     
       svg.append("path")
@@ -287,6 +344,7 @@ export function createLineChart(id) {
           .attr("id", 'valence')
           .on('click', selectLine)
           .on('mouseover', hoverLine)
+          .on('mousemove', updateToolTip)
           .on('mouseout', stopHoverLine);
 
       svg.append("path")
@@ -297,6 +355,7 @@ export function createLineChart(id) {
           .attr("id", 'danceability')
           .on('click', selectLine)
           .on('mouseover', hoverLine)
+          .on('mousemove', updateToolTip)
           .on('mouseout', stopHoverLine);
 
       svg.append("path")
@@ -307,6 +366,7 @@ export function createLineChart(id) {
           .attr("id", 'speechiness')
           .on('click', selectLine)
           .on('mouseover', hoverLine)
+          .on('mousemove', updateToolTip)
           .on('mouseout', stopHoverLine);
 
       svg.append("path")
@@ -317,6 +377,7 @@ export function createLineChart(id) {
           .attr("id", 'bpm')
           .on('click', selectLine)
           .on('mouseover', hoverLine)
+          .on('mousemove', updateToolTip)
           .on('mouseout', stopHoverLine);
   });
 }
