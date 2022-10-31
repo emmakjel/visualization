@@ -73,6 +73,7 @@ export function stopLineBarHover(id) {
 }
 
 export function selectLineBar(id) {
+    console.log(id);
     var d = d3.select("#" + id.toUpperCase());
     var attribute = {name: id, score: d.attr("title")}
     if (alreadySelectedMusicAttribute != attribute) { updateBarChartComparison(attribute) };
@@ -299,6 +300,7 @@ function changeDecadeBarChart(decade) {
         //update, the data that already exists
 
         const svg = d3.select("#gBarChart");
+        svg.selectAll('.limit').remove();
 
         const xScale = d3.scaleBand()
             .domain(d3.range(newData.length))
@@ -315,9 +317,6 @@ function changeDecadeBarChart(decade) {
                 .tickFormat(index => newData[index].name)
                 .tickSizeOuter(0))
             .attr('font-size', '15px');
-
-
-        svg.selectAll('.limit').remove()
 
         svg
             .selectAll("rect.rectValue")
@@ -340,9 +339,11 @@ function changeDecadeBarChart(decade) {
                         .duration(500)
                         .attr("x", (data, index) => xScale(index))
                         .attr("y", data => yScale(data.score))
+                        .attr("title", (data) => data.score)
                         .attr("height", d => yScale(0) - yScale(d.score))
                         .attr("width", xScale.bandwidth())
                         .attr("fill", d => getColor((d.name).toLowerCase()))
+                        .attr("id", d => d.name.toUpperCase());
                         // Trenger vi linjene under?
                         //.attr("style", "outline: none")
                         //.filter((d, i) => selectedAttribute2 ? (i == 0 || i == 1) : selectedAttribute1 ? (i == 0) : i == null)
@@ -360,12 +361,13 @@ function changeDecadeBarChart(decade) {
             //the line
             svg.append('line')
                 .attr('class', 'limit')
-                .attr('x1', 0)
+                .attr('x1', 50)
                 .attr('y1', yScale(selectedAttribute1.score))
                 .attr('x2', width)
                 .attr('y2', yScale(selectedAttribute1.score))
                 .attr('stroke', getColor(selectedAttribute1.name.toLowerCase()))
-                .style("stroke-width", 4)
+                .attr('stroke-opacity', 0.5)
+                .style("stroke-width", 2)
                 .style("stroke-dasharray", ("10, 10"));
 
         }
@@ -374,12 +376,13 @@ function changeDecadeBarChart(decade) {
             //the line
             svg.append('line')
                 .attr('class', 'limit')
-                .attr('x1', 0)
+                .attr('x1', 50)
                 .attr('y1', yScale(selectedAttribute2.score))
                 .attr('x2', width)
                 .attr('y2', yScale(selectedAttribute2.score))
                 .attr('stroke', getColor(selectedAttribute2.name.toLowerCase()))
-                .style("stroke-width", 4)
+                .attr('stroke-opacity', 0.5)
+                .style("stroke-width", 2)
                 .style("stroke-dasharray", ("10, 10"));
         }
     })

@@ -14,7 +14,7 @@ function createWordCloud(csv, id) {
             top_list.push(item);
             
         });
-        console.log(top_list);
+        //console.log(top_list);
 
     })
 
@@ -30,7 +30,7 @@ function updateWordCloud(csv, decade) {
             let item = { "name": element[Object.keys(element)[DECADE_INDEX_DICT[decade]]], "count": parseInt(element[Object.keys(element)[decade_index + 1]]) }
             top_list.push(item);
         });
-        console.log(top_list);
+       // console.log(top_list);
     })
 
 }

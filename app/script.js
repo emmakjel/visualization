@@ -17,13 +17,13 @@ function init() {
     .on("mouseleave", selectRect)
     .on("click", () => {
       if (zoomed) {
-        updateLineChart(1950, 2020);
+        updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
         updateWordCloud("processed-most-common-words.csv", "all");
         updateWordCloud("processed-most-common-artists.csv", "all");
         zoomed = false;
       } else {
-        updateLineChart(1950, 1960);
+        updateLineChart(1956, 1960);
         changeDecadeBarChart(DECADES_DICT["fifties"]);
         updateWordCloud("processed-most-common-words.csv", "fifties");
         updateWordCloud("processed-most-common-artists.csv", "fifties");
@@ -35,7 +35,7 @@ function init() {
     .on("mouseleave", selectRect)
     .on("click", () => {
       if (zoomed) {
-        updateLineChart(1950, 2020);
+        updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
         updateWordCloud("processed-most-common-words.csv", "all");
         updateWordCloud("processed-most-common-artists.csv", "all");
@@ -53,7 +53,7 @@ function init() {
     .on("mouseleave", selectRect)
     .on("click", () => {
       if (zoomed) {
-        updateLineChart(1950, 2020);
+        updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
         updateWordCloud("processed-most-common-words.csv", "all");
         updateWordCloud("processed-most-common-artists.csv", "all");
@@ -71,7 +71,7 @@ function init() {
     .on("mouseleave", selectRect)
     .on("click", () => {
       if (zoomed) {
-        updateLineChart(1950, 2020);
+        updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
         updateWordCloud("processed-most-common-words.csv", "all");
         updateWordCloud("processed-most-common-artists.csv", "all");
@@ -89,7 +89,7 @@ function init() {
     .on("mouseleave", selectRect)
     .on("click", () => {
       if (zoomed) {
-        updateLineChart(1950, 2020);
+        updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
         updateWordCloud("processed-most-common-words.csv", "all");
         updateWordCloud("processed-most-common-artists.csv", "all");
@@ -107,7 +107,7 @@ function init() {
     .on("mouseleave", selectRect)
     .on("click", () => {
       if (zoomed) {
-        updateLineChart(1950, 2020);
+        updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
         updateWordCloud("processed-most-common-words.csv", "all");
         updateWordCloud("processed-most-common-artists.csv", "all");
@@ -125,7 +125,7 @@ function init() {
     .on("mouseleave", selectRect)
     .on("click", () => {
       if (zoomed) {
-        updateLineChart(1950, 2020);
+        updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
         updateWordCloud("processed-most-common-words.csv", "all");
         updateWordCloud("processed-most-common-artists.csv", "all");

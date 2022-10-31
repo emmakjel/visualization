@@ -319,10 +319,9 @@ export function updateLineChart(start, finish) {
     data = data.filter(function (elem) {
       return start <= parseInt(elem.Year) && parseInt(elem.Year) <= finish;
     });
-
-   
-
     const svg = d3.select("#gLineChart");
+
+    d3.selectAll(".line").classed("selected", false);
 
     const x = d3
       .scaleLinear()
@@ -354,7 +353,7 @@ export function updateLineChart(start, finish) {
           "Valence": parseInt(d.Valence),
           "Danceability": parseInt(d.Danceability),
           "Speechiness": parseInt(d.Speechiness),
-          "BPM": parseInt((d.BPM*100)/206)
+          "BPM": parseInt((d.BPM*100)/206) 
         });
         dataMap.set(parseInt(d.Year), attrList);
       } else {
@@ -377,7 +376,6 @@ export function updateLineChart(start, finish) {
       let danSum = 0;
       let speSum = 0;
       let BPMSum = 0;
-      let lenSum = 0;
       let elements = 0;
       dataMap.get(y).forEach((obj) => {
         popSum+=obj.Popularity;
@@ -463,6 +461,6 @@ export function updateLineChart(start, finish) {
       .duration(1500)
       .attr("d", d3.line()
       .x(function(d) { return x(d.Year); })
-      .y(function(d) { return y(d.BPM); }));
+      .y(function(d) { return y((d.BPM*100)/206); }));
 });
 }
