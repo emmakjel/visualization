@@ -73,7 +73,6 @@ export function stopLineBarHover(id) {
 }
 
 export function selectLineBar(id) {
-    console.log(id);
     var d = d3.select("#" + id.toUpperCase());
     var attribute = {name: id, score: d.attr("title")}
     if (alreadySelectedMusicAttribute != attribute) { updateBarChartComparison(attribute) };
@@ -220,11 +219,13 @@ function createBarChart(id) {
 export function updateBarChartComparison(musicAttribute) {
     const svg = d3.select("#gBarChart");
     if (musicAttribute == null) {
+        svg.selectAll("rect").attr("stroke", "none");
         selectBarLine(null);
         svg.selectAll('.limit').remove();
         svg.selectAll('rect').attr("opacity", 0.7);
         selectedAttribute1 = null;
         selectedAttribute2 = null;
+        alreadySelectedMusicAttribute = null;
     } else {
     const svg = d3.select("#gBarChart");
 
@@ -240,16 +241,18 @@ export function updateBarChartComparison(musicAttribute) {
             twoIsSelected = false;
             selectedAttribute2 = null;
             selectedAttribute1 = musicAttribute;
-
+            svg.selectAll("rect").attr("stroke", "none")
+            svg.select("#" + musicAttribute.name.toUpperCase()).attr("stroke", "grey")
         } else {
             //just put the selected attribute in 2nd place
+            svg.select("#" + musicAttribute.name.toUpperCase()).attr("stroke", "grey")
             alreadySelectedMusicAttribute = null;
             twoIsSelected = true;
             selectedAttribute2 = musicAttribute;
         }
 
 
-    if (alreadySelectedMusicAttribute) { svg.selectAll('.limit').remove() }
+    if (alreadySelectedMusicAttribute) { svg.selectAll('.limit').remove()}
     
     //the line
     const line = svg.append('line')

@@ -5,6 +5,10 @@ const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 1200 - margin.left - margin.right;
 const height = 300 - margin.top - margin.bottom;
 
+var selectedLine1;
+var selectedLine2;
+var twoLinesSelected = false;
+
 
 export function hoverLine() {
   lineBarHover((d3.select(this).attr("id").toUpperCase()));
@@ -45,11 +49,14 @@ export function selectLine() {
     d3.selectAll('.line').classed('selected', false);
     updateBarChartComparison(null)
   } else {
-    d3.selectAll('.line').classed('selected', false);
+    if (!twoIsSelected) {
+      d3.selectAll(".line").classed("selected", false);
+    }
     d3.select(this)
       .classed('selected', true);
   }
 }
+
 
 export function selectRect() {
   d3.selectAll("rect").classed("selected", false);
