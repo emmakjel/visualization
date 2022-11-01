@@ -6,9 +6,9 @@ export var zoomed = false;
 
 function init() {
   //word cloud with words
-  createWordCloud("processed-most-common-words.csv");
+  createWordCloud("processed-most-common-words.csv", "#vi3");
   //word cloud with artists
-  createWordCloud("processed-most-common-artists.csv");
+  createWordCloud("processed-most-common-artists.csv", "#vi4");
   createLineChart("#vi1");
   createBarChart("#vi2");
 
