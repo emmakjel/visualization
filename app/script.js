@@ -1,5 +1,5 @@
 import { createLineChart, selectRect, updateLineChart} from './linechart.js';
-import { createWordCloud, updateWordCloud } from './wordcloud.js';
+import { createWordCloud, updateTitleCloud, updateArtistCloud } from './wordcloud.js';
 import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart.js';
 
 export var zoomed = false;
@@ -19,14 +19,14 @@ function init() {
       if (zoomed) {
         updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
-        updateWordCloud("processed-most-common-words.csv", "all");
-        updateWordCloud("processed-most-common-artists.csv", "all");
+        updateTitleCloud("processed-most-common-words.csv", "all");
+        updateArtistCloud("processed-most-common-artists.csv", "all");
         zoomed = false;
       } else {
         updateLineChart(1956, 1960);
         changeDecadeBarChart(DECADES_DICT["fifties"]);
-        updateWordCloud("processed-most-common-words.csv", "fifties");
-        updateWordCloud("processed-most-common-artists.csv", "fifties");
+        updateTitleCloud("processed-most-common-words.csv", "fifties");
+        updateArtistCloud("processed-most-common-artists.csv", "fifties");
         zoomed = true;
       }
     });
@@ -37,14 +37,14 @@ function init() {
       if (zoomed) {
         updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
-        updateWordCloud("processed-most-common-words.csv", "all");
-        updateWordCloud("processed-most-common-artists.csv", "all");
+        updateTitleCloud("processed-most-common-words.csv", "all");
+        updateArtistCloud("processed-most-common-artists.csv", "all");
         zoomed = false;
       } else {
         updateLineChart(1960, 1970);
         changeDecadeBarChart(DECADES_DICT["sixties"]);
-        updateWordCloud("processed-most-common-words.csv", "sixties");
-        updateWordCloud("processed-most-common-artists.csv", "sixties");
+        updateTitleCloud("processed-most-common-words.csv", "sixties");
+        updateArtistCloud("processed-most-common-artists.csv", "sixties");
         zoomed = true;
       }
     });
@@ -55,14 +55,14 @@ function init() {
       if (zoomed) {
         updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
-        updateWordCloud("processed-most-common-words.csv", "all");
-        updateWordCloud("processed-most-common-artists.csv", "all");
+        updateTitleCloud("processed-most-common-words.csv", "all");
+        updateArtistCloud("processed-most-common-artists.csv", "all");
         zoomed = false;
       } else {
         updateLineChart(1970, 1980);
         changeDecadeBarChart(DECADES_DICT["seventies"]);
-        updateWordCloud("processed-most-common-words.csv", "seventies");
-        updateWordCloud("processed-most-common-artists.csv", "seventies");
+        updateTitleCloud("processed-most-common-words.csv", "seventies");
+        updateArtistCloud("processed-most-common-artists.csv", "seventies");
         zoomed = true;
       }
     });
@@ -73,14 +73,14 @@ function init() {
       if (zoomed) {
         updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
-        updateWordCloud("processed-most-common-words.csv", "all");
-        updateWordCloud("processed-most-common-artists.csv", "all");
+        updateTitleCloud("processed-most-common-words.csv", "all");
+        updateArtistCloud("processed-most-common-artists.csv", "all");
         zoomed = false;
       } else {
         updateLineChart(1980, 1990);
         changeDecadeBarChart(DECADES_DICT["eighties"]);
-        updateWordCloud("processed-most-common-words.csv", "eighties");
-        updateWordCloud("processed-most-common-artists.csv", "eighties");
+        updateTitleCloud("processed-most-common-words.csv", "eighties");
+        updateArtistCloud("processed-most-common-artists.csv", "eighties");
         zoomed = true;
       }
     });
@@ -91,14 +91,14 @@ function init() {
       if (zoomed) {
         updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
-        updateWordCloud("processed-most-common-words.csv", "all");
-        updateWordCloud("processed-most-common-artists.csv", "all");
+        updateTitleCloud("processed-most-common-words.csv", "all");
+        updateArtistCloud("processed-most-common-artists.csv", "all");
         zoomed = false;
       } else {
         updateLineChart(1990, 2000);
         changeDecadeBarChart(DECADES_DICT["nineties"]);
-        updateWordCloud("processed-most-common-words.csv", "nineties");
-        updateWordCloud("processed-most-common-artists.csv", "nineties");
+        updateTitleCloud("processed-most-common-words.csv", "nineties");
+        updateArtistCloud("processed-most-common-artists.csv", "nineties");
         zoomed = true;
       }
     });
@@ -109,14 +109,14 @@ function init() {
       if (zoomed) {
         updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
-        updateWordCloud("processed-most-common-words.csv", "all");
-        updateWordCloud("processed-most-common-artists.csv", "all");
+        updateTitleCloud("processed-most-common-words.csv", "all");
+        updateArtistCloud("processed-most-common-artists.csv", "all");
         zoomed = false;
       } else {
         updateLineChart(2000, 2010);
         changeDecadeBarChart(DECADES_DICT["twoThousands"]);
-        updateWordCloud("processed-most-common-words.csv", "twothousands");
-        updateWordCloud("processed-most-common-artists.csv", "twothousands");
+        updateTitleCloud("processed-most-common-words.csv", "twothousands");
+        updateArtistCloud("processed-most-common-artists.csv", "twothousands");
         zoomed = true;
       }
     });
@@ -127,14 +127,14 @@ function init() {
       if (zoomed) {
         updateLineChart(1956, 2020);
         changeDecadeBarChart(DECADES_DICT["all"]);
-        updateWordCloud("processed-most-common-words.csv", "all");
-        updateWordCloud("processed-most-common-artists.csv", "all");
+        updateTitleCloud("processed-most-common-words.csv", "all");
+        updateArtistCloud("processed-most-common-artists.csv", "all");
         zoomed = false;
       } else {
         updateLineChart(2010, 2020);
         changeDecadeBarChart(DECADES_DICT["twentyTens"]);
-        updateWordCloud("processed-most-common-words.csv", "twentytens");
-        updateWordCloud("processed-most-common-artists.csv", "twentytens");
+        updateTitleCloud("processed-most-common-words.csv", "twentytens");
+        updateArtistCloud("processed-most-common-artists.csv", "twentytens");
         zoomed = true;
       }
     });
