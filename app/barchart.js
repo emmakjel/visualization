@@ -16,10 +16,9 @@ var selected_decade = DECADES_DICT["all"];
 
 
 
-const width = 700;
-const height = 400;
 const margin = { top: 50, bottom: 50, left: 50, right: 50 };
-var value;
+const width = 430;
+const height = 430;
 
 function hoverBar() {
     showToolTip(this);
@@ -95,16 +94,16 @@ function barchartAreaClick() {
 function showToolTip(bar) {
     var tooltip = d3.select("#tooltip");
     var svg = d3.select("#gBarChart");
-    var x = parseInt(d3.select(bar).attr("x")) + 8;
-    var y = parseInt(d3.select(bar).attr("y")) - 40;
+    var x = parseInt(d3.select(bar).attr("x"));
+    var y = parseInt(d3.select(bar).attr("y")) - 25;
     tooltip
     .attr("x", x)
     .attr("y", y)
     .attr("class", "tool-tip");
     svg.append("text")
-    .attr("x", x+4)
-    .attr("y", y+20)
-    .style("font-size", "16")
+    .attr("x", x)
+    .attr("y", y+12)
+    .style("font-size", "12")
     .attr("id", "tooltext")
     .text("Value: " + d3.select(bar).attr("title"));
 }
@@ -173,8 +172,8 @@ function createBarChart(id) {
             .append("rect")
             .attr("x", 0)
             .attr("y", 0)
-            .attr("width", 75)
-            .attr("height", 25)
+            .attr("width", 50)
+            .attr("height", 15)
             .attr("id", "tooltip")
             .attr("class", "hide")
 
@@ -217,7 +216,7 @@ function createBarChart(id) {
             .call(d3.axisBottom(xScale)
                 .tickFormat(index => all_years_list[index].name)
                 .tickSizeOuter(0))
-            .attr('font-size', '15px'); //the music attributes 
+            .attr('font-size', 10); //the music attributes 
 
 
         //names and grids 
@@ -227,22 +226,22 @@ function createBarChart(id) {
             .call(d3.axisLeft(yScale).ticks(null, all_years_list.format)
                 //.tickSize(-width, 0, 0) dont want the grids
             )
-            .attr('font-size', '20px'); // the numbers one y-axis
+            .attr('font-size', 12); // the numbers one y-axis
 
         //labels
         chart.append('text')
             .attr('x', -(height / 2) - margin.top)
-            .attr('y', margin.top / 5)
+            .attr('y', 15)
             .attr('transform', 'rotate(-90)')
-            .attr('font-size', '20px')
+            .attr('font-size', 16)
             .attr('fill', 'black')
             .text('Average value')
 
         //text
         chart.append('text')
-            .attr('x', width / 4 + margin.left)
+            .attr('x', width / 8 + margin.left)
             .attr('y', 30)
-            .attr('font-size', '15px')
+            .attr('font-size', 18)
             .attr('fill', 'black')
             .text('Average values of music features')
     })

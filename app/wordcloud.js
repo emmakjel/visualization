@@ -1,7 +1,6 @@
-
-var margin = {top: 10, right: 10, bottom: 10, left: 10},
-width = 450 - margin.left - margin.right,
-height = 450 - margin.top - margin.bottom;
+const margin = { top: 50, bottom: 50, left: 50, right: 50 };
+const width = 430;
+const height = 430;
 const DECADE_INDEX_DICT = { "all": 0, "fifties": 2, "sixties": 4, "seventies": 6, "eighties": 8, "nineties": 10, "twothousands": 12, "twentytens": 14 };
 
 
@@ -9,47 +8,59 @@ const DECADE_INDEX_DICT = { "all": 0, "fifties": 2, "sixties": 4, "seventies": 6
 //NOW IT ONLY CONSOLE LOGS THE LISTS
 
 function createWordCloud(csv, id) {
-    var svg = d3.select(id).append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g")
-        .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
 
     d3.csv(csv).then(function (data) {
-        var top_list = [];
+
+      var top_list = [];
         data.forEach(element => {
             let item = { "name": element.all, "count": parseInt(element.allCount) }
             top_list.push(item);
-
-        var layout = d3.layout.cloud()
-            .size([width, height])
-            .words(top_list.map(function(d) { return {text: d.name}; }))
-            .padding(10)
-            .fontSize(function(d) { return d.count; })
-            .on("end", draw);
-          layout.start();
-        
-          function draw(words) {
-            svg
-              .append("g")
-                .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
-                .selectAll("text")
-                  .data(words)
-                .enter().append("text")
-                  .style("font-size", function(d) { return d.count + "px"; })
-                  .attr("text-anchor", "middle")
-                  .attr("transform", function(d) {
-                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-                  })
-                  .text(function(d) { return d.text; });
-          }
         });
         console.log(top_list);
+      
+      var fill = d3.schemeCategory10
 
+      var xScale = d3.scaleLinear()
+      .domain([0, d3.max(top_list, function(d) {
+        return d.count;
+      })
+     ])
+      .range([10,100]);
+
+      d3.layout.cloud().size([width - margin.left - margin.right, height - margin.top - margin.bottom])
+      .timeInterval(20)
+      .words(top_list)
+      .fontSize(function(d) { return xScale(+d.count); })
+      .text(function(d) { return d.name; })
+      .rotate(function() { return ~~(Math.random() * 2) * 90; })
+      .font("Impact")
+      .on("end", draw)
+      .start();
+
+      function draw(words) {
+        const svg = 
+        d3.select(id)
+        .attr('width', width - margin.left - margin.right)
+        .attr('height', height - margin.top - margin.bottom)
+        .append("g")
+        .attr("id", "gWordCloud")
+        .attr("transform", "translate(" + [width - margin.left - margin.right >> 1, height - margin.top - margin.bottom >> 1] + ")")
+        .selectAll("text")
+        .data(words)
+        .enter().append("text")
+        .style("font-size", function(d) { return xScale(d.count) + "px"; })
+        .style("font-family", "Impact")
+        .style("fill", function(d, i) { return fill[i]; })
+        .attr("text-anchor", "middle")
+        .attr("transform", function(d) {
+          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        })
+        .text(function(d) { return d.name; });
+      }
+      d3.layout.cloud().stop();
     })
-
 }
+
 
 
 
