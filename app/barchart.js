@@ -22,6 +22,7 @@ const margin = { top: 50, bottom: 50, left: 50, right: 50 };
 var value;
 
 function hoverBar() {
+    showToolTip(this);
     barLineHover(d3.select(this).attr("id"));
     d3
         .select(this)
@@ -30,6 +31,7 @@ function hoverBar() {
 }
 
 function stopHoverBar() {
+    hideToolTip();
     var id = d3.select(this).attr("id");
     if (selectedAttribute1 != null && selectedAttribute2 == null) {
         if (selectedAttribute1.name.toUpperCase() != id) {
@@ -86,8 +88,30 @@ function selectBar(d) {
     }
 }
 
-function clickableClick() {
+function barchartAreaClick() {
     updateBarChartComparison(null);
+}
+
+function showToolTip(bar) {
+    var tooltip = d3.select("#tooltip");
+    var svg = d3.select("#gBarChart");
+    var x = parseInt(d3.select(bar).attr("x")) + 8;
+    var y = parseInt(d3.select(bar).attr("y")) - 40;
+    tooltip
+    .attr("x", x)
+    .attr("y", y)
+    .attr("class", "tool-tip");
+    svg.append("text")
+    .attr("x", x+4)
+    .attr("y", y+20)
+    .style("font-size", "16")
+    .attr("id", "tooltext")
+    .text("Value: " + d3.select(bar).attr("title"));
+}
+
+function hideToolTip() {
+    d3.select("#tooltip").attr("class", "hide");
+    d3.select("#tooltext").remove();
 }
 
 function getColor(attribute) {
@@ -141,9 +165,18 @@ function createBarChart(id) {
             .attr("y", 0)
             .attr('width', "100%")
             .attr('height', "100%")
-            .attr("id", "clickable")
+            .attr("id", "barchartarea")
             .attr("fill", "transparent")
-            .on("click", clickableClick);
+            .on("click", barchartAreaClick);
+
+            svg
+            .append("rect")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 75)
+            .attr("height", 25)
+            .attr("id", "tooltip")
+            .attr("class", "hide")
 
 
         //color

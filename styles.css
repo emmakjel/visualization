@@ -65,3 +65,14 @@ body {
     background-color:#EEEDE7; 
     border-radius: 15px;
 }
+
+.tool-tip {
+    fill: white;
+    fill-opacity: 0.2;
+    stroke: gray;
+}
+
+.hide {
+    fill: transparent;
+    stroke: none;
+}
