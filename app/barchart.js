@@ -216,7 +216,13 @@ function createBarChart(id) {
             .call(d3.axisBottom(xScale)
                 .tickFormat(index => all_years_list[index].name)
                 .tickSizeOuter(0))
-            .attr('font-size', 10); //the music attributes 
+            .attr('font-size', 15) //the music attributes 
+            .selectAll("text")
+            .attr('x', -40)
+            .attr("transform", function (d) {
+                return "rotate(-45)";
+            });
+            
 
 
         //names and grids 
