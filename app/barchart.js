@@ -357,7 +357,12 @@ function changeDecadeBarChart(decade) {
             .call(d3.axisBottom(xScale)
                 .tickFormat(index => newData[index].name)
                 .tickSizeOuter(0))
-            .attr('font-size', '15px');
+            .attr('font-size', '10px')
+            .selectAll("text")
+            .attr('x', -40)
+            .attr("transform", function (d) {
+                return "rotate(-30)";
+            });;
 
         svg
             .selectAll("rect.rectValue")
@@ -409,7 +414,7 @@ function changeDecadeBarChart(decade) {
                 .attr('y2', yScale(selectedAttribute1.score))
                 .attr('stroke', getColor(selectedAttribute1.name.toLowerCase()))
                 .attr('stroke-opacity', 0.5)
-                .style("stroke-width", 2)
+                .style("stroke-width", 4)
                 .style("stroke-dasharray", ("10, 10"));
 
         }
@@ -424,7 +429,7 @@ function changeDecadeBarChart(decade) {
                 .attr('y2', yScale(selectedAttribute2.score))
                 .attr('stroke', getColor(selectedAttribute2.name.toLowerCase()))
                 .attr('stroke-opacity', 0.5)
-                .style("stroke-width", 2)
+                .style("stroke-width", 4)
                 .style("stroke-dasharray", ("10, 10"));
         }
     })
