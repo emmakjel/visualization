@@ -1,6 +1,7 @@
 import { createLineChart, selectRect, updateLineChart} from './linechart.js';
 import { createWordCloud, updateTitleCloud, updateArtistCloud } from './wordcloud.js';
 import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart.js';
+import { createRooftopMatrix } from './rooftop.js';
 
 export var zoomed = false;
 
@@ -11,6 +12,7 @@ function init() {
   createWordCloud("processed-most-common-artists.csv", "#vi4");
   createLineChart("#vi1");
   createBarChart("#vi2");
+  createRooftopMatrix('#vi5');
 
   d3.select("#fiftys")
     .on("mouseover", selectRect)
