@@ -22,7 +22,7 @@ function createWordCloud(csv, id) {
             let item = { "name": element.all, "count": parseInt(element.allCount) }
             top_list.push(item);
         });
-        console.log(top_list);
+        
       
       var fill = d3.schemeSet3
 
@@ -75,8 +75,7 @@ function updateTitleCloud(csv, decade) {
             let item = { "name": element[Object.keys(element)[DECADE_INDEX_DICT[decade]]], "count": parseInt(element[Object.keys(element)[decade_index + 1]]) }
             top_list.push(item);
         });
-       console.log(top_list);
-    
+       
     d3.select("#gWordCloud").remove();
 
     var fill = d3.schemeSet3
@@ -132,7 +131,7 @@ function updateArtistCloud(csv, decade) {
             let item = { "name": element[Object.keys(element)[DECADE_INDEX_DICT[decade]]], "count": parseInt(element[Object.keys(element)[decade_index + 1]]) }
             top_list.push(item);
         });
-       console.log(top_list);
+       
     
     d3.select("#gWordCloud").remove();
 
