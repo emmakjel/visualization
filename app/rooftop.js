@@ -7,18 +7,59 @@ const margin = { top: 80, right: 2, bottom: 30, left: 80 },
 
 
 function createRooftopMatrix(id) {
-    console.log(id);
     // append the svg object to the body of the page
     const svg = d3.select("#vi5")
+        .attr("id", "gRooftop")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
+    svg
+        .append("rect")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", 50)
+        .attr("height", 15)
+        .attr("id", "tooltip1")
+        .attr("class", "hide")
+
     d3.csv("corr-all.csv").then(function (data) {
         // Labels of row and columns
         var musicFeatures = ['BPM', 'Danceability', 'Valence', 'Acousticness', 'Speechiness', 'Popularity']
+
+
+
+
+        // Three function that change the tooltip when user hover / move / leave a cell
+        const mouseover = function (event, d) {
+            d3.select(this)
+                .style("stroke", "black")
+                .style("opacity", 1)
+                .style("cursor", "pointer");
+            var svg = d3.select("#gRooftop");
+            var x = parseInt(d3.select(this).attr("x"));
+            var y = parseInt(d3.select(this).attr("y")) - 25;
+
+            svg.append("text")
+                .attr("x", x + 90)
+                .attr("y", y + 135)
+                .style("font-size", "17")
+                .attr("id", "tooltext")
+                .text(d.value);
+
+            
+        }
+
         
+
+        const mouseout = function () {
+            d3.select("#tooltext").remove();
+            d3.select(this)
+                .style("stroke", "none")
+                .style("opacity", 0.8)
+        }
+
 
         // Build X scales and axis:
         var x = d3.scaleBand()
@@ -52,6 +93,11 @@ function createRooftopMatrix(id) {
             .attr("width", x.bandwidth())
             .attr("height", y.bandwidth())
             .style("fill", function (d) { return myColor(d.value) })
+            .on("mouseover", mouseover)
+            .on("mouseout", mouseout)
+
+
+
 
 
     });
