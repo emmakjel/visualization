@@ -82,3 +82,34 @@ body {
     width: 100vw;
     gap: 10px;
 }
+
+.rooftop-container {
+    background-color:#EEEDE7; 
+    border-radius: 15px; 
+    width: 35%;
+    display: flex;
+}
+
+.rooftop {
+    margin-left: auto 
+
+}
+
+.image-color {
+    margin: auto;
+    
+    
+}
+
+.colorhue-container {
+    margin: auto;
+    
+}
+
+.number {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+

@@ -1,8 +1,8 @@
 
 
-const margin = { top: 80, right: 25, bottom: 30, left: 40 },
-    width = 450 - margin.left - margin.right,
-    height = 450 - margin.top - margin.bottom;
+const margin = { top: 80, right: 2, bottom: 30, left: 80 },
+    width = 430 - margin.left - margin.right,
+    height = 430 - margin.top - margin.bottom;
 
 
 
