@@ -91,7 +91,8 @@ body {
 }
 
 .rooftop {
-    margin-left: auto 
+    margin-left: auto; 
+    transform: rotate(135deg);
 
 }
 

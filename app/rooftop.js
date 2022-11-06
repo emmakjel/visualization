@@ -1,6 +1,6 @@
 
 
-const margin = { top: 80, right: 2, bottom: 30, left: 80 },
+const margin = { top: 80, right: 2, bottom: 2, left: 80 },
     width = 430 - margin.left - margin.right,
     height = 430 - margin.top - margin.bottom;
 
@@ -32,33 +32,34 @@ function createRooftopMatrix(id) {
 
 
         // Three function that change the tooltip when user hover / move / leave a cell
-        const mouseover = function (event, d) {
-            d3.select(this)
-                .style("stroke", "black")
-                .style("opacity", 1)
-                .style("cursor", "pointer");
-            var svg = d3.select("#gRooftop");
-            var x = parseInt(d3.select(this).attr("x"));
-            var y = parseInt(d3.select(this).attr("y")) - 25;
+        // const mouseover = function (event, d) {
+        //     d3.select(this)
+        //         .style("stroke", "black")
+        //         .style("stroke-width", 2)
+        //         .style("opacity", 1)
+        //         .style("cursor", "pointer");
+            // var svg = d3.select("#gRooftop");
+            // var x = parseInt(d3.select(this).attr("x"));
+            // var y = parseInt(d3.select(this).attr("y")) - 25;
 
-            svg.append("text")
-                .attr("x", x + 90)
-                .attr("y", y + 135)
-                .style("font-size", "17")
-                .attr("id", "tooltext")
-                .text(d.value);
+            // svg.append("text")
+            //     .attr("x", x + 90)
+            //     .attr("y", y + 135)
+            //     .style("font-size", "17")
+            //     .attr("id", "tooltext")
+            //     .text(d.value);
 
-            
-        }
 
-        
+        //}
 
-        const mouseout = function () {
-            d3.select("#tooltext").remove();
-            d3.select(this)
-                .style("stroke", "none")
-                .style("opacity", 0.8)
-        }
+
+
+        // const mouseout = function (event, d) {
+        //     //d3.select("#tooltext").remove();
+        //     d3.select(this)
+        //         .style("stroke", "none")
+
+        // }
 
 
         // Build X scales and axis:
@@ -67,8 +68,11 @@ function createRooftopMatrix(id) {
             .domain(musicFeatures)
             .padding(0.01);
         svg.append("g")
-            .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x))
+            //.attr("transform", "translate(0," + height + ")")
+            //.call(d3.axisTop(x))
+        
+
+        
 
         // Build X scales and axis:
         var y = d3.scaleBand()
@@ -76,11 +80,11 @@ function createRooftopMatrix(id) {
             .domain(musicFeatures)
             .padding(0.01);
         svg.append("g")
-            .call(d3.axisLeft(y));
+            //.call(d3.axisLeft(y));
 
         // Build color scale
         const myColor = d3.scaleSequential()
-            .interpolator(d3.interpolatePRGn)
+            .interpolator(d3.interpolateRdYlBu)
             .domain([-1, 1])
 
         //Read the data
