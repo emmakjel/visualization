@@ -82,3 +82,9 @@ body {
     width: 100vw;
     gap: 10px;
 }
+
+.word-clouds {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
