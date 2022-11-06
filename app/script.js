@@ -1,7 +1,7 @@
 import { createLineChart, selectRect, updateLineChart} from './linechart.js';
 import { createWordCloud, updateTitleCloud, updateArtistCloud } from './wordcloud.js';
 import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart.js';
-import { createRooftopMatrix } from './rooftop.js';
+import { createRooftopMatrix, showCorrelationNumbers } from './rooftop.js';
 
 export var zoomed = false;
 
@@ -13,6 +13,7 @@ function init() {
   createLineChart("#vi1");
   createBarChart("#vi2");
   createRooftopMatrix('#vi5');
+  //showCorrelationNumbers('#0');
 
   d3.select("#fiftys")
     .on("mouseover", selectRect)
