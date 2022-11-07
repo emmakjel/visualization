@@ -39,9 +39,9 @@ function showCorrelationNumbers(id) {
         .attr('transform', 'rotate(-135)');
 }
 
-function createRooftopMatrix(id) {
+function createRooftopMatrix(csv, id) {
     // append the svg object to the body of the page
-    const svg = d3.select("#vi5")
+    const svg = d3.select(id)
         .attr("id", "gRooftop")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -88,4 +88,55 @@ function createRooftopMatrix(id) {
 
 }
 
-export { createRooftopMatrix, showCorrelationNumbers }
+
+function updateRooftop(csv) {
+    // append the svg object to the body of the page
+    const svg = d3.select("#gRooftop")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+    d3.csv(csv).then(function (data) {
+        var musicFeatures = ['BPM', 'Danceability', 'Valence', 'Acousticness', 'Speechiness', 'Popularity']
+
+        // Build X scales and axis:
+        var x = d3.scaleBand()
+            .range([0, width])
+            .domain(musicFeatures)
+            .padding(0.01);
+        svg.append("g")
+
+        // Build X scales and axis:
+        var y = d3.scaleBand()
+            .range([height, 0])
+            .domain(musicFeatures)
+            .padding(0.01);
+        svg.append("g");
+
+        // Build color scale
+        const myColor = d3.scaleSequential()
+            .interpolator(d3.interpolateRdYlBu)
+            .domain([-1, 1])
+
+        //Read the data
+        svg.selectAll()
+            .data(data, function (d) { return d.musicFeature1 + ':' + d.musicFeature2; })
+            .enter()
+            .append("rect")
+            .attr("x", function (d) { return x(d.musicFeature1) })
+            .attr("y", function (d) { return y(d.musicFeature2) })
+            .attr("rx", 4)
+            .attr("ry", 4)
+            .attr("id", function (d, i) { return "rect" + i })
+            .attr('title', (d) => d.value)
+            .attr("width", x.bandwidth())
+            .attr("height", y.bandwidth())
+            .style("fill", function (d) { return myColor(d.value) })
+            .transition()
+            .duration(1500)
+    });
+    
+}
+
+export { createRooftopMatrix, showCorrelationNumbers, updateRooftop }
