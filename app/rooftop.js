@@ -48,7 +48,7 @@ function createRooftopMatrix(id) {
         .append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    d3.csv("corr-all.csv").then(function (data) {
+    d3.csv("correlation/corr-all.csv").then(function (data) {
         var musicFeatures = ['BPM', 'Danceability', 'Valence', 'Acousticness', 'Speechiness', 'Popularity']
 
         // Build X scales and axis:
