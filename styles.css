@@ -99,7 +99,7 @@ body {
 .rooftop {
     margin-left: -160px; 
     transform: rotate(135deg);
-
+    pointer-events: none;
 }
 
 .image-color {
@@ -188,4 +188,21 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.attribute-button {
+    font-size: smaller;
+    pointer-events: all;
+    cursor: pointer;
+    height: 50px;
+    border: none;
+    background-color: white;
+}
+
+.attribute-button-selected {
+    font-size: small;
+    font-weight: bold;
+    pointer-events: all;
+    cursor: pointer;
+    height: 50px;
 }

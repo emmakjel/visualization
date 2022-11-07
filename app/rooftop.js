@@ -1,3 +1,5 @@
+import { selectBar } from "./barchart.js";
+
 const margin = { top: 80, right: 2, bottom: 2, left: 80 },
     width = 430 - margin.left - margin.right,
     height = 430 - margin.top - margin.bottom;
@@ -7,17 +9,17 @@ const POSITION = [
     { rect: "#rect1", x: -300, y: -115 },
     { rect: "#rect2", x: -260, y: -75 },
     { rect: "#rect3", x: -220, y: -35 },
-    { rect: "#rect18", x: -180, y: 5 },
+    { rect: "#rect4", x: -180, y: 5 },
     { rect: "#rect5", x: -345, y: -75 },
     { rect: "#rect6", x: -300, y: -35 },
     { rect: "#rect7", x: -260, y: 5 },
     { rect: "#rect8", x: -220, y: 45 },
-    { rect: "#rect10", x: -345, y: 5 },
-    { rect: "#rect11", x: -300, y: 45 },
-    { rect: "#rect12", x: -260, y: 90 },
-    { rect: "#rect14", x: -345, y: 90 },
-    { rect: "#rect15", x: -300, y: 130 },
-    { rect: "#rect17", x: -345, y: 170 }
+    { rect: "#rect9", x: -345, y: 5 },
+    { rect: "#rect10", x: -300, y: 45 },
+    { rect: "#rect11", x: -260, y: 90 },
+    { rect: "#rect12", x: -345, y: 90 },
+    { rect: "#rect13", x: -300, y: 130 },
+    { rect: "#rect14", x: -345, y: 170 }
 ];
 
 function findPosition(id) {
@@ -27,26 +29,92 @@ function findPosition(id) {
     }
 }
 
-function showCorrelationNumbers() {
+function showCorrelationNumbers(id) {
     const svg = d3.select("#gRooftop");
-    d3.select(this).style("stroke", "black").attr("stroke-width", 2);
+    d3.select("#"+id).style("stroke", "black").attr("stroke-width", 2);
     svg.append("text")
-        .attr("x", findPosition("#"+d3.select(this).attr("id")).x)
-        .attr("y", findPosition("#"+d3.select(this).attr("id")).y)
+        .attr("x", findPosition("#"+id).x)
+        .attr("y", findPosition("#"+id).y)
         .style("font-size", "17")
-        .attr("id", "tooltext"+d3.select(this).attr("id"))
+        .attr("id", "tooltext"+id)
         .attr("pointer-events", "none")
-        .text(d3.select(this).attr("title"))
+        .text(d3.select("#"+id).attr("title"))
         .attr('transform', 'rotate(-135)');
 }
 
-function hideCorrelationNumbers() {
-    d3.select("#tooltext"+d3.select(this).attr("id")).remove();
-    d3.select(this).style("stroke", "none");
+function hideCorrelationNumbers(id) {
+    d3.select("#tooltext"+id).remove();
+    d3.select("#"+id).style("stroke", "none");
 }
 
-function selectCorrRect() {
-    
+function hideAllCorrelationNumbers() {
+    var svg = d3.select("#gRooftop")
+    svg.selectAll("text").remove();
+    svg.selectAll("rect").style("stroke", "none");
+}
+
+function selectCorrRects() {
+    hideAllCorrelationNumbers();
+    if (d3.select(this).classed("attribute-button-selected")) {
+        d3.select(this).classed("attribute-button-selected", false);
+    } else {
+        d3.selectAll("button").classed("attribute-button-selected", false)
+        d3.select(this).classed("attribute-button-selected", true);
+        if (d3.select(this).attr("id") == "arrow1") {
+            var bar = {name: "BPM", score: d3.select("#BPM").attr("title")}
+            selectBar(bar)
+            showCorrelationNumbers("rect0");
+            showCorrelationNumbers("rect1");
+            showCorrelationNumbers("rect2");
+            showCorrelationNumbers("rect3");
+            showCorrelationNumbers("rect4");
+        }
+        else if (d3.select(this).attr("id") == "arrow2") {
+            var bar = {name: "Danceability", score: d3.select("#DANCEABILITY").attr("title")}
+            selectBar(bar)
+            showCorrelationNumbers("rect0");
+            showCorrelationNumbers("rect5");
+            showCorrelationNumbers("rect6");
+            showCorrelationNumbers("rect7");
+            showCorrelationNumbers("rect8");
+        }
+        else if (d3.select(this).attr("id") == "arrow3") {
+            var bar = {name: "Valence", score: d3.select("#VALENCE").attr("title")}
+            selectBar(bar)
+            showCorrelationNumbers("rect1");
+            showCorrelationNumbers("rect5");
+            showCorrelationNumbers("rect9");
+            showCorrelationNumbers("rect10");
+            showCorrelationNumbers("rect11");
+        }
+        else if (d3.select(this).attr("id") == "arrow4") {
+            var bar = {name: "Acousticness", score: d3.select("#ACOUSTICNESS").attr("title")}
+            selectBar(bar)
+            showCorrelationNumbers("rect2");
+            showCorrelationNumbers("rect6");
+            showCorrelationNumbers("rect9");
+            showCorrelationNumbers("rect12");
+            showCorrelationNumbers("rect13");
+        }
+        else if (d3.select(this).attr("id") == "arrow5") {
+            var bar = {name: "Speechiness", score: d3.select("#SPEECHINESS").attr("title")}
+            selectBar(bar)
+            showCorrelationNumbers("rect3");
+            showCorrelationNumbers("rect7");
+            showCorrelationNumbers("rect10");
+            showCorrelationNumbers("rect12");
+            showCorrelationNumbers("rect14");
+        }
+        else if (d3.select(this).attr("id") == "arrow6") {
+            var bar = {name: "Popularity", score: d3.select("#POPULARITY").attr("title")}
+            selectBar(bar)
+            showCorrelationNumbers("rect4");
+            showCorrelationNumbers("rect8");
+            showCorrelationNumbers("rect11");
+            showCorrelationNumbers("rect13");
+            showCorrelationNumbers("rect14");
+        }
+    }
 }
 
 function createRooftopMatrix(id) {
@@ -56,6 +124,7 @@ function createRooftopMatrix(id) {
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
+        .on("click", hideAllCorrelationNumbers)
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
     d3.csv("correlation/corr-all.csv").then(function (data) {
@@ -80,6 +149,13 @@ function createRooftopMatrix(id) {
             .interpolator(d3.interpolateRdYlBu)
             .domain([-1, 1])
 
+        d3.select("#arrow1").on("click", selectCorrRects);
+        d3.select("#arrow2").on("click", selectCorrRects);
+        d3.select("#arrow3").on("click", selectCorrRects);
+        d3.select("#arrow4").on("click", selectCorrRects);
+        d3.select("#arrow5").on("click", selectCorrRects);
+        d3.select("#arrow6").on("click", selectCorrRects);
+
         //Read the data
         svg.selectAll()
             .data(data, function (d) { return d.musicFeature1 + ':' + d.musicFeature2; })
@@ -93,8 +169,6 @@ function createRooftopMatrix(id) {
             .attr('title', (d) => d.value)
             .attr("width", x.bandwidth())
             .attr("height", y.bandwidth())
-            .on("mouseover", showCorrelationNumbers)
-            .on("mouseleave", hideCorrelationNumbers)
             .style("fill", function (d) { return myColor(d.value) })
     });
 
