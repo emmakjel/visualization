@@ -18,7 +18,7 @@ var selected_decade = DECADES_DICT["all"];
 
 const margin = { top: 50, bottom: 50, left: 50, right: 50 };
 const width = 430;
-const height = 430;
+const height = 410;
 
 function hoverBar() {
     showToolTip(this);

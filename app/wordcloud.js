@@ -1,6 +1,6 @@
 const margin = { top: 50, bottom: 50, left: 50, right: 50 };
 const width = 430;
-const height = 260;
+const height = 250;
 const DECADE_INDEX_DICT = { "all": 0, "fifties": 2, "sixties": 4, "seventies": 6, "eighties": 8, "nineties": 10, "twothousands": 12, "twentytens": 14 };
 const DECADE_WORD_COUNT_DICT = {"all": 0.6, "fifties": 35, "sixties": 6, "seventies": 3, "eighties": 3, "nineties": 4, "twothousands": 6, "twentytens": 4}
 const WORD_COLORS = {0: "#052350", 1: "#08306b", 2: "#08519c", 3: "#2171b5", 4: "#4292c6", 5: "#6baed6", 6: "#9ecae1", 7: "#c6dbef", 8: "#deebf7", 9: "#f7fbff"};

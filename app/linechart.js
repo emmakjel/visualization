@@ -2,8 +2,8 @@ import {lineBarHover, stopLineBarHover, selectLineBar, twoIsSelected, updateBarC
 import {zoomed} from "./script.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
-const width = 1200 - margin.left - margin.right;
-const height = 300 - margin.top - margin.bottom;
+const width = 900 - margin.left - margin.right;
+const height = 200 - margin.top - margin.bottom;
 
 var xAxis;
 var yAxis;
@@ -111,37 +111,37 @@ export function createLineChart(id) {
 
     svg
       .append("text")
-      .attr("x", 900)
-      .attr("y", 20)
+      .attr("x", 600)
+      .attr("y", 2)
       .text("Music feature: ")
     svg
       .append("text")
-      .attr("x", 970)
-      .attr("y", 20)
+      .attr("x", 665)
+      .attr("y", 2)
       .attr("id", "featuretext");
 
     svg
       .append("text")
-      .attr("x", 940)
-      .attr("y", 40)
+      .attr("x", 640)
+      .attr("y", 20)
       .text("Year: ")
 
     svg
       .append("text")
-      .attr("x", 970)
-      .attr("y", 40)
+      .attr("x", 665)
+      .attr("y", 20)
       .attr("id", "yeartext");
 
     svg
       .append("text")
-      .attr("x", 935)
-      .attr("y", 60)
+      .attr("x", 635)
+      .attr("y", 35)
       .text("Value: ")
 
     svg
       .append("text")
-      .attr("x", 970)
-      .attr("y", 60)
+      .attr("x", 665)
+      .attr("y", 35)
       .attr("id", "valuetext");
 
 
