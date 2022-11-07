@@ -103,8 +103,7 @@ body {
 
 .image-color {
     margin: auto;
-    
-    
+    border-radius: 10px;  
 }
 
 .colorhue-container {
@@ -121,10 +120,12 @@ body {
         
 .arrow-pointer {
     width: 100px;
-    height: 50px;
+    height: 60px;
     background: #ffffff;
     position: relative;
-    
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    font-size: 15px;    
 }
   
 
@@ -132,24 +133,54 @@ body {
 .arrow-pointer::before {
       content: '';
       position: absolute;
-      right: -25px;
+      right: -30px;
       bottom: 0;
       width: 0;
       height: 0;
-      border-left: 25px solid #ffffff;
-      border-top: 25px solid transparent;
-      border-bottom: 25px solid transparent;
+      border-left: 30px solid #ffffff;
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
     
 }
 
-.pointer-wrapper {
-    padding-top: 20px;
+.pointer-wrapper1 {
+    padding-top: 5px;
     margin-right: -150px;
+    
+}
+
+.pointer-wrapper2 {
+    padding-top: 17px;
+    margin-right: -150px;
+}
+
+.pointer-wrapper3 {
+    padding-top: 22px;
+    margin-right: -150px;
+}
+
+.pointer-wrapper4 {
+    padding-top: 22px;
+    margin-right: -150px;
+}
+
+.pointer-wrapper5 {
+    padding-top: 22px;
+    margin-right: -150px;
+}
+
+.pointer-wrapper6 {
+    padding-top: 22px;
+   
 }
 
 .pointer-container {
     padding-top: -100px;
+    margin-left: 10px;
+}
 
+.svg-container {
+    padding-top: 20px;
 }
 
 
