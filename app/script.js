@@ -1,6 +1,7 @@
 import { createLineChart, selectRect, updateLineChart} from './linechart.js';
 import { createWordCloud, updateTitleCloud } from './wordcloud.js';
 import { createBarChart, changeDecadeBarChart, DECADES_DICT } from './barchart.js';
+import { createRooftopMatrix, showCorrelationNumbers } from './rooftop.js';
 import {createArtistList, updateArtistList} from './artistlist.js'
 
 export var zoomed = false;
@@ -12,6 +13,8 @@ function init() {
   createArtistList("processed-most-common-artists.csv", "#vi4");
   createLineChart("#vi1");
   createBarChart("#vi2");
+  createRooftopMatrix('#vi5');
+  //showCorrelationNumbers('#0');
 
   d3.select("#fiftys")
     .on("mouseover", selectRect)

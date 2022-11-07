@@ -84,6 +84,106 @@ body {
     gap: 10px;
 }
 
+.rooftop-container {
+    background-color:rgb(113, 108, 108); 
+    border-radius: 15px; 
+    width: 35%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:100px;
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px
+}
+
+.rooftop {
+    margin-left: -160px; 
+    transform: rotate(135deg);
+
+}
+
+.image-color {
+    margin: auto;
+    border-radius: 10px;  
+}
+
+.colorhue-container {
+    margin: auto;
+    
+}
+
+.number {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+        
+.arrow-pointer {
+    width: 100px;
+    height: 60px;
+    background: #ffffff;
+    position: relative;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    font-size: 15px;    
+}
+  
+
+  
+.arrow-pointer::before {
+      content: '';
+      position: absolute;
+      right: -30px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 30px solid #ffffff;
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid transparent;
+    
+}
+
+.pointer-wrapper1 {
+    padding-top: 5px;
+    margin-right: -150px;
+    
+}
+
+.pointer-wrapper2 {
+    padding-top: 17px;
+    margin-right: -150px;
+}
+
+.pointer-wrapper3 {
+    padding-top: 22px;
+    margin-right: -150px;
+}
+
+.pointer-wrapper4 {
+    padding-top: 22px;
+    margin-right: -150px;
+}
+
+.pointer-wrapper5 {
+    padding-top: 22px;
+    margin-right: -150px;
+}
+
+.pointer-wrapper6 {
+    padding-top: 22px;
+   
+}
+
+.pointer-container {
+    padding-top: -100px;
+    margin-left: 10px;
+}
+
+.svg-container {
+    padding-top: 20px;
+}
+
 .word-clouds {
     display: flex;
     flex-direction: column;
