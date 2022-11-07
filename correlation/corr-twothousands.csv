@@ -1,0 +1,16 @@
+musicFeature1,musicFeature2,value
+BPM,Danceability,-0.150
+BPM,Valence,-0.005
+BPM,Acousticness,-0.150
+BPM,Speechiness,0.104
+BPM,Popularity,0.004
+Danceability,Valence,0.555
+Danceability,Acousticness,-0.126
+Danceability,Speechiness,0.093
+Danceability,Popularity,0.143
+Valence,Acousticness,-0.267
+Valence,Speechiness,0.164
+Valence,Popularity,0.062
+Acousticness,Speechiness,-0.121
+Acousticness,Popularity,-0.100
+Speechiness,Popularity,0.146

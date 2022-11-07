@@ -8,13 +8,9 @@ Danceability,Valence,0.517
 Danceability,Acousticness,-0.134
 Danceability,Speechiness,0.091
 Danceability,Popularity,0.138
-
 Valence,Acousticness,-0.244
 Valence,Speechiness,0.125
 Valence,Popularity,0.094
-
 Acousticness,Speechiness,-0.134
 Acousticness,Popularity,-0.087
-
 Speechiness,Popularity,0.099
-
