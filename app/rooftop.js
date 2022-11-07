@@ -27,16 +27,26 @@ function findPosition(id) {
     }
 }
 
-function showCorrelationNumbers(id) {
+function showCorrelationNumbers() {
     const svg = d3.select("#gRooftop");
-    svg.select(id).style("stroke", "black").attr("stroke-width", 2);
+    d3.select(this).style("stroke", "black").attr("stroke-width", 2);
     svg.append("text")
-        .attr("x", findPosition(id).x)
-        .attr("y", findPosition(id).y)
+        .attr("x", findPosition("#"+d3.select(this).attr("id")).x)
+        .attr("y", findPosition("#"+d3.select(this).attr("id")).y)
         .style("font-size", "17")
-        .attr("id", "tooltext")
-        .text(d3.select(id).attr("title"))
+        .attr("id", "tooltext"+d3.select(this).attr("id"))
+        .attr("pointer-events", "none")
+        .text(d3.select(this).attr("title"))
         .attr('transform', 'rotate(-135)');
+}
+
+function hideCorrelationNumbers() {
+    d3.select("#tooltext"+d3.select(this).attr("id")).remove();
+    d3.select(this).style("stroke", "none");
+}
+
+function selectCorrRect() {
+    
 }
 
 function createRooftopMatrix(id) {
@@ -83,6 +93,8 @@ function createRooftopMatrix(id) {
             .attr('title', (d) => d.value)
             .attr("width", x.bandwidth())
             .attr("height", y.bandwidth())
+            .on("mouseover", showCorrelationNumbers)
+            .on("mouseleave", hideCorrelationNumbers)
             .style("fill", function (d) { return myColor(d.value) })
     });
 
