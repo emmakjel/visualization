@@ -160,47 +160,47 @@ export function createLineChart(id) {
     .attr("id", "sixtys")
     .attr("x", rectX)
     .attr("y", 0)
-    .attr("width", lineChartWidth/7)
+    .attr("width", lineChartWidth/7.5)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "seventys")
-    .attr("x", rectX+lineChartWidth/7)
+    .attr("x", rectX+lineChartWidth/7.5)
     .attr("y", 0)
-    .attr("width", lineChartWidth/7)
+    .attr("width", lineChartWidth/7.2)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "eightys")
-    .attr("x", rectX+(lineChartWidth/7)*2)
+    .attr("x", rectX+(lineChartWidth/7.4)*2)
     .attr("y", 0)
-    .attr("width", lineChartWidth/7)
+    .attr("width", lineChartWidth/7.2)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "ninetys")
-    .attr("x", rectX+3*lineChartWidth/7)
+    .attr("x", rectX+3*lineChartWidth/7.3)
     .attr("y", 0)
-    .attr("width", lineChartWidth/7)
+    .attr("width", lineChartWidth/7.2)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "twothousands")
-    .attr("x", rectX+4*(lineChartWidth/7))
+    .attr("x", rectX+4*(lineChartWidth/7.3))
     .attr("y", 0)
-    .attr("width", lineChartWidth/7)
+    .attr("width", lineChartWidth/7.2)
     .attr("height", lineChartHeight);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "tens")
-    .attr("x", rectX+5*lineChartWidth/7)
+    .attr("x", rectX+5*lineChartWidth/7.3)
     .attr("y", 0)
-    .attr("width", lineChartWidth/7)
+    .attr("width", lineChartWidth/7.5)
     .attr("height", lineChartHeight);
 
     d3.csv("processed-Spotify-2000.csv").then(function(data) {
