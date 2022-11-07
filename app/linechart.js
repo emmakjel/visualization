@@ -5,6 +5,9 @@ const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 1200 - margin.left - margin.right;
 const height = 300 - margin.top - margin.bottom;
 
+var xAxis;
+var yAxis;
+
 
 export function hoverLine() {
   showToolTip(d3.select(this))
@@ -77,15 +80,15 @@ function showToolTip(line) {
   var x0 = d3.pointer(event, this)[0];
   var y0 = d3.pointer(event, this)[1];
   d3.select("#featuretext").text(line.attr("id"));
-  d3.select("#valuetext").text(height-y0);
-  d3.select("#yeartext").text(x0);
+  d3.select("#valuetext").text(yAxis.invert(y0));
+  d3.select("#yeartext").text(xAxis.invert(x0));
 }
 
 function updateToolTip() {
   var x0 = d3.pointer(event, this)[0];
   var y0 = d3.pointer(event, this)[1];
-  d3.select("#valuetext").text(height-y0);
-  d3.select("#yeartext").text(x0);
+  d3.select("#valuetext").text(Math.round(yAxis.invert(y0)));
+  d3.select("#yeartext").text(Math.round(xAxis.invert(x0)));
 }
 
 function hideToolTip() {
@@ -235,6 +238,8 @@ export function createLineChart(id) {
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(5).tickFormat((x) => x * 1));
 
+      xAxis = x;
+
       const y = d3
       .scaleLinear()
       .domain([0, 100])
@@ -243,6 +248,8 @@ export function createLineChart(id) {
       .append("g")
       .attr("id", "gYAxis")
       .call(d3.axisLeft(y));
+
+      yAxis = y;
     
       var dataMap = new Map();
       data.forEach((d) => {
