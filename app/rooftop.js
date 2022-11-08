@@ -20,9 +20,9 @@ const RECT_ARROW_DICT = {   "arrow1arrow2": "rect0",
 
 const ARROW_IDS_DICT = {"arrow1": "bpm", "arrow2": "danceability", "arrow3": "valence", "arrow4": "acousticness", "arrow5": "speechiness", "arrow6": "popularity"}
 
-const margin = { top: 80, right: 2, bottom: 2, left: 80 },
-    width = 430 - margin.left - margin.right,
-    height = 430 - margin.top - margin.bottom;
+const margin = { top: 80/1.5, right: 2/1.5, bottom: 2/1.5, left: 80/1.5 },
+    width = 430/1.5 - margin.left - margin.right,
+    height = 430/1.5 - margin.top - margin.bottom;
 
 var selectedFeature;
 var twoSelectedFeatures = false;
