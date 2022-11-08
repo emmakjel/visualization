@@ -81,7 +81,6 @@ export function selectLineBar(id) {
 
 
 export function selectBar(d) {
-    console.log(d);
     if (alreadySelectedMusicAttribute != d) { 
         selectBarLine(d.name.toLowerCase()); 
         updateBarChartComparison(d) 

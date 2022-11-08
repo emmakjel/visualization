@@ -86,7 +86,13 @@ function selectCorrAttributes() {
             selectBar(bar)
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow1";
+                showCorrelationNumbers("rect0");
+                showCorrelationNumbers("rect1");
+                showCorrelationNumbers("rect2");
+                showCorrelationNumbers("rect3");
+                showCorrelationNumbers("rect4");
             } else if (!twoSelectedFeatures && selectedFeature != null) {
+                hideAllCorrelationNumbers();
                 twoSelectedFeatures = true;
                 var arrowRect = RECT_ARROW_DICT["arrow1"+selectedFeature];
                 showCorrelationNumbers(arrowRect);
@@ -97,6 +103,11 @@ function selectCorrAttributes() {
                 d3.select(this).classed("attribute-button-selected", true);
                 twoSelectedFeatures = null;
                 selectedFeature = "arrow1";
+                showCorrelationNumbers("rect0");
+                showCorrelationNumbers("rect1");
+                showCorrelationNumbers("rect2");
+                showCorrelationNumbers("rect3");
+                showCorrelationNumbers("rect4");
             }
         }
         else if (d3.select(this).attr("id") == "arrow2") {
@@ -104,7 +115,13 @@ function selectCorrAttributes() {
             selectBar(bar)
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow2";
+                showCorrelationNumbers("rect0");
+                showCorrelationNumbers("rect5");
+                showCorrelationNumbers("rect6");
+                showCorrelationNumbers("rect7");
+                showCorrelationNumbers("rect8");
             } else if (!twoSelectedFeatures && selectedFeature != null) {
+                hideAllCorrelationNumbers();
                 twoSelectedFeatures = true;
                 var arrowRect;
                 if (selectedFeature == "arrow1") {
@@ -120,6 +137,11 @@ function selectCorrAttributes() {
                 d3.select(this).classed("attribute-button-selected", true);
                 twoSelectedFeatures = null;
                 selectedFeature = "arrow2";
+                showCorrelationNumbers("rect0");
+                showCorrelationNumbers("rect5");
+                showCorrelationNumbers("rect6");
+                showCorrelationNumbers("rect7");
+                showCorrelationNumbers("rect8");
             }
         }
         else if (d3.select(this).attr("id") == "arrow3") {
@@ -127,7 +149,13 @@ function selectCorrAttributes() {
             selectBar(bar)
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow3";
+                showCorrelationNumbers("rect1");
+                showCorrelationNumbers("rect5");
+                showCorrelationNumbers("rect9");
+                showCorrelationNumbers("rect10");
+                showCorrelationNumbers("rect11");
             } else if (!twoSelectedFeatures && selectedFeature != null) {
+                hideAllCorrelationNumbers();
                 twoSelectedFeatures = true;
                 var arrowRect;
                 if (selectedFeature == "arrow1" || selectedFeature == "arrow2") {
@@ -143,6 +171,11 @@ function selectCorrAttributes() {
                 d3.select(this).classed("attribute-button-selected", true);
                 twoSelectedFeatures = null;
                 selectedFeature = "arrow3";
+                showCorrelationNumbers("rect1");
+                showCorrelationNumbers("rect5");
+                showCorrelationNumbers("rect9");
+                showCorrelationNumbers("rect10");
+                showCorrelationNumbers("rect11");
             }
         }
         else if (d3.select(this).attr("id") == "arrow4") {
@@ -150,7 +183,13 @@ function selectCorrAttributes() {
             selectBar(bar)
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow4";
+                showCorrelationNumbers("rect2");
+                showCorrelationNumbers("rect6");
+                showCorrelationNumbers("rect9");
+                showCorrelationNumbers("rect12");
+                showCorrelationNumbers("rect13");
             } else if (!twoSelectedFeatures && selectedFeature != null) {
+                hideAllCorrelationNumbers();
                 twoSelectedFeatures = true;
                 var arrowRect;
                 if (selectedFeature == "arrow5" || selectedFeature == "arrow6") {
@@ -166,6 +205,11 @@ function selectCorrAttributes() {
                 d3.select(this).classed("attribute-button-selected", true);
                 twoSelectedFeatures = null;
                 selectedFeature = "arrow4";
+                showCorrelationNumbers("rect2");
+                showCorrelationNumbers("rect6");
+                showCorrelationNumbers("rect9");
+                showCorrelationNumbers("rect12");
+                showCorrelationNumbers("rect13");
             }
         }
         else if (d3.select(this).attr("id") == "arrow5") {
@@ -173,7 +217,13 @@ function selectCorrAttributes() {
             selectBar(bar)
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow5";
+                showCorrelationNumbers("rect3");
+                showCorrelationNumbers("rect7");
+                showCorrelationNumbers("rect10");
+                showCorrelationNumbers("rect12");
+                showCorrelationNumbers("rect14");
             } else if (!twoSelectedFeatures && selectedFeature != null) {
+                hideAllCorrelationNumbers();
                 twoSelectedFeatures = true;
                 var arrowRect;
                 if (selectedFeature == "arrow6") {
@@ -189,6 +239,11 @@ function selectCorrAttributes() {
                 d3.select(this).classed("attribute-button-selected", true);
                 twoSelectedFeatures = null;
                 selectedFeature = "arrow5";
+                showCorrelationNumbers("rect3");
+                showCorrelationNumbers("rect7");
+                showCorrelationNumbers("rect10");
+                showCorrelationNumbers("rect12");
+                showCorrelationNumbers("rect14");
             }
         }
         else if (d3.select(this).attr("id") == "arrow6") {
@@ -196,9 +251,15 @@ function selectCorrAttributes() {
             selectBar(bar)
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow6";
+                showCorrelationNumbers("rect4");
+                showCorrelationNumbers("rect8");
+                showCorrelationNumbers("rect11");
+                showCorrelationNumbers("rect13");
+                showCorrelationNumbers("rect14");
             } else if (!twoSelectedFeatures && selectedFeature != null) {
+                hideAllCorrelationNumbers();
                 twoSelectedFeatures = true;
-                var arrowRect = selectedFeature + "arrow6"
+                var arrowRect = RECT_ARROW_DICT[selectedFeature + "arrow6"]
                 showCorrelationNumbers(arrowRect);
                 selectedFeature = null;
             } else {
@@ -207,71 +268,12 @@ function selectCorrAttributes() {
                 d3.select(this).classed("attribute-button-selected", true);
                 twoSelectedFeatures = null;
                 selectedFeature = "arrow6";
+                showCorrelationNumbers("rect4");
+                showCorrelationNumbers("rect8");
+                showCorrelationNumbers("rect11");
+                showCorrelationNumbers("rect13");
+                showCorrelationNumbers("rect14");
             }
-        }
-    }
-}
-
-function selectCorrRects() {
-    hideAllCorrelationNumbers();
-    if (d3.select(this).classed("attribute-button-selected")) {
-        d3.select(this).classed("attribute-button-selected", false);
-    } else {
-        d3.selectAll("button").classed("attribute-button-selected", false)
-        d3.select(this).classed("attribute-button-selected", true);
-        if (d3.select(this).attr("id") == "arrow1") {
-            var bar = {name: "BPM", score: d3.select("#BPM").attr("title")}
-            selectBar(bar)
-            showCorrelationNumbers("rect0");
-            showCorrelationNumbers("rect1");
-            showCorrelationNumbers("rect2");
-            showCorrelationNumbers("rect3");
-            showCorrelationNumbers("rect4");
-        }
-        else if (d3.select(this).attr("id") == "arrow2") {
-            var bar = {name: "Danceability", score: d3.select("#DANCEABILITY").attr("title")}
-            selectBar(bar)
-            showCorrelationNumbers("rect0");
-            showCorrelationNumbers("rect5");
-            showCorrelationNumbers("rect6");
-            showCorrelationNumbers("rect7");
-            showCorrelationNumbers("rect8");
-        }
-        else if (d3.select(this).attr("id") == "arrow3") {
-            var bar = {name: "Valence", score: d3.select("#VALENCE").attr("title")}
-            selectBar(bar)
-            showCorrelationNumbers("rect1");
-            showCorrelationNumbers("rect5");
-            showCorrelationNumbers("rect9");
-            showCorrelationNumbers("rect10");
-            showCorrelationNumbers("rect11");
-        }
-        else if (d3.select(this).attr("id") == "arrow4") {
-            var bar = {name: "Acousticness", score: d3.select("#ACOUSTICNESS").attr("title")}
-            selectBar(bar)
-            showCorrelationNumbers("rect2");
-            showCorrelationNumbers("rect6");
-            showCorrelationNumbers("rect9");
-            showCorrelationNumbers("rect12");
-            showCorrelationNumbers("rect13");
-        }
-        else if (d3.select(this).attr("id") == "arrow5") {
-            var bar = {name: "Speechiness", score: d3.select("#SPEECHINESS").attr("title")}
-            selectBar(bar)
-            showCorrelationNumbers("rect3");
-            showCorrelationNumbers("rect7");
-            showCorrelationNumbers("rect10");
-            showCorrelationNumbers("rect12");
-            showCorrelationNumbers("rect14");
-        }
-        else if (d3.select(this).attr("id") == "arrow6") {
-            var bar = {name: "Popularity", score: d3.select("#POPULARITY").attr("title")}
-            selectBar(bar)
-            showCorrelationNumbers("rect4");
-            showCorrelationNumbers("rect8");
-            showCorrelationNumbers("rect11");
-            showCorrelationNumbers("rect13");
-            showCorrelationNumbers("rect14");
         }
     }
 }
