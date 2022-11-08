@@ -3,7 +3,7 @@ import { outsideHoverButton, outsideStopHoverButton, setSelectedByBar, resetMatr
 import {zoomed} from "./script.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
-const width = 900 - margin.left - margin.right;
+const width = 1030 - margin.left - margin.right;
 const height = 180 - margin.top - margin.bottom;
 
 var xAxis;
@@ -184,14 +184,14 @@ export function createLineChart(id) {
       .attr("id", "valuetext");
 
 
-    const rectX = lineChartWidth/17;
+    const rectX = lineChartWidth/17.5;
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
     .attr("id", "fiftys")
     .attr("x", 0)
     .attr("y", 0)
-    .attr("width", lineChartWidth/17)
+    .attr("width", lineChartWidth/18)
     .attr("height", lineChartHeight)
     .attr('rx', 5);
     svg
@@ -200,7 +200,7 @@ export function createLineChart(id) {
     .attr("id", "sixtys")
     .attr("x", rectX)
     .attr("y", 0)
-    .attr("width", lineChartWidth/7.5)
+    .attr("width", lineChartWidth/7)
     .attr("height", lineChartHeight)
     .attr('rx', 5);
     svg
