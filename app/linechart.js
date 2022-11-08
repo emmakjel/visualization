@@ -37,17 +37,21 @@ export function stopBarLineHover(id) {
 }
 
 export function selectBarLine(id) {
-  console.log("SATAN")
   if (id == null) {
-    d3.select("#"+id).classed('selected', false);
-    console.log("emma")
     d3.selectAll(".line").classed("selected", false);
   } else {
-    console.log("FAEN")
-    if (twoIsSelected) {
+    if (!twoIsSelected) {
       d3.selectAll(".line").classed("selected", false);
-    } else if (d3.select(id.toLowerCase()).classed("selected")) {
-      console.log("yoooooo")
+    }
+    d3.select("#"+id).classed('selected', true);
+  }
+}
+
+export function selectMatrixLine(id) {
+  if (id == null) {
+    d3.selectAll(".line").classed("selected", false);
+  } else {
+    if (twoIsSelected) {
       d3.selectAll(".line").classed("selected", false);
     }
     d3.select("#"+id).classed('selected', true);
@@ -79,6 +83,7 @@ export function selectLineMatrix(id) {
 
 export function selectLine() {
   selectLineBar(d3.select(this).attr("id"));
+  selectLineMatrix(d3.select(this).attr("id").toUpperCase());
   if(d3.select(this).classed('selected')) {
     d3.selectAll('.line').classed('selected', false);
     updateBarChartComparison(null);
@@ -89,7 +94,6 @@ export function selectLine() {
     }
     d3.select(this)
       .classed('selected', true);
-      selectLineMatrix(d3.select(this).attr("id").toUpperCase());
   }
 }
 
