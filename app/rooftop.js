@@ -1,23 +1,23 @@
-const margin = { top: 80, right: 2, bottom: 2, left: 80 },
-    width = 430 - margin.left - margin.right,
-    height = 430 - margin.top - margin.bottom;
+const margin = { top: 80/1.5, right: 2/1.5, bottom: 2/1.5, left: 80/1.5 },
+    width = 430/1.5 - margin.left - margin.right,
+    height = 430/1.5 - margin.top - margin.bottom;
 
 const POSITION = [
-    { rect: "#rect0", x: -345, y: -160 },
-    { rect: "#rect1", x: -300, y: -115 },
-    { rect: "#rect2", x: -260, y: -75 },
-    { rect: "#rect3", x: -220, y: -35 },
-    { rect: "#rect18", x: -180, y: 5 },
-    { rect: "#rect5", x: -345, y: -75 },
-    { rect: "#rect6", x: -300, y: -35 },
-    { rect: "#rect7", x: -260, y: 5 },
-    { rect: "#rect8", x: -220, y: 45 },
-    { rect: "#rect10", x: -345, y: 5 },
-    { rect: "#rect11", x: -300, y: 45 },
-    { rect: "#rect12", x: -260, y: 90 },
-    { rect: "#rect14", x: -345, y: 90 },
-    { rect: "#rect15", x: -300, y: 130 },
-    { rect: "#rect17", x: -345, y: 170 }
+    { rect: "#rect0", x: -227, y: -105 },
+    { rect: "#rect1", x: -198, y: -79 },
+    { rect: "#rect2", x: -172, y: -52 },
+    { rect: "#rect3", x: -142, y: -25 },
+    { rect: "#rect4", x: -115, y: 5 },
+    { rect: "#rect5", x: -227, y: -52 },
+    { rect: "#rect6", x: -200, y: -25 },
+    { rect: "#rect7", x: -170, y: 4 },
+    { rect: "#rect8", x: -142, y: 30 },
+    { rect: "#rect9", x: -227, y: 4 },
+    { rect: "#rect10", x: -197, y: 30 },
+    { rect: "#rect11", x: -170, y: 59 },
+    { rect: "#rect12", x: -227, y: 59 },
+    { rect: "#rect13", x: -198, y: 86 },
+    { rect: "#rect14", x: -225, y: 113 }
 ];
 
 function findPosition(id) {
@@ -33,7 +33,7 @@ function showCorrelationNumbers(id) {
     svg.append("text")
         .attr("x", findPosition(id).x)
         .attr("y", findPosition(id).y)
-        .style("font-size", "17")
+        .style("font-size", "10")
         .attr("id", "tooltext")
         .text(d3.select(id).attr("title"))
         .attr('transform', 'rotate(-135)');
@@ -85,8 +85,10 @@ function createRooftopMatrix(csv, id) {
             .attr("width", x.bandwidth())
             .attr("height", y.bandwidth())
             .style("fill", function (d) { return myColor(d.value) })
-    });
-
+    
+    }
+    );
+    
 }
 
 
@@ -117,7 +119,7 @@ function updateRooftop(csv) {
 
         // Build color scale
         const myColor = d3.scaleSequential()
-            .interpolator(d3.interpolateRdYlBu)
+            .interpolator(d3.interpolateRdBu)
             .domain([-1, 1])
 
         //Read the data
@@ -129,6 +131,7 @@ function updateRooftop(csv) {
             .attr("y", function (d) { return y(d.musicFeature2) })
             .attr("rx", 4)
             .attr("ry", 4)
+            .attr("stroke", "grey")
             .attr("id", function (d, i) { return "rect" + i })
             .attr('title', (d) => d.value)
             .attr("width", x.bandwidth())
