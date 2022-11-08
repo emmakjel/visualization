@@ -1,4 +1,4 @@
-import { selectBar, updateBarChartComparison} from "./barchart.js";
+import { selectMatrixBar, updateBarChartComparison} from "./barchart.js";
 
 const RECT_ARROW_DICT = {   "arrow1arrow2": "rect0", 
                             "arrow1arrow3": "rect1", 
@@ -23,7 +23,7 @@ const margin = { top: 80, right: 2, bottom: 2, left: 80 },
 
 var selectedFeature;
 var twoSelectedFeatures = false;
-var selectedByBar = false;
+export var selectedByBar = false;
 
 const POSITION = [
     { rect: "#rect0", x: -345, y: -160 },
@@ -90,7 +90,7 @@ function selectCorrAttributes() {
         if (d3.select(this).attr("id") == "arrow1") {
             var bar = {name: "BPM", score: d3.select("#BPM").attr("title")}
             if (!selectedByBar) {
-                selectBar(bar)
+                selectMatrixBar(bar)
             }
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow1";
@@ -122,7 +122,7 @@ function selectCorrAttributes() {
         else if (d3.select(this).attr("id") == "arrow2") {
             var bar = {name: "Danceability", score: d3.select("#DANCEABILITY").attr("title")}
             if (!selectedByBar) {
-                selectBar(bar)
+                selectMatrixBar(bar)
             }
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow2";
@@ -159,7 +159,7 @@ function selectCorrAttributes() {
         else if (d3.select(this).attr("id") == "arrow3") {
             var bar = {name: "Valence", score: d3.select("#VALENCE").attr("title")}
             if (!selectedByBar) {
-                selectBar(bar)
+                selectMatrixBar(bar)
             }
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow3";
@@ -196,7 +196,7 @@ function selectCorrAttributes() {
         else if (d3.select(this).attr("id") == "arrow4") {
             var bar = {name: "Acousticness", score: d3.select("#ACOUSTICNESS").attr("title")}
             if (!selectedByBar) {
-                selectBar(bar)
+                selectMatrixBar(bar)
             }
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow4";
@@ -233,7 +233,7 @@ function selectCorrAttributes() {
         else if (d3.select(this).attr("id") == "arrow5") {
             var bar = {name: "Speechiness", score: d3.select("#SPEECHINESS").attr("title")}
             if (!selectedByBar) {
-                selectBar(bar)
+                selectMatrixBar(bar)
             }
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow5";
@@ -270,7 +270,7 @@ function selectCorrAttributes() {
         else if (d3.select(this).attr("id") == "arrow6") {
             var bar = {name: "Popularity", score: d3.select("#POPULARITY").attr("title")}
             if (!selectedByBar) {
-                selectBar(bar)
+                selectMatrixBar(bar)
             }
             if (selectedFeature == null && !twoSelectedFeatures) {
                 selectedFeature = "arrow6";

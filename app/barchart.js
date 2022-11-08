@@ -1,5 +1,5 @@
 import {barLineHover, stopBarLineHover, selectBarLine} from './linechart.js'
-import { setSelectedByBar, resetMatrix } from './rooftop.js';
+import { selectedByBar, setSelectedByBar, resetMatrix } from './rooftop.js';
 
 export var twoIsSelected = false;
 export var alreadySelectedMusicAttribute;
@@ -105,11 +105,22 @@ export function selectLineBar(id) {
 }
 
 
-export function selectBar(d) {
+function selectBar(d) {
+    console.log(alreadySelectedMusicAttribute == d)
     if (alreadySelectedMusicAttribute != d) { 
         selectBarLine(d.name.toLowerCase()); 
-        //selectBarMatrix(d.name.toUpperCase());
-        updateBarChartComparison(d) 
+        updateBarChartComparison(d);       
+        selectBarMatrix(d.name.toUpperCase());
+    } else {
+        updateBarChartComparison(null);
+        selectBarMatrix(null); 
+    }
+}
+
+export function selectMatrixBar(d) {
+    if (alreadySelectedMusicAttribute != d) { 
+        selectBarLine(d.name.toLowerCase()); 
+        updateBarChartComparison(d);       
     } 
 }
 
