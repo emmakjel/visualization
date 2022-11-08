@@ -59,8 +59,6 @@ export function createArtistList(csv, id) {
               let item = { "name": element[Object.keys(element)[DECADE_INDEX_DICT[decade]]], "count": parseInt(element[Object.keys(element)[decade_index + 1]]) }
               top_list.push(item);
           });
-
-          console.log(top_list)
       d3.select("#gWordCloudvi4").remove();
   
       d3.layout.cloud().size([width - margin.left - margin.right, height - margin.top - margin.bottom])
