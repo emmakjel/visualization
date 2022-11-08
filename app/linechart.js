@@ -4,7 +4,7 @@ import {zoomed} from "./script.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 900 - margin.left - margin.right;
-const height = 200 - margin.top - margin.bottom;
+const height = 180 - margin.top - margin.bottom;
 
 var xAxis;
 var yAxis;

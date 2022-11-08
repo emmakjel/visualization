@@ -58,13 +58,17 @@ body {
 
 .line-chart {
     width: 100%; 
-    float: left; 
     padding-bottom: 25px;
+    padding-left: 80px
+   
+
 }
 
 .line-svg {
     background-color:#EEEDE7; 
     border-radius: 15px;
+    
+    
 }
 
 .tool-tip {
@@ -80,15 +84,17 @@ body {
 
 .lower-viz {
     display: flex;
+    justify-content: start;
     width: 100vw;
     gap: 10px;
+    padding-left: 40px;
 }
 
 .rooftop-container {
     background-color:#EEEDE7; 
     border-radius: 15px; 
     width: 25%;
-    padding: 15px;
+    padding-left: 15px;
     display: flex;
     justify-content: flex-end;
     margin: -10px
