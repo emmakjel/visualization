@@ -67,7 +67,7 @@ function createRooftopMatrix(csv, id) {
 
         // Build color scale
         const myColor = d3.scaleSequential()
-            .interpolator(d3.interpolateRdYlBu)
+            .interpolator(d3.interpolateRdBu)
             .domain([-1, 1])
 
         //Read the data
@@ -79,6 +79,7 @@ function createRooftopMatrix(csv, id) {
             .attr("y", function (d) { return y(d.musicFeature2) })
             .attr("rx", 4)
             .attr("ry", 4)
+            .attr("stroke", "grey")
             .attr("id", function (d, i) { return "rect" + i })
             .attr('title', (d) => d.value)
             .attr("width", x.bandwidth())
