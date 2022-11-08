@@ -1,4 +1,5 @@
 import {lineBarHover, stopLineBarHover, selectLineBar, twoIsSelected, updateBarChartComparison} from "./barchart.js"
+import { outsideHoverButton, outsideStopHoverButton, setSelectedByBar, resetMatrix } from "./rooftop.js";
 import {zoomed} from "./script.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
@@ -12,6 +13,7 @@ var yAxis;
 export function hoverLine() {
   showToolTip(d3.select(this))
   lineBarHover((d3.select(this).attr("id").toUpperCase()));
+  outsideHoverButton(d3.select(this).attr("id"));
   if (!d3.select(this).classed('hover') && !d3.select(this).classed('selected')) {
     d3.select(this).classed('hover', true);
   }
@@ -20,6 +22,7 @@ export function hoverLine() {
 function stopHoverLine() {
   hideToolTip(d3.select(this));
   stopLineBarHover((d3.select(this).attr("id").toUpperCase()));
+  outsideStopHoverButton(d3.select(this).attr("id"));
   if (d3.select(this).classed('hover')) {
     d3.select(this).classed('hover', false);
   }
@@ -34,27 +37,59 @@ export function stopBarLineHover(id) {
 }
 
 export function selectBarLine(id) {
+  console.log("SATAN")
   if (id == null) {
+    d3.select("#"+id).classed('selected', false);
+    console.log("emma")
     d3.selectAll(".line").classed("selected", false);
   } else {
+    console.log("FAEN")
     if (twoIsSelected) {
+      d3.selectAll(".line").classed("selected", false);
+    } else if (d3.select(id.toLowerCase()).classed("selected")) {
+      console.log("yoooooo")
       d3.selectAll(".line").classed("selected", false);
     }
     d3.select("#"+id).classed('selected', true);
   }
 }
 
+export function selectLineMatrix(id) {
+  if (id == null) {
+      resetMatrix();
+  } else {
+    setSelectedByBar(true);
+    var e = document.createEvent('UIEvents');
+     e.initUIEvent('click', true, true, /* ... */);
+     if (id == "BPM") {
+      d3.select("#arrow1").node().dispatchEvent(e);
+    } else if (id == "DANCEABILITY") {
+      d3.select("#arrow2").node().dispatchEvent(e);
+    } else if (id == "VALENCE") {
+      d3.select("#arrow3").node().dispatchEvent(e);
+    } else if (id == "ACOUSTICNESS") {
+      d3.select("#arrow4").node().dispatchEvent(e);
+    } else if (id == "SPEECHINESS") {
+      d3.select("#arrow5").node().dispatchEvent(e);
+    } else if (id == "POPULARITY") {
+      d3.select("#arrow6").node().dispatchEvent(e);
+    }
+}
+}
+
 export function selectLine() {
   selectLineBar(d3.select(this).attr("id"));
   if(d3.select(this).classed('selected')) {
     d3.selectAll('.line').classed('selected', false);
-    updateBarChartComparison(null)
+    updateBarChartComparison(null);
+    resetMatrix();
   } else {
     if (!twoIsSelected) {
       d3.selectAll(".line").classed("selected", false);
     }
     d3.select(this)
       .classed('selected', true);
+      selectLineMatrix(d3.select(this).attr("id").toUpperCase());
   }
 }
 

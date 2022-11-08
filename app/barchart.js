@@ -1,5 +1,5 @@
 import {barLineHover, stopBarLineHover, selectBarLine} from './linechart.js'
-import { selectedByBar, setSelectedByBar, resetMatrix } from './rooftop.js';
+import { selectedByBar, setSelectedByBar, resetMatrix, outsideHoverButton, outsideStopHoverButton } from './rooftop.js';
 
 export var twoIsSelected = false;
 export var alreadySelectedMusicAttribute;
@@ -25,6 +25,7 @@ const height = 410;
 function hoverBar() {
     showToolTip(this);
     barLineHover(d3.select(this).attr("id"));
+    outsideHoverButton(d3.select(this).attr("id").toLowerCase());
     d3
         .select(this)
         .attr('opacity', 1)
@@ -61,7 +62,8 @@ function stopHoverBar() {
         .attr('opacity', 0.7)
         .style("cursor", "pointer")
     }
-    stopBarLineHover(id)
+    stopBarLineHover(id);
+    outsideStopHoverButton(id.toLowerCase());
 }
 
 export function lineBarHover(id) {
@@ -101,12 +103,11 @@ function selectBarMatrix(id) {
 export function selectLineBar(id) {
     var d = d3.select("#" + id.toUpperCase());
     var attribute = {name: id, score: d.attr("title")}
-    if (alreadySelectedMusicAttribute != attribute) { updateBarChartComparison(attribute) };
+    if (alreadySelectedMusicAttribute != attribute) { updateBarChartComparison(attribute)};
 }
 
 
 function selectBar(d) {
-    console.log(alreadySelectedMusicAttribute == d)
     if (alreadySelectedMusicAttribute != d) { 
         selectBarLine(d.name.toLowerCase()); 
         updateBarChartComparison(d);       
@@ -121,7 +122,7 @@ export function selectMatrixBar(d) {
     if (alreadySelectedMusicAttribute != d) { 
         selectBarLine(d.name.toLowerCase()); 
         updateBarChartComparison(d);       
-    } 
+    }
 }
 
 function barchartAreaClick() {

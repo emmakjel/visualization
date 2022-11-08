@@ -1,4 +1,5 @@
-import { selectMatrixBar, updateBarChartComparison} from "./barchart.js";
+import { lineBarHover, selectMatrixBar, stopLineBarHover, updateBarChartComparison} from "./barchart.js";
+import { barLineHover, stopBarLineHover } from "./linechart.js";
 
 const RECT_ARROW_DICT = {   "arrow1arrow2": "rect0", 
                             "arrow1arrow3": "rect1", 
@@ -17,6 +18,8 @@ const RECT_ARROW_DICT = {   "arrow1arrow2": "rect0",
                             "arrow5arrow6": "rect14"
                         }
 
+const ARROW_IDS_DICT = {"arrow1": "bpm", "arrow2": "danceability", "arrow3": "valence", "arrow4": "acousticness", "arrow5": "speechiness", "arrow6": "popularity"}
+
 const margin = { top: 80, right: 2, bottom: 2, left: 80 },
     width = 430 - margin.left - margin.right,
     height = 430 - margin.top - margin.bottom;
@@ -24,6 +27,7 @@ const margin = { top: 80, right: 2, bottom: 2, left: 80 },
 var selectedFeature;
 var twoSelectedFeatures = false;
 export var selectedByBar = false;
+export var selectedByLine = false;
 
 const POSITION = [
     { rect: "#rect0", x: -345, y: -160 },
@@ -67,6 +71,30 @@ function showCorrelationNumbers(id) {
         .attr('transform', 'rotate(-135)');
 }
 
+function hoverButton() {
+    var id = ARROW_IDS_DICT[d3.select(this).attr("id")]
+    d3.select(this).classed("attribute-button-hover", true)
+    barLineHover(id);
+    lineBarHover(id.toUpperCase());
+}
+
+export function outsideHoverButton(id) {
+    var newID = Object.keys(ARROW_IDS_DICT).find(key => ARROW_IDS_DICT[key] == id);
+    d3.select("#"+newID).classed("attribute-button-hover", true);
+}
+
+export function outsideStopHoverButton(id) {
+    var newID = Object.keys(ARROW_IDS_DICT).find(key => ARROW_IDS_DICT[key] == id);
+    d3.select("#"+newID).classed("attribute-button-hover", false);
+}
+
+function stopHoverButton() {
+    var id = ARROW_IDS_DICT[d3.select(this).attr("id")]
+    d3.select(this).classed("attribute-button-hover", false)
+    stopBarLineHover(id);
+    stopLineBarHover(id.toUpperCase());
+}
+
 function hideCorrelationNumbers(id) {
     d3.select("#tooltext"+id).remove();
     d3.select("#"+id).style("stroke", "none");
@@ -89,6 +117,7 @@ function selectCorrAttributes() {
         d3.select(this).classed("attribute-button-selected", true);
         if (d3.select(this).attr("id") == "arrow1") {
             var bar = {name: "BPM", score: d3.select("#BPM").attr("title")}
+            console.log("bar: " + selectedByBar);
             if (!selectedByBar) {
                 selectMatrixBar(bar)
             }
@@ -342,12 +371,12 @@ function createRooftopMatrix(id) {
             .interpolator(d3.interpolateRdYlBu)
             .domain([-1, 1])
 
-        d3.select("#arrow1").on("click", selectCorrAttributes);
-        d3.select("#arrow2").on("click", selectCorrAttributes);
-        d3.select("#arrow3").on("click", selectCorrAttributes);
-        d3.select("#arrow4").on("click", selectCorrAttributes);
-        d3.select("#arrow5").on("click", selectCorrAttributes);
-        d3.select("#arrow6").on("click", selectCorrAttributes);
+        d3.select("#arrow1").on("click", selectCorrAttributes).on("mouseover", hoverButton).on("mouseleave", stopHoverButton);
+        d3.select("#arrow2").on("click", selectCorrAttributes).on("mouseover", hoverButton).on("mouseleave", stopHoverButton);
+        d3.select("#arrow3").on("click", selectCorrAttributes).on("mouseover", hoverButton).on("mouseleave", stopHoverButton);
+        d3.select("#arrow4").on("click", selectCorrAttributes).on("mouseover", hoverButton).on("mouseleave", stopHoverButton);
+        d3.select("#arrow5").on("click", selectCorrAttributes).on("mouseover", hoverButton).on("mouseleave", stopHoverButton);
+        d3.select("#arrow6").on("click", selectCorrAttributes).on("mouseover", hoverButton).on("mouseleave", stopHoverButton);
 
         //Read the data
         svg.selectAll()

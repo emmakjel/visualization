@@ -206,3 +206,11 @@ body {
     cursor: pointer;
     height: 50px;
 }
+
+.attribute-button-hover {
+    font-size: small;
+    font-weight: bold;
+    pointer-events: all;
+    cursor: pointer;
+    height: 50px;
+}
