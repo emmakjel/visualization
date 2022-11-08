@@ -109,12 +109,10 @@ export function selectLineBar(id) {
 
 function selectBar(d) {
     if (alreadySelectedMusicAttribute != d) { 
-        console.log("vi er her")
         updateBarChartComparison(d);       
         selectBarMatrix(d.name.toUpperCase());
         selectBarLine(d.name.toLowerCase()); 
     } else {
-        console.log("FAEN")
         updateBarChartComparison(null);
         selectBarMatrix(null); 
     }

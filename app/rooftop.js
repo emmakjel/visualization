@@ -117,7 +117,6 @@ function selectCorrAttributes() {
         d3.select(this).classed("attribute-button-selected", true);
         if (d3.select(this).attr("id") == "arrow1") {
             var bar = {name: "BPM", score: d3.select("#BPM").attr("title")}
-            console.log("bar: " + selectedByBar);
             if (!selectedByBar) {
                 selectMatrixBar(bar)
             }
