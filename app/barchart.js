@@ -11,8 +11,8 @@ var selectedAttribute1;
 var selectedAttribute2;
 
 
-const COLORS = [ "lightblue", "#F07470", "lightgreen", "orange", "pink", "#CF9FFF"]
-const COLORS_DICT = {"popularity": "lightblue", "bpm": "#F07470", "danceability": "lightgreen", "valence": "orange", "acousticness": "pink", "speechiness": "#CF9FFF"}
+const COLORS = ["lightblue", "lightgreen", "orange","#F07470", "pink", "#CF9FFF"]
+const COLORS_DICT = { "popularity": "lightblue", "bpm": "#F07470", "danceability": "lightgreen", "valence": "orange", "acousticness": "pink", "speechiness": "#CF9FFF" }
 export const DECADES_DICT = { "all": 1, "fifties": 2, "sixties": 3, "seventies": 4, "eighties": 5, "nineties": 6, "twoThousands": 7, "twentyTens": 8 }
 var selected_decade = DECADES_DICT["all"];
 
@@ -234,6 +234,7 @@ function createBarChart(id) {
             .attr("x", (data, index) => xScale(index))
             .attr("y", data => yScale(data.score))
             .attr("fill", (data, index) => COLORS[index])
+            .attr('rx', 5)
             .attr('opacity', 0.7)
             .attr('title', (data) => data.score)
             .attr("id", data => data.name.toUpperCase())
@@ -415,6 +416,7 @@ function changeDecadeBarChart(decade) {
                         .append("rect")
                         .attr("x", (data, index) => xScale(index))
                         .attr("y", data => yScale(data.score))
+                        .attr('rx', 5)
                         .attr('title', (data) => data.score)
                         .attr("height", d => yScale(0) - yScale(d.score))
                         .attr("width", xScale.bandwidth())

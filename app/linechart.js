@@ -4,7 +4,7 @@ import {zoomed} from "./script.js"
 
 const margin = { top: 20, right: 30, bottom: 40, left: 90 };
 const width = 900 - margin.left - margin.right;
-const height = 200 - margin.top - margin.bottom;
+const height = 180 - margin.top - margin.bottom;
 
 var xAxis;
 var yAxis;
@@ -192,7 +192,8 @@ export function createLineChart(id) {
     .attr("x", 0)
     .attr("y", 0)
     .attr("width", lineChartWidth/17)
-    .attr("height", lineChartHeight);
+    .attr("height", lineChartHeight)
+    .attr('rx', 5);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
@@ -200,7 +201,8 @@ export function createLineChart(id) {
     .attr("x", rectX)
     .attr("y", 0)
     .attr("width", lineChartWidth/7.5)
-    .attr("height", lineChartHeight);
+    .attr("height", lineChartHeight)
+    .attr('rx', 5);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
@@ -208,7 +210,8 @@ export function createLineChart(id) {
     .attr("x", rectX+lineChartWidth/7.5)
     .attr("y", 0)
     .attr("width", lineChartWidth/7.2)
-    .attr("height", lineChartHeight);
+    .attr("height", lineChartHeight)
+    .attr('rx', 5);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
@@ -216,7 +219,8 @@ export function createLineChart(id) {
     .attr("x", rectX+(lineChartWidth/7.4)*2)
     .attr("y", 0)
     .attr("width", lineChartWidth/7.2)
-    .attr("height", lineChartHeight);
+    .attr("height", lineChartHeight)
+    .attr('rx', 5);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
@@ -224,7 +228,8 @@ export function createLineChart(id) {
     .attr("x", rectX+3*lineChartWidth/7.3)
     .attr("y", 0)
     .attr("width", lineChartWidth/7.2)
-    .attr("height", lineChartHeight);
+    .attr("height", lineChartHeight)
+    .attr('rx', 5);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
@@ -232,7 +237,8 @@ export function createLineChart(id) {
     .attr("x", rectX+4*(lineChartWidth/7.3))
     .attr("y", 0)
     .attr("width", lineChartWidth/7.2)
-    .attr("height", lineChartHeight);
+    .attr("height", lineChartHeight)
+    .attr('rx', 5);
     svg
     .append("rect")
     .attr("class", "line-chart-rect")
@@ -240,7 +246,8 @@ export function createLineChart(id) {
     .attr("x", rectX+5*lineChartWidth/7.3)
     .attr("y", 0)
     .attr("width", lineChartWidth/7.5)
-    .attr("height", lineChartHeight);
+    .attr("height", lineChartHeight)
+    .attr('rx', 5);
 
     d3.csv("processed-Spotify-2000.csv").then(function(data) {
       var popularityLine = d3.line()
