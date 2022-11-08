@@ -367,7 +367,7 @@ function createRooftopMatrix(id) {
 
         // Build color scale
         const myColor = d3.scaleSequential()
-            .interpolator(d3.interpolateRdYlBu)
+            .interpolator(d3.interpolateRdBu)
             .domain([-1, 1])
 
         d3.select("#arrow1").on("click", selectCorrAttributes).on("mouseover", hoverButton).on("mouseleave", stopHoverButton);
