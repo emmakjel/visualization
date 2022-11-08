@@ -87,7 +87,7 @@ body {
 .rooftop-container {
     background-color:#EEEDE7; 
     border-radius: 15px; 
-    width: 22%;
+    width: 25%;
     padding: 15px;
     display: flex;
     justify-content: flex-end;
@@ -103,8 +103,6 @@ body {
 .image-color {
     padding: 5px;  
 }
-
-
 
 .number {
     padding-top: 0px;
@@ -176,6 +174,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-right: 7px;
 }
 
 .attribute-button {
