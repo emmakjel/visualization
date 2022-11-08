@@ -1,7 +1,9 @@
 import {barLineHover, stopBarLineHover, selectBarLine} from './linechart.js'
+import { setSelectedByBar, resetMatrix } from './rooftop.js';
 
 export var twoIsSelected = false;
 export var alreadySelectedMusicAttribute;
+var lastSelectedMusicAttribute;
 var dataWithSelectedAttribute;
 
 
@@ -73,6 +75,29 @@ export function stopLineBarHover(id) {
     }
 }
 
+function selectBarMatrix(id) {
+    if (id == null) {
+        resetMatrix();
+    } else {
+    setSelectedByBar(true);
+    var e = document.createEvent('UIEvents');
+    e.initUIEvent('click', true, true, /* ... */);
+    if (id == "BPM") {
+        d3.select("#arrow1").node().dispatchEvent(e);
+    } else if (id == "DANCEABILITY") {
+        d3.select("#arrow2").node().dispatchEvent(e);
+    } else if (id == "VALENCE") {
+        d3.select("#arrow3").node().dispatchEvent(e);
+    } else if (id == "ACOUSTICNESS") {
+        d3.select("#arrow4").node().dispatchEvent(e);
+    } else if (id == "SPEECHINESS") {
+        d3.select("#arrow5").node().dispatchEvent(e);
+    } else if (id == "POPULARITY") {
+        d3.select("#arrow6").node().dispatchEvent(e);
+    }
+}
+}
+
 export function selectLineBar(id) {
     var d = d3.select("#" + id.toUpperCase());
     var attribute = {name: id, score: d.attr("title")}
@@ -83,12 +108,14 @@ export function selectLineBar(id) {
 export function selectBar(d) {
     if (alreadySelectedMusicAttribute != d) { 
         selectBarLine(d.name.toLowerCase()); 
+        //selectBarMatrix(d.name.toUpperCase());
         updateBarChartComparison(d) 
-    }
+    } 
 }
 
 function barchartAreaClick() {
     updateBarChartComparison(null);
+    selectBarMatrix(null);
 }
 
 function showToolTip(bar) {
@@ -264,6 +291,7 @@ export function updateBarChartComparison(musicAttribute) {
         selectedAttribute1 = null;
         selectedAttribute2 = null;
         alreadySelectedMusicAttribute = null;
+        lastSelectedMusicAttribute = null;
     } else {
     const svg = d3.select("#gBarChart");
 
@@ -278,12 +306,14 @@ export function updateBarChartComparison(musicAttribute) {
             alreadySelectedMusicAttribute = musicAttribute;
             twoIsSelected = false;
             selectedAttribute2 = null;
+            lastSelectedMusicAttribute = null;
             selectedAttribute1 = musicAttribute;
             svg.selectAll("rect").attr("stroke", "none")
-            svg.select("#" + musicAttribute.name.toUpperCase()).attr("stroke", "grey")
+            svg.select("#" + musicAttribute.name.toUpperCase()).attr("stroke", "grey").attr("opacity", 1);
         } else {
             //just put the selected attribute in 2nd place
-            svg.select("#" + musicAttribute.name.toUpperCase()).attr("stroke", "grey")
+            lastSelectedMusicAttribute = alreadySelectedMusicAttribute;
+            svg.select("#" + musicAttribute.name.toUpperCase()).attr("stroke", "grey").attr("opacity", 1);
             alreadySelectedMusicAttribute = null;
             twoIsSelected = true;
             selectedAttribute2 = musicAttribute;
