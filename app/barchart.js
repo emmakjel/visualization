@@ -1,4 +1,4 @@
-import {barLineHover, stopBarLineHover, selectBarLine} from './linechart.js'
+import { barLineHover, stopBarLineHover, selectBarLine } from './linechart.js'
 
 export var twoIsSelected = false;
 var alreadySelectedMusicAttribute;
@@ -9,8 +9,8 @@ var selectedAttribute1;
 var selectedAttribute2;
 
 
-const COLORS = [ "lightblue", "#F07470", "lightgreen", "orange", "pink", "#CF9FFF"]
-const COLORS_DICT = {"popularity": "lightblue", "bpm": "#F07470", "danceability": "lightgreen", "valence": "orange", "acousticness": "pink", "speechiness": "#CF9FFF"}
+const COLORS = ["lightblue", "lightgreen", "orange","#F07470", "pink", "#CF9FFF"]
+const COLORS_DICT = { "popularity": "lightblue", "bpm": "#F07470", "danceability": "lightgreen", "valence": "orange", "acousticness": "pink", "speechiness": "#CF9FFF" }
 export const DECADES_DICT = { "all": 1, "fifties": 2, "sixties": 3, "seventies": 4, "eighties": 5, "nineties": 6, "twoThousands": 7, "twentyTens": 8 }
 var selected_decade = DECADES_DICT["all"];
 
@@ -35,55 +35,55 @@ function stopHoverBar() {
     if (selectedAttribute1 != null && selectedAttribute2 == null) {
         if (selectedAttribute1.name.toUpperCase() != id) {
             d3
-            .select(this)
-            .attr('opacity', 0.7)
-            .style("cursor", "pointer")
+                .select(this)
+                .attr('opacity', 0.7)
+                .style("cursor", "pointer")
         }
-    } else if ( selectedAttribute2 != null && selectedAttribute1 == null) {
+    } else if (selectedAttribute2 != null && selectedAttribute1 == null) {
         if (selectedAttribute2.name.toUpperCase() != id) {
             d3
-            .select(this)
-            .attr('opacity', 0.7)
-            .style("cursor", "pointer")
+                .select(this)
+                .attr('opacity', 0.7)
+                .style("cursor", "pointer")
         }
     } else if (selectedAttribute1 != null && selectedAttribute2 != null) {
         if (selectedAttribute1.name.toUpperCase() != id && selectedAttribute2.name.toUpperCase() != id) {
             d3
-            .select(this)
-            .attr('opacity', 0.7)
-            .style("cursor", "pointer")
+                .select(this)
+                .attr('opacity', 0.7)
+                .style("cursor", "pointer")
         }
     } else {
         d3
-        .select(this)
-        .attr('opacity', 0.7)
-        .style("cursor", "pointer")
+            .select(this)
+            .attr('opacity', 0.7)
+            .style("cursor", "pointer")
     }
     stopBarLineHover(id)
 }
 
 export function lineBarHover(id) {
-    d3.select("#"+id).attr('opacity', 1)
+    d3.select("#" + id).attr('opacity', 1)
 }
 
 export function stopLineBarHover(id) {
-    var bar =  d3.select("#"+id);
-    if (!d3.select("#"+id.toLowerCase()).classed("selected")) {
+    var bar = d3.select("#" + id);
+    if (!d3.select("#" + id.toLowerCase()).classed("selected")) {
         bar.attr('opacity', 0.7);
     }
 }
 
 export function selectLineBar(id) {
     var d = d3.select("#" + id.toUpperCase());
-    var attribute = {name: id, score: d.attr("title")}
+    var attribute = { name: id, score: d.attr("title") }
     if (alreadySelectedMusicAttribute != attribute) { updateBarChartComparison(attribute) };
 }
 
 
 function selectBar(d) {
-    if (alreadySelectedMusicAttribute != d) { 
-        selectBarLine(d.name.toLowerCase()); 
-        updateBarChartComparison(d) 
+    if (alreadySelectedMusicAttribute != d) {
+        selectBarLine(d.name.toLowerCase());
+        updateBarChartComparison(d)
     }
 }
 
@@ -97,15 +97,15 @@ function showToolTip(bar) {
     var x = parseInt(d3.select(bar).attr("x"));
     var y = parseInt(d3.select(bar).attr("y")) - 25;
     tooltip
-    .attr("x", x)
-    .attr("y", y)
-    .attr("class", "tool-tip");
+        .attr("x", x)
+        .attr("y", y)
+        .attr("class", "tool-tip");
     svg.append("text")
-    .attr("x", x)
-    .attr("y", y+12)
-    .style("font-size", "12")
-    .attr("id", "tooltext")
-    .text("Value: " + d3.select(bar).attr("title"));
+        .attr("x", x)
+        .attr("y", y + 12)
+        .style("font-size", "12")
+        .attr("id", "tooltext")
+        .text("Value: " + d3.select(bar).attr("title"));
 }
 
 function hideToolTip() {
@@ -157,8 +157,8 @@ function createBarChart(id) {
             .attr('width', width - margin.left - margin.right)
             .attr('height', height - margin.top - margin.bottom)
             .attr("viewBox", [0, 0, width, height])
-            
-            svg
+
+        svg
             .append("rect")
             .attr("x", 0)
             .attr("y", 0)
@@ -168,7 +168,7 @@ function createBarChart(id) {
             .attr("fill", "transparent")
             .on("click", barchartAreaClick);
 
-            svg
+        svg
             .append("rect")
             .attr("x", 0)
             .attr("y", 0)
@@ -181,7 +181,7 @@ function createBarChart(id) {
         //color
         const chart = svg
             .append("g")
-            //.attr("fill", '#808080');
+        //.attr("fill", '#808080');
 
         chart
             .append("g")
@@ -201,9 +201,10 @@ function createBarChart(id) {
             .attr("height", d => yScale(0) - yScale(d.score))
             .attr("width", xScale.bandwidth())
             .attr("class", "rectValue itemValue")
+            .attr('ry', 5)
             .on("mouseover", hoverBar)
             .on("mouseout", stopHoverBar)
-            .on("click", (event, d) => {selectBar(d)});
+            .on("click", (event, d) => { selectBar(d) });
 
 
         //svg.selectAll('.limit').remove()
@@ -222,7 +223,7 @@ function createBarChart(id) {
             .attr("transform", function (d) {
                 return "rotate(-30)";
             });
-            
+
 
 
         //names and grids 
@@ -265,15 +266,15 @@ export function updateBarChartComparison(musicAttribute) {
         selectedAttribute2 = null;
         alreadySelectedMusicAttribute = null;
     } else {
-    const svg = d3.select("#gBarChart");
-
-   
-    const yScale = d3.scaleLinear()
-    .domain([0, 100])
-    .range([height - margin.bottom, margin.top])
+        const svg = d3.select("#gBarChart");
 
 
-     if (!alreadySelectedMusicAttribute) {
+        const yScale = d3.scaleLinear()
+            .domain([0, 100])
+            .range([height - margin.bottom, margin.top])
+
+
+        if (!alreadySelectedMusicAttribute) {
             //do the old thing
             alreadySelectedMusicAttribute = musicAttribute;
             twoIsSelected = false;
@@ -290,18 +291,18 @@ export function updateBarChartComparison(musicAttribute) {
         }
 
 
-    if (alreadySelectedMusicAttribute) { svg.selectAll('.limit').remove()}
-    
-    //the line
-    const line = svg.append('line')
-        .attr('class', 'limit')
-        .attr('x1', 50)
-        .attr('y1', yScale(musicAttribute.score))
-        .attr('x2', width)
-        .attr('y2', yScale(musicAttribute.score))
-        .attr('stroke', getColor(musicAttribute.name.toLowerCase()))
-        .style("stroke-width", 4)
-        .style("stroke-dasharray", ("10, 10"));
+        if (alreadySelectedMusicAttribute) { svg.selectAll('.limit').remove() }
+
+        //the line
+        const line = svg.append('line')
+            .attr('class', 'limit')
+            .attr('x1', 50)
+            .attr('y1', yScale(musicAttribute.score))
+            .attr('x2', width)
+            .attr('y2', yScale(musicAttribute.score))
+            .attr('stroke', getColor(musicAttribute.name.toLowerCase()))
+            .style("stroke-width", 4)
+            .style("stroke-dasharray", ("10, 10"));
     }
 }
 
@@ -366,7 +367,7 @@ function changeDecadeBarChart(decade) {
 
         svg
             .selectAll("rect.rectValue")
-            .data(newData) 
+            .data(newData)
             .join(
                 (enter) => {
                     enter
@@ -377,7 +378,9 @@ function changeDecadeBarChart(decade) {
                         .attr("height", d => yScale(0) - yScale(d.score))
                         .attr("width", xScale.bandwidth())
                         .attr("class", "rectValue itemValue")
-                        
+                        .attr('rx', 5)
+                        .attr('rx', 5);
+
                 },
                 (update) => {
                     update
@@ -391,11 +394,11 @@ function changeDecadeBarChart(decade) {
                         .attr("fill", d => getColor((d.name).toLowerCase()))
                         .attr("stroke", "none")
                         .attr("id", d => d.name.toUpperCase());
-                        // Trenger vi linjene under?
-                        //.attr("style", "outline: none")
-                        //.filter((d, i) => selectedAttribute2 ? (i == 0 || i == 1) : selectedAttribute1 ? (i == 0) : i == null)
-                        //.attr("fill", d => getColor((d.name).toLowerCase()))
-                        //.attr("style", "outline: solid #black;")
+                    // Trenger vi linjene under?
+                    //.attr("style", "outline: none")
+                    //.filter((d, i) => selectedAttribute2 ? (i == 0 || i == 1) : selectedAttribute1 ? (i == 0) : i == null)
+                    //.attr("fill", d => getColor((d.name).toLowerCase()))
+                    //.attr("style", "outline: solid #black;")
                 },
                 (exit) => {
                     exit.remove();
