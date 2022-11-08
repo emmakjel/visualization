@@ -1,8 +1,28 @@
-import { selectBar } from "./barchart.js";
+import { selectBar} from "./barchart.js";
+
+const RECT_ARROW_DICT = {   "arrow1arrow2": "rect0", 
+                            "arrow1arrow3": "rect1", 
+                            "arrow1arrow4": "rect2", 
+                            "arrow1arrow5": "rect3", 
+                            "arrow1arrow6": "rect4",
+                            "arrow2arrow3": "rect5",
+                            "arrow2arrow4": "rect6",
+                            "arrow2arrow5": "rect7",
+                            "arrow2arrow6": "rect8",
+                            "arrow3arrow4": "rect9",
+                            "arrow3arrow5": "rect10",
+                            "arrow3arrow6": "rect11",
+                            "arrow4arrow5": "rect12",
+                            "arrow4arrow6": "rect13",
+                            "arrow5arrow6": "rect14"
+                        }
 
 const margin = { top: 80, right: 2, bottom: 2, left: 80 },
     width = 430 - margin.left - margin.right,
     height = 430 - margin.top - margin.bottom;
+
+var selectedFeature;
+var twoSelectedFeatures = false;
 
 const POSITION = [
     { rect: "#rect0", x: -345, y: -160 },
@@ -51,6 +71,145 @@ function hideAllCorrelationNumbers() {
     var svg = d3.select("#gRooftop")
     svg.selectAll("text").remove();
     svg.selectAll("rect").style("stroke", "none");
+}
+
+function selectCorrAttributes() {
+    if (d3.select(this).classed("attribute-button-selected")) {
+        hideAllCorrelationNumbers();
+        d3.selectAll("button").classed("attribute-button-selected", false);
+        twoSelectedFeatures = false;
+        selectedFeature = null;
+    } else {
+        d3.select(this).classed("attribute-button-selected", true);
+        if (d3.select(this).attr("id") == "arrow1") {
+            var bar = {name: "BPM", score: d3.select("#BPM").attr("title")}
+            selectBar(bar)
+            if (selectedFeature == null && !twoSelectedFeatures) {
+                selectedFeature = "arrow1";
+            } else if (!twoSelectedFeatures && selectedFeature != null) {
+                twoSelectedFeatures = true;
+                var arrowRect = RECT_ARROW_DICT["arrow1"+selectedFeature];
+                showCorrelationNumbers(arrowRect);
+                selectedFeature = null;
+            } else {
+                hideAllCorrelationNumbers();
+                d3.selectAll("button").classed("attribute-button-selected", false);
+                d3.select(this).classed("attribute-button-selected", true);
+                twoSelectedFeatures = null;
+                selectedFeature = "arrow1";
+            }
+        }
+        else if (d3.select(this).attr("id") == "arrow2") {
+            var bar = {name: "Danceability", score: d3.select("#DANCEABILITY").attr("title")}
+            selectBar(bar)
+            if (selectedFeature == null && !twoSelectedFeatures) {
+                selectedFeature = "arrow2";
+            } else if (!twoSelectedFeatures && selectedFeature != null) {
+                twoSelectedFeatures = true;
+                var arrowRect;
+                if (selectedFeature == "arrow1") {
+                    arrowRect = RECT_ARROW_DICT[selectedFeature+"arrow2"];
+                } else {
+                    arrowRect = RECT_ARROW_DICT["arrow2"+selectedFeature];
+                }
+                showCorrelationNumbers(arrowRect);
+                selectedFeature = null;
+            } else {
+                hideAllCorrelationNumbers();
+                d3.selectAll("button").classed("attribute-button-selected", false);
+                d3.select(this).classed("attribute-button-selected", true);
+                twoSelectedFeatures = null;
+                selectedFeature = "arrow2";
+            }
+        }
+        else if (d3.select(this).attr("id") == "arrow3") {
+            var bar = {name: "Valence", score: d3.select("#VALENCE").attr("title")}
+            selectBar(bar)
+            if (selectedFeature == null && !twoSelectedFeatures) {
+                selectedFeature = "arrow3";
+            } else if (!twoSelectedFeatures && selectedFeature != null) {
+                twoSelectedFeatures = true;
+                var arrowRect;
+                if (selectedFeature == "arrow1" || selectedFeature == "arrow2") {
+                    arrowRect = RECT_ARROW_DICT[selectedFeature+"arrow3"];
+                } else {
+                    arrowRect = RECT_ARROW_DICT["arrow3"+selectedFeature];
+                }
+                showCorrelationNumbers(arrowRect);
+                selectedFeature = null;
+            } else {
+                hideAllCorrelationNumbers();
+                d3.selectAll("button").classed("attribute-button-selected", false);
+                d3.select(this).classed("attribute-button-selected", true);
+                twoSelectedFeatures = null;
+                selectedFeature = "arrow3";
+            }
+        }
+        else if (d3.select(this).attr("id") == "arrow4") {
+            var bar = {name: "Acousticness", score: d3.select("#ACOUSTICNESS").attr("title")}
+            selectBar(bar)
+            if (selectedFeature == null && !twoSelectedFeatures) {
+                selectedFeature = "arrow4";
+            } else if (!twoSelectedFeatures && selectedFeature != null) {
+                twoSelectedFeatures = true;
+                var arrowRect;
+                if (selectedFeature == "arrow5" || selectedFeature == "arrow6") {
+                    arrowRect = RECT_ARROW_DICT["arrow4" + selectedFeature];
+                } else {
+                    arrowRect = RECT_ARROW_DICT[selectedFeature + "arrow4"];
+                }
+                showCorrelationNumbers(arrowRect);
+                selectedFeature = null;
+            } else {
+                hideAllCorrelationNumbers();
+                d3.selectAll("button").classed("attribute-button-selected", false);
+                d3.select(this).classed("attribute-button-selected", true);
+                twoSelectedFeatures = null;
+                selectedFeature = "arrow4";
+            }
+        }
+        else if (d3.select(this).attr("id") == "arrow5") {
+            var bar = {name: "Speechiness", score: d3.select("#SPEECHINESS").attr("title")}
+            selectBar(bar)
+            if (selectedFeature == null && !twoSelectedFeatures) {
+                selectedFeature = "arrow5";
+            } else if (!twoSelectedFeatures && selectedFeature != null) {
+                twoSelectedFeatures = true;
+                var arrowRect;
+                if (selectedFeature == "arrow6") {
+                    arrowRect = RECT_ARROW_DICT["arrow5" + selectedFeature];
+                } else {
+                    arrowRect = RECT_ARROW_DICT[selectedFeature + "arrow5"];
+                }
+                showCorrelationNumbers(arrowRect);
+                selectedFeature = null;
+            } else {
+                hideAllCorrelationNumbers();
+                d3.selectAll("button").classed("attribute-button-selected", false);
+                d3.select(this).classed("attribute-button-selected", true);
+                twoSelectedFeatures = null;
+                selectedFeature = "arrow5";
+            }
+        }
+        else if (d3.select(this).attr("id") == "arrow6") {
+            var bar = {name: "Popularity", score: d3.select("#POPULARITY").attr("title")}
+            selectBar(bar)
+            if (selectedFeature == null && !twoSelectedFeatures) {
+                selectedFeature = "arrow6";
+            } else if (!twoSelectedFeatures && selectedFeature != null) {
+                twoSelectedFeatures = true;
+                var arrowRect = selectedFeature + "arrow6"
+                showCorrelationNumbers(arrowRect);
+                selectedFeature = null;
+            } else {
+                hideAllCorrelationNumbers();
+                d3.selectAll("button").classed("attribute-button-selected", false);
+                d3.select(this).classed("attribute-button-selected", true);
+                twoSelectedFeatures = null;
+                selectedFeature = "arrow6";
+            }
+        }
+    }
 }
 
 function selectCorrRects() {
@@ -149,12 +308,12 @@ function createRooftopMatrix(id) {
             .interpolator(d3.interpolateRdYlBu)
             .domain([-1, 1])
 
-        d3.select("#arrow1").on("click", selectCorrRects);
-        d3.select("#arrow2").on("click", selectCorrRects);
-        d3.select("#arrow3").on("click", selectCorrRects);
-        d3.select("#arrow4").on("click", selectCorrRects);
-        d3.select("#arrow5").on("click", selectCorrRects);
-        d3.select("#arrow6").on("click", selectCorrRects);
+        d3.select("#arrow1").on("click", selectCorrAttributes);
+        d3.select("#arrow2").on("click", selectCorrAttributes);
+        d3.select("#arrow3").on("click", selectCorrAttributes);
+        d3.select("#arrow4").on("click", selectCorrAttributes);
+        d3.select("#arrow5").on("click", selectCorrAttributes);
+        d3.select("#arrow6").on("click", selectCorrAttributes);
 
         //Read the data
         svg.selectAll()

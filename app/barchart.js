@@ -1,7 +1,7 @@
 import {barLineHover, stopBarLineHover, selectBarLine} from './linechart.js'
 
 export var twoIsSelected = false;
-var alreadySelectedMusicAttribute;
+export var alreadySelectedMusicAttribute;
 var dataWithSelectedAttribute;
 
 
